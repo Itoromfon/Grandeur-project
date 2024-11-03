@@ -1,0 +1,62 @@
+.power {
+    background: #F6F6F6;
+    display: flex;
+    margin-left: 0px;
+    margin-top: 0px;
+    padding: 60px 20px;
+}
+
+.h2 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42px;
+}
+
+.powerdiv {
+    margin-left: 50px;
+    margin-top: 60px;
+}
+
+.powertext {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.knob {
+    background-color: #5C755E; /* Set your desired background color */
+    padding: 10px;             /* Add padding for spacing between image and container */
+    border-radius: 50%;        /* Makes the background a circle */
+    display: inline-block;  
+}
+
+.dimmerknob {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.dimmer {
+    display: flex;
+    background-color: #FFFFFF;
+    box-shadow: 3px 3px 3px 3px #e9e7e8;
+    margin: 9px 50px 9px 50px;
+    padding: 15px 15px 15px 15px;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.dimmerdiv {
+    margin-left: 50px;
+}
+
+.dimmertext {
+    margin-top: 13px;
+    margin-left: 10px;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.battery {
+    margin-left: 250px;
+}
+

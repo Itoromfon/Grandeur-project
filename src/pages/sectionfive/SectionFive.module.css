@@ -1,0 +1,67 @@
+.elderlyDiv {
+    background: #F6F6F6;
+    padding: 50px 50px;
+}
+
+.elderly {
+    display: flex;
+    margin-top: 50px;
+}
+
+.elderlyh2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+}
+
+.elderlyp1 {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.elderlypercent {
+    margin-top: 13px;
+}
+
+.elderlyperson {
+    margin-top: -20px;
+}
+
+.elderlymandiv {
+    margin-left: 50px;
+}
+
+.elderlyman {
+    display: flex;
+    background-color: #FFFFFF;
+    box-shadow: 2px 2px 2px 2px #e9e7e8;
+    margin: 9px 50px 9px 50px;
+    padding: 15px 15px 15px 15px;
+    justify-content: space-between;
+    border-radius: 10px;  
+}
+
+.elderlyperson {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.gadgetdiv {
+    margin-top: 20px;
+}
+
+.gadget {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    background-color: #FFFFFF;
+    box-shadow: 2px 2px 2px 2px #e9e7e8;
+    border-radius: 15px;
+}
+
+.gadgettext {
+    font-size: 16px;
+    font-weight: 500;
+    margin: 10px 0px 10px 0px;
+}

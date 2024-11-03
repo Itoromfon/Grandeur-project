@@ -1,0 +1,107 @@
+.text {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.sectionhead {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.sectiontext {
+    font-size: 16px;
+    font-weight: 500;
+} 
+
+.ellipse {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.mphead {
+    background-image: linear-gradient(90deg, #5C755E, #78A67C);
+    background-clip: text;
+    -webkit-background-clip: text; /* For WebKit browsers */
+    color: transparent;
+    font-size: 55px;
+    font-weight: 700;
+    margin-bottom: 0px;
+    line-height: 60px;
+    margin-right: 50px;
+}
+
+.mphead2 {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.mptext {
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.mpdiv {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.imagemp {
+    /* margin-left: 70px; */
+}
+
+.mpimagediv {
+    /* margin-right: 70px;  */
+    margin-top: -250px;
+}
+
+.imagedetection {
+    background-color: #5C755E; /* Set your desired background color */
+    padding: 10px;             /* Add padding for spacing between image and container */
+    border-radius: 50%;        /* Makes the background a circle */
+    display: inline-block;  
+}
+
+.detectiontext {
+    font-size: 16px;
+    font-weight: 500;
+    font-weight: bold;
+}
+
+.detectiontext2 {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.maindetection {
+    margin-top: 250px;
+}
+
+.imagedetectdiv {
+    background-color: #FFFFFF;
+    box-shadow: 3px 3px 3px 3px #f5f3f4;
+    margin: 30px 50px 30px 50px;
+    padding: 15px 15px 15px 15px;
+    justify-content: space-between;
+    border-radius: 10px;
+    z-index: 2;
+}
+
+.bulb {
+    background: linear-gradient(to right, #FFB121, #FAAB3300); 
+    padding: 10px;           
+    border-radius: 50%;        
+    display: inline-block; 
+}
+
+.bulbdiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -250px;
+}

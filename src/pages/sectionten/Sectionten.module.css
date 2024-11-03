@@ -1,0 +1,40 @@
+.home {
+    margin: 50px 50px 50px 50px;
+}
+
+.homeh1 {
+    font-size: 50px;
+    font-weight: 700;
+    color: #5C755E;
+    width: 60%;
+}
+
+.homeh2 {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.hometext {
+    margin-top: 50px;
+}
+
+.homep {
+    font-weight: 500;
+    font-size: 16px;
+    width: 70%;
+}
+
+.homediv {
+    display: flex;
+}
+
+.imagediv {
+    display: flex;
+}
+
+.tempimage {
+    margin-right: -50px;
+    margin-top: 50px;
+    z-index: 2;
+}
+

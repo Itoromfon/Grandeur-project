@@ -1,0 +1,71 @@
+/* styles/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav {
+  padding-top:20px;
+}
+
+.navbar {
+  background-color: #FFFFFF;
+  box-shadow: 3px 3px 3px 3px #e3e2e2;
+  margin: 0px 50px 0px 50px;
+  padding: 15px 15px 15px 15px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+
+.nav-link {
+  text-decoration: none;
+  margin-left: 6px;
+  margin-right: 6px;
+  font-size: 16px;
+  line-height: 18px;
+  color: #212121;
+}
+
+.icons {
+  display: flex;
+}
+
+.signin {
+  margin: 3px 5px 0px 5px;
+}
+
+.usa {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+}
+
+.cart {
+  margin-left: 5px;
+    margin-right: 5px;
+}
+
+.button {
+  margin-top: 6px;
+}
+
+.drops {
+  margin-top: 0px;
+}
+
+.slide {
+  display: flex;
+  justify-content: center;
+}
+

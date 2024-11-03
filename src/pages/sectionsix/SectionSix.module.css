@@ -1,0 +1,27 @@
+.airbnb {
+    display: flex;
+    margin-top: 50px;
+}
+
+.airbnbtext {
+    margin-left: 50px;
+    margin-top: 120px;
+}
+
+.airbnbh2 {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.airbnbp {
+    font-size: 16px;
+    font-weight: 500;
+    text-align: justify;
+    width: 80%;
+}
+
+.airbnbimage {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
