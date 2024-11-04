@@ -4,7 +4,8 @@ import Image from 'next/image'
 import "@/styles/Home.module.css"
 import { Roboto } from 'next/font/google';
 import SearchBar from '../searchbar/SearchBar';
-import { AiFillCaretDown } from "react-icons/ai"
+import styles from './Navbar.module.css'
+// import { AiFillCaretDown } from "react-icons/ai"
  
 const roboto = Roboto({
   weight: '400',
@@ -14,9 +15,9 @@ const roboto = Roboto({
 function Navbar() {
   return (
       <div className={roboto.className}>
-        <div className='nav'>
-        <div className="navbar">
-          <div className='navbar-logo'>
+        <div className={styles.nav}>
+        <div className={styles.navbar}>
+          <div className={styles.navbarlogo}>
             <Image
               src="/grandeursmart.png" 
               alt="Grandeur Smart Logo"
@@ -24,14 +25,14 @@ function Navbar() {
               height={32}
             />
           </div>
-          <div className='links'>
-            <Link className='nav-link' href="/">Home</Link>
-            <Link className='nav-link' href="./product">Product</Link>
-            <Link className='nav-link' href="./documentation">Documentation</Link>
+          <div className={styles.link}>
+            <Link className={styles.navlink} href="/">Home</Link>
+            <Link className={styles.navlink} href="./product">Product</Link>
+            <Link className={styles.navlink} href="./documentation">Documentation</Link>
             {/* <AiFillCaretDown className='drops' /> */}
-            <Link className='nav-link' href="./integration">Integration</Link>
+            <Link className={styles.navlink} href="./integration">Integration</Link>
           </div>
-          <div className='icons'>
+          <div className={styles.icons}>
             <div>
               <SearchBar />
             </div>
@@ -41,7 +42,7 @@ function Navbar() {
                 alt='sign-in'
                 width={18.94}
                 height={21.31}
-                className='signin'
+                className={styles.signin}
               />
             </Link>
             <Link href="#">
@@ -50,7 +51,7 @@ function Navbar() {
                 alt="group3"
                 width={28}
                 height={28}
-                className='usa'
+                className={styles.usa}
               />
             </Link>
             <Link href="#">
@@ -59,7 +60,7 @@ function Navbar() {
                 alt="group3"
                 width={28}
                 height={28}
-                className='cart'
+                className={styles.cart}
               />
             </Link>
           </div>

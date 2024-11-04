@@ -1,0 +1,21 @@
+.section1 {
+    background-color: #F6F6F6;
+}
+
+.section2 {
+    background: linear-gradient(to bottom, #e0bbff, #9b59b6);
+    padding: 0;
+    height: 80vh;
+}
+
+.section3 {
+    background: linear-gradient(to right, #ffea2f,  #9cec9f);
+    padding: 0;
+    height: 80vh;
+}
+
+.section4 {
+    background: linear-gradient(to right, #8B4513, #87CEEB);
+    padding: 0;
+    height: 80vh;
+}

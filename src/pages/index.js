@@ -19,46 +19,15 @@ import SectionNine from "./sectionnine/SectionNine";
 import SectionTen from "./sectionten/SectionTen";
 import SectionEleven from "./sectioneleven/SectionEleven";
 import SectionTwelve from "./sectiontwelve/SectionTwelve";
+import Footer from "@/components/footer/Footer";
+import Section1 from "./section1/Section1";
+import Carousel from "@/components/carousel/Carousel";
 
 export default function Home() {
   return (
-    <div>
+    <div className={styles.main}>
     <div className={styles.mainsection}>
-      <Navbar />
-      <div className={styles.section1}>
-      <div className={styles.section1x}>
-        <div>
-          <h1 className={styles.h1main}>Grandeur Smart</h1>
-          <p className={styles.p1main}>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy euismod
-            tincidunt ut laoreet dolore magna aliquam arat volutpat.
-          </p>
-          <Link href="/product">
-            <button 
-              className={styles.button}
-            >
-                <div className={styles.buttontext}>
-                    Explore Product
-                </div>
-            </button>
-          </Link>
-        </div>
-      </div>
-      <div className={styles.gadget}>
-         <Image 
-          src="/phone.png"
-          alt="Grandeur-smart phone"
-          width={100}
-          height={215}
-        />
-        <Image 
-          src="/laptop.png"
-          alt="Grandeur-smart phone"
-          width={480}
-          height={288}
-        />
-      </div>
-      </div>
+      <Carousel />
     </div>
     <div className={styles.devices}>
       <Image 
@@ -79,6 +48,7 @@ export default function Home() {
     <SectionTen />
     <SectionEleven />
     <SectionTwelve />
+    <Footer />
     </div>
   )
 }

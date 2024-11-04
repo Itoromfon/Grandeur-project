@@ -1,11 +1,14 @@
 import React from 'react'
 import Navbar from '@/components/navbar/Navbar'
+import Carousel from '../components/carousel/Carousel'
 
 function product() {
   return (
     <>
         <Navbar />
-        <div>This is my product page</div>
+        <div>
+          <p>Product Page</p>
+        </div>
     </>
   )
 }
