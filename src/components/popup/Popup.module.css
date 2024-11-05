@@ -1,0 +1,62 @@
+.popup {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.popdiv {
+    margin-right: 150px;
+}
+
+.popupimage { 
+    height: auto; 
+    transition: transform 1s ease; 
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.popupimage:hover {
+    transform: scale(1.5); 
+}
+
+.pop {
+    margin-left: -50px;
+}
+
+.link {
+    display: flex;
+    font-size: 20px;
+    color: rgb(21, 125, 243);
+    font-weight: 700;
+}
+
+.link:hover {
+    border-bottom: 3px solid rgb(21, 125, 243); /* Change thickness and color as needed */
+    /* You can also add a transition for a smoother effect */
+    transition: border-bottom 0.3s ease; /* Smooth transition for the underline */
+}
+
+.popuptext1 {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    width: 60%;
+    text-align: center;
+}
+
+.popuptext {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.arrow {
+    margin-top: 6px;
+}
+
+.line {
+    width: 5px;          /* Full width */
+    height: 120px;         /* Line thickness */
+    background-color: rgb(188, 187, 187);
+    border-radius: 5px;
+}

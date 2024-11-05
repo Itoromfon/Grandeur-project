@@ -1,0 +1,15 @@
+.main {
+    margin: 70px 50px 50px 50px;
+}
+
+.automateh1 {
+    font-size: 66px;
+    font-weight: 900;
+    color: rgb(0, 149, 255);
+    width: 80%;
+    letter-spacing: 1px;
+}
+
+.maindiv {
+    margin-bottom: 50px;
+}

@@ -1,0 +1,22 @@
+.emblaviewport {
+    overflow: hidden;
+    max-width:60rem;
+    margin-top: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid rgb(139, 137, 137);
+    border-radius: 15px;
+    height: 27rem;
+  }
+  .emblacontainer {
+    display: flex;
+    height: 100%;
+  }
+  .emblaslide {
+    flex: 0 0 100%;
+    min-width: 0; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  

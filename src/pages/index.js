@@ -22,13 +22,27 @@ import SectionTwelve from "./sectiontwelve/SectionTwelve";
 import Footer from "@/components/footer/Footer";
 import Section1 from "./section1/Section1";
 import Carousel from "@/components/carousel/Carousel";
+import Video from "./video/Video";
+import Popup from "@/components/popup/Popup";
+import SmartHome from "./smarthome/SmartHome";
+import EmblaCarousel2 from "@/components/emblacarousel2/EmblaCarousel2";
+import Automation from "../components/automation/Automation";
+import AutomateHome from "@/pages/automatehome/AutomateHome";
 
 export default function Home() {
+  const slides = [0, 1, 2, 3, 4, 5]
+
   return (
     <div className={styles.main}>
     <div className={styles.mainsection}>
       <Carousel />
     </div>
+    <Popup />
+    <Video />
+    <SmartHome />
+    <EmblaCarousel2 slides={slides} />
+    <Automation />
+    <AutomateHome />
     <div className={styles.devices}>
       <Image 
         src="/devices.png"

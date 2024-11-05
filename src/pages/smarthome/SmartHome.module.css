@@ -1,0 +1,95 @@
+.homediv {
+    background: #efeded;
+    border-radius: 50%;
+    width: 1000px;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.home {
+    display: flex;
+    margin-left: 50px;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+.smartdiv {
+    margin-right: 400px;
+}
+
+.homeh1 {
+    font-size: 50px;
+    font-weight: 700;
+    width: 300%;
+    line-height: 60px;
+    margin-bottom: 20px;
+}
+
+.homep {
+    font-size: 16px;
+    font-weight: 400px;
+    width: 300%;
+}
+
+.maindiv {
+    display: flex;
+}
+
+.environment {
+    color: #000000;
+    font-size: 40px;
+}
+
+.circle {
+    color: rgb(204, 91, 110);
+    width: 30px;
+    height: 20px;
+    margin-top: -16px;
+    margin-left: -20px;
+}
+
+.circlediv {
+    background-color: rgb(253, 209, 218);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    padding: 21px 14px 10px 21px;
+    width: 30px;
+    height: 20px;
+    margin-left: 60px;
+}
+
+.smartp {
+    margin-top: 60px;
+}
+
+.main {
+    padding: 10px 10px;
+    background: #FFFFFF;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 150px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    margin-top: 20px;
+}
+
+.main:hover {
+    transform: scale(1.05);            /* Slightly increase size */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Stronger shadow */
+}
+
+.div {
+    margin-top: -100px;
+}
+
+.mainflex {
+    display: flex;
+    margin-right: 50px;
+    grid-gap: 15px;
+    margin-left: 50px;
+}

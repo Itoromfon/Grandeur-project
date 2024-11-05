@@ -1,0 +1,18 @@
+.main {
+    margin: 50px 50px 50px 50px;
+}
+
+.mainh1 {
+    font-size: 46px;
+    font-weight: 700;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.mainp {
+    font-size: 20px;
+    font-weight: 500;
+    width: 40%;
+    margin-left: 50px;
+}
