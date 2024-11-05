@@ -1,8 +1,8 @@
 .homediv {
-    background: #efeded;
+    background: #f5f3f3;
     border-radius: 50%;
     width: 1000px;
-    height: 800px;
+    height: 900px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,15 +24,15 @@
 
 .homeh1 {
     font-size: 50px;
-    font-weight: 700;
-    width: 300%;
+    font-weight: bolder;
+    width: 350%;
     line-height: 60px;
     margin-bottom: 20px;
 }
 
 .homep {
-    font-size: 16px;
-    font-weight: 400px;
+    font-size: 18px;
+    font-weight: 700;
     width: 300%;
 }
 
@@ -68,7 +68,7 @@
 }
 
 .main {
-    padding: 10px 10px;
+    padding: 20px 10px;
     background: #FFFFFF;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     width: 150px;
