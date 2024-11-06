@@ -6,7 +6,7 @@ import {
   PrevButton,
   usePrevNextButtons
 } from './EmblaCarouselArrowButtons';
-import { DotButton, useDotButton } from './EmblaCarouselDotButton';
+import { DotButton, useDotButton } from './EmblacarouselDotButton';
 import styles from './EmblaCarousel2.module.css';
 import Autoplay from 'embla-carousel-autoplay';
 
