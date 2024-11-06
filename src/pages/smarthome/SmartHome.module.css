@@ -23,17 +23,20 @@
 }
 
 .homeh1 {
-    font-size: 50px;
+    font-size: 30px;
     font-weight: bolder;
-    width: 350%;
-    line-height: 60px;
+    width: 200%;
+    line-height: 40px;
     margin-bottom: 20px;
+    color: rgb(185, 124, 13);
+    animation: backgroundPop 4s ease-in-out infinite;
 }
 
 .homep {
-    font-size: 18px;
-    font-weight: 700;
-    width: 300%;
+    font-size: 16px;
+    width: 200%;
+    color: rgb(8, 123, 8);
+    animation: backgroundPop 4s ease-in-out infinite;
 }
 
 .maindiv {
@@ -41,12 +44,12 @@
 }
 
 .environment {
-    color: #000000;
+    color: rgb(8, 123, 8);
     font-size: 40px;
 }
 
 .circle {
-    color: rgb(204, 91, 110);
+    color: rgb(185, 124, 13);
     width: 30px;
     height: 20px;
     margin-top: -16px;
@@ -54,7 +57,7 @@
 }
 
 .circlediv {
-    background-color: rgb(253, 209, 218);
+    background-color: rgb(250, 212, 142);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     border-radius: 50%;
     padding: 21px 14px 10px 21px;
@@ -65,16 +68,168 @@
 
 .smartp {
     margin-top: 60px;
+    color: rgb(185, 124, 13);
 }
 
-.main {
+.main1 {
     padding: 20px 10px;
     background: #FFFFFF;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    width: 150px;
-    border-radius: 15px;
+    width: 200px;
+    border-radius: 50%;
     cursor: pointer;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
+    margin-top: 25px;
+    height: 200px;
+    animation: backgroundPop 4s ease-in-out infinite;
+}
+
+.main1content {
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.main2 {
+    padding: 20px 10px;
+    background: #FFFFFF;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 200px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    margin-top: 20px;
+    height: 200px;
+    animation: backgroundPop 4s ease-in-out infinite;
+}
+
+.main2content {
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.main3 {
+    padding: 20px 10px;
+    background: #FFFFFF;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 200px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    margin-top: 20px;
+    height: 200px;
+    animation: backgroundPop 4s ease-in-out infinite;
+}
+
+.main3content {
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.main4 {
+    padding: 20px 10px;
+    background: #FFFFFF;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 200px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    margin-top: 20px;
+    height: 200px;
+    animation: backgroundPop 4s ease-in-out infinite;
+}
+
+.main4content {
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.main5 {
+    padding: 20px 10px;
+    background: #FFFFFF;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 200px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    margin-top: 20px;
+    height: 200px;
+    animation: backgroundPop 4s ease-in-out infinite;
+}
+
+.main5content {
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.main6 {
+    padding: 20px 10px;
+    background: #FFFFFF;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 200px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    margin-top: 20px;
+    height: 200px;
+    animation: backgroundPop 4s ease-in-out infinite;
+}
+
+.main6content {
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.main7 {
+    padding: 20px 10px;
+    background: #FFFFFF;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 200px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    margin-top: 20px;
+    height: 200px;
+    animation: backgroundPop 4s ease-in-out infinite;
+}
+
+.main7content {
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.main8 {
+    padding: 20px 10px;
+    background: #FFFFFF;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 200px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    margin-top: 20px;
+    height: 200px;
+    animation: backgroundPop 4s ease-in-out infinite;
+}
+
+.main8content {
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.main9 {
+    padding: 20px 10px;
+    background: #FFFFFF;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 200px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    margin-top: 20px;
+    height: 200px;
+    animation: backgroundPop 4s ease-in-out infinite;
+}
+
+.main9content {
+    margin-left: 30px;
     margin-top: 20px;
 }
 
@@ -92,4 +247,19 @@
     margin-right: 50px;
     grid-gap: 15px;
     margin-left: 50px;
+}
+
+@keyframes backgroundPop {
+    0% {
+      transform: scale(1); /* Start with normal size */
+      background-position: center; /* Normal position */
+    }
+    50% {
+      transform: scale(1.1); /* Pop-up effect: enlarge */
+      background-position: center; /* Keep the image centered */
+    }
+    100% {
+      transform: scale(1); /* Return to normal size */
+      background-position: center; /* Normal position */
+    }
 }

@@ -1,21 +1,99 @@
 .section1 {
-    background-color: #F6F6F6;
-}
+    position: relative;
+    background-image: url("/modernroom.png"); /* Adjusted image path */
+    background-size: cover;
+    background-position: center;
+    color: white; /* Set text color to white */
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: moveBackground 2s linear infinite;
+  }
+
+  @keyframes moveBackground {
+    0% {
+      background-position: 0 0;
+    }
+    100% {
+      background-position: 100% 100%;
+    }
+  }
+  
+  .section1::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Dark overlay */
+    z-index: 1; /* Overlay layer */
+  }
 
 .section2 {
-    background: linear-gradient(to bottom, #e0bbff, #9b59b6);
-    padding: 0;
+    position: relative;
     height: 80vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url("/grandeurproduct.png");
+    color: white; /* Set text color to white */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: moveBackground 2s linear infinite;
+}
+
+.section2::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Adjust color and opacity */
+  z-index: 1;
 }
 
 .section3 {
-    background: linear-gradient(to right, #ffea2f,  #9cec9f);
-    padding: 0;
+    position: relative;
     height: 80vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url("/grandeur-energy.png");
+    color: white; /* Set text color to white */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: moveBackground 2s linear infinite;
 }
+.section3::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust color and opacity */
+    z-index: 1;
+  }
 
 .section4 {
-    background: linear-gradient(to right, #8B4513, #87CEEB);
-    padding: 0;
+    position: relative;
     height: 80vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url("/grandeurproduct.png");
+    animation: moveBackground 2s linear infinite;
 }
+
+.section4::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust color and opacity */
+    z-index: 1;
+  }

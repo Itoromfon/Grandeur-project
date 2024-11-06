@@ -22,14 +22,6 @@ const Carousel = () => {
   return (
     <Slider {...settings}>
       <div className={styles.section1}>
-        {/* <img src="/images/slide1.jpg" alt="Slide 1" /> */}
-        {/* <Image 
-            src='/bulb.png'
-            alt='bulb'
-            width={426}
-            height={427}
-
-        /> */}
         <Navbar />
         <Section1 />
       </div>

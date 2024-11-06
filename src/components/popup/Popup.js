@@ -5,7 +5,6 @@ import { IoIosArrowForward } from 'react-icons/io';
 import { PiMouseScroll } from 'react-icons/pi';
 import styles from './Popup.module.css';
 import Link from 'next/link';
-import ChatBot from '../chatbot/ChatBot';
 
 function Popup() {
   return (
@@ -26,7 +25,6 @@ function Popup() {
             </div> 
         </div>
         <div className={styles.line}></div>
-        <ChatBot />
     </div>
   )
 }

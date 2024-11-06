@@ -16,6 +16,9 @@
     font-weight: 700;
     margin-bottom: 0px;
     letter-spacing: 3px;
+    position: relative;
+    z-index: 2;
+    animation: backgroundPop 4s ease-in-out infinite;
 }
 
 .p1main {
@@ -24,6 +27,24 @@
     margin-bottom: 20px;
     color: #FFFFFF;
     width: 70%;
+    position: relative;
+    z-index: 2;
+    animation: backgroundPop 4s ease-in-out infinite;
+}
+
+@keyframes backgroundPop {
+    0% {
+      transform: scale(1); /* Start with normal size */
+      background-position: center; /* Normal position */
+    }
+    50% {
+      transform: scale(1.1); /* Pop-up effect: enlarge */
+      background-position: center; /* Keep the image centered */
+    }
+    100% {
+      transform: scale(1); /* Return to normal size */
+      background-position: center; /* Normal position */
+    }
 }
 
 /* .link {
@@ -35,17 +56,22 @@
 } */
 
 .button {
-    background-image: linear-gradient(90deg, #fdf080, #fdba84);
+    background-image: linear-gradient(90deg, rgba(103, 69, 5, 0.941), rgba(120, 79, 3, 0.941));
     border: none;
     border-radius: 40px;
     padding: 20px 40px 20px 40px;
     cursor: pointer;
     transition: background-image 1.5s ease, transform 0.8s ease;
+    position: relative;
+    z-index: 2; /* Make sure text is above the overlay */
+    animation: backgroundPop 4s ease-in-out infinite;
 }
 
 .button:hover {
     background-image: linear-gradient(90deg, #6a11cb, #2575fc); 
     transform: scale(1.05);
+    position: relative;
+    z-index: 2; /* Make sure text is above the overlay */
 }
 
 .buttontext {
@@ -53,6 +79,8 @@
     color: #FFFFFF;
     font-weight: 700;
     letter-spacing: 2px;
+    position: relative;
+    z-index: 2; /* Make sure text is above the overlay */
 }
 
 .buttontext:hover {

@@ -1,9 +1,13 @@
+/* .animatepresence {
+    margin: -100px;
+} */
+
 .main {
     overflow-x: hidden;
 }
 
 .mainsection {
-    background-color: #F6F6F6;
+    /* background-color: #F6F6F6; */
     margin-bottom: 80px;
     padding-bottom: 0;
 }

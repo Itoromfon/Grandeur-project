@@ -9,10 +9,10 @@ function Section1d() {
     <div className={styles.section1}>
       <div className={styles.section1x}>
         <div>
-          <h1 className={styles.h1main}>Grandeur Smart</h1>
+          <h1 className={styles.h1main}>Voice Control</h1>
           <p className={styles.p1main}>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy euismod
-            tincidunt ut laoreet dolore magna aliquam arat volutpat.
+            Integration with Google Assistance, Alexa, SMART (Mainlogix), and Siri for seamless voice control
+            allowing users to manage their devices hands free.
           </p>
           <Link href="/product">
             <button 

@@ -7,7 +7,7 @@ import Autoplay from 'embla-carousel-autoplay'
 import { useCallback } from 'react'
 import Image from 'next/image'
 
-export function EmblaCarousel() {
+export default function EmblaCarousel() {
   const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true }, [Autoplay({delay: 3000})])
 
   const scrollPrev = useCallback(() => {
@@ -24,51 +24,31 @@ export function EmblaCarousel() {
         <div className={styles.emblacontainer}>
             <div className={styles.emblaslide}>
                 <Image 
-                    src='/smart.png'
+                    src='/smartadapter.png'
                     alt='smart device'
                     width={270}
                     height={501}
                 />
                 <Image 
-                    src='/smart.png'
+                    src='/motionsensor.png'
                     alt='smart device'
                     width={270}
                     height={501}
                 />
                 <Image 
-                    src='/smart.png'
+                    src='/smartmotor.png'
                     alt='smart device'
                     width={270}
                     height={501}
                 />
                 <Image 
-                    src='/smart.png'
-                    alt='smart device'
-                    width={270}
-                    height={501}
-                />
-            </div>
-            <div className={styles.emblaslide}>
-            <Image 
-                    src='/smart.png'
+                    src='/smartdoorbell.png'
                     alt='smart device'
                     width={270}
                     height={501}
                 />
                 <Image 
-                    src='/smart.png'
-                    alt='smart device'
-                    width={270}
-                    height={501}
-                />
-                <Image 
-                    src='/smart.png'
-                    alt='smart device'
-                    width={270}
-                    height={501}
-                />
-                <Image 
-                    src='/smart.png'
+                    src='/smartlock.png'
                     alt='smart device'
                     width={270}
                     height={501}
@@ -76,25 +56,62 @@ export function EmblaCarousel() {
             </div>
             <div className={styles.emblaslide}>
                 <Image 
-                    src='/smart.png'
+                    src='/smartadapter.png'
                     alt='smart device'
                     width={270}
                     height={501}
                 />
                 <Image 
-                    src='/smart.png'
+                    src='/motionsensor.png'
                     alt='smart device'
                     width={270}
                     height={501}
                 />
                 <Image 
-                    src='/smart.png'
+                    src='/smartmotor.png'
                     alt='smart device'
                     width={270}
                     height={501}
                 />
                 <Image 
-                    src='/smart.png'
+                    src='/smartdoorbell.png'
+                    alt='smart device'
+                    width={270}
+                    height={501}
+                />
+                <Image 
+                    src='/smartlock.png'
+                    alt='smart device'
+                    width={270}
+                    height={501}
+                />
+            </div>
+            <div className={styles.emblaslide}>
+                <img 
+                    src='/smartadapter.png'
+                    alt='smart device'
+                    className={styles.adapter}
+                />
+                <Image 
+                    src='/motionsensor.png'
+                    alt='smart device'
+                    width={270}
+                    height={501}
+                />
+                <Image 
+                    src='/smartmotor.png'
+                    alt='smart device'
+                    width={270}
+                    height={501}
+                />
+                <Image 
+                    src='/smartdoorbell.png'
+                    alt='smart device'
+                    width={270}
+                    height={501}
+                />
+                <Image 
+                    src='/smartlock.png'
                     alt='smart device'
                     width={270}
                     height={501}

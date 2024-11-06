@@ -2,26 +2,18 @@ import React from 'react'
 import styles from "../sectiontwo/SectionTwo.module.css";
 import Slide from '@/components/Slide';
 import Image from 'next/image';
-// import EmblaCarousel  from '@/components/emblacarousel/EmblaCarousel';
+import EmblaCarousel from '@/components/emblacarousel/EmblaCarousel';
+import Partner from '@/components/partner/Partner';
 
 function SectionTwo() {
   return (
     <div>
         <div className={styles.text}>
-            <h2 className={styles.sectionhead}>An App your are Bound to love</h2>
-            <p className={styles.sectiontext}>All your smart devices home centralized in a location.<br /> connect to grandeur smart
-                globally and manage every devices from one unified hub.
-            </p>
+            <h2 className={styles.sectionhead}>Our Product.</h2>
         </div>
-        {/* <EmblaCarousel /> */}
-        <Slide />
+        <EmblaCarousel />
+        <Partner />
         <div className={styles.ellipse}>
-        <Image 
-          src="/connect.png"
-          alt='connect-globally'
-          width={1190}
-          height={430}
-        />
         </div>
         <div className={styles.mpdiv}>
         <div className={styles.mpimagediv}>

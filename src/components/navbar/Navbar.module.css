@@ -11,6 +11,8 @@
   justify-content: space-between;
   border-radius: 10px;
   width: 92%;
+  position: relative;
+  z-index: 2;
 }
 
 .navlogo {}
@@ -22,6 +24,11 @@
   font-size: 16px;
   line-height: 18px;
   color: #212121;
+}
+
+.navlink:hover {
+  color: rgb(0, 81, 255);
+  font-weight: bold;
 }
 
 .icons {

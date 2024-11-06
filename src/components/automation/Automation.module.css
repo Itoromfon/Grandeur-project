@@ -5,11 +5,28 @@
 .automateh1 {
     font-size: 66px;
     font-weight: 900;
-    color: rgb(0, 149, 255);
+    color: rgb(185, 124, 13);
     width: 80%;
     letter-spacing: 1px;
+    line-height: 80px;
+    animation: backgroundPop 4s ease-in-out infinite;
 }
 
 .maindiv {
     margin-bottom: 50px;
+}
+
+@keyframes backgroundPop {
+    0% {
+      transform: scale(1); /* Start with normal size */
+      background-position: center; /* Normal position */
+    }
+    50% {
+      transform: scale(1.1); /* Pop-up effect: enlarge */
+      background-position: center; /* Keep the image centered */
+    }
+    100% {
+      transform: scale(1); /* Return to normal size */
+      background-position: center; /* Normal position */
+    }
 }

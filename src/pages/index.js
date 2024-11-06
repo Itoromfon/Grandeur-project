@@ -14,7 +14,6 @@ import SectionFour from "./sectionfour/SectionFour";
 import SectionFive from "./sectionfive/SectionFive";
 import SectionSix from "./sectionsix/SectionSix";
 import SectionSeven from "./sectionseven/SectionSeven";
-import SectionEight from "./sectioneight/SectionEight";
 import SectionNine from "./sectionnine/SectionNine";
 import SectionTen from "./sectionten/SectionTen";
 import SectionEleven from "./sectioneleven/SectionEleven";
@@ -28,41 +27,42 @@ import SmartHome from "./smarthome/SmartHome";
 import EmblaCarousel2 from "@/components/emblacarousel2/EmblaCarousel2";
 import Automation from "../components/automation/Automation";
 import AutomateHome from "@/pages/automatehome/AutomateHome";
+import FramerMotion from "@/components/framermotion/FramerMotion";
+// import { motion, AnimatePresence } from "framer-motion";
+import Energy from "../components/energy/Energy";
+// import ParticlesBackground from "@/components/particlesbackground/ParticlesBackground";
 
 export default function Home() {
   const slides = [0, 1, 2, 3, 4, 5]
 
   return (
-    <div className={styles.main}>
-    <div className={styles.mainsection}>
-      <Carousel />
-    </div>
-    <Popup />
-    <Video />
-    <SmartHome />
-    <EmblaCarousel2 slides={slides} />
-    <Automation />
-    <AutomateHome />
-    <div className={styles.devices}>
-      <Image 
-        src="/devices.png"
-        alt="Gadgets"
-        width={1024}
-        height={920}
-      />
-    </div>
-    <SectionTwo />
-    <SectionThree />
-    <SectionFour />
-    <SectionFive />
-    <SectionSix />
-    <SectionSeven />
-    <SectionEight />
-    <SectionNine />
-    <SectionTen />
-    <SectionEleven />
-    <SectionTwelve />
-    <Footer />
-    </div>
+    <>
+      <div className={styles.main}>
+        {/* <ParticlesBackground /> */}
+      <div className={styles.mainsection}>
+        <Carousel />
+      </div>
+      <Popup />
+      <Video />
+      <SmartHome />
+      <EmblaCarousel2 slides={slides} />
+      <Automation />
+      <AutomateHome />
+      <Energy />
+      <SectionTwo />
+      <SectionThree />
+      <SectionFour />
+      <SectionFive />
+      <SectionSix />
+      <SectionSeven />
+      <SectionNine />
+      <SectionTen />
+      <SectionEleven />
+      <SectionTwelve />
+      <Footer />
+      </div>
+      {/* </motion.div>
+      </AnimatePresence> */}
+    </>
   )
 }

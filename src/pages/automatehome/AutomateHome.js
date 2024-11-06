@@ -3,6 +3,7 @@ import styles from './AutomateHome.module.css'
 import Image from 'next/image'
 import { AiFillFrown } from 'react-icons/ai';
 import { BsArrowDown } from 'react-icons/bs';
+// import { motion, AnimatePresence } from 'framer-motion';
 
 function AutomateHome() {
   return (

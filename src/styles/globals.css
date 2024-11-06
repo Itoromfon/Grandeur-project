@@ -3,6 +3,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 .nav {
   padding-top:20px;
 }

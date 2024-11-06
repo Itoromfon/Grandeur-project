@@ -9,10 +9,10 @@ function Section1c() {
     <div className={styles.section1}>
       <div className={styles.section1x}>
         <div>
-          <h1 className={styles.h1main}>Grandeur Smart</h1>
+          <h1 className={styles.h1main}>Smart Energy Management</h1>
           <p className={styles.p1main}>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy euismod
-            tincidunt ut laoreet dolore magna aliquam arat volutpat.
+            Tools for energy usage and monitoring. including thermostat, energy efficient lightning
+            and real time energy consumption tracking, helping reduce utility bills and enviromental impact.
           </p>
           <Link className={styles.link} href="/product">
             <button 

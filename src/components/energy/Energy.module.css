@@ -1,0 +1,41 @@
+.main {
+    margin: 0 50px;
+}
+
+.energydiv {
+    margin-left: 50px;
+}
+
+.energyh1 {
+    font-size: 70px;
+    font-weight: 900;
+    color: rgb(185, 124, 13);
+    letter-spacing: 1px;
+    line-height: 80px;
+    width: 80%;
+}
+
+.energyimg {
+    width: 1500px;
+    height: 600px;
+    animation: backgroundPop 4s ease-in-out infinite;
+}
+
+@keyframes backgroundPop {
+    0% {
+      transform: scale(1); /* Start with normal size */
+      background-position: center; /* Normal position */
+    }
+    50% {
+      transform: scale(1.1); /* Pop-up effect: enlarge */
+      background-position: center; /* Keep the image centered */
+    }
+    100% {
+      transform: scale(1); /* Return to normal size */
+      background-position: center; /* Normal position */
+    }
+}
+
+.energy {
+    display: flex;
+}

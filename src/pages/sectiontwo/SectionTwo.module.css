@@ -1,12 +1,14 @@
 .text {
     text-align: center;
     margin-top: 60px;
+    margin-bottom: -30px;
 }
 
 .sectionhead {
     font-size: 36px;
-    font-weight: 700;
+    font-weight: bolder;
     margin-bottom: 0;
+    color: rgb(185, 124, 13);
 }
 
 .sectiontext {

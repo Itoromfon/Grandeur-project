@@ -2,19 +2,64 @@ import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import styles from './Section1.module.css'
+import { motion } from 'framer-motion'
+
+const variants = {
+  hidden: { opacity: 0},
+  show: {
+    opacity: 1,
+    transition: {
+      staggerChildren: 0.3,
+    }
+  }
+}
+
+const images = {
+  hidden: { 
+    opacity: 0,
+    x: 30,
+  },
+  show: {
+    opacity: 1,
+    x: 0,
+    transition: {
+      duration: 1,
+    }
+  }
+}
 
 function Section1() {
   return (
     <div>
     <div className={styles.section1}>
-      <div className={styles.section1x}>
-        <div>
-          <h1 className={styles.h1main}>Grandeur Smart</h1>
-          <p className={styles.p1main}>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy euismod
-            tincidunt ut laoreet dolore magna aliquam arat volutpat.
-          </p>
-          <Link href="/product">
+      <motion.div 
+        className={styles.section1x}
+        variants={variants}
+        initial="hidden"
+        animate="show"
+      >
+        <motion.div 
+          variants={variants}
+          initial="hidden"
+          animate="show"
+        >
+          <motion.h1 
+            className={styles.h1main}
+            variants={images}
+          >
+            Smart Home Automation
+          </motion.h1>
+          <motion.p 
+            className={styles.p1main}
+            variants={images}
+          >
+            Solution for controlling and automating home devices via mobile phones. This includes lightning, heating,
+            cooling and appliance control enhancing convenience and efficiency
+          </motion.p>
+          <motion.a 
+            href="/product"
+            variants={images}
+          >
             <button 
               className={styles.button}
             >
@@ -22,23 +67,27 @@ function Section1() {
                     Explore Product
                 </div>
             </button>
-          </Link>
-        </div>
-      </div>
-      <div className={styles.gadget}>
-         <Image 
+          </motion.a>
+        </motion.div>
+      </motion.div>
+      <motion.div 
+        variants={variants}
+        initial="hidden"
+        animate="show"
+        className={styles.gadget}>
+         <motion.img 
           src="/phone.png"
           alt="Grandeur-smart phone"
-          width={160}
-          height={215}
+          className={styles.phone}
+          variants={images}
         />
-        <Image 
+        <motion.img 
           src="/laptop.png"
           alt="Grandeur-smart phone"
-          width={480}
-          height={288}
+          className={styles.laptop}
+          variants={images}
         />
-      </div>
+      </motion.div>
       </div>
     </div>
   )
