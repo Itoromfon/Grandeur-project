@@ -30,6 +30,7 @@ import AutomateHome from "@/pages/automatehome/AutomateHome";
 import FramerMotion from "@/components/framermotion/FramerMotion";
 // import { motion, AnimatePresence } from "framer-motion";
 import Energy from "../components/energy/Energy";
+import Chart from "@/components/chart/Chart";
 // import ParticlesBackground from "@/components/particlesbackground/ParticlesBackground";
 
 export default function Home() {
@@ -49,6 +50,7 @@ export default function Home() {
       <Automation />
       <AutomateHome />
       <Energy />
+      <Chart />
       <SectionTwo />
       <SectionThree />
       <SectionFour />

@@ -4,20 +4,69 @@
     color: rgb(185, 124, 13);
     width: 70%;
     line-height: 60px;
+    text-align: center;
+    animation: backgroundPop 4s ease-in-out infinite;
+}
+
+.monitor {
+    font-size: 50px;
+    font-weight: bolder;
+    color: rgb(185, 124, 13);
+    /* width: 70%;
+    line-height: 60px;
+    /* margin: 50px 0 20px 0; */
+    text-align: center;
+    animation: backgroundPop 4s ease-in-out infinite;
+}
+
+.smart {
+    margin: auto; 
 }
 
 .smarth1 {
-    font-size: 40px;
+    font-size: 43px;
     font-weight: bolder;
     color: rgb(185, 124, 13);
-    width: 70%;
+    /* width: 70%; */
     line-height: 60px;
-    margin: 50px 0 20px 0;
+    /* margin: 50px 0 20px 0; */
+    text-align: center;
+    margin: 50px 0 30px 0;
+    animation: backgroundPop 4s ease-in-out infinite;
 }
 
 .smartp {
-    font-size: 16px;
+    font-size: 20px;
     color: rgb(8, 123, 8);
     font-weight: 700;
     width: 35%;
+    /* text-align: center; */
+    margin: auto;
+    margin-bottom: 50px;
+    animation: backgroundPop 4s ease-in-out infinite;
+}
+
+
+
+
+
+
+
+
+
+
+
+@keyframes backgroundPop {
+    0% {
+      transform: scale(1); /* Start with normal size */
+      background-position: center; /* Normal position */
+    }
+    50% {
+      transform: scale(1.05); /* Pop-up effect: enlarge */
+      background-position: center; /* Keep the image centered */
+    }
+    100% {
+      transform: scale(1); /* Return to normal size */
+      background-position: center; /* Normal position */
+    }
 }

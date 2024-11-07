@@ -48,7 +48,7 @@ function Navbar() {
               whileHover={{ scale: 1.1 }} 
               transition={{ type: "spring", stiffness: 300 }}
             >
-              <Link className={styles.navlink} href="/integration">Integration</Link>
+              <Link className={styles.navlink} href="./integration/integration">Integration</Link>
             </motion.div>
           </div>
           <div className={styles.icons}>

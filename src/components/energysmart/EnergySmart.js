@@ -3,9 +3,9 @@ import styles from './EnergySmart.module.css'
 
 function EnergySmart() {
   return (
-    <div>
+    <div className={styles.main}>
         <div>
-            <h1 className={styles.h1}>Monitor Your Home With Grandeur Smart.</h1>
+            <h1 className={styles.monitor}>Monitor Your Home With Grandeur Smart.</h1>
         </div>
         <div>
             <div>
