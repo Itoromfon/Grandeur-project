@@ -17,19 +17,73 @@
 .texth2 {
     font-size: 36px;
     font-weight: 700;
+    color: rgb(185, 124, 13);
 }
 
 .textp {
     font-size: 16px;
     font-weight: 500;
+    color: rgb(185, 124, 13);
 }
 
-@media only screen and (min-width: 320px) and (max-width: 478px) {
+@media only screen and (min-width: 320px) and (max-width: 480px) {
     .security {
         flex-direction: column;
     }
 
     .text {
         margin-left: 0;
+    }
+    
+    .texth2 {
+        font-size: 30px;
+        font-weight: 700;
+        color: rgb(8, 123, 8);
+    }
+    
+    .textp {
+        font-size: 16px;
+        font-weight: 500;
+        color: rgb(8, 123, 8);
+        width: 80%;
+    }
+
+    .redimage {
+        display: none;
+    }
+
+    .imagecontainer {
+        margin-left: -50px;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 600px) {
+    .security {
+        flex-direction: column;
+    }
+
+    .text {
+        margin-left: 0;
+    }
+    
+    .texth2 {
+        font-size: 30px;
+        font-weight: 700;
+        color: rgb(8, 123, 8);
+    }
+    
+    .textp {
+        font-size: 16px;
+        font-weight: 500;
+        color: rgb(8, 123, 8);
+        width: 80%;
+    }
+
+    .redimage {
+        display: none;
+    }
+
+    .imagecontainer {
+        margin-left: -50px;
     }
 }

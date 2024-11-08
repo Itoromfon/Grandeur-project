@@ -36,12 +36,14 @@
 .mphead2 {
     font-size: 36px;
     font-weight: 700;
+    color: rgb(185, 124, 13);
 }
 
 .mptext {
     font-size: 15px;
     font-weight: 400;
     margin-bottom: 20px;
+    color: rgb(185, 124, 13);
 }
 
 .mpdiv {
@@ -73,11 +75,13 @@
     font-size: 16px;
     font-weight: 500;
     font-weight: bold;
+    color: rgb(8, 123, 8);
 }
 
 .detectiontext2 {
     font-size: 16px;
     font-weight: 400;
+    color: rgb(8, 123, 8);
 }
 
 .maindetection {
@@ -112,10 +116,13 @@
     .mphead {
         font-size: 30px;
         line-height: 30px;
+        margin-bottom: 15px;
+        color: rgb(8, 123, 8);
     }
 
     .mphead2 {
         font-size: 25px;
+        margin-top: 15px;
     }
 
     .mpdiv {
@@ -125,6 +132,19 @@
 
     .bulbdiv {
         visibility: hidden;
+    }
+
+    .maindetection {
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+
+    .mphead2 {
+        color: rgb(8, 123, 8);
+    }
+
+    .mptext {
+        color: rgb(8, 123, 8);
     }
 }
 

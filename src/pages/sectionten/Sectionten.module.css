@@ -5,13 +5,14 @@
 .homeh1 {
     font-size: 50px;
     font-weight: 700;
-    color: #5C755E;
+    color: rgb(8, 123, 8);
     width: 60%;
 }
 
 .homeh2 {
     font-size: 36px;
     font-weight: 700;
+    color: rgb(185, 124, 13);
 }
 
 .hometext {
@@ -22,6 +23,7 @@
     font-weight: 500;
     font-size: 16px;
     width: 70%;
+    color: rgb(185, 124, 13);
 }
 
 .homediv {
@@ -46,5 +48,122 @@
     .homediv {
         flex-direction: column;
     }
+
+    .homeh1 {
+        font-size: 30px;
+        font-weight: 700;
+        /* text-align: center; */
+        margin: auto;
+        margin-top: 50px;
+    }
+
+    .homeh2 {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .homep {
+        margin: auto;
+    }
+
+    .imagediv {
+        margin: 70px 30px 0 0;
+    }
 }
+
+@media only screen and (min-width: 481px) and (max-width: 600px) {
+    .home {
+        margin: 0;
+    }
+
+    .homediv {
+        flex-direction: column;
+    }
+
+    .homeh1 {
+        font-size: 30px;
+        font-weight: 700;
+        /* text-align: center; */
+        margin: auto;
+        margin-top: 50px;
+    }
+
+    .homeh2 {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .homep {
+        margin: auto;
+    }
+
+    .imagediv {
+        margin: 70px 30px 0 0;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+    .home {
+        margin: 0;
+    }
+
+    .homediv {
+        flex-direction: column;
+    }
+
+    .homeh1 {
+        font-size: 30px;
+        font-weight: 700;
+        /* text-align: center; */
+        margin: auto;
+        margin-top: 50px;
+    }
+
+    .homeh2 {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .homep {
+        margin: auto;
+    }
+
+    .imagediv {
+        margin: 70px 30px 0 0;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 900px) {
+    .home {
+        margin: 0;
+    }
+
+    .homediv {
+        flex-direction: column;
+    }
+
+    .homeh1 {
+        font-size: 30px;
+        font-weight: 700;
+        /* text-align: center; */
+        margin: auto;
+        margin-top: 50px;
+    }
+
+    .homeh2 {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .homep {
+        margin: auto;
+    }
+
+    .imagediv {
+        margin: 70px 30px 0 0;
+    }
+}
+
+
+
 

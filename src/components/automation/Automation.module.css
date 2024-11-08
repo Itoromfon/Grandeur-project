@@ -32,6 +32,10 @@
 }
 
 @media only screen and (min-width: 320px) and (max-width: 480px) {
+  .main {
+    margin-left: 40px;
+  }
+
   .automateh1 {
     font-size: 30px;
     margin: auto;
@@ -40,10 +44,14 @@
 
   .maindiv {
     margin-bottom: 0;
-}
+  }
 }
 
 @media only screen and (min-width: 481px) and (max-width: 600px) {
+  .main {
+    margin-left: 100px;
+  }
+
   .automateh1 {
     font-size: 30px;
     margin: auto;
@@ -52,6 +60,10 @@
 }
 
 @media only screen and (min-width: 601px) and (max-width: 768px) {
+  .main {
+    margin-left: 25px;
+  }
+
   .automateh1 {
     font-size: 32px;
     margin: auto;
@@ -60,6 +72,10 @@
 }
 
 @media only screen and (min-width: 769px) and (max-width: 900px) {
+  .main {
+    margin-left: 25px;
+  }
+
   .automateh1 {
     font-size: 34px;
     margin: auto;

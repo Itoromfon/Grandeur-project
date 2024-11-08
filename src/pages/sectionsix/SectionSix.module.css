@@ -11,6 +11,7 @@
 .airbnbh2 {
     font-size: 36px;
     font-weight: 700;
+    color: rgb(185, 125, 13);
 }
 
 .airbnbp {
@@ -18,6 +19,8 @@
     font-weight: 500;
     text-align: justify;
     width: 80%;
+    color: rgb(185, 125, 13);
+
 }
 
 .airbnbimage {
@@ -26,9 +29,41 @@
     width: 100%;
 }
 
-@media only screen and (min-width: 320px) and (max-width: 478px) {
+@media only screen and (min-width: 320px) and (max-width: 480px) {
     .airbnb {
         flex-direction: column;
+    }
+
+    .airbnbimage {
+        justify-content: center;
+    }
+
+    /* .airbnbtext {
+        
+    } */
+}
+
+@media only screen and (min-width: 481px) and (max-width: 600px) {
+    .airbnb {
+        flex-direction: column;
+    }
+
+    .airbnbimage {
+        justify-content: center;
+    }
+
+    /* .airbnbtext {
+        
+    } */
+}
+
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+    .airbnb {
+        flex-direction: column;
+    }
+
+    .airbnbimage {
+        justify-content: center;
     }
 
     /* .airbnbtext {

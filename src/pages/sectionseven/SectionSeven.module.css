@@ -1,6 +1,6 @@
 .mainsmart {
     display: flex;
-    background: linear-gradient(to right, #5C755E, #78A67C); 
+    background: rgb(8, 123, 8);
     padding: 80px 50px;  
     margin: 0 50px;
     border-radius: 15px;
@@ -18,18 +18,18 @@
 .smarth2 {
     font-size: 36px;
     font-weight: 700;
-    color: #FFFFFF;
+    color: rgb(185, 124, 13);
     margin-bottom: 5px;
 }
 
 .smartp {
     font-size: 16px;
     font-weight: 500;
-    color: #FFFFFF;
+    color: rgb(185, 124, 13);
 }
 
 .smartwrap {
-    background: linear-gradient(135deg, #98b59b, #78A67C); /* Gradient background */
+    background: linear-gradient(135deg, rgb(13, 147, 13), rgb(17, 167, 17)); /* Gradient background */
     border-radius: 50%; /* Adjust border-radius as desired */
     padding: 10px; /* Optional: add padding for spacing */
     width: 1120px; 
@@ -44,7 +44,24 @@
     
 } */
 
-@media only screen and (min-width: 320px) and (max-width: 478px) {
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    .mainsmart {
+        flex-direction: column;
+        margin: 100px 0;
+        margin-right: 0;
+        padding-bottom: 150px;
+    }
+
+    .smartwrap {
+        width: 300px;
+    }
+
+    .smartwrapimg {
+        margin-top: 70px;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 600px) {
     .mainsmart {
         flex-direction: column;
         margin: 100px 0;
