@@ -30,3 +30,47 @@
       background-position: center; /* Normal position */
     }
 }
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .automateh1 {
+    font-size: 30px;
+    margin: auto;
+    line-height: 50px;
+  }
+
+  .maindiv {
+    margin-bottom: 0;
+}
+}
+
+@media only screen and (min-width: 481px) and (max-width: 600px) {
+  .automateh1 {
+    font-size: 30px;
+    margin: auto;
+    line-height: 50px;
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+  .automateh1 {
+    font-size: 32px;
+    margin: auto;
+    line-height: 50px;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 900px) {
+  .automateh1 {
+    font-size: 34px;
+    margin: auto;
+    line-height: 50px;
+  }
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1200px) {
+  .automateh1 {
+    font-size: 36px;
+    margin: auto;
+    line-height: 50px;
+  }
+}

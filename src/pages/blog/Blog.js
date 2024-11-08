@@ -5,7 +5,6 @@ import styles from './Blog.module.css'
 function Blog() {
   return (
     <div className={styles.blog}>
-        
         <Image 
             src="/blog1.png"
             alt="blog images"

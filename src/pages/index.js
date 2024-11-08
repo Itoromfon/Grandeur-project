@@ -16,12 +16,11 @@ import SectionSix from "./sectionsix/SectionSix";
 import SectionSeven from "./sectionseven/SectionSeven";
 import SectionNine from "./sectionnine/SectionNine";
 import SectionTen from "./sectionten/SectionTen";
-import SectionEleven from "./sectioneleven/SectionEleven";
+// import SectionEleven from "./sectioneleven/SectionEleven";
 import SectionTwelve from "./sectiontwelve/SectionTwelve";
 import Footer from "@/components/footer/Footer";
 import Section1 from "./section1/Section1";
 import Carousel from "@/components/carousel/Carousel";
-import Video from "./video/Video";
 import Popup from "@/components/popup/Popup";
 import SmartHome from "./smarthome/SmartHome";
 import EmblaCarousel2 from "@/components/emblacarousel2/EmblaCarousel2";
@@ -44,7 +43,6 @@ export default function Home() {
         <Carousel />
       </div>
       <Popup />
-      <Video />
       <SmartHome />
       <EmblaCarousel2 slides={slides} />
       <Automation />
@@ -59,7 +57,7 @@ export default function Home() {
       <SectionSeven />
       <SectionNine />
       <SectionTen />
-      <SectionEleven />
+      {/* <SectionEleven /> */}
       <SectionTwelve />
       <Footer />
       </div>

@@ -1,12 +1,12 @@
 .nav {
-  padding-top:20px;
+  padding-top: 20px;
 }
 
 .navbar {
   background-color: #FFFFFF;
   box-shadow: 1px 1px 1px 1px #f0efef;
-  margin: 0px 50px 0px 50px;
-  padding: 15px 15px 15px 15px;
+  margin: 0px 50px;
+  padding: 15px;
   display: flex;
   justify-content: space-between;
   border-radius: 10px;
@@ -15,15 +15,51 @@
   z-index: 2;
 }
 
-.navlogo {}
+.navlinkdiv {
+  display: flex;
+  margin-left: 300px;
+  margin-top: -70px;
+  color: #000000;
+}
 
 .navlink {
   text-decoration: none;
-  margin-left: 6px;
-  margin-right: 6px;
+  margin: 0 6px;
   font-size: 16px;
   line-height: 18px;
-  color: #212121;
+  color: #000000;
+  position: relative;
+  z-index: 3;
+}
+
+.navlink2 {
+  text-decoration: none;
+  margin: 0 6px;
+  font-size: 16px;
+  line-height: 18px;
+  color: #000000;
+  position: relative;
+  z-index: 3;
+}
+
+.navlink3 {
+  text-decoration: none;
+  margin: 0 6px;
+  font-size: 16px;
+  line-height: 18px;
+  color: #000000;
+  position: relative;
+  z-index: 3;
+}
+
+.navlink4 {
+  text-decoration: none;
+  margin: 0 6px;
+  font-size: 16px;
+  line-height: 18px;
+  color: #000000;
+  position: relative;
+  z-index: 3;
 }
 
 .navlink:hover {
@@ -35,33 +71,681 @@
   display: flex;
 }
 
-.signin {
-  margin: 3px 5px 0px 5px;
+.signin, .usa, .cart {
+  margin: 0 5px;
 }
 
-.usa {
-    margin-left: 5px;
-    margin-right: 5px;
+.menutoggle {
+  background: none;
+  border: none;
+  cursor: pointer;
 }
 
-.cart {
-  margin-left: 5px;
-    margin-right: 5px;
+.toggle {
+  color: black;
+  width: 30px;
+  height: 30px;
+  display: none;
 }
 
-.button {
-  margin-top: 6px;
+.toggle2 {
+  color: black;
+  width: 30px;
+  height: 30px;
+  display: none;
 }
 
-.drops {
-  margin-top: 0px;
-}
-
-.slide {
-  display: flex;
-  justify-content: center;
-}
-
+/* Hide links on mobile by default */
 .links {
   display: flex;
 }
+
+
+
+
+.navLinks {
+  display: flex;
+  align-items: center;
+  background-color: none;
+  position: absolute;
+  top: 50px;
+  right: 0;
+  width: 100.01%;
+  padding: 1rem;
+  z-index: 2;
+  border-radius: 15px;
+}
+
+.navLinks.show {
+  display: flex; /* Show menu when toggle is active */
+}
+
+.toggleButton {
+  font-size: 1.5rem;
+  background: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 478px) {
+  .navbar {
+    width: 80%;
+  }
+
+  .links {
+    display: none; /* Hide links on mobile */
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .links.open {
+    display: flex; /* Show links when the menu is open */
+  }
+
+  .menutoggle {
+    display: flex; /* Show toggle button on mobile */
+    color: black;
+  }
+
+  .toggle {
+    display: flex;
+  }
+
+  .toggle2 {
+    display: flex;
+  }
+
+  .icons {
+    display: none; /* Hide icons on mobile */
+  }
+
+  .toggleButton {
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .navLinks {
+    display: none; 
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 50px;
+    right: 0;
+    width: 90%;
+    height: 100vh;
+    padding: 1rem;
+    position: relative;
+    z-index: 3;
+  }
+  
+  .navLinks.show {
+    display: flex;
+  }
+  
+  .toggleButton {
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .navlink1div {
+    margin-bottom: 70px;
+  }
+
+  .navlink {
+    position: relative;
+    z-index: 3;
+    font-size: 17px;
+    color: rgb(185, 124, 13);
+    font-weight: bold;
+  }
+
+  .navlink2div {
+    margin-bottom: 70px;
+  } 
+
+  .navlink2 {
+    position: relative;
+    z-index: 3;
+    font-size: 17px;
+    color: rgb(185, 124, 13);
+    font-weight: bold;
+    margin: 5px 0;
+  }
+
+  .navlink3div {
+    margin-bottom: 70px;
+  }
+
+  .navlink3 {
+    position: relative;
+    z-index: 3;
+    font-size: 17px;
+    color: rgb(185, 124, 13);
+    font-weight: bold;
+    margin: 5px 0;
+  }
+
+  .navlink4 {
+    position: relative;
+    z-index: 3;
+    font-size: 17px;
+    color: rgb(185, 124, 13);
+    font-weight: bold;
+  }
+
+  .navlinkdiv {
+    flex-direction: column;
+    margin-left: -100px;
+    margin-top: 0;
+    color: #000000;
+  }
+}
+
+
+@media only screen and (min-width: 479px) and (max-width: 600px) {
+  .navbar {
+    width: 82%;
+  }
+
+  .links {
+    display: none; /* Hide links on mobile */
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .links.open {
+    display: flex; /* Show links when the menu is open */
+  }
+
+  .menutoggle {
+    display: flex; /* Show toggle button on mobile */
+    color: black;
+  }
+
+  .toggle {
+    display: flex;
+  }
+
+  .toggle2 {
+    display: flex;
+  }
+
+  .icons {
+    display: none; /* Hide icons on mobile */
+  }
+
+  .toggleButton {
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .navLinks {
+    display: none; 
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 50px;
+    right: 0;
+    width: 90%;
+    height: 100vh;
+    padding: 1rem;
+    position: relative;
+    z-index: 3;
+  }
+  
+  .navLinks.show {
+    display: flex;
+  }
+  
+  .toggleButton {
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .navlink1div {
+    margin-bottom: 70px;
+  }
+
+  .navlink {
+    position: relative;
+    z-index: 3;
+    font-size: 17px;
+    color: rgb(185, 124, 13);
+    font-weight: bold;
+  }
+
+  .navlink2div {
+    margin-bottom: 70px;
+  } 
+
+  .navlink2 {
+    position: relative;
+    z-index: 3;
+    font-size: 17px;
+    color: rgb(185, 124, 13);
+    font-weight: bold;
+    margin: 5px 0;
+  }
+
+  .navlink3div {
+    margin-bottom: 70px;
+  }
+
+  .navlink3 {
+    position: relative;
+    z-index: 3;
+    font-size: 17px;
+    color: rgb(185, 124, 13);
+    font-weight: bold;
+    margin: 5px 0;
+  }
+
+  .navlink4 {
+    position: relative;
+    z-index: 3;
+    font-size: 17px;
+    color: rgb(185, 124, 13);
+    font-weight: bold;
+  }
+
+  .navlinkdiv {
+    flex-direction: column;
+    margin-left: -100px;
+    margin-top: 0;
+    color: #000000;
+  }
+}
+
+
+
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+  .navbar {
+    width: 84%;
+  }
+
+  .links {
+    display: none; /* Hide links on mobile */
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .links.open {
+    display: flex; /* Show links when the menu is open */
+  }
+
+  .menutoggle {
+    display: flex; /* Show toggle button on mobile */
+    color: black;
+  }
+
+  .toggle {
+    display: flex;
+  }
+
+  .toggle2 {
+    display: flex;
+  }
+
+  .icons {
+    display: none; /* Hide icons on mobile */
+  }
+
+  .toggleButton {
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .navLinks {
+    display: none; 
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 50px;
+    right: 0;
+    width: 90%;
+    height: 100vh;
+    padding: 1rem;
+    position: relative;
+    z-index: 3;
+  }
+  
+  .navLinks.show {
+    display: flex;
+  }
+  
+  .toggleButton {
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .navlink1div {
+    margin-bottom: 70px;
+  }
+
+  .navlink {
+    position: relative;
+    z-index: 3;
+    font-size: 19px;
+    color: rgb(185, 124, 13);
+    font-weight: bold;
+  }
+
+  .navlink2div {
+    margin-bottom: 70px;
+  } 
+
+  .navlink2 {
+    position: relative;
+    z-index: 3;
+    font-size: 19px;
+    color: rgb(185, 124, 13);
+    font-weight: bold;
+    margin: 5px 0;
+  }
+
+  .navlink3div {
+    margin-bottom: 70px;
+  }
+
+  .navlink3 {
+    position: relative;
+    z-index: 3;
+    font-size: 19px;
+    color: rgb(185, 124, 13);
+    font-weight: bold;
+    margin: 5px 0;
+  }
+
+  .navlink4 {
+    position: relative;
+    z-index: 3;
+    font-size: 19px;
+    color: rgb(185, 124, 13);
+    font-weight: bold;
+  }
+
+  .navlinkdiv {
+    flex-direction: column;
+    margin-left: -100px;
+    margin-top: 0;
+    color: #000000;
+  }
+}
+
+
+@media only screen and (min-width: 769px) and (max-width: 900px) {
+  .navbar {
+    width: 86%;
+  }
+
+  .links {
+    display: none; /* Hide links on mobile */
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .links.open {
+    display: flex; /* Show links when the menu is open */
+  }
+
+  .menutoggle {
+    display: flex; /* Show toggle button on mobile */
+    color: black;
+  }
+
+  .toggle {
+    display: flex;
+  }
+
+  .toggle2 {
+    display: flex;
+  }
+
+  .icons {
+    display: none; /* Hide icons on mobile */
+  }
+
+  .toggleButton {
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .navLinks {
+    display: none; 
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 50px;
+    right: 0;
+    width: 90%;
+    height: 100vh;
+    padding: 1rem;
+    position: relative;
+    z-index: 3;
+  }
+  
+  .navLinks.show {
+    display: flex;
+  }
+  
+  .toggleButton {
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .navlink1div {
+    margin-bottom: 70px;
+  }
+
+  .navlink {
+    position: relative;
+    z-index: 3;
+    font-size: 19px;
+    color: rgb(185, 124, 13);
+    font-weight: bold;
+  }
+
+  .navlink2div {
+    margin-bottom: 70px;
+  } 
+
+  .navlink2 {
+    position: relative;
+    z-index: 3;
+    font-size: 19px;
+    color: rgb(185, 124, 13);
+    font-weight: bold;
+    margin: 5px 0;
+  }
+
+  .navlink3div {
+    margin-bottom: 70px;
+  }
+
+  .navlink3 {
+    position: relative;
+    z-index: 3;
+    font-size: 19px;
+    color: rgb(185, 124, 13);
+    font-weight: bold;
+    margin: 5px 0;
+  }
+
+  .navlink4 {
+    position: relative;
+    z-index: 3;
+    font-size: 19px;
+    color: rgb(185, 124, 13);
+    font-weight: bold;
+  }
+
+  .navlinkdiv {
+    flex-direction: column;
+    margin-left: -100px;
+    margin-top: 0;
+    color: #000000;
+  }
+}
+
+
+@media only screen and (min-width: 901px) and (max-width: 1200px) {
+  .navbar {
+    width: 90%;
+  }
+
+  .links {
+    display: none; /* Hide links on mobile */
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .links.open {
+    display: flex; /* Show links when the menu is open */
+  }
+
+  .menutoggle {
+    display: flex; /* Show toggle button on mobile */
+    color: black;
+  }
+
+  .toggle {
+    display: flex;
+  }
+
+  .toggle2 {
+    display: flex;
+  }
+
+  .icons {
+    display: none; /* Hide icons on mobile */
+  }
+
+  .toggleButton {
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .navLinks {
+    display: none; 
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 50px;
+    right: 0;
+    width: 90%;
+    height: 100vh;
+    padding: 1rem;
+    position: relative;
+    z-index: 3;
+  }
+  
+  .navLinks.show {
+    display: flex;
+  }
+  
+  .toggleButton {
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .navlink1div {
+    margin-bottom: 70px;
+  }
+
+  .navlink {
+    position: relative;
+    z-index: 3;
+    font-size: 20px;
+    color: rgb(185, 124, 13);
+    font-weight: bold;
+  }
+
+  .navlink2div {
+    margin-bottom: 70px;
+  } 
+
+  .navlink2 {
+    position: relative;
+    z-index: 3;
+    font-size: 20px;
+    color: rgb(185, 124, 13);
+    font-weight: bold;
+    margin: 5px 0;
+  }
+
+  .navlink3div {
+    margin-bottom: 70px;
+  }
+
+  .navlink3 {
+    position: relative;
+    z-index: 3;
+    font-size: 20px;
+    color: rgb(185, 124, 13);
+    font-weight: bold;
+    margin: 5px 0;
+  }
+
+  .navlink4 {
+    position: relative;
+    z-index: 3;
+    font-size: 20px;
+    color: rgb(185, 124, 13);
+    font-weight: bold;
+  }
+
+  .navlinkdiv {
+    flex-direction: column;
+    margin-left: -100px;
+    margin-top: 0;
+    color: #000000;
+  }
+}
+
+
+
+

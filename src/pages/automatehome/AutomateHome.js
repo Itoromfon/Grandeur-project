@@ -15,11 +15,9 @@ function AutomateHome() {
        </div>
        <div>
         <div className={styles.imageContainer}>
-          <Image 
+          <img 
             src='/mp.png'
             alt='mp3 image'
-            width={298}
-            height={198}
             className={styles.mainimage}
           />
         </div>
@@ -86,11 +84,9 @@ function AutomateHome() {
        </div>
     </div>
     <div className={styles.bulbdiv}>
-      <Image 
+      <img 
         src='/bulb.png'
         alt='bulb'
-        width={426}
-        height={426}
         className={styles.imagebulb}
       />
     </div>

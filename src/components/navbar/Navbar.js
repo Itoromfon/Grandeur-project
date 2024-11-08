@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import "@/styles/Home.module.css";
@@ -6,6 +6,8 @@ import { Roboto } from 'next/font/google';
 import SearchBar from '../searchbar/SearchBar';
 import styles from './Navbar.module.css';
 import { motion } from 'framer-motion';
+import { FiMenu } from "react-icons/fi";
+import { FiX } from "react-icons/fi";
 
 const roboto = Roboto({
   weight: '400',
@@ -13,6 +15,26 @@ const roboto = Roboto({
 });
 
 function Navbar() {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const toggleMenu = () => setIsMenuOpen(prevState => !prevState)
+
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 768); // Adjust breakpoint as needed
+    };
+
+    // Initial check and event listener
+    handleResize();
+    window.addEventListener('resize', handleResize);
+
+    // Cleanup event listener on component unmount
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+
+
   return (
     <div className={roboto.className}>
       <div className={styles.nav}>
@@ -25,31 +47,54 @@ function Navbar() {
               height={32}
             />
           </div>
-          <div className={styles.link} style={{ display: "flex", gap: "20px" }}>
-            <motion.div 
-              whileHover={{ scale: 1.1 }} 
-              transition={{ type: "spring", stiffness: 300 }}
+
+          {/* Toggle button for Mobile Menu */}
+          <button onClick={toggleMenu} className={styles.menutoggle}>
+            {/* Use a suitable icon for toggle */}
+            {/* <FiMenu className={styles.toggle} /> */}
+            {isMenuOpen ? <FiX className={styles.toggle2} /> : <FiMenu className={styles.toggle} />}
+          </button>
+
+
+          
+          <div
+            className={`${styles.navLinks} ${isMenuOpen ? styles.show : ''}`}
+            // style={{
+            //   display: isMobile ? 'none' : 'flex', // Hide on mobile
+            //   flexDirection: isMobile ? 'column' : 'row', // Stack vertically on mobile
+            //   gap: isMobile ? '10px' : '20px', // Smaller gap on mobile
+            // }}
             >
-              <Link className={styles.navlink} href="/">Home</Link>
-            </motion.div>
-            <motion.div 
-              whileHover={{ scale: 1.1 }} 
+            <div className={styles.navlinkdiv}>
+            <motion.div
+              whileHover={{ scale: 1.1 }}
               transition={{ type: "spring", stiffness: 300 }}
+              className={styles.navlink1div}
             >
-              <Link className={styles.navlink} href="/product">Product</Link>
+            <Link className={styles.navlink} href="/">Home</Link>
             </motion.div>
-            <motion.div 
-              whileHover={{ scale: 1.1 }} 
+            <motion.div
+              whileHover={{ scale: 1.1 }}
               transition={{ type: "spring", stiffness: 300 }}
+              className={styles.navlink2div}
             >
-              <Link className={styles.navlink} href="/documentation">Documentation</Link>
+              <Link className={styles.navlink2} href="/product">Product</Link>
             </motion.div>
-            <motion.div 
-              whileHover={{ scale: 1.1 }} 
+            <motion.div
+              whileHover={{ scale: 1.1 }}
               transition={{ type: "spring", stiffness: 300 }}
+              className={styles.navlink3div}
             >
-              <Link className={styles.navlink} href="./integration/integration">Integration</Link>
+              <Link className={styles.navlink3} href="/documentation">Documentation</Link>
             </motion.div>
+            <motion.div
+              whileHover={{ scale: 1.1 }}
+              transition={{ type: "spring", stiffness: 300 }}
+              className={styles.navlink4div}
+            >
+              <Link className={styles.navlink4} href="/integration/integration">Integration</Link>
+            </motion.div>
+          </div>
           </div>
           <div className={styles.icons}>
             <div>
@@ -82,10 +127,10 @@ function Navbar() {
                 className={styles.cart}
               />
             </Link>
+            </div>
           </div>
         </div>
       </div>
-    </div>
   );
 }
 
@@ -103,7 +148,7 @@ export default Navbar;
 // import styles from './Navbar.module.css'
 // import { motion, AnimatePresence } from 'framer-motion';
 // // import { AiFillCaretDown } from "react-icons/ai"
- 
+
 // const roboto = Roboto({
 //   weight: '400',
 //   subsets: ['latin'],
@@ -116,7 +161,7 @@ export default Navbar;
 //         <div className={styles.navbar}>
 //           <div className={styles.navbarlogo}>
 //             <Image
-//               src="/grandeursmart.png" 
+//               src="/grandeursmart.png"
 //               alt="Grandeur Smart Logo"
 //               width={100}
 //               height={32}
@@ -134,7 +179,7 @@ export default Navbar;
 //               <SearchBar />
 //             </div>
 //             <Link href="#">
-//             <Image 
+//             <Image
 //                 src="/Group3.png"
 //                 alt='sign-in'
 //                 width={18.94}
@@ -143,7 +188,7 @@ export default Navbar;
 //               />
 //             </Link>
 //             <Link href="#">
-//               <Image 
+//               <Image
 //                 src="/usa.png"
 //                 alt="group3"
 //                 width={28}
@@ -152,7 +197,7 @@ export default Navbar;
 //               />
 //             </Link>
 //             <Link href="#">
-//               <Image 
+//               <Image
 //                 src="/cart.png"
 //                 alt="group3"
 //                 width={28}

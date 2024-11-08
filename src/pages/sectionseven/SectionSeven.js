@@ -15,11 +15,10 @@ function SectionSeven() {
             </p>
         </div>
        <div className={styles.smartwrap}>
-        <Image 
+        <img 
             src="/smart.png"
             alt='smart-device'
-            width={888}
-            height={590}
+            className={styles.smartwrapimg}
         />
         </div>
     </div>

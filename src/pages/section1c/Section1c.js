@@ -15,6 +15,7 @@ function Section1c() {
             and real time energy consumption tracking, helping reduce utility bills and enviromental impact.
           </p>
           <Link className={styles.link} href="/product">
+          <div className={styles.buttoncontainer}>
             <button 
               className={styles.button}
             >
@@ -22,6 +23,7 @@ function Section1c() {
                     Explore Product
                 </div>
             </button>
+            </div>
           </Link>
         </div>
       </div>

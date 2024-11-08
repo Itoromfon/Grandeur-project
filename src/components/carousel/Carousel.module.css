@@ -97,3 +97,18 @@
     background-color: rgba(0, 0, 0, 0.5); /* Adjust color and opacity */
     z-index: 1;
   }
+
+  @media only screen and (min-width: 320px) and (max-width: 478px) {
+    .section1 {
+      margin-right: 0;
+    }
+    .section2 {
+      margin-right: 0;
+    }
+    .section3 {
+      margin-right: 0;
+    }
+    .section4 {
+      margin-right: 0;
+    }
+  }

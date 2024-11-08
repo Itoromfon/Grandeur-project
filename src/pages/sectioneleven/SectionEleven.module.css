@@ -112,3 +112,13 @@
 .zigbeediv {
     display: flex;
 }
+
+@media only screen and (min-width: 320px) and (max-width: 478px) {
+    .grandeur {
+        margin-right: 0;
+    }
+
+    .rainbowimagediv {
+        margin-left: 0;
+    }
+}

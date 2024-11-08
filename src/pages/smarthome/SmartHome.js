@@ -7,23 +7,23 @@ function SmartHome() {
   return (
     <div className={styles.homediv}>
     <div className={styles.home}>
-            <div className={styles.div}>
-            <div className={styles.mainflex}> 
-            <div className={styles.main1}>
-            <div className={styles.main1content}>
-            <div className={styles.maindiv}>
-                <AiFillEnvironment 
-                    className={styles.environment}
-                />
-                <div className={styles.circlediv}>
-                    <FaCircle size={50} className={styles.circle} />
-                </div> 
-            </div>
-            <div className={styles.smartp}>
-                <p>Grandeur smart</p>
-            </div>
-            </div>
-            </div>
+        <div className={styles.div}>
+        <div className={styles.mainflex}> 
+        <div className={styles.main1}>
+        <div className={styles.main1content}>
+        <div className={styles.maindiv}>
+        <AiFillEnvironment 
+            className={styles.environment}
+        />
+        <div className={styles.circlediv}>
+            <FaCircle size={50} className={styles.circle} />
+        </div> 
+        </div>
+        <div className={styles.smartp}>
+            <p>Grandeur smart</p>
+        </div>
+        </div>
+        </div>
             <div className={styles.main2}>
             <div className={styles.main2content}>
             <div className={styles.maindiv}>
@@ -55,7 +55,7 @@ function SmartHome() {
             </div>
             </div>
             </div>
-            <div className={styles.mainflex}> 
+            <div className={styles.mainflex2}> 
             <div className={styles.main4}>
             <div className={styles.main4content}>
             <div className={styles.maindiv}>
@@ -102,7 +102,7 @@ function SmartHome() {
             </div>
             </div>
             </div>
-            <div className={styles.mainflex}> 
+            <div className={styles.mainflex3}> 
             <div className={styles.main7}>
             <div className={styles.main7content}>
             <div className={styles.maindiv}>

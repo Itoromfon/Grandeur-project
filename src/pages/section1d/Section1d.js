@@ -15,6 +15,7 @@ function Section1d() {
             allowing users to manage their devices hands free.
           </p>
           <Link href="/product">
+          <div className={styles.buttoncontainer}>
             <button 
               className={styles.button}
             >
@@ -22,6 +23,7 @@ function Section1d() {
                     Explore Product
                 </div>
             </button>
+            </div>
           </Link>
         </div>
       </div>

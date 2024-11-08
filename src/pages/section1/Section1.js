@@ -42,6 +42,7 @@ function Section1() {
           variants={variants}
           initial="hidden"
           animate="show"
+          className={styles.textdiv}
         >
           <motion.h1 
             className={styles.h1main}
@@ -60,6 +61,7 @@ function Section1() {
             href="/product"
             variants={images}
           >
+            <div className={styles.buttoncontainer}>
             <button 
               className={styles.button}
             >
@@ -67,27 +69,26 @@ function Section1() {
                     Explore Product
                 </div>
             </button>
+            </div>
           </motion.a>
         </motion.div>
       </motion.div>
-      <motion.div 
-        variants={variants}
-        initial="hidden"
-        animate="show"
-        className={styles.gadget}>
-         <motion.img 
+      <div className={styles.gadget}>
+         <Image 
           src="/phone.png"
           alt="Grandeur-smart phone"
-          className={styles.phone}
-          variants={images}
+          width={160}
+          height={215}
+          className={styles.smartphone}
         />
-        <motion.img 
+        <Image 
           src="/laptop.png"
           alt="Grandeur-smart phone"
+          width={480}
+          height={288}
           className={styles.laptop}
-          variants={images}
         />
-      </motion.div>
+      </div>
       </div>
     </div>
   )

@@ -1,5 +1,6 @@
 .section1 {
     display: flex;
+    z-index: 2;
 }
 
 .section1x {
@@ -8,28 +9,17 @@
 }
 
 .h1main {
-    background-image: linear-gradient(90deg, #eef0ee, #e9f2ea);
+    background-image: linear-gradient(90deg, #5C755E, #78A67C);
     background-clip: text;
     -webkit-background-clip: text; /* For WebKit browsers */
-    color: transparent;
     font-size: 55px;
-    font-weight: 700;
+    font-weight: 900;
     margin-bottom: 0px;
     letter-spacing: 3px;
     position: relative;
-    z-index: 2;
+    z-index: 2; /* Make sure text is above the overlay */
     animation: backgroundPop 4s ease-in-out infinite;
-}
-
-.p1main {
-    font-size: 16px;
-    font-weight: 400;
-    margin-bottom: 20px;
-    width: 70%;
-    position: relative;
-    z-index: 2;
     color: #FFFFFF;
-    animation: backgroundPop 4s ease-in-out infinite;
 }
 
 @keyframes backgroundPop {
@@ -38,13 +28,24 @@
       background-position: center; /* Normal position */
     }
     50% {
-      transform: scale(1.1); /* Pop-up effect: enlarge */
+      transform: scale(1.05); /* Pop-up effect: enlarge */
       background-position: center; /* Keep the image centered */
     }
     100% {
       transform: scale(1); /* Return to normal size */
       background-position: center; /* Normal position */
     }
+}
+
+.p1main {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    width: 70%;
+    position: relative;
+    z-index: 2; /* Make sure text is above the overlay */
+    animation: backgroundPop 4s ease-in-out infinite;
+    color: #FFFFFF;
 }
 
 .button {
@@ -57,7 +58,6 @@
     position: relative;
     z-index: 2; /* Make sure text is above the overlay */
     animation: backgroundPop 4s ease-in-out infinite;
-    
 }
 
 .button:hover {
@@ -75,6 +75,7 @@
     position: relative;
     z-index: 2; /* Make sure text is above the overlay */
 }
+
 .gadget {
     display: flex;
     margin: 70px 50px 90px 0px;
@@ -84,4 +85,217 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.phone {
+    width: 160px;
+    height: 215px;
+}
+
+.laptop {
+    width: 480px;
+    height: 220px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 478px) {
+    /* .section1 {
+        max-width: 100%;
+    } */
+
+    .section1 {
+        flex-direction: column;
+    }
+
+    /* .textdiv {
+        margin: auto;
+    } */
+
+    .h1main {
+        font-size: 30px;
+        text-align: center;
+        margin: 0 auto;
+        width: 100%; 
+        max-width: 90%; 
+        color: #FFFFFF;
+    }
+
+    .p1main {
+        font-size: 16px;
+        text-align: center;
+        margin: 0 auto;
+        width: 100%; 
+        max-width: 90%; 
+        color: #FFFFFF;
+        margin-bottom: 17px;
+    }
+
+    .gadget {
+        visibility: hidden;
+    }
+
+    .buttoncontainer {
+        display: flex;
+        justify-content: center; /* Centers horizontally */
+        align-items: center;
+    }
+
+    .button {
+        padding: 12px 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .buttontext {
+        font-size: 14px;
+        color: #FFFFFF;
+        font-weight: 700;
+        letter-spacing: 2px;
+        position: relative;
+        z-index: 2; /* Make sure text is above the overlay */
+    }
+}
+
+@media only screen and (min-width: 479px) and (max-width: 600px) {
+    .section1 {
+        flex-direction: column;
+    }
+
+    .h1main {
+        font-size: 30px;
+        text-align: center;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 90%;
+    }
+
+    .p1main {
+        font-size: 16px;
+        text-align: center;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 90%;
+        margin-bottom: 17px;
+    }
+
+    .gadget {
+        visibility: hidden;
+    }
+
+    .buttoncontainer {
+        display: flex;
+        justify-content: center; /* Centers horizontally */
+        align-items: center;
+    }
+
+    .button {
+        padding: 12px 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .buttontext {
+        font-size: 14px;
+        color: #FFFFFF;
+        font-weight: 700;
+        letter-spacing: 2px;
+        position: relative;
+        z-index: 2; /* Make sure text is above the overlay */
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+    .section1 {
+        flex-direction: column;
+    }
+
+    .h1main {
+        font-size: 30px;
+        text-align: center;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 90%;
+    }
+
+    .p1main {
+        font-size: 16px;
+        text-align: center;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 90%;
+        margin-bottom: 17px;
+    }
+
+    .gadget {
+        visibility: hidden;
+    }
+
+    .buttoncontainer {
+        display: flex;
+        justify-content: center; /* Centers horizontally */
+        align-items: center;
+    }
+
+    .button {
+        padding: 12px 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .buttontext {
+        font-size: 14px;
+        color: #FFFFFF;
+        font-weight: 700;
+        letter-spacing: 2px;
+        position: relative;
+        z-index: 2; /* Make sure text is above the overlay */
+    }
+}
+
+
+@media only screen and (min-width: 901px) and (max-width: 1200px) {
+    .section1 {
+        flex-direction: column;
+    }
+
+    .h1main {
+        font-size: 50px;
+        text-align: center;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 90%;
+    }
+
+    .p1main {
+        font-size: 24px;
+        text-align: center;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 90%;
+        margin-bottom: 67px;
+    }
+
+    .gadget {
+        visibility: hidden;
+    }
+
+    .buttoncontainer {
+        display: flex;
+        justify-content: center; /* Centers horizontally */
+        align-items: center;
+    }
+
+    .button {
+        padding: 20px 30px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .buttontext {
+        font-size: 17px;
+        color: #FFFFFF;
+        font-weight: 700;
+        letter-spacing: 2px;
+        position: relative;
+        z-index: 2; /* Make sure text is above the overlay */
+    }
 }
