@@ -24,3 +24,197 @@
   width: 670px;
   height: 200px;
 }
+
+.smartadapter {
+  width: 270px;
+  height: 270px;
+}
+
+.motionsensor {
+  width: 270px;
+  height: 270px;
+}
+
+.smartmotor {
+  width: 270px;
+  height: 270px;
+}
+
+.smartdoorbell {
+  width: 270px;
+  height: 270px;
+}
+
+.smartdevice {
+  width: 270px;
+  height: 270px;
+}
+
+.text {
+  color: rgb(8, 123, 8);
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .smartadapter {
+    width: 270px;
+    height: 180px;
+  }
+  
+  .motionsensor {
+    width: 270px;
+    height: 180px;
+  }
+  
+  .smartmotor {
+    width: 270px;
+    height: 180px;
+  }
+  
+  .smartdoorbell {
+    width: 270px;
+    height: 180px;
+  }
+  
+  .smartdevice {
+    width: 270px;
+    height: 180px;
+  }
+
+  .text {
+    font-size: 13px;
+  }
+  
+}
+
+
+@media only screen and (min-width: 481px) and (max-width: 600px) {
+  .smartadapter {
+    width: 270px;
+    height: 185px;
+  }
+  
+  .motionsensor {
+    width: 270px;
+    height: 185px;
+  }
+  
+  .smartmotor {
+    width: 270px;
+    height: 185px;
+  }
+  
+  .smartdoorbell {
+    width: 270px;
+    height: 185px;
+  }
+  
+  .smartdevice {
+    width: 270px;
+    height: 185px;
+  }
+
+  .text {
+    font-size: 14px;
+  }
+  
+}
+
+
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+  .smartadapter {
+    width: 270px;
+    height: 188px;
+  }
+  
+  .motionsensor {
+    width: 270px;
+    height: 188px;
+  }
+  
+  .smartmotor {
+    width: 270px;
+    height: 188px;
+  }
+  
+  .smartdoorbell {
+    width: 270px;
+    height: 188px;
+  }
+  
+  .smartdevice {
+    width: 270px;
+    height: 188px;
+  }
+
+  .text {
+    font-size: 15px;
+  } 
+}
+
+@media only screen and (min-width: 769px) and (max-width: 900px) {
+  .smartadapter {
+    width: 270px;
+    height: 191px;
+  }
+  
+  .motionsensor {
+    width: 270px;
+    height: 191px;
+  }
+  
+  .smartmotor {
+    width: 270px;
+    height: 191px;
+  }
+  
+  .smartdoorbell {
+    width: 270px;
+    height: 191px;
+  }
+  
+  .smartdevice {
+    width: 270px;
+    height: 191px;
+  }
+
+  .text {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1200px) {
+  .smartadapter {
+    width: 270px;
+    height: 200px;
+  }
+  
+  .motionsensor {
+    width: 270px;
+    height: 200px;
+  }
+  
+  .smartmotor {
+    width: 270px;
+    height: 200px;
+  }
+  
+  .smartdoorbell {
+    width: 270px;
+    height: 200px;
+  }
+  
+  .smartdevice {
+    width: 270px;
+    height: 200px;
+  }
+
+  .text {
+    font-size: 17px;
+  }
+  
+}
+
+
+
+
+

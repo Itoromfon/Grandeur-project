@@ -108,7 +108,60 @@
     margin-top: -250px;
 }
 
-@media only screen and (min-width: 320px) and (max-width: 478px) {
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    .mphead {
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    .mphead2 {
+        font-size: 25px;
+    }
+
+    .mpdiv {
+        flex-direction: column;
+        margin-top: 400px;
+    }
+
+    .bulbdiv {
+        visibility: hidden;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 600px) {
+    .mpdiv {
+        flex-direction: column;
+        margin-top: 400px;
+    }
+
+    .bulbdiv {
+        visibility: hidden;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+    .mpdiv {
+        flex-direction: column;
+        margin-top: 400px;
+    }
+
+    .bulbdiv {
+        visibility: hidden;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 900px) {
+    .mpdiv {
+        flex-direction: column;
+        margin-top: 400px;
+    }
+
+    .bulbdiv {
+        visibility: hidden;
+    }
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1200px) {
     .mpdiv {
         flex-direction: column;
         margin-top: 400px;

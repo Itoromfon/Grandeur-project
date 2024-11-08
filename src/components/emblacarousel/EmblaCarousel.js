@@ -23,99 +23,130 @@ export default function EmblaCarousel() {
         <div className={styles.emblaviewport} ref={emblaRef}>
         <div className={styles.emblacontainer}>
             <div className={styles.emblaslide}>
-                <Image 
-                    src='/smartadapter.png'
-                    alt='smart device'
-                    width={270}
-                    height={501}
-                />
-                <Image 
-                    src='/motionsensor.png'
-                    alt='smart device'
-                    width={270}
-                    height={501}
-                />
-                <Image 
-                    src='/smartmotor.png'
-                    alt='smart device'
-                    width={270}
-                    height={501}
-                />
-                <Image 
-                    src='/smartdoorbell.png'
-                    alt='smart device'
-                    width={270}
-                    height={501}
-                />
-                <Image 
-                    src='/smartlock.png'
-                    alt='smart device'
-                    width={270}
-                    height={501}
-                />
-            </div>
-            <div className={styles.emblaslide}>
-                <Image 
-                    src='/smartadapter.png'
-                    alt='smart device'
-                    width={270}
-                    height={501}
-                />
-                <Image 
-                    src='/motionsensor.png'
-                    alt='smart device'
-                    width={270}
-                    height={501}
-                />
-                <Image 
-                    src='/smartmotor.png'
-                    alt='smart device'
-                    width={270}
-                    height={501}
-                />
-                <Image 
-                    src='/smartdoorbell.png'
-                    alt='smart device'
-                    width={270}
-                    height={501}
-                />
-                <Image 
-                    src='/smartlock.png'
-                    alt='smart device'
-                    width={270}
-                    height={501}
-                />
-            </div>
-            <div className={styles.emblaslide}>
+                <div>
                 <img 
                     src='/smartadapter.png'
                     alt='smart device'
-                    className={styles.adapter}
-                />
-                <Image 
+                    className={styles.smartadapter}
+                    />
+                    <p className={styles.text}>Smart Adapter</p>
+                </div>
+                <div>
+                <img 
                     src='/motionsensor.png'
                     alt='smart device'
-                    width={270}
-                    height={501}
+                    className={styles.motionsensor}
                 />
-                <Image 
+                <p className={styles.text}>Motion Sensor</p>
+                </div>
+                <div>
+                <img 
                     src='/smartmotor.png'
                     alt='smart device'
-                    width={270}
-                    height={501}
+                    className={styles.smartmotor}
                 />
-                <Image 
+                <p className={styles.text}>Smart Motor</p>
+                </div>
+                <div>
+                <img
                     src='/smartdoorbell.png'
                     alt='smart device'
-                    width={270}
-                    height={501}
+                    className={styles.smartdoorbell}
                 />
-                <Image 
+                <p className={styles.text}>Smart Doorbell</p>
+                </div>
+                <div>
+                <img 
                     src='/smartlock.png'
                     alt='smart device'
-                    width={270}
-                    height={501}
+                    className={styles.smartdevice}
                 />
+                <p className={styles.text}>Smart Device</p>
+                </div>
+            </div>
+            <div className={styles.emblaslide}>
+                <div>
+                <img 
+                    src='/smartadapter.png'
+                    alt='smart device'
+                    className={styles.smartadapter}
+                    />
+                    <p className={styles.text}>Smart Adapter</p>
+                </div>
+                <div>
+                <img 
+                    src='/motionsensor.png'
+                    alt='smart device'
+                    className={styles.motionsensor}
+                />
+                <p className={styles.text}>Motion Sensor</p>
+                </div>
+                <div>
+                <img 
+                    src='/smartmotor.png'
+                    alt='smart device'
+                    className={styles.smartmotor}
+                />
+                <p className={styles.text}>Smart Motor</p>
+                </div>
+                <div>
+                <img
+                    src='/smartdoorbell.png'
+                    alt='smart device'
+                    className={styles.smartdoorbell}
+                />
+                <p className={styles.text}>Smart Doorbell</p>
+                </div>
+                <div>
+                <img 
+                    src='/smartlock.png'
+                    alt='smart device'
+                    className={styles.smartdevice}
+                />
+                <p className={styles.text}>Smart Device</p>
+                </div>
+            </div>
+            <div className={styles.emblaslide}>
+                <div>
+                <img 
+                    src='/smartadapter.png'
+                    alt='smart device'
+                    className={styles.smartadapter}
+                    />
+                    <p className={styles.text}>Smart Adapter</p>
+                </div>
+                <div>
+                <img 
+                    src='/motionsensor.png'
+                    alt='smart device'
+                    className={styles.motionsensor}
+                />
+                <p className={styles.text}>Motion Sensor</p>
+                </div>
+                <div>
+                <img 
+                    src='/smartmotor.png'
+                    alt='smart device'
+                    className={styles.smartmotor}
+                />
+                <p className={styles.text}>Smart Motor</p>
+                </div>
+                <div>
+                <img
+                    src='/smartdoorbell.png'
+                    alt='smart device'
+                    className={styles.smartdoorbell}
+                />
+                <p className={styles.text}>Smart Doorbell</p>
+                </div>
+                <div>
+                <img 
+                    src='/smartlock.png'
+                    alt='smart device'
+                    className={styles.smartdevice}
+                />
+                <p className={styles.text}>Smart Device</p>
+                </div>
             </div>
         </div>
 

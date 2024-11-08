@@ -312,7 +312,7 @@
 
     .homeh1 {
         font-size: 20px;
-        width: 105%;
+        width: 120%;
         line-height: 27px;
         margin-bottom: 20px;
         margin-top: 70px;
@@ -320,12 +320,12 @@
 
     .homep {
         font-size: 16px;
-        width: 105%;
+        width: 120%;
     }
 
     .smartdiv {
-        margin: auto;
-        text-align: center;
+        margin: auto; 
+        margin-right: 60px;
     }
 
     /* .div {
@@ -369,7 +369,7 @@
 
     .homeh1 {
         font-size: 21px;
-        width: 110%;
+        width: 120%;
         line-height: 30px;
         margin-bottom: 20px;
         margin-top: 70px;
@@ -377,12 +377,13 @@
 
     .homep {
         font-size: 18px;
-        width: 110%;
+        width: 120%;
     }
 
     .smartdiv {
         margin: auto;
         text-align: center;
+        margin-right: 60px;
     }
 
     /* .div {
@@ -426,7 +427,7 @@
 
     .homeh1 {
         font-size: 22px;
-        width: 110%;
+        width: 130%;
         line-height: 32px;
         margin-bottom: 20px;
         margin-top: 70px;
@@ -434,12 +435,13 @@
 
     .homep {
         font-size: 19px;
-        width: 110%;
+        width: 130%;
     }
 
     .smartdiv {
         margin: auto;
         text-align: center;
+        margin-right: 60px;
     }
 
     /* .div {
@@ -497,6 +499,7 @@
     .smartdiv {
         margin: auto;
         text-align: center;
+        margin-right: 60px;
     }
 
     /* .div {
@@ -554,6 +557,7 @@
     .smartdiv {
         margin: auto;
         text-align: center;
+        margin-right: 60px;
     }
 
     /* .div {
