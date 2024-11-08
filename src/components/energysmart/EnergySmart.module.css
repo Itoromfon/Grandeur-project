@@ -46,16 +46,6 @@
     animation: backgroundPop 4s ease-in-out infinite;
 }
 
-
-
-
-
-
-
-
-
-
-
 @keyframes backgroundPop {
     0% {
       transform: scale(1); /* Start with normal size */
@@ -69,4 +59,95 @@
       transform: scale(1); /* Return to normal size */
       background-position: center; /* Normal position */
     }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .monitor {
+    font-size: 35px;
+    width: 70%;
+    margin: auto;
+  }
+
+  .smarth1 {
+    font-size: 30px;
+  }
+
+  .smartp {
+    font-size: 16px;
+    width: 80%;
+    line-height: 30px;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 600px) {
+  .monitor {
+    font-size: 37px;
+    width: 75%;
+    margin: auto;
+  }
+
+  .smarth1 {
+    font-size: 32px;
+  }
+
+  .smartp {
+    font-size: 18px;
+    width: 80%;
+    line-height: 30px;
+  }
+}
+
+
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+  .monitor {
+    font-size: 39px;
+    width: 80%;
+    margin: auto;
+  }
+
+  .smarth1 {
+    font-size: 34px;
+  }
+
+  .smartp {
+    font-size: 20px;
+    width: 80%;
+    line-height: 30px;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 900px) {
+  .monitor {
+    font-size: 40px;
+    width: 80%;
+    margin: auto;
+  }
+
+  .smarth1 {
+    font-size: 35px;
+  }
+
+  .smartp {
+    font-size: 20px;
+    width: 80%;
+    line-height: 30px;
+  }
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1200px) {
+  .monitor {
+    font-size: 42px;
+    width: 80%;
+    margin: auto;
+  }
+
+  .smarth1 {
+    font-size: 37px;
+  }
+
+  .smartp {
+    font-size: 22px;
+    width: 80%;
+    line-height: 30px;
+  }
 }

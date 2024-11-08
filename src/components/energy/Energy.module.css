@@ -40,12 +40,107 @@
     display: flex;
 }
 
-@media only screen and (min-width: 320px) and (max-width: 478px) {
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .main {
+    margin: auto;
+  }
+
   .energy {
     flex-direction: column;
   }
 
   .energyh1 {
-    font-size: 50px;
+    font-size: 30px;
+    line-height: 35px;
+    margin: auto;
+  }
+
+  .energyimg {
+    width: 1000px;
+    height: 600px;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 600px) {
+  .main {
+    margin: auto;
+  }
+
+  .energy {
+    flex-direction: column;
+  }
+
+  .energyh1 {
+    font-size: 30px;
+    line-height: 35px;
+    margin: auto;
+  }
+
+  .energyimg {
+    width: 1000px;
+    height: 600px;
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+  .main {
+    margin: auto;
+  }
+
+  .energy {
+    flex-direction: column;
+  }
+
+  .energyh1 {
+    font-size: 30px;
+    line-height: 35px;
+    margin: auto;
+  }
+
+  .energyimg {
+    width: 1000px;
+    height: 600px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 900px) {
+  .main {
+    margin: auto;
+  }
+
+  .energy {
+    flex-direction: column;
+  }
+
+  .energyh1 {
+    font-size: 30px;
+    line-height: 35px;
+    margin: auto;
+  }
+
+  .energyimg {
+    width: 1000px;
+    height: 600px;
+  }
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1200px) {
+  .main {
+    margin: auto;
+  }
+
+  .energy {
+    flex-direction: column;
+  }
+
+  .energyh1 {
+    font-size: 30px;
+    line-height: 35px;
+    margin: auto;
+  }
+
+  .energyimg {
+    width: 1000px;
+    height: 600px;
   }
 }
