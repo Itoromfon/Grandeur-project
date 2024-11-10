@@ -1,0 +1,32 @@
+.maincontainer {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.main {
+    position: fixed;    /* Corresponds to 'fixed' */
+    height: 100%;       /* Corresponds to 'h-full' */
+    width: 100%;        /* Corresponds to 'w-full' */
+    background-color: transparent; 
+}
+
+/* .maintext {
+    flex: 1;
+    overflow-y: auto;
+} */
+
+.form {
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    margin-top: 450px;
+    position: relative;
+}
+
+.textarae {
+    width: 100%;
+    font-size: 1.125rem;
+}

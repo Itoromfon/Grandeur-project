@@ -42,6 +42,11 @@
   z-index: 3;
 }
 
+.navlink2:hover {
+  color: rgb(0, 81, 255);
+  font-weight: bold;
+}
+
 .navlink3 {
   text-decoration: none;
   margin: 0 6px;
@@ -52,6 +57,11 @@
   z-index: 3;
 }
 
+.navlink3:hover {
+  color: rgb(0, 81, 255);
+  font-weight: bold;
+}
+
 .navlink4 {
   text-decoration: none;
   margin: 0 6px;
@@ -60,6 +70,11 @@
   color: #000000;
   position: relative;
   z-index: 3;
+}
+
+.navlink4:hover {
+  color: rgb(0, 81, 255);
+  font-weight: bold;
 }
 
 .navlink:hover {

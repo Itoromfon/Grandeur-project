@@ -1,8 +1,6 @@
-/* styles/globals.css */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 
 .nav {
   padding-top:20px;
@@ -68,5 +66,11 @@ p {
 .slide {
   display: flex;
   justify-content: center;
+}
+
+@layer base {
+  :root {
+    --radius:0.5rem;
+  }
 }
 
