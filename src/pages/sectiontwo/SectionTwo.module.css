@@ -25,7 +25,7 @@
     background-image: linear-gradient(90deg, #5C755E, #78A67C);
     background-clip: text;
     -webkit-background-clip: text; /* For WebKit browsers */
-    color: transparent;
+    color: #5C755E;
     font-size: 55px;
     font-weight: 700;
     margin-bottom: 0px;
@@ -36,14 +36,14 @@
 .mphead2 {
     font-size: 36px;
     font-weight: 700;
-    color: rgb(185, 124, 13);
+    color: #5C755E;
 }
 
 .mptext {
     font-size: 15px;
     font-weight: 400;
     margin-bottom: 20px;
-    color: rgb(185, 124, 13);
+    color: #5C755E;
 }
 
 .mpdiv {
@@ -75,13 +75,13 @@
     font-size: 16px;
     font-weight: 500;
     font-weight: bold;
-    color: rgb(8, 123, 8);
+    color: #5C755E;
 }
 
 .detectiontext2 {
     font-size: 16px;
     font-weight: 400;
-    color: rgb(8, 123, 8);
+    color: #5C755E;
 }
 
 .maindetection {
@@ -117,7 +117,6 @@
         font-size: 30px;
         line-height: 30px;
         margin-bottom: 15px;
-        color: rgb(8, 123, 8);
     }
 
     .mphead2 {
@@ -140,11 +139,11 @@
     }
 
     .mphead2 {
-        color: rgb(8, 123, 8);
+        /* color: rgb(8, 123, 8); */
     }
 
     .mptext {
-        color: rgb(8, 123, 8);
+        /* color: rgb(8, 123, 8); */
     }
 }
 

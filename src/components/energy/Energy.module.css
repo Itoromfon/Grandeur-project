@@ -1,5 +1,8 @@
 .main {
     margin: 0 50px;
+    background-color: #5C755E;
+    padding-bottom: 200px;
+    z-index: 2;
 }
 
 .energydiv {
@@ -9,7 +12,7 @@
 .energyh1 {
     font-size: 70px;
     font-weight: 900;
-    color: rgb(185, 124, 13);
+    color: #5C755E;
     letter-spacing: 1px;
     line-height: 80px;
     width: 80%;

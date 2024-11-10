@@ -383,7 +383,8 @@
 
     .play {
         display: flex;
-        margin: auto;
+        justify-content: center;
+        margin-left: 0;
         margin-top: 15px;
     }
 }
@@ -468,7 +469,8 @@
 
     .play {
         display: flex;
-        margin: auto;
+        justify-content: center;
+        margin-left: 0;
         margin-top: 15px;
     }
 }
@@ -552,7 +554,8 @@
 
     .play {
         display: flex;
-        margin: auto;
+        justify-content: center;
+        margin-left: 0;
         margin-top: 15px;
     }
 }
@@ -636,7 +639,8 @@
 
     .play {
         display: flex;
-        margin: auto;
+        justify-content: center;
+        margin-left: 0;
         margin-top: 15px;
     }
 }
@@ -721,7 +725,8 @@
 
     .play {
         display: flex;
-        margin: auto;
+        justify-content: center;
+        margin-left: 0;
         margin-top: 15px;
     }
 }

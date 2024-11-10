@@ -24,7 +24,7 @@
     font-size: 20px;
     margin-left: 50px;
     width: 80%;
-    color: rgb(8, 123, 8);
+    color: #5C755E;
     animation: backgroundPop 4s ease-in-out infinite;
 }
 
@@ -58,7 +58,7 @@
 
 .icon {
     font-size: 45px;
-    color: rgb(8, 123, 8);
+    color: #5C755E;
 }
 
 .div {
@@ -80,7 +80,7 @@
 .downarrow {
     font-size: 40px;
     text-align: center;
-    color: rgb(8, 123, 8);
+    color: #5C755E;
     animation: backgroundPop 4s ease-in-out infinite;
 }
 

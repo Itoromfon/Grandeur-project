@@ -12,8 +12,8 @@ const EnergyChart = () => {
       {
         label: 'Temperature (°C)',
         data: [15, 17, 20, 22, 19, 18, 16],
-        borderColor: 'rgba(8, 123, 8)', // Line color
-        backgroundColor: 'rgba(8, 123, 8)', // Fill under line
+        borderColor: '#5C755E', // Line color
+        backgroundColor: '#5C755E', // Fill under line
         yAxisID: 'y1',
       },
       {
@@ -32,7 +32,7 @@ const EnergyChart = () => {
       legend: { 
         position: 'top', 
         labels: { 
-          color: 'rgb(8, 123, 8)', // Legend text color
+          color: '#5C755E', // Legend text color
           font: { size: 14 }
         }
       },
@@ -40,7 +40,7 @@ const EnergyChart = () => {
         display: true, 
         text: 'Temperature and Humidity Over Time', 
         font: { size: 20 },
-        color: 'rgb(8, 123, 8)'
+        color: '#5C755E'
       },
       tooltip: {
         backgroundColor: 'rgba(0, 0, 0, 0.8)', // Dark tooltip background
@@ -54,14 +54,14 @@ const EnergyChart = () => {
         position: 'left',
         title: { display: true, text: 'Temperature (°C)', color: 'rgb(185, 124, 13)' },
         ticks: {
-          color: 'rgb(8, 123, 8)',
+          color: '#5C755E',
           callback: (value) => `${value}°C`,
         },
       },
       y2: {
         type: 'linear',
         position: 'right',
-        title: { display: true, text: 'Humidity (%)', color: 'rgb(8, 123, 8)' },
+        title: { display: true, text: 'Humidity (%)', color: '#5C755E' },
         ticks: {
           color: 'rgb(185, 124, 13)',
           callback: (value) => `${value}%`,
