@@ -1,53 +1,87 @@
-import React, { useEffect, useMemo, useState } from "react";
-import Particles from "react-tsparticles";
-import { loadFull } from "tsparticles"; // Use loadFull for full feature set
+import { useEffect, useRef } from 'react';
 
-const ParticlesBackground = (props) => {
-  const [init, setInit] = useState(false);
+const CanvasParticles = () => {
+  const canvasRef = useRef(null);
 
-  // Initialize particles engine only once when the component mounts
   useEffect(() => {
-    const initParticles = async () => {
-      try {
-        await loadFull(); // Initialize full particles library
-        setInit(true); // Update state once initialization is complete
-      } catch (error) {
-        console.error("Error loading particles:", error);
+    const canvas = canvasRef.current;
+    const context = canvas.getContext('2d');
+
+    // Set canvas dimensions to match the viewport
+    const resizeCanvas = () => {
+      canvas.width = window.innerWidth;
+      canvas.height = window.innerHeight;
+    };
+    resizeCanvas(); // Set initial canvas size
+
+    window.addEventListener('resize', resizeCanvas); // Adjust canvas size on window resize
+
+    const particlesArray = [];
+    const numberOfParticles = 100;
+    const colors = ['rgb(215, 208, 192)', '#bac1ba']; // Array of colors
+
+    class Particle {
+      constructor() {
+        this.x = Math.random() * canvas.width;
+        this.y = Math.random() * canvas.height;
+        this.size = Math.random() * 5 + 1;
+        this.speedX = Math.random() * 3 - 1.5;
+        this.speedY = Math.random() * 3 - 1.5;
+        this.color = colors[Math.floor(Math.random() * colors.length)]; // Randomly assign color
+      }
+      update() {
+        this.x += this.speedX;
+        this.y += this.speedY;
+
+        // Reposition particle if it goes out of bounds
+        if (this.x > canvas.width || this.x < 0) this.speedX *= -1;
+        if (this.y > canvas.height || this.y < 0) this.speedY *= -1;
+      }
+      draw() {
+        context.fillStyle = this.color; // Use particle's color
+        context.beginPath();
+        context.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+        context.closePath();
+        context.fill();
+      }
+    }
+
+    const init = () => {
+      for (let i = 0; i < numberOfParticles; i++) {
+        particlesArray.push(new Particle());
       }
     };
 
-    initParticles(); // Initialize particles
+    const animate = () => {
+      context.clearRect(0, 0, canvas.width, canvas.height);
+      particlesArray.forEach((particle) => {
+        particle.update();
+        particle.draw();
+      });
+      requestAnimationFrame(animate);
+    };
+
+    init();
+    animate();
+
+    return () => {
+      window.removeEventListener('resize', resizeCanvas); // Clean up resize event
+    };
   }, []);
 
-  const particlesLoaded = (container) => {
-    console.log(container); // Optionally log the container when particles are loaded
-  };
-
-  const options = useMemo(
-    () => ({
-      background: {
-        color: { value: "#1E2F97" },
-      },
-      particles: {
-        number: { value: 100 }, // Start with a smaller number of particles
-        move: { enable: true, speed: 1 },
-      },
-      detectRetina: true,
-    }),
-    []
-  );
-
   return (
-    <div>
-      {init && (
-        <Particles
-          id={props.id} // Use unique ID passed via props
-          init={particlesLoaded} // Optionally log when particles are loaded
-          options={options} // Pass the particle configuration
-        />
-      )}
-    </div>
+    <canvas
+      ref={canvasRef}
+      style={{
+        position: 'fixed',
+        top: 0,
+        left: 0,
+        width: '100vw', // Full viewport width
+        height: '100vh', // Full viewport height
+        zIndex: -1,      // Behind other elements
+      }}
+    />
   );
 };
 
-export default ParticlesBackground;
+export default CanvasParticles;

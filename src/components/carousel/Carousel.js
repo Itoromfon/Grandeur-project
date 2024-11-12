@@ -20,6 +20,7 @@ const Carousel = () => {
   };
 
   return (
+    <div className={styles.main}>
     <Slider {...settings}>
       <div className={styles.section1}>
         <Navbar />
@@ -38,6 +39,7 @@ const Carousel = () => {
         <Section1d />
       </div>
     </Slider>
+    </div>
   );
 };
 

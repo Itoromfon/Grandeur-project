@@ -1,0 +1,413 @@
+/* .modalcontainer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; 
+} */
+
+/* Add styles for the image inside the modal */
+.modalImage {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+  border-radius: 8px;
+}
+
+/* You can also add more specific styles if you need */
+.ant-modal-content {
+  min-height: 400px; /* This is just an example, you can adjust the height */
+}
+
+.ant-modal-content {
+  height: auto; /* Allows the modal to expand dynamically */
+}
+
+.style {
+  display: flex;
+  flex-direction: column;
+  border: 10px;
+}
+
+.button {
+  border-radius: 0;
+  border: none;
+  box-shadow: 0px 8px 16px 0px rgba(127, 126, 126, 0.2);
+  padding: 25px 45px;
+  background: #FFFFFF;
+  font-size: 17px;
+}
+
+/* .button:hover {
+  color: rgb(185, 124, 13);
+} */
+
+/* .firstdropdown {
+  display: flex;
+  justify-content: left;
+} */
+
+.firstdropdown:hover {
+  color: rgb(185, 124, 13);
+}
+
+.text {
+    display: flex;
+    justify-content: left;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.text2 {
+    display: flex;
+    color: rgb(185, 124, 13);
+    font-size: 20px;
+    font-weight: bold;
+    animation: backgroundPop 4s ease-in-out infinite;
+}
+
+.text2:hover {
+  color: #5C755E;
+}
+
+.dropdownMenu {
+  display: block;
+  position: fixed;
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  z-index: 1;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+/* .dropdownMenu::-webkit-scrollbar {
+  display: none;
+} */
+
+.modalcontent {
+  padding: 20px;           /* Inner spacing */
+  border-radius: 8px;      /* Rounded corners */
+  max-width: 600px;    /* Allows scrolling if content overflows */
+}
+
+.modalContenth1 {
+    font-size: 40px;
+    color: #5C755E; /* Adjust the color as needed */
+    margin-bottom: 15px;
+    text-align: center;
+    margin-top: -30px;
+    font-weight: bolder;
+}
+
+.sosdiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sosimg {
+  width: 600px;
+  height: 600px;
+}
+
+.p1 {
+  font-size: 16px;
+  color: #000000;
+  font-weight: 400;
+  text-align: left;
+}
+
+.h1 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #000000;
+  text-align: left;
+  margin-top: 20px;
+}
+
+.featurediv {
+  text-align: left;
+  margin-bottom: 50px;
+}
+
+.onetouch {
+  display: flex;
+}
+
+.featurestext {
+  font-size: 16px;
+  color: #4d4d4d;
+  font-weight: lighter;
+  margin-top: 4px;
+  margin-left: 5px;
+}
+
+.dropdownItem {
+  cursor: pointer;
+  padding: 8px 16px;
+  display: block;
+  font-size: 16px;
+  color: #000000;
+  font-weight: bold;
+  text-align: left;
+}
+
+.dropdownItem:hover {
+  color: rgb(185, 124, 13);
+}
+
+.dropdown {
+    margin-top: 7px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.dropdown:hover {
+  color: #5C755E;
+}
+
+.smartsecure {
+    animation: backgroundPop 4s ease-in-out infinite;
+}
+
+.stardiv {
+  display: flex;
+  margin-top: 5px;
+}
+
+.star {
+  display: flex;
+  margin-top: 3px;
+  margin-left: 5px;
+}
+
+.gateway {
+  text-align: left;
+}
+
+.gatedot {
+  display: flex;
+}
+
+.fill {
+  margin-top: 5px;
+  color: #4d4d4d;
+}
+
+.dottext {
+  margin-left: 5px;
+}
+
+.maindiv {
+  margin-left: 50px;
+}
+
+.description {
+  color: rgb(185, 124, 13);
+  font-size: 17px;
+  font-weight: bold;
+  text-align: left;
+  margin-top: 10px;
+}
+
+.energytext {
+  text-align: left;
+}
+
+.continuation {
+  color: rgb(185, 124, 13);
+  font-size: 17px;
+  font-weight: bold;
+  text-align: left;
+  margin-top: 15px;
+}
+
+.straight {
+  width: 78%;
+  height: 2px;
+  background-color: rgb(222, 212, 193);
+  margin-top: 5px;
+}
+
+.customize {
+  padding: 9px 140px;
+  cursor: pointer;
+  background: #FFFFFF;
+  font-weight: bold;
+  font-size: 23px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  color: rgb(185, 124, 13);
+  border: 1px solid rgb(185, 124, 13);
+}
+
+.customize:hover {
+  background-color: #5C755E;
+  color: #FFFFFF;
+}
+
+.cartkit {
+  padding: 9px 140px;
+  cursor: pointer;
+  background: #FFFFFF;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 23px;
+  color: #5C755E;
+  border: 1px solid rgb(185, 124, 13);
+  margin-left: 50px;
+}
+
+.cartkit:hover {
+  background-color: #5C755E;
+  color: #FFFFFF;
+}
+
+.customizecart {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+@keyframes backgroundPop {
+    0% {
+      transform: scale(1); /* Start with normal size */
+      background-position: center; /* Normal position */
+    }
+    50% {
+      transform: scale(1.02); /* Pop-up effect: enlarge */
+      background-position: center; /* Keep the image centered */
+    }
+    100% {
+      transform: scale(1); /* Return to normal size */
+      background-position: center; /* Normal position */
+    }
+}
+
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .customizecart {
+    flex-direction: column;
+  }
+
+  .customize {
+    padding: 9px 70px;
+    cursor: pointer;
+    background: #FFFFFF;
+    font-weight: bold;
+    font-size: 16px;
+  }
+
+  .cartkit {
+    padding: 9px 80px;
+    font-size: 16px;
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
+  .button {
+    padding: 25px 10px;
+    font-size: 15px;
+  }
+
+  .fiveitem {
+    font-size: 16px;
+  }
+
+  .tenitems {
+    font-size: 16px;
+  }
+
+  .sixteenitem {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 600px) {
+  .customizecart {
+    flex-direction: column;
+  }
+
+  .customize {
+    padding: 9px 70px;
+    cursor: pointer;
+    background: #FFFFFF;
+    font-weight: bold;
+    font-size: 16px;
+  }
+
+  .cartkit {
+    padding: 9px 80px;
+    font-size: 16px;
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
+  .button {
+    padding: 25px 10px;
+    font-size: 15px;
+  }
+
+  .fiveitem {
+    font-size: 16px;
+  }
+
+  .tenitems {
+    font-size: 16px;
+  }
+
+  .sixteenitem {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+  .customizecart {
+    flex-direction: column;
+  }
+
+  .customize {
+    padding: 9px 70px;
+    cursor: pointer;
+    background: #FFFFFF;
+    font-weight: bold;
+    font-size: 16px;
+  }
+
+  .cartkit {
+    padding: 9px 80px;
+    font-size: 16px;
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
+  .button {
+    padding: 25px 10px;
+    font-size: 15px;
+  }
+
+  .fiveitem {
+    font-size: 16px;
+  }
+
+  .tenitems {
+    font-size: 16px;
+  }
+
+  .sixteenitem {
+    font-size: 16px;
+  }
+}
+
+

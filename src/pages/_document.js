@@ -1,9 +1,17 @@
-import { Html, Head, Main, NextScript } from "next/document";
+// _document.js
+import { Html, Head, Main, NextScript } from 'next/document';
+import Script from 'next/script';
 
 export default function Document() {
   return (
     <Html lang="en">
-      <Head />
+      <Head>
+        {/* Asynchronous Script Example */}
+        <Script
+          src="https://example.com/some-script.js"
+          strategy="afterInteractive" // or 'lazyOnload'
+        />
+      </Head>
       <body>
         <Main />
         <NextScript />

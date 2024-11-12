@@ -6,6 +6,10 @@
   padding-top:20px;
 }
 
+.secure {
+  max-width: 100%;
+}
+
 .navbar {
   background-color: #FFFFFF;
   box-shadow: 3px 3px 3px 3px #e3e2e2;

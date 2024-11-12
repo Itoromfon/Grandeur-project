@@ -1,3 +1,7 @@
+.main {
+  width: 100%;
+}
+
 .section1 {
     position: relative;
     background-image: url("/modernroom.png"); /* Adjusted image path */
@@ -8,7 +12,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    animation: moveBackground 2s linear infinite;
+    animation: moveBackground 1s linear infinite;
   }
 
   @keyframes moveBackground {
@@ -27,7 +31,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.5); /* Dark overlay */
+    background-color: rgba(0, 0, 0, 0.5); 
     z-index: 1; /* Overlay layer */
   }
 

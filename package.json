@@ -18,6 +18,7 @@
     "@tremor/react": "^3.18.3",
     "@tsparticles/slim": "^3.5.0",
     "ai": "^3.4.33",
+    "antd": "^5.22.0",
     "axios": "^1.7.7",
     "bootstrap": "^5.3.3",
     "chart.js": "^4.4.6",
@@ -30,9 +31,11 @@
     "embla-carousel-react": "^8.3.1",
     "framer-motion": "^11.11.11",
     "lucide-react": "^0.456.0",
-    "next": "15.0.2",
+    "next": "^15.0.3",
+    "next-transpile-modules": "^10.0.1",
     "openai": "^4.71.1",
     "phosphor-react": "^1.4.1",
+    "rc-util": "^5.43.0",
     "react": "^18.3.1",
     "react-chartjs-2": "^5.2.0",
     "react-dom": "^18.3.1",
@@ -44,6 +47,7 @@
     "swiper": "^11.1.14",
     "tailwind-merge": "^2.5.4",
     "tailwindcss-animate": "^1.0.7",
+    "three": "^0.170.0",
     "tsparticles": "^3.5.0"
   },
   "devDependencies": {

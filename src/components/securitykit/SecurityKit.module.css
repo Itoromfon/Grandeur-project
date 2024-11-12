@@ -1,0 +1,25 @@
+.main {
+    margin: 50px 0;
+}
+
+.h1text {
+    font-size: 30px;
+    color: #5C755E;
+    font-weight: bold;
+}
+
+.h1div {
+    display: flex;
+}
+
+.benefit {
+    background-color: #5C755E;
+    color: #FFFFFF;
+    padding: 5px 20px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+.benefith1 {
+    margin-top: 6px;
+}
