@@ -9,7 +9,7 @@ import Slider from 'react-slick';
 import TabCarousel from '../tabcarousel/TabCarousel';
 import { Button, Modal } from 'antd';
 
-export default function Tabs() {
+const Tab = () => {
     // State to hold the active tab index
     const [activeTab, setActiveTab] = useState(0);
     const [isOpen, setIsOpen] = useState(false);
@@ -4689,3 +4689,5 @@ export default function Tabs() {
         </div>
     );
 }
+
+export default Tab

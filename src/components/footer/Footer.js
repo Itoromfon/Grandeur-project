@@ -8,7 +8,7 @@ import { FaLinkedinIn } from "react-icons/fa";
 import { FaSquareInstagram } from "react-icons/fa6";
 import { FaSquareXTwitter } from "react-icons/fa6";
 
-function Footer() {
+const Footer = () => {
   return (
     <div className={styles.mains}>
     <div className={styles.main}>
