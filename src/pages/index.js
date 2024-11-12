@@ -30,7 +30,7 @@ import FramerMotion from "@/components/framermotion/FramerMotion";
 // import { motion, AnimatePresence } from "framer-motion";
 import Energy from "../components/energy/Energy";
 import Chart from "@/components/chart/Chart";
-import ParticleBackground from "@/components/particlesbackground/ParticlesBackground";
+// import ParticleBackground from "@/components/particlesbackground/ParticlesBackground";
 
 export default function Home() {
   const slides = [0, 1, 2, 3, 4, 5]
@@ -38,7 +38,7 @@ export default function Home() {
   return (
     <>
       <div className={styles.main}>
-      <ParticleBackground className={styles.particles} />
+      {/* <ParticleBackground className={styles.particles} /> */}
       <div className={styles.mainsection}>
         <Carousel />
       </div>
