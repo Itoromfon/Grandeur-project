@@ -34,7 +34,7 @@
 
 .navlink2 {
   text-decoration: none;
-  margin: 0 6px;
+  margin: 0 10px;
   font-size: 16px;
   line-height: 18px;
   color: #000000;
@@ -49,7 +49,7 @@
 
 .navlink3 {
   text-decoration: none;
-  margin: 0 6px;
+  margin: 0 10px;
   font-size: 16px;
   line-height: 18px;
   color: #000000;
@@ -64,7 +64,7 @@
 
 .navlink4 {
   text-decoration: none;
-  margin: 0 6px;
+  margin: 0 10px;
   font-size: 16px;
   line-height: 18px;
   color: #000000;
@@ -73,6 +73,21 @@
 }
 
 .navlink4:hover {
+  color: rgb(0, 81, 255);
+  font-weight: bold;
+}
+
+.navlink5 {
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 16px;
+  line-height: 18px;
+  color: #000000;
+  position: relative;
+  z-index: 3;
+}
+
+.navlink5:hover {
   color: rgb(0, 81, 255);
   font-weight: bold;
 }
@@ -86,8 +101,16 @@
   display: flex;
 }
 
-.signin, .usa, .cart {
-  margin: 0 5px;
+.signin {
+  margin: 5px 10px 0 20px;
+}
+
+.cart {
+  margin: 2px 0 0 0;
+}
+
+.usa {
+  margin: 2px 10px 0 10px;
 }
 
 .menutoggle {

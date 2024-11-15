@@ -6,28 +6,24 @@ import styles from './integration.module.css'
 import Autoplay from 'embla-carousel-autoplay'
 import { useCallback } from 'react'
 import Image from 'next/image'
-import Navbar from '@/components/navbar/Navbar'
+// import Navbar from '@/components/navbar/Navbar'
 import { GrPrevious } from "react-icons/gr";
 import { GrNext } from "react-icons/gr";
-import TabCarousel from '@/components/tabcarousel/TabCarousel'
-import Carousel from '@/components/carousel/Carousel'
+import Simultaneous from '@/components/simultaneous/Simultaneous'
+// import TabCarousel from '@/components/tabcarousel/TabCarousel'
+// import Carousel from '@/components/carousel/Carousel'
+import dynamic from 'next/dynamic';
+import { CartProvider } from '@/components/contexts/CartsContext'
 
 export default function EmblaCarousel() {
-  const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true }, [Autoplay({delay: 3000})])
-
-  const scrollPrev = useCallback(() => {
-    if (emblaApi) emblaApi.scrollPrev()
-  }, [emblaApi])
-
-  const scrollNext = useCallback(() => {
-    if (emblaApi) emblaApi.scrollNext()
-  }, [emblaApi])
-
   return (
     <div className={styles.embla}>
-        {/* <Navbar /> */}
+        {/* <Navbar />
         <Carousel />
-        <TabCarousel />
+        <TabCarousel /> */}
+        <CartProvider>
+          <Simultaneous />
+        </CartProvider>
     </div>
   )
 }

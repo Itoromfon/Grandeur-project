@@ -92,21 +92,21 @@ function Navbar() {
               transition={{ type: "spring", stiffness: 300 }}
               className={styles.navlink3div}
             >
-              <Link className={styles.navlink3} href="/automation/automates">Automate</Link>
+              <Link className={styles.navlink4} href="/automation/automates">Automate</Link>
             </motion.div>
             <motion.div
               whileHover={{ scale: 1.1 }}
               transition={{ type: "spring", stiffness: 300 }}
               className={styles.navlink3div}
             >
-              <Link className={styles.navlink3} href="/documentation">Documentation</Link>
+              <Link className={styles.navlink5} href="/documentation">Documentation</Link>
             </motion.div>
             <motion.div
               whileHover={{ scale: 1.1 }}
               transition={{ type: "spring", stiffness: 300 }}
               className={styles.navlink4div}
             >
-              <Link className={styles.navlink4} href="/integration/integration">Integration</Link>
+              <Link className={styles.navlink6} href="/integration/integration">Integration</Link>
             </motion.div>
           </div>
           </div>
