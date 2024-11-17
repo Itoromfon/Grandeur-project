@@ -331,6 +331,29 @@
         text-align: center;
     }
 
+    .tabsContainer {
+        display: flex;
+        justify-content: space-between;
+        cursor: pointer;
+        margin: 50px 0 50px 0;
+        overflow-x: auto; 
+        white-space: nowrap; 
+        scrollbar-width: thin; 
+    }
+
+      .tabsContainer::-webkit-scrollbar {
+        height: 8px; /* Set scrollbar height */
+      }
+      
+      .tabsContainer::-webkit-scrollbar-thumb {
+        background-color: #888; /* Customize scrollbar color */
+        border-radius: 4px;
+      }
+      
+      .tabsContainer::-webkit-scrollbar-thumb:hover {
+        background-color: #555; /* Darker color on hover */
+      }
+
     .contents {
         display: flex;
         overflow-x: auto; 
@@ -359,13 +382,6 @@
     .image {
         width: 500px;
         height: 100px;
-    }
-
-    .tabsContainer {
-        display: flex;
-        justify-content: space-between;
-        cursor: pointer;
-        margin: 50px 0 50px 0;
     }
 
     .buttoncartdiv {
@@ -448,7 +464,23 @@
         justify-content: space-between;
         cursor: pointer;
         margin: 50px 0 50px 0;
+        overflow-x: auto; 
+        white-space: nowrap; 
+        scrollbar-width: thin; 
     }
+
+      .tabsContainer::-webkit-scrollbar {
+        height: 8px; /* Set scrollbar height */
+      }
+      
+      .tabsContainer::-webkit-scrollbar-thumb {
+        background-color: #888; /* Customize scrollbar color */
+        border-radius: 4px;
+      }
+      
+      .tabsContainer::-webkit-scrollbar-thumb:hover {
+        background-color: #555; /* Darker color on hover */
+      }
 
     .buttoncartdiv {
         text-align: center;
