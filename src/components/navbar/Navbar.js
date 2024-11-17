@@ -71,42 +71,42 @@ function Navbar() {
               transition={{ type: "spring", stiffness: 300 }}
               className={styles.navlink1div}
             >
-            <Link className={styles.navlink} href="/">Home</Link>
+            <Link className={styles.navlink} href="/" prefetch={true}>Home</Link>
             </motion.div>
             <motion.div
               whileHover={{ scale: 1.1 }}
               transition={{ type: "spring", stiffness: 300 }}
               className={styles.navlink2div}
             >
-              <Link className={styles.navlink2} href="/security/security">Security</Link>
+              <Link className={styles.navlink2} href="/security/security" prefetch={true}>Security</Link>
             </motion.div>
             <motion.div
               whileHover={{ scale: 1.1 }}
               transition={{ type: "spring", stiffness: 300 }}
               className={styles.navlink3div}
             >
-              <Link className={styles.navlink3} href="/energynav/energynav">Energy</Link>
+              <Link className={styles.navlink3} href="/energynav/energynav" prefetch={true}>Energy</Link>
             </motion.div>
             <motion.div
               whileHover={{ scale: 1.1 }}
               transition={{ type: "spring", stiffness: 300 }}
               className={styles.navlink3div}
             >
-              <Link className={styles.navlink4} href="/automation/automates">Automate</Link>
+              <Link className={styles.navlink4} href="/automation/automates" prefetch={true}>Automate</Link>
             </motion.div>
             <motion.div
               whileHover={{ scale: 1.1 }}
               transition={{ type: "spring", stiffness: 300 }}
               className={styles.navlink3div}
             >
-              <Link className={styles.navlink5} href="/documentation">Documentation</Link>
+              <Link className={styles.navlink5} href="/documentation" prefetch={true}>Documentation</Link>
             </motion.div>
             <motion.div
               whileHover={{ scale: 1.1 }}
               transition={{ type: "spring", stiffness: 300 }}
               className={styles.navlink4div}
             >
-              <Link className={styles.navlink6} href="/integration/integration">Integration</Link>
+              <Link className={styles.navlink6} href="/integration/integration" prefetch={true}>Integration</Link>
             </motion.div>
           </div>
           </div>

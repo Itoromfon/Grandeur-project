@@ -7,6 +7,8 @@ import { FaFacebookF } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaSquareInstagram } from "react-icons/fa6";
 import { FaSquareXTwitter } from "react-icons/fa6";
+import Image from 'next/image';
+import Link from 'next/link';
 
 const Footer = () => {
   return (
@@ -14,9 +16,11 @@ const Footer = () => {
     <div className={styles.main}>
     <div className={styles.main1}>
       <div>
-        <img 
+        <Image 
           src='/grandeurfooter.png'
           alt='Grandeur smart Image'
+          width={145}
+          height={63}
           className={styles.grandeur}
         />
       </div>
@@ -81,27 +85,31 @@ const Footer = () => {
           <h1 className={styles.sociallinks}>SOCIAL LINKS</h1>
           <div className={styles.socialdiv}>
             <div className={styles.facebookdiv}>
-              <p><FaFacebookF className={styles.facebook} /></p>
+              <Link href='#' prefetch={true}><FaFacebookF className={styles.facebook} /></Link>
             </div>
             <div className={styles.linkedindiv}>
-              <p><FaLinkedinIn className={styles.linkedin} /></p>
+              <Link href='#' prefetch={true}><FaLinkedinIn className={styles.linkedin} /></Link>
             </div>
             <div className={styles.instagramdiv}>
-              <p><FaSquareInstagram className={styles.instagram} /></p>
+              <Link href='#' prefetch={true}><FaSquareInstagram className={styles.instagram} /></Link>
             </div>
             <div className={styles.twitterdiv}>
-              <p><FaSquareXTwitter className={styles.twitter} /></p>
+              <Link href='#' prefetch={true}><FaSquareXTwitter className={styles.twitter} /></Link>
             </div>
           </div>
           <div className={styles.play}>
-            <img 
+            <Image 
               src='/appstore.png'
               alt='App Store'
+              width={119}
+              height={35}
               className={styles.appstore}
             />
-            <img 
+            <Image 
               src='/googlestore.png'
               alt='Google Play'
+              width={119}
+              height={35}
               className={styles.googlestore}
             />
           </div>

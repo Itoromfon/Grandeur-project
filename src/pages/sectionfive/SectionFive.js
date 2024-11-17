@@ -16,14 +16,20 @@ function SectionFive() {
         <div className={styles.elderlymandiv}>
         <div className={styles.elderlyman}>
             <div className={styles.elderlyperson}>
+            <div className={styles.text}>
             <p>Elderly Person hasn’t<br /> Moved for a While</p>
+            </div>
+            <div className={styles.text2}>
             <p className={styles.elderlypercent}>100%</p>
+            </div>
+            <div className={styles.elderlybattery}>
             <Image 
                 src="/barrel.png"
                 alt='battery'
                 width={37}
                 height={18}
             />
+            </div>
             </div>
             <div className={styles.elderlyperson}>
                 <Image 

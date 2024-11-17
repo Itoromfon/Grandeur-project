@@ -31,8 +31,8 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.5); 
-    z-index: 1; /* Overlay layer */
+    /* background-color: rgba(0, 0, 0, 0.5);  */
+    /* z-index: 1; */
   }
 
 .section2 {
@@ -55,7 +55,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.5); /* Adjust color and opacity */
+  /* background-color: rgba(76, 75, 75, 0.5); */
   z-index: 1;
 }
 
@@ -78,7 +78,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.5); /* Adjust color and opacity */
+    /* background-color: rgba(0, 0, 0, 0.5);  */
     z-index: 1;
   }
 
@@ -98,7 +98,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.5); /* Adjust color and opacity */
+    /* background-color: rgba(0, 0, 0, 0.5);  */
     z-index: 1;
   }
 

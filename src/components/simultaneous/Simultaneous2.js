@@ -191,6 +191,8 @@ const AnotherComponent = () => {
                                 <Image 
                                     src={product.image} 
                                     alt='love' 
+                                    width={600}
+                                    height={130}
                                     className={styles.image}
                                 />
                             </div>

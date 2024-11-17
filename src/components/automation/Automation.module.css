@@ -40,6 +40,7 @@
     font-size: 30px;
     margin: auto;
     line-height: 50px;
+    text-align: center;
   }
 
   .maindiv {
@@ -56,6 +57,7 @@
     font-size: 30px;
     margin: auto;
     line-height: 50px;
+    text-align: center;
   }
 }
 
@@ -68,6 +70,7 @@
     font-size: 32px;
     margin: auto;
     line-height: 50px;
+    text-align: center;
   }
 }
 
@@ -80,6 +83,7 @@
     font-size: 34px;
     margin: auto;
     line-height: 50px;
+    text-align: center;
   }
 }
 
@@ -88,5 +92,6 @@
     font-size: 36px;
     margin: auto;
     line-height: 50px;
+    text-align: center;
   }
 }

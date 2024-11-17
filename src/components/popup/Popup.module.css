@@ -82,12 +82,21 @@
 @media only screen and (min-width: 320px) and (max-width: 480px) {
     .popup {
         flex-direction: column;
+        /* margin: auto; */
     }
 
     .popdiv {
         margin-right: 0;
         margin: auto;
         /* margin-left: 200px; */
+    }
+
+    .popupimage {
+        margin: auto;
+    }
+
+    .pop {
+        margin: 20px auto;
     }
 
     .line {
@@ -98,11 +107,21 @@
 @media only screen and (min-width: 479px) and (max-width: 600px) {
     .popup {
         flex-direction: column;
+        /* margin: auto; */
     }
 
     .popdiv {
         margin-right: 0;
         margin: auto;
+        /* margin-left: 200px; */
+    }
+
+    .popupimage {
+        margin: auto;
+    }
+
+    .pop {
+        margin: 20px auto;
     }
 
     .popuptext {
@@ -121,11 +140,21 @@
 @media only screen and (min-width: 601px) and (max-width: 768px) {
     .popup {
         flex-direction: column;
+        /* margin: auto; */
     }
 
     .popdiv {
         margin-right: 0;
         margin: auto;
+        /* margin-left: 200px; */
+    }
+
+    .popupimage {
+        margin: auto;
+    }
+
+    .pop {
+        margin: 20px auto;
     }
 
     .popuptext {
@@ -144,11 +173,21 @@
 @media only screen and (min-width: 769px) and (max-width: 900px) {
     .popup {
         flex-direction: column;
+        /* margin: auto; */
     }
 
     .popdiv {
         margin-right: 0;
         margin: auto;
+        /* margin-left: 200px; */
+    }
+
+    .popupimage {
+        margin: auto;
+    }
+
+    .pop {
+        margin: 20px auto;
     }
 
     .popuptext {
@@ -167,11 +206,21 @@
 @media only screen and (min-width: 901px) and (max-width: 1200px) {
     .popup {
         flex-direction: column;
+        /* margin: auto; */
     }
 
     .popdiv {
         margin-right: 0;
         margin: auto;
+        /* margin-left: 200px; */
+    }
+
+    .popupimage {
+        margin: auto;
+    }
+
+    .pop {
+        margin: 20px auto;
     }
 
     .popuptext {

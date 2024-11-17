@@ -51,8 +51,16 @@
         padding-bottom: 150px;
     }
 
+    .smarttext {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
     .smartwrap {
         width: 300px;
+        margin: auto;
     }
 
     .smartwrapimg {
@@ -67,8 +75,88 @@
         margin-right: 0;
     }
 
+    .smarttext {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 25px;
+    }
+
     .smartwrap {
         width: 300px;
+        margin: auto;
+    }
+
+    .smartwrapimg {
+
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+    .mainsmart {
+        flex-direction: column;
+        margin: 100px 0;
+        margin-right: 0;
+    }
+
+    .smarttext {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+
+    .smartwrap {
+        width: 300px;
+        margin: auto;
+    }
+
+    .smartwrapimg {
+
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 900px) {
+    .mainsmart {
+        flex-direction: column;
+        margin: 100px 0;
+        margin-right: 0;
+    }
+
+    .smarttext {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+
+    .smartwrap {
+        width: 300px;
+        margin: auto;
+    }
+
+    .smartwrapimg {
+
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 900px) {
+    .mainsmart {
+        flex-direction: column;
+        margin: 100px 0;
+        margin-right: 0;
+    }
+
+    .smarttext {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+
+    .smartwrap {
+        width: 300px;
+        margin: auto;
     }
 
     .smartwrapimg {

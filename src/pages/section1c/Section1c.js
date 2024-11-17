@@ -33,14 +33,12 @@ function Section1c() {
           alt="Grandeur-smart phone"
           width={160}
           height={215}
-          className={styles.smartphone}
         />
         <Image 
           src="/laptop.png"
           alt="Grandeur-smart phone"
           width={480}
           height={288}
-          className={styles.laptop}
         />
       </div>
       </div>

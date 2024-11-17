@@ -2,6 +2,7 @@ import React from 'react'
 import styles from './SecurityContent3.module.css'
 import { FaCheck } from "react-icons/fa";
 import SecurityContent1Tab from '../securitycontent1tab/SecurityContent1Tab';
+import Image from 'next/image';
 
 function SecurityContent3() {
   return (
@@ -121,9 +122,12 @@ function SecurityContent3() {
         </div>
         </div>
         <div className={styles.comfortkitdiv}>
-            <img 
+            <Image
                 src='/comfortkit.png'
                 className={styles.comfortkitimg} 
+                width={562}
+                height={126}
+                alt='kit'
             />
         </div>
         </div>

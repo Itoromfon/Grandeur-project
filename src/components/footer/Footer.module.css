@@ -6,7 +6,7 @@
 .main {
     padding: 50px 50px;
     display: flex;
-    /* justify-content: space-between; */
+    justify-content: space-between;
 }
 
 .main1 {
@@ -54,7 +54,7 @@
 }
 
 .storediv {
-    margin-top: 65px;
+    margin-top: 63px;
 }
 
 .store {
@@ -80,7 +80,7 @@
 } */
 
 .main2 {
-    margin-top: 70px;
+    margin-top: 72px;
     margin-left: 60px;
 }
 
@@ -128,13 +128,13 @@
 
 .companydiv {
     margin-left: 50px;
+    margin-top: 70px;
 }
 
 .company {
     font-size: 14px;
     font-weight: bold;
     color: #FFFFFF;
-    margin-top: 70px;
     margin-bottom: 10px;
 }
 
@@ -167,7 +167,7 @@
 }
 
 .contactdiv {
-    margin-top: 70px;
+    margin-top: 71px;
     margin-left: 50px;
 }
 
@@ -220,49 +220,80 @@
     color:#5C755E;
     margin-right: 1px;
     margin-top: 3px;
+    transition: color 0.5s ease;
 }
 
 .facebookdiv {
     background-color: #FFFFFF;
     border-radius: 50%;
-    padding: 5px 8px 5px 8px;
+    padding: 5px 5px;
     height: 40px;
+    transition: background-color 0.5s ease;
+}
+
+.facebookdiv:hover, .facebook:hover {
+    background-color: #5C755E;
+    color: #FFFFFF;
 }
 
 .linkedin {
     font-size: 24px;
     color: #5C755E;
+    margin-top: 2px;
+    transition: color 0.5s ease;
 }
 
 .linkedindiv {
     background-color: #FFFFFF;
     border-radius: 50%;
-    padding: 5px 8px 5px 8px;
+    padding: 5px 5px;
     height: 40px;
+    transition: background-color 0.5s ease;
+}
+
+.linkedindiv:hover, .linkedin:hover {
+    background-color: #5C755E;
+    color: #FFFFFF;
 }
 
 .instagram {
     font-size: 24px;
     color: #5C755E;
+    margin-top: 2px;
+    transition: color 0.5s ease;
 }
 
 .instagramdiv {
     background-color: #FFFFFF;
     border-radius: 50%;
-    padding: 5px 8px 5px 8px;
+    padding: 5px 5px;
     height: 40px;
+    transition: background-color 0.5s ease;
+}
+
+.instagramdiv:hover, .instagram:hover {
+    background-color: #5C755E;
+    color: #FFFFFF;
 }
 
 .twitter {
     font-size: 24px;
     color: #5C755E;
+    margin-top: 2px;
+    transition: color 0.5s ease;
 }
 
 .twitterdiv {
     background-color: #FFFFFF;
     border-radius: 50%;
-    padding: 5px 8px 5px 8px;
+    padding: 5px 5px;
     height: 40px;
+    transition: background-color 0.5s ease;
+}
+
+.twitterdiv:hover, .twitter:hover {
+    background-color: #5C755E;
+    color: #FFFFFF;
 }
 
 .socials {

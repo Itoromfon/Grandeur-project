@@ -5,7 +5,7 @@ import PowerConsumedToggle from '../powerconsumetoggle/PowerConsumeToggle'
 export const SolarText = () => {
   return (
     <div className={styles.solar}>
-        <div>
+        <div className={styles.solardiv}>
             <h1 className={styles.solarh1}>Transform Your Home`s Climate with Intelligent Control.</h1>
             <p className={styles.solarp}>
             A smart thermostat learns your preferences and offers remote control, optimizing your home`s 

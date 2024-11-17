@@ -77,14 +77,135 @@
 
     .h2 {
         margin: 20px 0;
+        text-align: center;
     }
 
     .powertext {
         margin: 20px 0;
+        text-align: center;
     }
 
     .dimmerdiv {
         margin-left: 0;
     }
 }
+
+@media only screen and (min-width: 481px) and (max-width: 600px) {
+    .power {
+        flex-direction: column;
+    }
+
+    .powerdiv {
+        margin-left: 20px;
+    }
+
+    .battery {
+        margin-left: 0;
+    }
+
+    .h2 {
+        margin: 20px 0;
+        text-align: center;
+    }
+
+    .powertext {
+        margin: 20px 0;
+        text-align: center;
+    }
+
+    .dimmerdiv {
+        margin-left: 0;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+    .power {
+        flex-direction: column;
+    }
+
+    .powerdiv {
+        margin-left: 20px;
+    }
+
+    .battery {
+        margin-left: 0;
+    }
+
+    .h2 {
+        margin: 20px 0;
+        text-align: center;
+    }
+
+    .powertext {
+        margin: 20px 0;
+        text-align: center;
+    }
+
+    .dimmerdiv {
+        margin-left: 0;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 900px) {
+    .power {
+        flex-direction: column;
+    }
+
+    .powerdiv {
+        margin-left: 20px;
+    }
+
+    .battery {
+        margin-left: 0;
+    }
+
+    .h2 {
+        margin: 20px 0;
+        text-align: center;
+    }
+
+    .powertext {
+        margin: 20px 0;
+        text-align: center;
+    }
+
+    .dimmerdiv {
+        margin-left: 0;
+    }
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1200px) {
+    .power {
+        flex-direction: column;
+    }
+
+    .powerdiv {
+        margin-left: 20px;
+    }
+
+    .battery {
+        margin-left: 0;
+    }
+
+    .h2 {
+        margin: 20px 0;
+        text-align: center;
+    }
+
+    .powertext {
+        margin: 20px 0;
+        text-align: center;
+    }
+
+    .dimmerdiv {
+        margin-left: 0;
+    }
+}
+
+
+
+
+
+
+
 

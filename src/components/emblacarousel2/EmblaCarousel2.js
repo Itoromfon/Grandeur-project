@@ -9,6 +9,7 @@ import {
 import { DotButton, useDotButton } from './EmblacarouselDotButton';
 import styles from './EmblaCarousel2.module.css';
 import Autoplay from 'embla-carousel-autoplay';
+import Image from 'next/image'
 
 const EmblaCarousel2 = (props) => {
   const { slides, options } = props;
@@ -31,8 +32,11 @@ const EmblaCarousel2 = (props) => {
               className={styles.embla__slide}
               key={index}
             >
-              <img
-                className={`${styles.embla__slide__img} ${index === selectedIndex ? styles['embla__slide--bright'] : ''}`} // Apply bright class if it's the selected index
+              <Image
+                width={270}
+                height={270}
+                className={styles.emblaslideimg}
+                // className={`${styles.embla__slide__img} ${index === selectedIndex ? styles['embla__slide--bright'] : ''}`} // Apply bright class if it's the selected index
                 src={`https://picsum.photos/600/350?v=${index}`}
                 alt={`Slide ${index}`}
               />

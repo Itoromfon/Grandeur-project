@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import axios from 'axios';
 import styles from './Weather.module.css';
+import Image from 'next/image';
 
 const Weather = () => {
   const [temperature, setTemperature] = useState(null);
@@ -44,7 +45,7 @@ const Weather = () => {
       {temperature !== null ? (
         <div className={styles.weatherContainer}>
           <p>Temperature: {temperature}°C</p>
-          {weatherIcon && <img src={weatherIcon} alt="Weather Icon" />}
+          {weatherIcon && <Image width={0} height={0} src={weatherIcon} alt="Weather Icon" />}
         </div>
       ) : (
         <p>Loading weather data...</p>

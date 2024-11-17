@@ -34,6 +34,13 @@
         flex-direction: column;
     }
 
+    .airbnbtext {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+     }
+
     .airbnbimage {
         justify-content: center;
     }
@@ -48,6 +55,13 @@
         flex-direction: column;
     }
 
+    .airbnbtext {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+     }
+
     .airbnbimage {
         justify-content: center;
     }
@@ -60,6 +74,55 @@
 @media only screen and (min-width: 601px) and (max-width: 768px) {
     .airbnb {
         flex-direction: column;
+    }
+
+    .airbnbtext {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+     }
+
+    .airbnbimage {
+        justify-content: center;
+    }
+
+    /* .airbnbtext {
+        
+    } */
+}
+
+@media only screen and (min-width: 769px) and (max-width: 900px) {
+    .airbnb {
+        flex-direction: column;
+    }
+
+    .airbnbtext {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+     }
+
+    .airbnbimage {
+        justify-content: center;
+    }
+
+    /* .airbnbtext {
+        
+    } */
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1200px) {
+    .airbnb {
+        flex-direction: column;
+    }
+
+    .airbnbtext {
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
     }
 
     .airbnbimage {

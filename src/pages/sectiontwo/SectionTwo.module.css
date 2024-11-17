@@ -117,11 +117,14 @@
         font-size: 30px;
         line-height: 30px;
         margin-bottom: 15px;
+        margin-right: 0;
+        text-align: center;
     }
 
     .mphead2 {
         font-size: 25px;
         margin-top: 15px;
+        text-align: center;
     }
 
     .mpdiv {
@@ -143,11 +146,25 @@
     }
 
     .mptext {
-        /* color: rgb(8, 123, 8); */
+        text-align: center;
     }
 }
 
 @media only screen and (min-width: 481px) and (max-width: 600px) {
+    .mphead {
+        font-size: 30px;
+        line-height: 30px;
+        margin-bottom: 15px;
+        margin-right: 0;
+        text-align: center;
+    }
+
+    .mphead2 {
+        font-size: 25px;
+        margin-top: 15px;
+        text-align: center;
+    }
+
     .mpdiv {
         flex-direction: column;
         margin-top: 400px;
@@ -155,10 +172,37 @@
 
     .bulbdiv {
         visibility: hidden;
+    }
+
+    .maindetection {
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+
+    .mphead2 {
+        /* color: rgb(8, 123, 8); */
+    }
+
+    .mptext {
+        text-align: center;
     }
 }
 
 @media only screen and (min-width: 601px) and (max-width: 768px) {
+    .mphead {
+        font-size: 30px;
+        line-height: 30px;
+        margin-bottom: 15px;
+        margin-right: 0;
+        text-align: center;
+    }
+
+    .mphead2 {
+        font-size: 25px;
+        margin-top: 15px;
+        text-align: center;
+    }
+
     .mpdiv {
         flex-direction: column;
         margin-top: 400px;
@@ -166,10 +210,37 @@
 
     .bulbdiv {
         visibility: hidden;
+    }
+
+    .maindetection {
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+
+    .mphead2 {
+        /* color: rgb(8, 123, 8); */
+    }
+
+    .mptext {
+        text-align: center;
     }
 }
 
 @media only screen and (min-width: 769px) and (max-width: 900px) {
+    .mphead {
+        font-size: 30px;
+        line-height: 30px;
+        margin-bottom: 15px;
+        margin-right: 0;
+        text-align: center;
+    }
+
+    .mphead2 {
+        font-size: 25px;
+        margin-top: 15px;
+        text-align: center;
+    }
+
     .mpdiv {
         flex-direction: column;
         margin-top: 400px;
@@ -177,10 +248,37 @@
 
     .bulbdiv {
         visibility: hidden;
+    }
+
+    .maindetection {
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+
+    .mphead2 {
+        /* color: rgb(8, 123, 8); */
+    }
+
+    .mptext {
+        text-align: center;
     }
 }
 
 @media only screen and (min-width: 901px) and (max-width: 1200px) {
+    .mphead {
+        font-size: 30px;
+        line-height: 30px;
+        margin-bottom: 15px;
+        margin-right: 0;
+        text-align: center;
+    }
+
+    .mphead2 {
+        font-size: 25px;
+        margin-top: 15px;
+        text-align: center;
+    }
+
     .mpdiv {
         flex-direction: column;
         margin-top: 400px;
@@ -189,4 +287,20 @@
     .bulbdiv {
         visibility: hidden;
     }
+
+    .maindetection {
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+
+    .mphead2 {
+        /* color: rgb(8, 123, 8); */
+    }
+
+    .mptext {
+        text-align: center;
+    }
 }
+
+
+

@@ -27,36 +27,44 @@ export default function TabCarousel() {
         <div className={styles.emblacontainer}>
             <div className={styles.emblaslide}>
                 <div>
-                <img 
+                <Image 
                     src='/basic.png'
                     alt='basics'
+                    width={100}
+                    height={400}
                     className={styles.basic}
                 />
                 </div>
             </div>
             <div className={styles.emblaslide}>
                 <div>
-                <img 
+                <Image 
                     src='/securitysafety.png'
                     alt='safety security'
+                    width={100}
+                    height={400}
                     className={styles.safety}
                 />
                 </div>
             </div>
             <div className={styles.emblaslide}>
                 <div>
-                <img 
+                <Image
                     src='/advanced.png'
                     alt='Advanced'
+                    width={100}
+                    height={400}
                     className={styles.advance}
                 />
                 </div>
             </div>
             <div className={styles.emblaslide}>
                 <div>
-                <img 
+                <Image
                     src='/premium.png'
                     alt='premium'
+                    width={100}
+                    height={400}
                     className={styles.premium}
                 />
                 </div>

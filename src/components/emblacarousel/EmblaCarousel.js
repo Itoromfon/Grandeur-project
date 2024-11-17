@@ -24,41 +24,51 @@ export default function EmblaCarousel() {
         <div className={styles.emblacontainer}>
             <div className={styles.emblaslide}>
                 <div>
-                <img 
+                <Image 
                     src='/smartadapter.png'
                     alt='smart device'
+                    width={270}
+                    height={270}
                     className={styles.smartadapter}
                     />
                     <p className={styles.text}>Smart Adapter</p>
                 </div>
                 <div>
-                <img 
+                <Image
                     src='/motionsensor.png'
                     alt='smart device'
+                    width={270}
+                    height={270}
                     className={styles.motionsensor}
                 />
                 <p className={styles.text}>Motion Sensor</p>
                 </div>
                 <div>
-                <img 
+                <Image 
                     src='/smartmotor.png'
                     alt='smart device'
+                    width={270}
+                    height={270}
                     className={styles.smartmotor}
                 />
                 <p className={styles.text}>Smart Motor</p>
                 </div>
                 <div>
-                <img
+                <Image
                     src='/smartdoorbell.png'
                     alt='smart device'
+                    width={270}
+                    height={270}
                     className={styles.smartdoorbell}
                 />
                 <p className={styles.text}>Smart Doorbell</p>
                 </div>
                 <div>
-                <img 
+                <Image
                     src='/smartlock.png'
                     alt='smart device'
+                    width={270}
+                    height={270}
                     className={styles.smartdevice}
                 />
                 <p className={styles.text}>Smart Device</p>
@@ -66,41 +76,51 @@ export default function EmblaCarousel() {
             </div>
             <div className={styles.emblaslide}>
                 <div>
-                <img 
+                <Image
                     src='/smartadapter.png'
                     alt='smart device'
+                    width={270}
+                    height={270}
                     className={styles.smartadapter}
                     />
                     <p className={styles.text}>Smart Adapter</p>
                 </div>
                 <div>
-                <img 
+                <Image
                     src='/motionsensor.png'
                     alt='smart device'
+                    width={270}
+                    height={270}
                     className={styles.motionsensor}
                 />
                 <p className={styles.text}>Motion Sensor</p>
                 </div>
                 <div>
-                <img 
+                <Image
                     src='/smartmotor.png'
                     alt='smart device'
+                    width={270}
+                    height={270}
                     className={styles.smartmotor}
                 />
                 <p className={styles.text}>Smart Motor</p>
                 </div>
                 <div>
-                <img
+                <Image
                     src='/smartdoorbell.png'
                     alt='smart device'
+                    width={270}
+                    height={270}
                     className={styles.smartdoorbell}
                 />
                 <p className={styles.text}>Smart Doorbell</p>
                 </div>
                 <div>
-                <img 
+                <Image
                     src='/smartlock.png'
                     alt='smart device'
+                    width={270}
+                    height={270}
                     className={styles.smartdevice}
                 />
                 <p className={styles.text}>Smart Device</p>
@@ -108,41 +128,51 @@ export default function EmblaCarousel() {
             </div>
             <div className={styles.emblaslide}>
                 <div>
-                <img 
+                <Image 
                     src='/smartadapter.png'
                     alt='smart device'
+                    width={270}
+                    height={270}
                     className={styles.smartadapter}
                     />
                     <p className={styles.text}>Smart Adapter</p>
                 </div>
                 <div>
-                <img 
+                <Image
                     src='/motionsensor.png'
                     alt='smart device'
+                    width={270}
+                    height={270}
                     className={styles.motionsensor}
                 />
                 <p className={styles.text}>Motion Sensor</p>
                 </div>
                 <div>
-                <img 
+                <Image 
                     src='/smartmotor.png'
                     alt='smart device'
+                    width={270}
+                    height={270}
                     className={styles.smartmotor}
                 />
                 <p className={styles.text}>Smart Motor</p>
                 </div>
                 <div>
-                <img
+                <Image
                     src='/smartdoorbell.png'
                     alt='smart device'
+                    width={270}
+                    height={270}
                     className={styles.smartdoorbell}
                 />
                 <p className={styles.text}>Smart Doorbell</p>
                 </div>
                 <div>
-                <img 
+                <Image 
                     src='/smartlock.png'
                     alt='smart device'
+                    width={270}
+                    height={270}
                     className={styles.smartdevice}
                 />
                 <p className={styles.text}>Smart Device</p>

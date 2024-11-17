@@ -19,7 +19,7 @@ function SectionTwo() {
         <div className={styles.mpimagediv}>
           <h1 className={styles.mphead}>Enhance Efficiency nearly in any tasks with flow.</h1>
           <h2 className={styles.mphead2}>Your Space. Your Control.</h2>
-          <p className={styles.mptext}>with Flows. you can effortlessly control your home automation.
+          <p className={styles.mptext}>With Flows. you can effortlessly control your home automation.
             simply<br /> pair the perfect flow cards to craft something innovative.
           </p>
         </div>

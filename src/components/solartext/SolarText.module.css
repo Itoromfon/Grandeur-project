@@ -90,20 +90,21 @@
         margin-left: 0;
     }
 
-    .solarh1 {
-        font-size: 30px;
-        font-weight: bolder;
-        width:85%;
-        line-height: 35px;
-        margin-bottom: 25px;
-        color: rgb(185, 124, 13);
+    .solardiv {
         margin-top: 30px;
+    }
+
+    .solarh1 {
+        text-align: center;
+        margin: auto;
+        margin: 10px auto;
     }
     
     .solarp {
         font-size: 16px;
-        color: rgb(8, 123, 8);
-        width: 85%;
+        color: rgb(185, 124, 13);
+        text-align: center;
+        margin: auto;
     }
 
     .remotediv {
@@ -152,20 +153,26 @@
         margin-left: 0;
     }
 
+    .solardiv {
+        margin-top: 30px;
+    }
+
     .solarh1 {
         font-size: 31px;
         font-weight: bolder;
-        width:85%;
         line-height: 35px;
         margin-bottom: 25px;
         color: rgb(185, 124, 13);
         margin-top: 30px;
+        text-align: center;
+        margin: 10px auto;
     }
     
     .solarp {
         font-size: 17px;
-        color: rgb(8, 123, 8);
-        width: 85%;
+        color: rgb(185, 124, 13);
+        text-align: center;
+        margin: auto;
     }
 
     .remotediv {
@@ -214,20 +221,26 @@
         margin-left: 0;
     }
 
+    .solardiv {
+        margin-top: 30px;
+    }
+
     .solarh1 {
         font-size: 32px;
         font-weight: bolder;
-        width:85%;
         line-height: 35px;
         margin-bottom: 25px;
         color: rgb(185, 124, 13);
         margin-top: 30px;
+        text-align: center;
+        margin: 10px auto;
     }
     
     .solarp {
         font-size: 18px;
-        color: rgb(8, 123, 8);
-        width: 85%;
+        color: rgb(185, 124, 13);
+        text-align: center;
+        margin: auto;
     }
 
     .remotediv {
@@ -275,20 +288,28 @@
         margin-left: 0;
     }
 
+    .solardiv {
+        margin-top: 30px;
+    }
+
+    /* .solardiv {
+        margin: auto;
+    } */
+
     .solarh1 {
         font-size: 33px;
         font-weight: bolder;
-        width:86%;
         line-height: 35px;
         margin-bottom: 25px;
         color: rgb(185, 124, 13);
         margin-top: 30px;
+        margin: 10px auto;
     }
     
     .solarp {
         font-size: 19px;
-        color: rgb(8, 123, 8);
-        width: 85%;
+        color: rgb(185, 124, 13);
+        margin: auto;
     }
 
     .remotediv {
@@ -336,20 +357,26 @@
         margin-left: 0;
     }
 
+    .solardiv {
+        margin-top: 30px;
+    }
+
     .solarh1 {
         font-size: 34px;
         font-weight: bolder;
-        width:87%;
         line-height: 35px;
         margin-bottom: 25px;
         color: rgb(185, 124, 13);
         margin-top: 30px;
+        text-align: center;
+        margin: 10px auto;
     }
     
     .solarp {
         font-size: 20px;
-        color: rgb(8, 123, 8);
-        width: 86%;
+        color: rgb(185, 124, 13);
+        text-align: center;
+        margin: auto;
     }
 
     .remotediv {

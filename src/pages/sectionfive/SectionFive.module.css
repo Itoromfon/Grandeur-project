@@ -84,6 +84,26 @@
         flex-direction: column;
     }
 
+    .text {
+        text-align: center;
+    }
+
+    .text2 {
+        text-align: center;
+    }
+
+    .elderlybattery {
+        display: flex;
+        justify-content: center;
+    }
+
+    .elderlyperson {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 20px auto;
+    }
+
     .elderlyh2 {
         color: rgb(8, 123, 8);
         font-size: 25px;
@@ -112,7 +132,27 @@
     }
 
     .elderlyman {
-        /* flex-direction: column; */
+        flex-direction: column;
+    }
+
+    .text {
+        text-align: center;
+    }
+
+    .text2 {
+        text-align: center;
+    }
+
+    .elderlybattery {
+        display: flex;
+        justify-content: center;
+    }
+
+    .elderlyperson {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 20px auto;
     }
 
     .elderlyh2 {
@@ -143,7 +183,27 @@
     }
 
     .elderlyman {
-        /* flex-direction: column; */
+        flex-direction: column;
+    }
+
+    .text {
+        text-align: center;
+    }
+
+    .text2 {
+        text-align: center;
+    }
+
+    .elderlybattery {
+        display: flex;
+        justify-content: center;
+    }
+
+    .elderlyperson {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 20px auto;
     }
 
     .elderlyh2 {
@@ -162,3 +222,55 @@
         display: none;
     }
 }
+
+@media only screen and (min-width: 769px) and (max-width: 900px) {
+    .elderly {
+        flex-direction: column;
+    }
+
+    .elderlymandiv {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .elderlyman {
+        flex-direction: column;
+    }
+
+    .text {
+        text-align: center;
+    }
+
+    .text2 {
+        text-align: center;
+    }
+
+    .elderlybattery {
+        display: flex;
+        justify-content: center;
+    }
+
+    .elderlyperson {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 20px auto;
+    }
+
+    .elderlyh2 {
+       color: rgb(8, 123, 8);
+       font-size: 25px;
+       text-align: center;
+    }
+
+    .elderlyp1 {
+        color: rgb(8, 123, 8);
+        text-align: center;
+    }
+
+    .gadget {
+        max-width: 0;
+        display: none;
+    }
+}
+
