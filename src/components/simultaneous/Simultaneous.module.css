@@ -68,7 +68,7 @@
 }
 
 .carouselButtons {
-  width: 50%;
+  width: 40%;
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: flex-start;
@@ -76,7 +76,7 @@
   animation: fadeInRight 1.5s ease-in-out forwards;
   opacity: 0;
   text-align: center;
-  margin-left: 300px;
+  margin-left: 360px;
   margin-top: 240px;
   gap: 20px;
 }
@@ -88,12 +88,14 @@
 
 .customizeButton {
   background-color: rgba(92, 117, 94, 0.3);
-  border: 2px solid #5C755E;
+  border: 1px solid #5C755E;
+  border-radius: 10px;
+  transition: background-color 1s ease;
 }
 
 .customizeButton:hover {
   background-color: #5C755E;
-  border: 2px solid #5C755E;
+  /* border: 2px solid #5C755E; */
 }
 
 .h2text {
