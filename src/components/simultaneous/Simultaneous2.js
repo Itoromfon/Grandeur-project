@@ -8,6 +8,7 @@ import { Carousel } from 'react-bootstrap';
 import buttonData from './buttonData'
 import { FaPen } from "react-icons/fa";
 import { FaCheck } from "react-icons/fa6";
+import Image from 'next/image';
 
 const AnotherComponent = () => {
     const dispatch = useDispatch();
@@ -187,7 +188,7 @@ const AnotherComponent = () => {
                             
                             </div>
                             <div className={styles.imgdiv}>
-                                <img 
+                                <Image 
                                     src={product.image} 
                                     alt='love' 
                                     className={styles.image}

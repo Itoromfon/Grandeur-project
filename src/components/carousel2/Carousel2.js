@@ -1,6 +1,7 @@
 import React from "react";
 import Slider from "react-slick";
 import styles from './Carousel2.module.css'; // Assuming you create a CSS module for custom styling
+import Image from 'next/image';
 
 const images = [
   "/image1.jpg",
@@ -23,7 +24,7 @@ const Carousel2 = () => {
     <Slider {...settings} className={styles.carousel}>
       {images.map((src, index) => (
         <div key={index} className={styles.slide}>
-          <img src={src} alt={`Slide ${index + 1}`} className={styles.image} />
+          <Image src={src} alt={`Slide ${index + 1}`} className={styles.image} />
         </div>
       ))}
     </Slider>
