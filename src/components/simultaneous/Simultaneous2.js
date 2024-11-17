@@ -44,7 +44,7 @@ const AnotherComponent = () => {
                                 <div>
                                     <h2 className={styles.h2text}>{product.name}</h2>
                                 </div>
-                                <div>
+                                <div className={styles.buttondiv}>
                                     <button 
                                         className={styles.custombutton}
                                     >
@@ -185,7 +185,6 @@ const AnotherComponent = () => {
                                 ))}
                             </div>
                             </div>
-                            
                             </div>
                             <div className={styles.imgdiv}>
                                 <Image 

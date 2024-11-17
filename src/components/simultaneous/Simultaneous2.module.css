@@ -291,6 +291,417 @@
     background-image: linear-gradient(to right, #738975, #8bc290);
 }
 
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    .carouseDiv {
+        width: 100%;
+    }
+
+    .h2text {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .buttontop {
+        margin: 0;
+        flex-direction: column;
+    }
+
+    .buttondiv {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .htext {
+        margin: auto;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+
+    .basiccontainer {
+        flex-direction: column;
+        margin:10px auto;
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .itemtext {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .contents {
+        display: flex;
+        overflow-x: auto; 
+        white-space: nowrap; 
+        scrollbar-width: thin; 
+        margin-left: -50px;
+      }
+      
+      .contents::-webkit-scrollbar {
+        height: 8px; /* Set scrollbar height */
+      }
+      
+      .contents::-webkit-scrollbar-thumb {
+        background-color: #888; /* Customize scrollbar color */
+        border-radius: 4px;
+      }
+      
+      .contents::-webkit-scrollbar-thumb:hover {
+        background-color: #555; /* Darker color on hover */
+      }
+
+    .labels {
+        font-size: 16px;
+    }
+
+    .image {
+        width: 500px;
+        height: 100px;
+    }
+
+    .tabsContainer {
+        display: flex;
+        justify-content: space-between;
+        cursor: pointer;
+        margin: 50px 0 50px 0;
+    }
+
+    .buttoncartdiv {
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 600px) {
+    .carouseDiv {
+        width: 100%;
+    }
+
+    .h2text {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .buttontop {
+        margin: 0;
+        flex-direction: column;
+    }
+
+    .buttondiv {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .htext {
+        margin: auto;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+
+    .basiccontainer {
+        flex-direction: column;
+        margin:10px auto;
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .itemtext {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .contents {
+        display: flex;
+        overflow-x: auto; 
+        white-space: nowrap; 
+        scrollbar-width: thin; 
+        margin-left: -50px;
+      }
+      
+      .contents::-webkit-scrollbar {
+        height: 8px; /* Set scrollbar height */
+      }
+      
+      .contents::-webkit-scrollbar-thumb {
+        background-color: #888; /* Customize scrollbar color */
+        border-radius: 4px;
+      }
+      
+      .contents::-webkit-scrollbar-thumb:hover {
+        background-color: #555; /* Darker color on hover */
+      }
+
+    .labels {
+        font-size: 16px;
+    }
+
+    .image {
+        width: 500px;
+        height: 100px;
+    }
+
+    .tabsContainer {
+        display: flex;
+        justify-content: space-between;
+        cursor: pointer;
+        margin: 50px 0 50px 0;
+    }
+
+    .buttoncartdiv {
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+    .carouseDiv {
+        width: 100%;
+    }
+
+    .h2text {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .buttontop {
+        margin: 0;
+        flex-direction: column;
+    }
+
+    .buttondiv {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .htext {
+        margin: auto;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+
+    .basiccontainer {
+        flex-direction: column;
+        margin:10px auto;
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .itemtext {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .contents {
+        display: flex;
+        overflow-x: auto; 
+        white-space: nowrap; 
+        scrollbar-width: thin; 
+        /* margin-left: -50px; */
+      }
+      
+      .contents::-webkit-scrollbar {
+        height: 8px; /* Set scrollbar height */
+      }
+      
+      .contents::-webkit-scrollbar-thumb {
+        background-color: #888; /* Customize scrollbar color */
+        border-radius: 4px;
+      }
+      
+      .contents::-webkit-scrollbar-thumb:hover {
+        background-color: #555; /* Darker color on hover */
+      }
+
+    .labels {
+        font-size: 16px;
+    }
+
+    .image {
+        width: 500px;
+        height: 100px;
+    }
+
+    .tabsContainer {
+        display: flex;
+        justify-content: space-around;
+        cursor: pointer;
+        margin: 50px 0 50px 0;
+    }
+
+    .buttoncartdiv {
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 900px) {
+    .carouseDiv {
+        width: 100%;
+    }
+
+    .h2text {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .buttontop {
+        margin: 0;
+        flex-direction: column;
+    }
+
+    .buttondiv {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .htext {
+        margin: auto;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+
+    .basiccontainer {
+        flex-direction: column;
+        margin:10px auto;
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .itemtext {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .contents {
+        display: flex;
+        text-align: center;
+        overflow-x: auto; 
+        white-space: nowrap; 
+        scrollbar-width: thin; 
+        /* margin-left: -50px; */
+      }
+      
+      .contents::-webkit-scrollbar {
+        height: 8px; /* Set scrollbar height */
+      }
+      
+      .contents::-webkit-scrollbar-thumb {
+        background-color: #888; /* Customize scrollbar color */
+        border-radius: 4px;
+      }
+      
+      .contents::-webkit-scrollbar-thumb:hover {
+        background-color: #555; /* Darker color on hover */
+      }
+
+    .labels {
+        font-size: 16px;
+    }
+
+    .image {
+        width: 500px;
+        height: 100px;
+    }
+
+    .tabsContainer {
+        display: flex;
+        justify-content: space-around;
+        cursor: pointer;
+        margin: 50px 0 50px 0;
+    }
+
+    .buttoncartdiv {
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1200px) {
+    .carouseDiv {
+        width: 100%;
+    }
+
+    .h2text {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .buttontop {
+        margin: 0;
+        flex-direction: column;
+    }
+
+    .buttondiv {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .htext {
+        margin: auto;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+
+    .basiccontainer {
+        flex-direction: column;
+        margin:10px auto;
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .itemtext {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .contents {
+        display: flex;
+        text-align: center;
+        overflow-x: auto; 
+        white-space: nowrap; 
+        scrollbar-width: thin; 
+        /* margin-left: -50px; */
+      }
+      
+      .contents::-webkit-scrollbar {
+        height: 8px; /* Set scrollbar height */
+      }
+      
+      .contents::-webkit-scrollbar-thumb {
+        background-color: #888; /* Customize scrollbar color */
+        border-radius: 4px;
+      }
+      
+      .contents::-webkit-scrollbar-thumb:hover {
+        background-color: #555; /* Darker color on hover */
+      }
+
+    .labels {
+        font-size: 16px;
+    }
+
+    .image {
+        width: 500px;
+        height: 100px;
+    }
+
+    .tabsContainer {
+        display: flex;
+        justify-content: space-around;
+        cursor: pointer;
+        margin: 50px 0 50px 0;
+    }
+
+    .buttoncartdiv {
+        text-align: center;
+    }
+}
 
 
 
