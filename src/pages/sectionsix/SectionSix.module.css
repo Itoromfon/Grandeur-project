@@ -39,6 +39,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin-left: 0;
      }
 
     .airbnbimage {
@@ -48,6 +49,17 @@
     /* .airbnbtext {
         
     } */
+
+    .airbnbh2 {
+        margin: auto;
+        text-align: center;
+        margin-right: 20px;
+    }
+    
+    .airbnbp {
+        margin: auto;
+        text-align: center;
+    }
 }
 
 @media only screen and (min-width: 481px) and (max-width: 600px) {
@@ -60,6 +72,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin-left: 0;
      }
 
     .airbnbimage {
@@ -69,6 +82,16 @@
     /* .airbnbtext {
         
     } */
+
+    .airbnbh2 {
+        margin: auto;
+        text-align: center;
+    }
+    
+    .airbnbp {
+        margin: auto;
+        text-align: center;
+    }
 }
 
 @media only screen and (min-width: 601px) and (max-width: 768px) {
@@ -81,6 +104,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin-left: 0;
      }
 
     .airbnbimage {
@@ -90,6 +114,16 @@
     /* .airbnbtext {
         
     } */
+
+    .airbnbh2 {
+        margin: auto;
+        text-align: center;
+    }
+    
+    .airbnbp {
+        margin: auto;
+        text-align: center;
+    }
 }
 
 @media only screen and (min-width: 769px) and (max-width: 900px) {
@@ -102,6 +136,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin-left: 0;
      }
 
     .airbnbimage {
@@ -111,6 +146,16 @@
     /* .airbnbtext {
         
     } */
+
+    .airbnbh2 {
+        margin: auto;
+        text-align: center;
+    }
+    
+    .airbnbp {
+        margin: auto;
+        text-align: center;
+    }
 }
 
 @media only screen and (min-width: 901px) and (max-width: 1200px) {
@@ -132,4 +177,14 @@
     /* .airbnbtext {
         
     } */
+
+    .airbnbh2 {
+        margin: auto;
+        text-align: center;
+    }
+    
+    .airbnbp {
+        margin: auto;
+        text-align: center;
+    }
 }

@@ -1,7 +1,7 @@
 .mainsmart {
     display: flex;
     background: #5C755E;
-    padding: 80px 50px;  
+    padding: 40px 50px 80px 50px;  
     margin: 0 50px;
     border-radius: 15px;
     margin-bottom: 100px;
@@ -66,6 +66,17 @@
     .smartwrapimg {
         margin-top: 70px;
     }
+
+    .smarth2 {
+        margin: auto;
+        text-align: center;
+    }
+
+    .smartp {
+        margin: auto;
+        text-align: center;
+        margin-bottom: 20px;
+    }
 }
 
 @media only screen and (min-width: 481px) and (max-width: 600px) {
@@ -89,6 +100,17 @@
 
     .smartwrapimg {
 
+    }
+
+    .smarth2 {
+        margin: auto;
+        text-align: center;
+    }
+
+    .smartp {
+        margin: auto;
+        text-align: center;
+        margin-bottom: 20px;
     }
 }
 
@@ -114,6 +136,17 @@
     .smartwrapimg {
 
     }
+
+    .smarth2 {
+        margin: auto;
+        text-align: center;
+    }
+
+    .smartp {
+        margin: auto;
+        text-align: center;
+        margin-bottom: 20px;
+    }
 }
 
 @media only screen and (min-width: 769px) and (max-width: 900px) {
@@ -138,6 +171,17 @@
     .smartwrapimg {
 
     }
+
+    .smarth2 {
+        margin: auto;
+        text-align: center;
+    }
+
+    .smartp {
+        margin: auto;
+        text-align: center;
+        margin-bottom: 20px;
+    }
 }
 
 @media only screen and (min-width: 769px) and (max-width: 900px) {
@@ -161,5 +205,16 @@
 
     .smartwrapimg {
 
+    }
+
+    .smarth2 {
+        margin: auto;
+        text-align: center;
+    }
+
+    .smartp {
+        margin: auto;
+        text-align: center;
+        margin-bottom: 20px;
     }
 }
