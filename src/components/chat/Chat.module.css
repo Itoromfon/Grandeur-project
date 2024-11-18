@@ -1,4 +1,4 @@
-.maincontainer {
+/* .maincontainer {
     height: 100%;
     width: 100%;
     display: flex;
@@ -8,16 +8,11 @@
 }
 
 .main {
-    position: fixed;    /* Corresponds to 'fixed' */
-    height: 100%;       /* Corresponds to 'h-full' */
-    width: 100%;        /* Corresponds to 'w-full' */
+    position: fixed;    
+    height: 100%;       
+    width: 100%;        
     background-color: transparent; 
 }
-
-/* .maintext {
-    flex: 1;
-    overflow-y: auto;
-} */
 
 .form {
     box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.3);
@@ -29,4 +24,231 @@
 .textarae {
     width: 100%;
     font-size: 1.125rem;
+} */
+
+
+.container {
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;  
+    padding-right: 1rem; 
+    margin-top: 50px;
+    margin-bottom: 50px;
+    /* height: 100%; */
+    animation: backgroundPop 4s ease-in-out infinite;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    /* height: 100%; */
+    /* background-color: #282828; */
+    border-radius: 15px;
+    border: 1px solid #2f2f2f;
+}
+
+.htext {
+  color: #5C755E; 
+  text-align: center;  
+  padding: 0.75rem 0;  
+  font-weight: bold; 
+  font-size: 25px; 
+  letter-spacing: 2px; 
+}
+
+.messagediv {
+    height: 150px; /* Set a fixed height for the messages area */
+    overflow-y: auto; /* Enable scrolling if content overflows */
+    padding: 10px;
+}
+
+.message {
+    display: flex;
+    flex-direction: column;
+}
+
+.message > *:not(:last-child) {
+    margin-bottom: 1rem; 
+}
+
+.flex {
+    display: flex;
+}
+  
+.justifyEnd {
+justify-content: flex-end;
+}
+
+.justifyStart {
+justify-content: flex-start;
+}
+
+.bgPurple {
+    background-color: #424242; 
+  }
+  
+  .bgGray {
+    background-color: #2d3748; /* Tailwind's bg-gray-800 */
+  }
+  
+  .rounded {
+    border-radius: 30px 30px; /* Tailwind's rounded-lg */
+  }
+  
+  .padding {
+    padding: 1rem; /* Tailwind's p-4 */
+  }
+  
+  .textWhite {
+    color: white; /* Tailwind's text-white */
+  }
+  
+.maxWidth {
+max-width: 24rem; /* Tailwind's max-w-sm */
+}
+
+.form {
+flex-grow: 0;
+flex-shrink: 0;
+flex-basis: auto;
+padding: 1.5rem;
+}
+
+.divform {
+    display: flex;
+    border-radius: 40px;
+    border: 1px solid #424242;
+    background-color: #424242;
+    padding: 10px 10px;
+    margin-top: 0px;
+}
+
+.input {
+    flex-grow: 1;
+    padding: 0.5rem 5px;
+    background-color: transparent;
+    color: #FFFFFF;
+    outline: none;
+}
+
+.button {
+  background-color: #606060;  
+  border-radius: 50%;      
+  padding: 8px 10px;   
+  color: #FFFFFF;               
+  font-weight: 600;           
+  outline: none;              
+  transition-property: background-color, color;  
+  transition-duration: 300ms; 
+}
+
+/* .button:hover {
+    background-color: #5a3ea7;
+} */
+
+.activeButton {
+    background-color: #FFFFFF; /* Active color when typing */
+    color: white;
+}
+
+.activeButton:hover {
+    background-color: rgb(175, 175, 177); /* Hover color for active button */
+}
+
+.isloading {
+    display: flex;
+    justify-content: start;
+}
+
+.isloading2 {
+    background-color: #2d3748;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    color: #FFFFFF;
+    max-width: 32rem;
+}
+
+.main1 {
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    background: linear-gradient();
+}
+
+.attachButton {
+    cursor: pointer;
+    font-size: 20px;
+    margin-right: 10px;
+    margin-top: 7px;
+    color: #FFFFFF;
+}
+
+.attachButton:hover {
+    color: #FFFFFF;
+}
+
+.arrow {
+    color: #1e1e1e;
+}
+
+.container.light {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.container.dark {
+    background-color: #2f2f2f;
+    color: #ffffff;
+    border-radius: 15px;
+}
+
+.toggleContainer {
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px;
+}
+
+.toggleButton {
+    width: 50px;
+    height: 25px;
+    background-color: #ccc;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    outline: none;
+    margin-top: 10px;
+}
+
+.toggleButton::before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    position: absolute;
+    top: 2.5px;
+    left: 5px;
+    transition: transform 0.3s;
+}
+
+.container.dark .toggleButton::before {
+    transform: translateX(25px);
+}
+
+
+@keyframes backgroundPop {
+    0% {
+      transform: scale(1); /* Start with normal size */
+      background-position: center; /* Normal position */
+    }
+    50% {
+      transform: scale(1.02); /* Pop-up effect: enlarge */
+      background-position: center; /* Keep the image centered */
+    }
+    100% {
+      transform: scale(1); /* Return to normal size */
+      background-position: center; /* Normal position */
+    }
 }

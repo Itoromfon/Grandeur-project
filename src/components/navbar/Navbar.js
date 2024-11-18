@@ -78,14 +78,14 @@ function Navbar() {
               transition={{ type: "spring", stiffness: 300 }}
               className={styles.navlink2div}
             >
-              <Link className={styles.navlink2} href="/security/security" prefetch={true}>Security</Link>
+              <Link className={styles.navlink2} href="/security/security" prefetch={true}>Getting Started</Link>
             </motion.div>
             <motion.div
               whileHover={{ scale: 1.1 }}
               transition={{ type: "spring", stiffness: 300 }}
               className={styles.navlink3div}
             >
-              <Link className={styles.navlink3} href="/energynav/energynav" prefetch={true}>Energy</Link>
+              <Link className={styles.navlink3} href="/energynav/energynav" prefetch={true}>Product</Link>
             </motion.div>
             <motion.div
               whileHover={{ scale: 1.1 }}
