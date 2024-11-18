@@ -65,7 +65,7 @@ export default function Chat() {
   useEffect(() => {
     if (ref.current === null) return
     ref.current.scrollTo(0, ref.current.scrollHeight)
-  }, [messages])
+  })
 
   function onSubmit(e) {
     e.preventDefault()
