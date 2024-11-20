@@ -41,8 +41,8 @@ const navigationLinks = [
       { text: "Health", src: "/Lighthouse.webp", alt: "Image 3" },
     ],
   },
-  { name: "Contact", href: "/contact" },
-  { name: "Blog", href: "/blog" },
+  { name: "Documentation", href: "/contact" },
+  { name: "Integration", href: "/blog" },
 ];
 
 export default navigationLinks;

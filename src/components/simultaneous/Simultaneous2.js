@@ -8,16 +8,24 @@ import { Carousel } from 'react-bootstrap';
 import buttonData from './buttonData'
 import { FaPen } from "react-icons/fa";
 import { FaCheck } from "react-icons/fa6";
+import { FaTimes } from "react-icons/fa";
 import Image from 'next/image';
+import Chat from '../chat/Chat';
+import { BsFillPatchQuestionFill } from "react-icons/bs";
 
 const AnotherComponent = () => {
     const dispatch = useDispatch();
     const activeIndex = useSelector((state) => state.activeIndex.value);
     const [activeTab, setActiveTab] = useState(1);
+    const [isPopupVisible, setIsPopupVisible] = useState(false);
 
      // Function to handle tab change
     const handleTabClick = (tabIndex) => {
         setActiveTab(tabIndex);
+    };
+
+    const togglePopup = () => {
+        setIsPopupVisible(!isPopupVisible)
     };
 
     const handleButtonClick = (index) => {
@@ -26,6 +34,24 @@ const AnotherComponent = () => {
 
     return (
         <>
+            {/* Icon to open Popup */}
+            <div className={styles.iconContainer}>
+                {/* <FaPen  /> */}
+                <BsFillPatchQuestionFill className={styles.popupIcon} onClick={togglePopup} />
+            </div>
+
+            {/* Popup Component */}
+            {isPopupVisible && (
+                <div className={styles.popupOverlay}>
+                    <div className={styles.popupContent}>
+                        <button className={styles.closeButton} onClick={togglePopup}>
+                            <FaTimes />
+                        </button>
+                        <Chat />
+                    </div>
+                </div>
+            )}
+
             {/* Carousel Component */}
             <div className={styles.carouselcontainer}>
             <Carousel 
