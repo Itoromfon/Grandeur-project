@@ -13,7 +13,7 @@ import Simultaneous from '@/components/simultaneous/Simultaneous'
 // import TabCarousel from '@/components/tabcarousel/TabCarousel'
 // import Carousel from '@/components/carousel/Carousel'
 import dynamic from 'next/dynamic';
-// import { CartProvider } from '@/components/contexts/CartsContext'
+// import { CartProvider } from '@/components/contexts/CartsContext';
 
 export default function EmblaCarousel() {
   return (

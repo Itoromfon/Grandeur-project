@@ -6,6 +6,10 @@
   padding-top:20px;
 }
 
+.maindocu {
+  background-color: black;
+}
+
 .secure {
   max-width: 100%;
 }
@@ -134,6 +138,13 @@ p {
   }
   body {
     @apply bg-background text-foreground;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .button {
+    margin-top: 8px;
+    margin-right: 0;
   }
 }
 

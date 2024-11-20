@@ -9,6 +9,7 @@ import { setActiveIndex } from '../../../store/activeIndexSlice';
 import { useCart } from '../contexts/CartsContext';
 import AnotherComponent from './Simultaneous2';
 import Footer from '../footer/Footer';
+import Navbar2 from '../navbar2/Navbar2';
 
 const ProductKitCarousel = () => {
     const activeIndex = useSelector((state) => state.activeIndex.value);
@@ -65,6 +66,7 @@ const ProductKitCarousel = () => {
                     <source src="/assets/product-kits-video/product-estate.mp4" type="video/mp4" />
                     Your browser does not support the video tag.
                 </video>
+                <Navbar2 className={styles.navbar2} />
                 <Carousel
                     activeIndex={activeIndex}
                     onSelect={(index) => dispatch(setActiveIndex(index))}

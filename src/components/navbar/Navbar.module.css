@@ -179,15 +179,15 @@
     width: 80%;
   }
 
-  .links {
-    display: none; /* Hide links on mobile */
+  /* .links {
+    display: none; 
     flex-direction: column;
     gap: 10px;
   }
 
   .links.open {
-    display: flex; /* Show links when the menu is open */
-  }
+    display: flex; 
+  } */
 
   .menutoggle {
     display: flex; /* Show toggle button on mobile */

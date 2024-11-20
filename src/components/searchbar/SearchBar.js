@@ -29,7 +29,7 @@ const SearchBar = () => {
           height={19.17}
         />
       </button>
-      {isOpen && (
+      {/* {isOpen && (
         <form onSubmit={handleSearch} style={styles.form}>
           <input
             type="text"
@@ -42,7 +42,7 @@ const SearchBar = () => {
             Search
           </button>
         </form>
-      )}
+      )} */}
     </div>
   );
 };
