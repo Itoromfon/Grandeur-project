@@ -292,8 +292,17 @@
 }
 
 @media only screen and (min-width: 320px) and (max-width: 480px) {
+    /* .container {
+        flex-direction: column;
+    } */
+
+    .carouselcontainer {
+        margin: 50px 5px 50px 5px;
+    }
+
     .carouseDiv {
         width: 100%;
+        padding: 70px 15px 50px 15px;
     }
 
     .h2text {
@@ -358,7 +367,7 @@
         display: flex;
         overflow-x: auto; 
         white-space: nowrap; 
-        scrollbar-width: thin; 
+        scrollbar-width: 50px; 
         margin-left: -50px;
       }
       
@@ -390,8 +399,13 @@
 }
 
 @media only screen and (min-width: 481px) and (max-width: 600px) {
+    .carouselcontainer {
+        margin: 50px 5px 50px 5px;
+    }
+
     .carouseDiv {
         width: 100%;
+        padding: 70px 15px 50px 15px;
     }
 
     .h2text {
@@ -488,8 +502,13 @@
 }
 
 @media only screen and (min-width: 601px) and (max-width: 768px) {
+    .carouselcontainer {
+        margin: 50px 5px 50px 5px;
+    }
+
     .carouseDiv {
         width: 100%;
+        padding: 70px 15px 50px 15px;
     }
 
     .h2text {
@@ -570,8 +589,13 @@
 }
 
 @media only screen and (min-width: 769px) and (max-width: 900px) {
+    .carouselcontainer {
+        margin: 50px 5px 50px 5px;
+    }
+
     .carouseDiv {
         width: 100%;
+        padding: 70px 15px 50px 15px;
     }
 
     .h2text {
@@ -653,8 +677,13 @@
 }
 
 @media only screen and (min-width: 901px) and (max-width: 1200px) {
+    .carouselcontainer {
+        margin: 50px 5px 50px 5px;
+    }
+
     .carouseDiv {
         width: 100%;
+        padding: 70px 15px 50px 15px;
     }
 
     .h2text {
