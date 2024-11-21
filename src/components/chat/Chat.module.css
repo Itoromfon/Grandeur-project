@@ -44,11 +44,11 @@
     /* height: 100%; */
     /* background-color: #282828; */
     /* border-radius: 15px; */
-    border: 1px solid #2f2f2f;
+    /* border: 1px solid #2f2f2f; */
 }
 
 .htext {
-  color: #FFFFFF; 
+  /* color: #FFFFFF;  */
   text-align: center;  
   padding: 0.75rem 0;  
   font-weight: bold; 
@@ -238,6 +238,193 @@ padding: 1.5rem;
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Slide panel styles */
+.slidePanel {
+    position: fixed; /* Keep the panel fixed in place */
+    top: 0;
+    right: 0;
+    width: 300px;
+    height: 66vh;
+    background-color: #333;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.3);
+    transform: translateX(100%); /* Initially move the panel off-screen */
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+    opacity: 0; /* Initially hidden */
+    visibility: hidden; /* Prevents interactions when closed */
+    z-index: 1000;
+    overflow-y: auto;
+}
+  
+  .slidePanel.open {
+    transform: translateX(0); /* Slide the panel into view */
+    opacity: 1; /* Make it visible */
+    visibility: visible; /* Enable interactions */
+  }
+  
+  .closeButton {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: #FFFFFF;
+  }
+  
+  .slideToggle {
+    position: fixed;
+    top: 15px;
+    left: 15px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1100; /* Ensure it's above the panel */
+  }
+
+  .slidetext {
+    color: #FFFFFF;
+  }
+
+  .historyItem {
+    margin: 10px 0; /* Add vertical spacing */
+    list-style: none; /* Remove bullet points */
+}
+
+.historyLink {
+    text-decoration: none; /* Remove underline */
+    color: #ffffff; /* Default text color */
+    padding: 5px 10px; /* Add padding for clickable area */
+    display: inline-block; /* Ensure proper spacing for hover effect */
+    transition: color 0.3s ease, background-color 0.3s ease; /* Smooth transitions */
+}
+
+.historyLink:hover {
+    color: #ffffff; /* Hover text color */
+    background-color: #606060; /* Highlight background on hover */
+    border-radius: 5px; /* Rounded corners */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @keyframes backgroundPop {
     0% {
       transform: scale(1); /* Start with normal size */
@@ -268,6 +455,10 @@ padding: 1.5rem;
         /* border-radius: 5px; */
         width: 350px;
     }
+
+    .slidePanel {
+        height: 60vh;
+    }
 }
 
 @media only screen and (min-width: 481px) and (max-width: 600px) {
@@ -284,5 +475,9 @@ padding: 1.5rem;
         color: #ffffff;
         /* border-radius: 5px; */
         width: 350px;
+    }
+
+    .slidePanel {
+        height: 60vh;
     }
 }

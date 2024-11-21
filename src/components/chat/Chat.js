@@ -6,6 +6,7 @@ import TypingAnimation from "../typinganimation/TypingAnimation";
 import { CgAttachment } from "react-icons/cg";
 import { FaArrowUp } from "react-icons/fa6";
 import { FaSquare } from "react-icons/fa";
+import { FaBars, FaTimes } from "react-icons/fa";
 
 const Chat = () => {
     const [inputValue, setInputValue] = useState('');
@@ -13,12 +14,17 @@ const Chat = () => {
     const [isLoading, setIsLoading] = useState(false);
     const [attachedFile, setAttachedFile] = useState(null);
     const [isSent, setIsSent] = useState(false); 
-    const [theme, setTheme] = useState('light'); // Light mode by default
+    const [theme, setTheme] = useState('light'); 
+    const [isSlideOpen, setIsSlideOpen] = useState(false);
 
     const toggleTheme = () => {
         setTheme((prevTheme) => (prevTheme === 'light' ? 'dark' : 'light'));
     };
 
+    const toggleSlide = () => {
+        setIsSlideOpen(!isSlideOpen)
+    }
+   
     const handleFileChange = (event) => {
         if (event.target.files.length > 0) {
             setAttachedFile(event.target.files[0]);
@@ -92,13 +98,57 @@ const Chat = () => {
 
     return (
         <div className={`${styles.container} ${theme === 'dark' ? styles.light : styles.dark}`}>
+        
+        
+        <div className={styles.slideToggle} onClick={toggleSlide}>
+            <FaBars />
+        </div>
+
+        {/* Slide-Out Panel */}
+        <div className={`${styles.slidePanel} ${isSlideOpen ? styles.open : ''}`}>
+        <button className={styles.closeButton} onClick={toggleSlide}>
+            <FaTimes />
+        </button>
+        <h2 className={styles.slidetext}>Previous Questions</h2>
+        <ul>
+        {chatLog.map((message, index) =>
+            message.type === 'user' ? (
+                <li key={index} className={styles.historyItem}>
+                    <a
+                        href="#"
+                        className={styles.historyLink}
+                        onClick={(e) => {
+                            e.preventDefault();
+                            console.log(`Navigating to: ${message.message}`);
+                            // Add navigation logic here if needed
+                        }}
+                    >
+                        {message.message}
+                    </a>
+                </li>
+            ) : null
+        )}
+    </ul>
+    </div>
+
+
+
+
+
+
+
             <div className={styles.toggleContainer}>
                 <button onClick={toggleTheme} className={styles.toggleButton}>
                     {theme === 'light' ? '🌞' : '🌙'}
                 </button>
             </div>
             <div className={styles.container2}>
-                <h1 className={styles.htext}>Ask Grandeur Smart</h1>
+                <h1 
+                    className={styles.htext}
+                    style={{ color: theme === 'dark' ? 'black' : 'white' }}
+                >
+                    Ask Grandeur Smart
+                </h1>
                 <div className={styles.messagediv}>
                     <div className={styles.message}>
                         {chatLog.map((message, index) => (

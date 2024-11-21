@@ -19,59 +19,69 @@
 } */
 
 .grandeur {
-    width: 145px;
+    width: 180px;
     height: 63px;
 }
 
 .quicklink {
     font-weight: bold;
     color: #FFFFFF;
-    font-size: 14px;
+    font-size: 16px;
     margin-bottom: 10px;
     margin-top: 10px;
+    letter-spacing: 1px;
 }
 
 .quicklinktext1 {
     color: #FFFFFF;
-    font-size: 14px;
+    font-size: 16px;
+    margin-bottom: 0;
+    letter-spacing: 1px;
 }
 
 .quicklinktext2 {
     color: #FFFFFF;
-    font-size: 14px;
+    font-size: 16px;
     margin: 5px 0;
+    letter-spacing: 1px;
 }
 
 .quicklinktext3 {
     color: #FFFFFF;
-    font-size: 14px;
+    font-size: 16px;
     margin: 5px 0;
+    letter-spacing: 1px;
 }
 
 .quicklinktext4 {
     color: #FFFFFF;
-    font-size: 14px;
+    font-size: 16px;
+    letter-spacing: 1px;
 }
 
 .storediv {
     margin-top: 63px;
+    margin-left: 30px;
 }
 
 .store {
     font-weight: bold;
     color: #FFFFFF;
-    font-size: 14px;
+    font-size: 16px;
+    letter-spacing: 1px;
     margin: 10px 0;
 }
 
 .storetext1 {
-    font-size: 14px;
+    font-size: 16px;
+    letter-spacing: 1px;
     color: #FFFFFF;
-    margin: 5px 0;
+    margin: 5px 0 0 0;
 }
 
 .storetext2 {
-    font-size: 14px;
+    font-size: 16px;
+    letter-spacing: 1px;
     color: #FFFFFF;
 }
 
@@ -85,45 +95,52 @@
 }
 
 .developer {
-    font-size: 14px;
+    font-size: 16px;
+    letter-spacing: 1px;
     font-weight: bold;
     color: #FFFFFF;
     margin-bottom: 10px;
 }
 
 .developertext1 {
-    font-size: 14px;
+    font-size: 16px;
+    letter-spacing: 1px;
     color: #FFFFFF;
     margin: 5px 0;
 }
 
 .developertext2 {
-    font-size: 14px;
+    font-size: 16px;
+    letter-spacing: 1px;
     color: #FFFFFF;
 }
 
 .partner {
     color: #FFFFFF;
-    font-size: 14px;
+    font-size: 16px;
+    letter-spacing: 1px;
     margin-top: 10px;
     font-weight: bold;
 }
 
 .partnertext1 {
     color: #FFFFFF;
-    font-size: 14px;
+    font-size: 16px;
+    letter-spacing: 1px;
     margin: 5px 0;
 }
 
 .partnertext2 {
     color: #FFFFFF;
-    font-size: 14px;
+    font-size: 16px;
+    letter-spacing: 1px;
     margin: 5px 0;
 }
 
 .partnertext3 {
     color: #FFFFFF;
-    font-size: 14px;
+    font-size: 16px;
+    letter-spacing: 1px;
 }
 
 .companydiv {
@@ -132,37 +149,43 @@
 }
 
 .company {
-    font-size: 14px;
+    font-size: 16px;
+    letter-spacing: 1px;
     font-weight: bold;
     color: #FFFFFF;
     margin-bottom: 10px;
 }
 
 .companytext1 {
-    font-size: 14px;
+    font-size: 16px;
+    letter-spacing: 1px;
     color: #FFFFFF;
 }
 
 .companytext2 {
-    font-size: 14px;
+    font-size: 16px;
+    letter-spacing: 1px;
     color: #FFFFFF;
     margin: 5px 0;
 }
 
 .companytext3 {
-    font-size: 14px;
+    font-size: 16px;
+    letter-spacing: 1px;
     color: #FFFFFF;
     margin: 5px 0;
 }
 
 .companytext4 {
-    font-size: 14px;
+    font-size: 16px;
+    letter-spacing: 1px;
     color: #FFFFFF;
     margin: 5px 0;
 }
 
 .companytext5 {
-    font-size: 14px;
+    font-size: 16px;
+    letter-spacing: 1px;
     color: #FFFFFF;
 }
 
@@ -172,21 +195,24 @@
 }
 
 .contact {
-    font-size: 14px;
+    font-size: 16px;
+    letter-spacing: 1px;
     color: #FFFFFF;
     font-weight: bold;
     margin-bottom: 10px;
 }
 
 .contacttext1 {
-    font-size: 14px;
+    font-size: 16px;
+    letter-spacing: 1px;
     color: #FFFFFF;
     display: flex;
     gap: 5px;
 }
 
 .contacttext2 {
-    font-size: 14px;
+    font-size: 16px;
+    letter-spacing: 1px;
     color: #FFFFFF;
     margin: 5px 0;
     display: flex;
@@ -194,7 +220,8 @@
 }
 
 .contacttext3 {
-    font-size: 14px;
+    font-size: 16px;
+    letter-spacing: 1px;
     color: #FFFFFF;
     display: flex;
     gap: 5px;
@@ -202,17 +229,17 @@
 
 .location {
     color: #FFFFFF;
-    font-size: 24px;
+    font-size: 30px;
 }
 
 .phone {
     color: #FFFFFF;
-    font-size: 23px;
+    font-size: 24px;
 }
 
 .mail {
     color: #FFFFFF;
-    font-size: 24px;
+    font-size: 25px;
 }
 
 .facebook {
@@ -301,7 +328,7 @@
 }
 
 .sociallinks {
-    font-size: 14px;
+    font-size: 18px;
     color: #FFFFFF;
     margin-top: 70px;
     font-weight: bold;
@@ -316,15 +343,20 @@
 .play {
     display: flex;
     margin-top: 10px;
+    margin-left: -10px;
 }
 
 .appstore {
     border-radius: 5px;
     margin-right: 7px;
+    width: 110px;
+    height: 40px;
 }
 
 .googlestore {
     border-radius: 5px;
+    width: 110px;
+    height: 40px;
 }
 
 .hr {
@@ -336,7 +368,7 @@
 .copyright {
     color: #FFFFFF;
     text-align: center;
-    font-size: 14px;
+    font-size: 17px;
     margin-top: 20px;
 }
 
@@ -347,6 +379,9 @@
 
     .grandeur {
         margin: auto;
+        width: 170px;
+        height: 70px;
+        margin-bottom: 20px;
     }
 
     .quicklinkdiv {
@@ -357,12 +392,146 @@
 
     .quicklink {
         margin-top: 20px;
+        font-size: 20px;
+        letter-spacing: 1px;
+        margin-bottom: 20px;
+    }
+
+    .quicklinktext1 {
+        font-size: 20px;
+        margin-bottom: 0;
+        letter-spacing: 1px;
+    }
+
+    .quicklinktext2 {
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+
+    .quicklinktext3 {
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+
+    .quicklinktext4 {
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+
+    .store {
+        margin-top: 20px;
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+
+    .storetext1 {
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+
+    .storetext2 {
+        font-size: 20px;
+        margin-bottom: 0;
+        letter-spacing: 1px;
     }
 
     .storediv {
         display: flex;
         flex-direction: column;
         text-align: center;
+    }
+
+    .developer {
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+
+    .developertext1 {
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+
+    .developertext2 {
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+
+    .partner {
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+
+    .partnertext1 {
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+
+    .partnertext2 {
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+
+    .partnertext3 {
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+
+    .company {
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+
+    .companytext1 {
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+
+    .companytext2 {
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+
+    .companytext3 {
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+
+    .companytext4 {
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+
+    .companytext5 {
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+
+    .contact {
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+
+    .contacttext1 {
+        font-size: 20px;
+        letter-spacing: 1px;
+        padding-bottom: 20px;
+    }
+
+    .contacttext2 {
+        font-size: 20px;
+        letter-spacing: 1px;
+        padding-bottom: 20px;
+    }
+
+    .contacttext3 {
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+
+    .location {
+        font-size: 40px;
+        margin-top: -10px;
+        margin-right: -10px;
     }
 
     .main2 {
@@ -406,6 +575,11 @@
         margin: auto;
     }
 
+    .sociallinks {
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+
     .socialdiv {
         display: flex;
         justify-content: center;
@@ -417,11 +591,25 @@
         text-align: center;
     }
 
+    .appstore {
+        width: 140px;
+        height: 45px;
+    }
+
+    .googlestore {
+        width: 140px;
+        height: 45px;
+    }
+
     .play {
         display: flex;
         justify-content: center;
         margin-left: 0;
         margin-top: 15px;
+    }
+
+    .copyright {
+        font-size: 18px;
     }
 }
 
@@ -433,6 +621,9 @@
 
     .grandeur {
         margin: auto;
+        width: 180px;
+        height: 75px;
+        margin-bottom: 20px;
     }
 
     .quicklinkdiv {
@@ -442,13 +633,145 @@
     }
 
     .quicklink {
+        margin-top: 2px;
+        font-size: 22px;
+        letter-spacing: 1px;
+        margin-bottom: 20px;
+    }
+
+    .quicklinktext1 {
+        font-size: 22px;
+        margin-bottom: 0;
+        letter-spacing: 1px;
+    }
+
+    .quicklinktext2 {
+        font-size: 22px;
+        letter-spacing: 1px;
+    }
+
+    .quicklinktext3 {
+        font-size: 22px;
+        letter-spacing: 1px;
+    }
+
+    .quicklinktext4 {
+        font-size: 22px;
+        letter-spacing: 1px;
+    }
+
+    .store {
         margin-top: 20px;
+        font-size: 22px;
+        letter-spacing: 1px;
+    }
+
+    .storetext1 {
+        font-size: 22px;
+        letter-spacing: 1px;
+    }
+
+    .storetext2 {
+        font-size: 22px;
+        margin-bottom: 0;
+        letter-spacing: 1px;
     }
 
     .storediv {
         display: flex;
         flex-direction: column;
         text-align: center;
+    }
+
+    .developer {
+        font-size: 22px;
+        letter-spacing: 1px;
+    }
+
+    .developertext1 {
+        font-size: 22px;
+        letter-spacing: 1px;
+    }
+
+    .developertext2 {
+        font-size: 22px;
+        letter-spacing: 1px;
+    }
+
+    .partner {
+        font-size: 22px;
+        letter-spacing: 1px;
+    }
+
+    .partnertext1 {
+        font-size: 22px;
+        letter-spacing: 1px;
+    }
+
+    .partnertext2 {
+        font-size: 22px;
+        letter-spacing: 1px;
+    }
+
+    .partnertext3 {
+        font-size: 22px;
+        letter-spacing: 1px;
+    }
+
+    .company {
+        font-size: 22px;
+        letter-spacing: 1px;
+    }
+
+    .companytext1 {
+        font-size: 22px;
+        letter-spacing: 1px;
+    }
+
+    .companytext2 {
+        font-size: 22px;
+        letter-spacing: 1px;
+    }
+
+    .companytext3 {
+        font-size: 22px;
+        letter-spacing: 1px;
+    }
+
+    .companytext4 {
+        font-size: 22px;
+        letter-spacing: 1px;
+    }
+
+    .companytext5 {
+        font-size: 22px;
+        letter-spacing: 1px;
+    }
+
+    .contact {
+        font-size: 22px;
+        letter-spacing: 1px;
+    }
+
+    .contacttext1 {
+        font-size: 22px;
+        letter-spacing: 1px;
+        padding-bottom: 20px;
+    }
+
+    .contacttext2 {
+        font-size: 22px;
+        letter-spacing: 1px;
+        padding-bottom: 20px;
+    }
+
+    .contacttext3 {
+        font-size: 22px;
+        letter-spacing: 1px;
+    }
+
+    .location {
+        font-size: 32px;
     }
 
     .main2 {
@@ -492,9 +815,16 @@
         margin: auto;
     }
 
+    .sociallinks {
+        font-size: 22px;
+        letter-spacing: 1px;
+        margin-bottom: 20px;
+    }
+
     .socialdiv {
         display: flex;
         justify-content: center;
+        margin-bottom: 20px;
     }
 
     .socials {
@@ -503,11 +833,25 @@
         text-align: center;
     }
 
+    .appstore {
+        width: 150px;
+        height: 50px;
+    }
+
+    .googlestore {
+        width: 150px;
+        height: 50px;
+    }
+
     .play {
         display: flex;
         justify-content: center;
         margin-left: 0;
         margin-top: 15px;
+    }
+
+    .copyright {
+        font-size: 19px;
     }
 }
 
@@ -518,6 +862,9 @@
 
     .grandeur {
         margin: auto;
+        width: 190px;
+        height: 80px;
+        margin-bottom: 20px;
     }
 
     .quicklinkdiv {
@@ -527,13 +874,145 @@
     }
 
     .quicklink {
+        margin-top: 2px;
+        font-size: 24px;
+        letter-spacing: 1px;
+        margin-bottom: 20px;
+    }
+
+    .quicklinktext1 {
+        font-size: 24px;
+        margin-bottom: 0;
+        letter-spacing: 1px;
+    }
+
+    .quicklinktext2 {
+        font-size: 24px;
+        letter-spacing: 1px;
+    }
+
+    .quicklinktext3 {
+        font-size: 24px;
+        letter-spacing: 1px;
+    }
+
+    .quicklinktext4 {
+        font-size: 24px;
+        letter-spacing: 1px;
+    }
+
+    .store {
         margin-top: 20px;
+        font-size: 24px;
+        letter-spacing: 1px;
+    }
+
+    .storetext1 {
+        font-size: 24px;
+        letter-spacing: 1px;
+    }
+
+    .storetext2 {
+        font-size: 24px;
+        margin-bottom: 0;
+        letter-spacing: 1px;
     }
 
     .storediv {
         display: flex;
         flex-direction: column;
         text-align: center;
+    }
+
+    .developer {
+        font-size: 24px;
+        letter-spacing: 1px;
+    }
+
+    .developertext1 {
+        font-size: 24px;
+        letter-spacing: 1px;
+    }
+
+    .developertext2 {
+        font-size: 24px;
+        letter-spacing: 1px;
+    }
+
+    .partner {
+        font-size: 24px;
+        letter-spacing: 1px;
+    }
+
+    .partnertext1 {
+        font-size: 24px;
+        letter-spacing: 1px;
+    }
+
+    .partnertext2 {
+        font-size: 24px;
+        letter-spacing: 1px;
+    }
+
+    .partnertext3 {
+        font-size: 24px;
+        letter-spacing: 1px;
+    }
+
+    .company {
+        font-size: 24px;
+        letter-spacing: 1px;
+    }
+
+    .companytext1 {
+        font-size: 24px;
+        letter-spacing: 1px;
+    }
+
+    .companytext2 {
+        font-size: 24px;
+        letter-spacing: 1px;
+    }
+
+    .companytext3 {
+        font-size: 24px;
+        letter-spacing: 1px;
+    }
+
+    .companytext4 {
+        font-size: 24px;
+        letter-spacing: 1px;
+    }
+
+    .companytext5 {
+        font-size: 24px;
+        letter-spacing: 1px;
+    }
+
+    .contact {
+        font-size: 24px;
+        letter-spacing: 1px;
+    }
+
+    .contacttext1 {
+        font-size: 24px;
+        letter-spacing: 1px;
+        padding-bottom: 20px;
+    }
+
+    .contacttext2 {
+        font-size: 24px;
+        letter-spacing: 1px;
+        padding-bottom: 20px;
+    }
+
+    .contacttext3 {
+        font-size: 24px;
+        letter-spacing: 1px;
+    }
+
+    .location {
+        font-size: 33px;
     }
 
     .main2 {
@@ -577,9 +1056,16 @@
         margin: auto;
     }
 
+    .sociallinks {
+        font-size: 24px;
+        letter-spacing: 1px;
+        margin-bottom: 20px;
+    }
+
     .socialdiv {
         display: flex;
         justify-content: center;
+        margin-bottom: 20px;
     }
 
     .socials {
@@ -588,13 +1074,29 @@
         text-align: center;
     }
 
+    .appstore {
+        width: 160px;
+        height: 60px;
+    }
+
+    .googlestore {
+        width: 160px;
+        height: 60px;
+    }
+
     .play {
         display: flex;
         justify-content: center;
         margin-left: 0;
         margin-top: 15px;
     }
+
+    .copyright {
+        font-size: 20px;
+    }
 }
+
+
 
 @media only screen and (min-width: 769px) and (max-width: 900px) {
     .main {
@@ -603,6 +1105,9 @@
 
     .grandeur {
         margin: auto;
+        width: 200px;
+        height: 90px;
+        margin-bottom: 20px;
     }
 
     .quicklinkdiv {
@@ -612,13 +1117,145 @@
     }
 
     .quicklink {
+        margin-top: 2px;
+        font-size: 26px;
+        letter-spacing: 1px;
+        margin-bottom: 20px;
+    }
+
+    .quicklinktext1 {
+        font-size: 26px;
+        margin-bottom: 0;
+        letter-spacing: 1px;
+    }
+
+    .quicklinktext2 {
+        font-size: 26px;
+        letter-spacing: 1px;
+    }
+
+    .quicklinktext3 {
+        font-size: 26px;
+        letter-spacing: 1px;
+    }
+
+    .quicklinktext4 {
+        font-size: 26px;
+        letter-spacing: 1px;
+    }
+
+    .store {
         margin-top: 20px;
+        font-size: 26px;
+        letter-spacing: 1px;
+    }
+
+    .storetext1 {
+        font-size: 26px;
+        letter-spacing: 1px;
+    }
+
+    .storetext2 {
+        font-size: 26px;
+        margin-bottom: 0;
+        letter-spacing: 1px;
     }
 
     .storediv {
         display: flex;
         flex-direction: column;
         text-align: center;
+    }
+
+    .developer {
+        font-size: 26px;
+        letter-spacing: 1px;
+    }
+
+    .developertext1 {
+        font-size: 26px;
+        letter-spacing: 1px;
+    }
+
+    .developertext2 {
+        font-size: 26px;
+        letter-spacing: 1px;
+    }
+
+    .partner {
+        font-size: 26px;
+        letter-spacing: 1px;
+    }
+
+    .partnertext1 {
+        font-size: 26px;
+        letter-spacing: 1px;
+    }
+
+    .partnertext2 {
+        font-size: 26px;
+        letter-spacing: 1px;
+    }
+
+    .partnertext3 {
+        font-size: 26px;
+        letter-spacing: 1px;
+    }
+
+    .company {
+        font-size: 26px;
+        letter-spacing: 1px;
+    }
+
+    .companytext1 {
+        font-size: 26px;
+        letter-spacing: 1px;
+    }
+
+    .companytext2 {
+        font-size: 26px;
+        letter-spacing: 1px;
+    }
+
+    .companytext3 {
+        font-size: 26px;
+        letter-spacing: 1px;
+    }
+
+    .companytext4 {
+        font-size: 26px;
+        letter-spacing: 1px;
+    }
+
+    .companytext5 {
+        font-size: 26px;
+        letter-spacing: 1px;
+    }
+
+    .contact {
+        font-size: 26px;
+        letter-spacing: 1px;
+    }
+
+    .contacttext1 {
+        font-size: 26px;
+        letter-spacing: 1px;
+        padding-bottom: 20px;
+    }
+
+    .contacttext2 {
+        font-size: 26px;
+        letter-spacing: 1px;
+        padding-bottom: 20px;
+    }
+
+    .contacttext3 {
+        font-size: 26px;
+        letter-spacing: 1px;
+    }
+
+    .location {
+        font-size: 34px;
     }
 
     .main2 {
@@ -662,9 +1299,16 @@
         margin: auto;
     }
 
+    .sociallinks {
+        font-size: 26px;
+        letter-spacing: 1px;
+        margin-bottom: 20px;
+    }
+
     .socialdiv {
         display: flex;
         justify-content: center;
+        margin-bottom: 20px;
     }
 
     .socials {
@@ -673,14 +1317,27 @@
         text-align: center;
     }
 
+    .appstore {
+        width: 170px;
+        height: 70px;
+    }
+
+    .googlestore {
+        width: 170px;
+        height: 70px;
+    }
+
     .play {
         display: flex;
         justify-content: center;
         margin-left: 0;
         margin-top: 15px;
     }
-}
 
+    .copyright {
+        font-size: 21px;
+    }
+}
 
 @media only screen and (min-width: 901px) and (max-width: 1200px) {
     .main {
@@ -689,6 +1346,9 @@
 
     .grandeur {
         margin: auto;
+        width: 210px;
+        height: 90px;
+        margin-bottom: 20px;
     }
 
     .quicklinkdiv {
@@ -698,13 +1358,145 @@
     }
 
     .quicklink {
+        margin-top: 2px;
+        font-size: 28px;
+        letter-spacing: 1px;
+        margin-bottom: 20px;
+    }
+
+    .quicklinktext1 {
+        font-size: 28px;
+        margin-bottom: 0;
+        letter-spacing: 1px;
+    }
+
+    .quicklinktext2 {
+        font-size: 28px;
+        letter-spacing: 1px;
+    }
+
+    .quicklinktext3 {
+        font-size: 28px;
+        letter-spacing: 1px;
+    }
+
+    .quicklinktext4 {
+        font-size: 28px;
+        letter-spacing: 1px;
+    }
+
+    .store {
         margin-top: 20px;
+        font-size: 28px;
+        letter-spacing: 1px;
+    }
+
+    .storetext1 {
+        font-size: 28px;
+        letter-spacing: 1px;
+    }
+
+    .storetext2 {
+        font-size: 28px;
+        margin-bottom: 0;
+        letter-spacing: 1px;
     }
 
     .storediv {
         display: flex;
         flex-direction: column;
         text-align: center;
+    }
+
+    .developer {
+        font-size: 28px;
+        letter-spacing: 1px;
+    }
+
+    .developertext1 {
+        font-size: 28px;
+        letter-spacing: 1px;
+    }
+
+    .developertext2 {
+        font-size: 28px;
+        letter-spacing: 1px;
+    }
+
+    .partner {
+        font-size: 28px;
+        letter-spacing: 1px;
+    }
+
+    .partnertext1 {
+        font-size: 28px;
+        letter-spacing: 1px;
+    }
+
+    .partnertext2 {
+        font-size: 28px;
+        letter-spacing: 1px;
+    }
+
+    .partnertext3 {
+        font-size: 28px;
+        letter-spacing: 1px;
+    }
+
+    .company {
+        font-size: 28px;
+        letter-spacing: 1px;
+    }
+
+    .companytext1 {
+        font-size: 28px;
+        letter-spacing: 1px;
+    }
+
+    .companytext2 {
+        font-size: 28px;
+        letter-spacing: 1px;
+    }
+
+    .companytext3 {
+        font-size: 28px;
+        letter-spacing: 1px;
+    }
+
+    .companytext4 {
+        font-size: 28px;
+        letter-spacing: 1px;
+    }
+
+    .companytext5 {
+        font-size: 28px;
+        letter-spacing: 1px;
+    }
+
+    .contact {
+        font-size: 28px;
+        letter-spacing: 1px;
+    }
+
+    .contacttext1 {
+        font-size: 28px;
+        letter-spacing: 1px;
+        padding-bottom: 20px;
+    }
+
+    .contacttext2 {
+        font-size: 28px;
+        letter-spacing: 1px;
+        padding-bottom: 20px;
+    }
+
+    .contacttext3 {
+        font-size: 28px;
+        letter-spacing: 1px;
+    }
+
+    .location {
+        font-size: 35px;
     }
 
     .main2 {
@@ -748,9 +1540,16 @@
         margin: auto;
     }
 
+    .sociallinks {
+        font-size: 28px;
+        letter-spacing: 1px;
+        margin-bottom: 20px;
+    }
+
     .socialdiv {
         display: flex;
         justify-content: center;
+        margin-bottom: 20px;
     }
 
     .socials {
@@ -759,10 +1558,24 @@
         text-align: center;
     }
 
+    .appstore {
+        width: 200px;
+        height: 80px;
+    }
+
+    .googlestore {
+        width: 200px;
+        height: 80px;
+    }
+
     .play {
         display: flex;
         justify-content: center;
         margin-left: 0;
         margin-top: 15px;
+    }
+
+    .copyright {
+        font-size: 22px;
     }
 }
