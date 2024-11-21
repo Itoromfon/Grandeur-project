@@ -536,7 +536,7 @@
 
     .home {
         display: flex;
-        /* flex-direction: column; */
+        flex-direction: column;
         margin-left: 50px;
         margin-top: 150px;
     }
@@ -545,13 +545,18 @@
         font-size: 27px;
         width: 180%;
         line-height: 40px;
-        margin-bottom: 20px;
-        margin-top: 70px;
+        /* margin-bottom: 20px;
+        margin-top: 70px; */
+        margin: 70px auto 30px -50px;
+        text-align: center;
     }
 
     .homep {
         font-size: 23px;
         width: 180%;
+        /* margin: auto; */
+        margin-left: -50px;
+        text-align: center;
     }
 
     .smartdiv {

@@ -63,10 +63,10 @@ const ProductKitCarousel = () => {
                     loop
                     playsInline 
                     className={styles.backgroundVideo}>
-                    <source src="/assets/product-kits-video/product-estate.mp4" type="video/mp4" />
+                    <source src="/video/smarthome.mp4" type="video/mp4" />
                     Your browser does not support the video tag.
                 </video>
-                <Navbar2 className={styles.navbar2} />
+                <Navbar2 />
                 <Carousel
                     activeIndex={activeIndex}
                     onSelect={(index) => dispatch(setActiveIndex(index))}

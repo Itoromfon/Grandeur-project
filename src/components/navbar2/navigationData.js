@@ -4,7 +4,7 @@
 // navigationData.js
 const navigationLinks = [
   { name: "Home", href: "/" },
-  // { name: "Getting-Started", href: "/about" },
+  { name: "Getting-started", href: "/" },
   {
     name: "kits",
     href: "#",
@@ -41,8 +41,8 @@ const navigationLinks = [
       { text: "Health", src: "/Lighthouse.webp", alt: "Image 3" },
     ],
   },
-  { name: "Documentation", href: "/contact" },
-  { name: "Integration", href: "/blog" },
+  { name: "Documentation", href: "/documentation/documentation" },
+  { name: "Integration", href: "/integration/integration" },
 ];
 
 export default navigationLinks;

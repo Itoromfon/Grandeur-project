@@ -69,6 +69,21 @@
 }
 
 
+.videoContainer {
+    text-align: center;
+    margin-top: 0; 
+    margin-right: 50px;
+  }
+  
+  .video {
+    width: 100%;
+    max-width: 550px;
+    border-radius: 8px;
+  }
+
+  
+
+
 @keyframes backgroundPop {
     0% {
       transform: scale(1); /* Start with normal size */
@@ -111,9 +126,22 @@
     .chat {
         margin: 0 auto;
     }
+
+    .videoContainer {
+        text-align: center;
+        /* margin-top: 0; 
+        margin-right: 50px; */
+        margin: auto;
+      }
+      
+      .video {
+        /* width: 100%; */
+        max-width: 350px;
+        border-radius: 8px;
+      }
 }
 
-@media only screen and (min-width: 479px) and (max-width: 600px) {
+@media only screen and (min-width: 481px) and (max-width: 600px) {
     .popup {
         flex-direction: column;
         /* margin: auto; */
@@ -148,6 +176,19 @@
     .chat {
         margin: 0 auto;
     }
+
+    .videoContainer {
+        text-align: center;
+        /* margin-top: 0; 
+        margin-right: 50px; */
+        margin: auto;
+      }
+      
+      .video {
+        /* width: 100%; */
+        max-width: 360px;
+        border-radius: 8px;
+      }
 }
 
 @media only screen and (min-width: 601px) and (max-width: 768px) {
@@ -185,6 +226,19 @@
     .chat {
         margin: 0 auto;
     }
+
+    .videoContainer {
+        text-align: center;
+        /* margin-top: 0; 
+        margin-right: 50px; */
+        margin: auto;
+      }
+      
+      .video {
+        /* width: 100%; */
+        max-width: 385px;
+        border-radius: 8px;
+      }
 }
 
 @media only screen and (min-width: 769px) and (max-width: 900px) {
@@ -222,6 +276,19 @@
     .chat {
         margin: 0 auto;
     }
+
+    .videoContainer {
+        text-align: center;
+        /* margin-top: 0; 
+        margin-right: 50px; */
+        margin: auto;
+      }
+      
+      .video {
+        /* width: 100%; */
+        max-width: 385px;
+        border-radius: 8px;
+      }
 }
 
 @media only screen and (min-width: 901px) and (max-width: 1200px) {
@@ -259,4 +326,17 @@
     .chat {
         margin: 0 auto;
     }
+
+    .videoContainer {
+        text-align: center;
+        /* margin-top: 0; 
+        margin-right: 50px; */
+        margin: auto;
+      }
+      
+      .video {
+        /* width: 100%; */
+        max-width: 385px;
+        border-radius: 8px;
+      }
 }
