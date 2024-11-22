@@ -31,7 +31,7 @@ const ProductsData = [
       ],
       availablePackages: [
          {
-          alias: "Energy",
+          alias: "Basic",
           images: [
             'comfortkit.png'
           ],
@@ -54,7 +54,7 @@ const ProductsData = [
           // item: 'Items Included',
         },
          {
-          alias: "Security",
+          alias: "Advance",
           images: [
             'assets/img/New-Kits-2/Grandeur smart Advanced Home Automation mgt kit a.png',
             'assets/img/New-Kits-2/Grandeur smart Advanced Home Automation mgt kit b.png',
@@ -79,7 +79,7 @@ const ProductsData = [
           //amount: 981.00
         },
          {
-          alias: "Health",
+          alias: "Comprehensive",
           images: [
             '/assets/img/New-Kits-2/Grandeur smart Premium Home Automation mgt kit a.png',
             '/assets/img/New-Kits-2/Grandeur smart Premium Home Automation mgt kit b.png',
@@ -160,7 +160,7 @@ const ProductsData = [
       ],
       availablePackages: [
         {
-          alias: "Energy",
+          alias: "Basic",
           images: [
             '/assets/img/New-Kits-2/Grandeur smart Basic Energy Mgt a.png',
             '/assets/img/New-Kits-2/Grandeur smart Basic Energy Mgt b.png',
@@ -177,7 +177,7 @@ const ProductsData = [
           line: "________________________________________________________________________________________________________________________________",
         },
         {
-          alias: "Security",
+          alias: "Advance",
           images: [
             '/assets/img/New-Kits-2/Grandeur smart Advanced Energy Mgt a.png',
             '/assets/img/New-Kits-2/Grandeur smart Advanced Energy Mgt b.png',
@@ -194,7 +194,7 @@ const ProductsData = [
           //amount: 750.00
         },
         {
-          alias: "Health",
+          alias: "Comprehensive",
           images: [
             '/assets/img/New-Kits-2/Grandeur smart Premium Energy Mgt a.png',
             '/assets/img/New-Kits-2/Grandeur smart Premium Energy Mgt b.png',
@@ -387,7 +387,7 @@ const ProductsData = [
       ],
       availablePackages: [
         {
-          alias: "Energy",
+          alias: "Basic",
           images: [
             '/assets/img/New-Kits-2/Grandeur smart Basic Security & Safety kit a.png',
             '/assets/img/New-Kits-2/Grandeur smart Basic Security & Safety kit b.png',
@@ -407,7 +407,7 @@ const ProductsData = [
           line: "________________________________________________________________________________________________________________________________",
         },
         {
-          alias: "Security",
+          alias: "Advance",
           images: [
             '/assets/img/New-Kits-2/Grandeur smart Advanced Security & Safety kit a.png',
             '/assets/img/New-Kits-2/Grandeur smart Advanced Security & Safety kit b.png',
@@ -428,7 +428,7 @@ const ProductsData = [
           // amount: 1081.00
         },
         {
-          alias: "Health",
+          alias: "Comprehensive",
           images: [
             'assets/img/New-Kits-2/Grandeur smart Premium Security & Safety kit a.png',
             'assets/img/New-Kits-2/Grandeur smart Premium Security & Safety kit b.png',

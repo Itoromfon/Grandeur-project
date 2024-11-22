@@ -95,7 +95,11 @@ const ProductKitCarousel = () => {
                                             variant="secondary"
                                             className={`${styles.carouselButton} ${styles.customizeButton}`}
                                             style={{ animationDelay: `${index * 0.25}s` }}
-                                            onClick={() => handleButtonClick(productKit, selectedPackage.alias, index)}
+                                            onClick={() => { 
+                                                console.log('Clicked Package:', selectedPackage);
+                                                console.log('Index:', index);
+                                                handleButtonClick(productKit, selectedPackage.alias, index)
+                                            }}
                                         >
                                             {selectedPackage.alias}
                                         </Button>

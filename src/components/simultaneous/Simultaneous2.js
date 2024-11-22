@@ -2,8 +2,9 @@ import React, { useState} from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { setActiveIndex } from '../../../store/activeIndexSlice';
 import ProductsData from './SimultaneousData';
+import videoData from './videoData';
 import styles from './Simultaneous2.module.css'
-import { Carousel } from 'react-bootstrap';
+import { Carousel, Modal } from 'react-bootstrap';
 // import Item from 'antd/es/list/Item';
 import buttonData from './buttonData'
 import { FaPen } from "react-icons/fa";
@@ -18,9 +19,45 @@ const AnotherComponent = () => {
     const activeIndex = useSelector((state) => state.activeIndex.value);
     const [activeTab, setActiveTab] = useState(1);
     const [isPopupVisible, setIsPopupVisible] = useState(false);
+    const [activeVideoIndex, setActiveVideoIndex] = useState(0);
+    const [isPlaying, setisPlaying] = useState(false)
+    // const [isPlaying, setisPlaying] = useState(false);
+
+    // const handlePlay = () => {
+    //     setisPlaying(true);
+    // }
+
+    // const handlePause = () => {
+    //     setisPlaying(false);
+    // }
 
      // Function to handle tab change
-    const handleTabClick = (tabIndex) => {
+    
+
+    // const videoRef = useRef(null);
+
+    // const handlePlayPause = () => {
+    //     if (isPlaying) {
+    //         videoRef.current.pause();
+    //     } else {
+    //         videoRef.current.play();
+    //     }
+    //     setisPlaying(!isPlaying);
+    // };
+    const [showModal, setShowModal] = useState(false);
+    const [selectedVideo, setSelectedVideo] = useState(null);
+
+    const handlePlayClick = (video) => {
+        setSelectedVideo(video);
+        setShowModal(true);
+    };
+
+    const handleCloseModal = () => {
+        setShowModal(false);
+        setSelectedVideo(null);
+    };
+    
+     const handleTabClick = (tabIndex) => {
         setActiveTab(tabIndex);
     };
 
@@ -51,6 +88,133 @@ const AnotherComponent = () => {
                     </div>
                 </div>
             )}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div className={styles.videoCarouselContainer}>
+            <Carousel
+                activeIndex={activeIndex}
+                onSelect={(selectedIndex) => dispatch(setActiveIndex(selectedIndex))}
+                className={styles.videoCarousel}
+            >
+                  {videoData.map((video) => (
+                    <Carousel.Item key={video.id}>
+                        <div className={styles.videoContainer}>
+                            {/* Video Thumbnail */}
+                            <div
+                                className={styles.videoThumbnail}
+                                style={{
+                                    backgroundImage: `url(${video.thumbnail})`, // Add a thumbnail in the data
+                                    backgroundSize: "cover",
+                                    backgroundPosition: "center",
+                                }}
+                            >
+                                {/* Play Button */}
+                                <button
+                                    className={styles.playButton}
+                                    onClick={() => handlePlayClick(video)}
+                                >
+                                    ▶
+                                </button>
+                            </div>
+                        </div>
+                    </Carousel.Item>
+                ))}
+                {/* {videoData.map((video) => (
+                    <Carousel.Item
+                        key={video.id}
+                    >
+                        <div className={styles.videoContainer}>
+                            <video 
+                                className={styles.video} 
+                                controls 
+                                width="100%" 
+                                height="auto"
+                                onClick={(event) => event.stopPropagation()}
+                            >
+                                <source src={video.url} type="video/mp4" />
+                                Your browser does not support the video tag.
+                            </video>
+                            <div className={styles.videoTitle}>{video.title}</div>
+                        </div>
+                    </Carousel.Item>
+                ))} */}
+            </Carousel>
+
+            {/* Modal for Video Playback */}
+            {selectedVideo && (
+                <Modal
+                    show={showModal}
+                    onHide={handleCloseModal}
+                    centered
+                    className={styles.videoModal}
+                >
+                    <Modal.Header closeButton  className={styles.modaltitle}>
+                        <Modal.Title>{selectedVideo.title || 'Grandeur Smart Player'}</Modal.Title>
+                    </Modal.Header>
+                    <Modal.Body className={styles.modalbody}>
+                        <video
+                            className={styles.video}
+                            controls
+                            autoPlay
+                            width="100%"
+                            height="auto"
+                        >
+                            <source src={selectedVideo.url} type="video/mp4" />
+                            Your browser does not support the video tag.
+                        </video>
+                    </Modal.Body>
+                </Modal>
+            )}
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
             {/* Carousel Component */}
             <div className={styles.carouselcontainer}>

@@ -10,7 +10,7 @@ import Chat from "../chat/Chat";
 function Popup() {
   return (
     <div className={styles.popup}>
-        {/* <div className={styles.popdiv}>
+        <div className={styles.popdiv}>
             <FaRegCirclePlay 
                 className={styles.popupimage} 
                 style={{ color: 'black', fontSize: '52px' 
@@ -24,8 +24,8 @@ function Popup() {
                         <IoIosArrowForward className={styles.arrow} />
                 </Link>
             </div> 
-        </div> */}
-        <div className={styles.videoContainer}>
+        </div>
+        {/* <div className={styles.videoContainer}>
             <video
                 src="/video/smarthome.mp4"
                 controls
@@ -35,7 +35,7 @@ function Popup() {
                 className={styles.video}
             >
             </video>
-        </div>
+        </div> */}
         <div className={styles.line}></div>
         <div className={styles.chat}>
             <Chat />
