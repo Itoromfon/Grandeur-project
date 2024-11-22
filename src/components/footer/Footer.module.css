@@ -234,12 +234,12 @@
 
 .phone {
     color: #FFFFFF;
-    font-size: 24px;
+    font-size: 25px;
 }
 
 .mail {
     color: #FFFFFF;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .facebook {
@@ -573,6 +573,11 @@
 
     .contacttext3 {
         margin: auto;
+        font-size: 16px;
+    }
+
+    .mail {
+        margin-left: -40px;
     }
 
     .sociallinks {

@@ -168,7 +168,11 @@ const AnotherComponent = () => {
                     centered
                     className={styles.videoModal}
                 >
-                    <Modal.Header closeButton  className={styles.modaltitle}>
+                    <Modal.Header 
+                        closeButton 
+                        className={styles.modaltitle}
+                        style={{ color: 'white' }}
+                    >
                         <Modal.Title>{selectedVideo.title || 'Grandeur Smart Player'}</Modal.Title>
                     </Modal.Header>
                     <Modal.Body className={styles.modalbody}>

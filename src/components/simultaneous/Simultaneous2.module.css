@@ -506,57 +506,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .videoCarouselContainer {
     margin: 60px 105px -70px 105px;
 }
@@ -687,123 +636,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media only screen and (min-width: 320px) and (max-width: 480px) {
     /* .container {
         flex-direction: column;
@@ -913,6 +745,23 @@
     .popupIcon {
         font-size: 60px;
     }
+
+    .videoThumbnail {
+        height: 330px;
+    }
+
+    .videoCarouselContainer {
+        margin: 60px 10px -70px 10px;
+    }
+
+    .playButton {
+        margin-top: -20px;
+        font-size: 2.5rem;
+    }
+
+    .modaltitle {
+        margin-bottom: -18px;
+    }
 }
 
 @media only screen and (min-width: 481px) and (max-width: 600px) {
@@ -1020,6 +869,23 @@
     .popupIcon {
         font-size: 70px;
     }
+
+    .videoThumbnail {
+        height: 330px;
+    }
+
+    .videoCarouselContainer {
+        margin: 60px 10px -70px 10px;
+    }
+
+    .playButton {
+        margin-top: -20px;
+        font-size: 2.5rem;
+    }
+
+    .modaltitle {
+        margin-bottom: -18px;
+    }
 }
 
 @media only screen and (min-width: 601px) and (max-width: 768px) {
@@ -1110,6 +976,23 @@
 
     .popupIcon {
         font-size: 80px;
+    }
+
+    .videoThumbnail {
+        height: 330px;
+    }
+
+    .videoCarouselContainer {
+        margin: 60px 10px -70px 10px;
+    }
+
+    .playButton {
+        margin-top: -20px;
+        font-size: 2.5rem;
+    }
+
+    .modaltitle {
+        margin-bottom: -18px;
     }
 }
 
@@ -1203,6 +1086,23 @@
     .popupIcon {
         font-size: 80px;
     }
+
+    .videoThumbnail {
+        height: 330px;
+    }
+
+    .videoCarouselContainer {
+        margin: 60px 10px -70px 10px;
+    }
+
+    .playButton {
+        margin-top: -20px;
+        font-size: 2.5rem;
+    }
+
+    .modaltitle {
+        margin-bottom: -18px;
+    }
 }
 
 @media only screen and (min-width: 901px) and (max-width: 1200px) {
@@ -1294,6 +1194,23 @@
 
     .popupIcon {
         font-size: 90px;
+    }
+
+    .videoThumbnail {
+        height: 330px;
+    }
+
+    .videoCarouselContainer {
+        margin: 60px 10px -70px 10px;
+    }
+
+    .playButton {
+        margin-top: -20px;
+        font-size: 2.5rem;
+    }
+
+    .modaltitle {
+        margin-bottom: -18px;
     }
 }
 
