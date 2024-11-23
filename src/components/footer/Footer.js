@@ -13,8 +13,6 @@ import Link from 'next/link';
 const Footer = () => {
   return (
     <div className={styles.mains}>
-    <div className={styles.main}>
-    <div className={styles.main1}>
       <div>
         <Image 
           src='/grandeurfooter.png'
@@ -24,6 +22,9 @@ const Footer = () => {
           className={styles.grandeur}
         />
       </div>
+    <div className={styles.main}>
+    {/* <div className={styles.main1}> */}
+    <div className={styles.quickstore}>
        <div className={styles.quicklinkdiv}>
         <h1 className={styles.quicklink}>QUICKLINKS</h1>
         <p className={styles.quicklinktext1}>Blogs</p>
@@ -31,12 +32,14 @@ const Footer = () => {
         <p className={styles.quicklinktext3}>Integration</p>
         <p className={styles.quicklinktext4}>Product</p>
        </div>
-      </div>
+      {/* </div> */}
       <div className={styles.storediv}>
         <h1 className={styles.store}>STORE</h1>
         <p className={styles.storetext1}>Buy grandeur Smart</p>
         <p className={styles.storetext2}>Where to buy</p>
       </div>
+    </div>
+    <div className={styles.developercompany}>
       <div className={styles.main2}>
       <div className={styles.developerdiv}>
         <h1 className={styles.developer}>DEVELOPERS</h1>
@@ -51,12 +54,13 @@ const Footer = () => {
       </div>
       </div>
         <div className={styles.companydiv}>
-          <h1 className={styles.company}>Company</h1>
+          <h1 className={styles.company}>COMPANY</h1>
           <p className={styles.companytext1}>Careers</p>
           <p className={styles.companytext2}>Our Story</p>
           <p className={styles.companytext3}>Support</p>
           <p className={styles.companytext4}>Press</p>
           <p className={styles.companytext5}>Contact</p>
+        </div>
         </div>
         <div className={styles.contactdiv}>
           <h1 className={styles.contact}>

@@ -1,12 +1,12 @@
 .mains {
     background: linear-gradient(to right, #5C755E, #78AC76);
-    padding: 50px 50px;
+    padding: 30px 30px;
 }
 
 .main {
-    padding: 50px 50px;
+    padding: 30px 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; 
 }
 
 .main1 {
@@ -23,64 +23,74 @@
     height: 63px;
 }
 
+.quickstore {
+    display: flex;
+}
+
 .quicklink {
     font-weight: bold;
     color: #FFFFFF;
-    font-size: 16px;
-    margin-bottom: 10px;
-    margin-top: 10px;
+    font-size: 17px;
+    /* margin-bottom: 10px; */
+    /* margin-top: 10px; */
     letter-spacing: 1px;
 }
 
 .quicklinktext1 {
     color: #FFFFFF;
     font-size: 16px;
-    margin-bottom: 0;
+    font-weight: bold;
+    /* margin-bottom: 0; */
     letter-spacing: 1px;
 }
 
 .quicklinktext2 {
     color: #FFFFFF;
     font-size: 16px;
-    margin: 5px 0;
+    font-weight: bold;
+    /* margin: 5px 0; */
     letter-spacing: 1px;
 }
 
 .quicklinktext3 {
     color: #FFFFFF;
     font-size: 16px;
-    margin: 5px 0;
+    font-weight: bold;
+    /* margin: 5px 0; */
     letter-spacing: 1px;
 }
 
 .quicklinktext4 {
     color: #FFFFFF;
     font-size: 16px;
+    font-weight: bold;
     letter-spacing: 1px;
 }
 
 .storediv {
-    margin-top: 63px;
+    /* margin-top: 63px; */
     margin-left: 30px;
 }
 
 .store {
     font-weight: bold;
     color: #FFFFFF;
-    font-size: 16px;
+    font-size: 17px;
     letter-spacing: 1px;
-    margin: 10px 0;
+    /* margin: 10px 0; */
 }
 
 .storetext1 {
     font-size: 16px;
+    font-weight: bold;
     letter-spacing: 1px;
     color: #FFFFFF;
-    margin: 5px 0 0 0;
+    /* margin: 5px 0 0 0; */
 }
 
 .storetext2 {
     font-size: 16px;
+    font-weight: bold;
     letter-spacing: 1px;
     color: #FFFFFF;
 }
@@ -89,121 +99,136 @@
     margin-top: 50px;
 } */
 
-.main2 {
-    margin-top: 72px;
-    margin-left: 60px;
+.developercompany {
+    display: flex;
 }
 
+/* .main2 {
+    margin-top: 72px;
+    margin-left: 60px; 
+} */
+
 .developer {
-    font-size: 16px;
+    font-size: 17px;
     letter-spacing: 1px;
     font-weight: bold;
     color: #FFFFFF;
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
 }
 
 .developertext1 {
     font-size: 16px;
+    font-weight: bold;
     letter-spacing: 1px;
     color: #FFFFFF;
-    margin: 5px 0;
+    /* margin: 5px 0; */
 }
 
 .developertext2 {
     font-size: 16px;
+    font-weight: bold;
     letter-spacing: 1px;
     color: #FFFFFF;
 }
 
 .partner {
     color: #FFFFFF;
-    font-size: 16px;
+    font-size: 17px;
     letter-spacing: 1px;
-    margin-top: 10px;
+    /* margin-top: 10px; */
     font-weight: bold;
 }
 
 .partnertext1 {
     color: #FFFFFF;
     font-size: 16px;
+    font-weight: bold;
     letter-spacing: 1px;
-    margin: 5px 0;
+    /* margin: 5px 0; */
 }
 
 .partnertext2 {
     color: #FFFFFF;
     font-size: 16px;
+    font-weight: bold;
     letter-spacing: 1px;
-    margin: 5px 0;
+    /* margin: 5px 0; */
 }
 
 .partnertext3 {
     color: #FFFFFF;
     font-size: 16px;
+    font-weight: bold;
     letter-spacing: 1px;
 }
 
 .companydiv {
-    margin-left: 50px;
-    margin-top: 70px;
+    margin-left: 30px;
+    /* margin-top: 70px; */
 }
 
 .company {
-    font-size: 16px;
+    font-size: 17px;
     letter-spacing: 1px;
     font-weight: bold;
     color: #FFFFFF;
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
 }
 
 .companytext1 {
     font-size: 16px;
+    font-weight: bold;
     letter-spacing: 1px;
     color: #FFFFFF;
 }
 
 .companytext2 {
     font-size: 16px;
+    font-weight: bold;
     letter-spacing: 1px;
     color: #FFFFFF;
-    margin: 5px 0;
+    /* margin: 5px 0; */
 }
 
 .companytext3 {
     font-size: 16px;
+    font-weight: bold;
     letter-spacing: 1px;
     color: #FFFFFF;
-    margin: 5px 0;
+    /* margin: 5px 0; */
 }
 
 .companytext4 {
     font-size: 16px;
+    font-weight: bold;
     letter-spacing: 1px;
     color: #FFFFFF;
-    margin: 5px 0;
+    /* margin: 5px 0; */
 }
 
 .companytext5 {
     font-size: 16px;
+    font-weight: bold;
     letter-spacing: 1px;
     color: #FFFFFF;
 }
 
 .contactdiv {
-    margin-top: 71px;
-    margin-left: 50px;
+    /* margin-top: 71px;
+    margin-left: 50px; */
 }
 
 .contact {
-    font-size: 16px;
+    font-size: 17px;
     letter-spacing: 1px;
     color: #FFFFFF;
     font-weight: bold;
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
 }
 
 .contacttext1 {
     font-size: 16px;
+    font-weight: bold;
     letter-spacing: 1px;
     color: #FFFFFF;
     display: flex;
@@ -212,15 +237,17 @@
 
 .contacttext2 {
     font-size: 16px;
+    font-weight: bold;
     letter-spacing: 1px;
     color: #FFFFFF;
-    margin: 5px 0;
+    /* margin: 5px 0; */
     display: flex;
     gap: 5px;
 }
 
 .contacttext3 {
     font-size: 16px;
+    font-weight: bold;
     letter-spacing: 1px;
     color: #FFFFFF;
     display: flex;
@@ -243,112 +270,93 @@
 }
 
 .facebook {
-    font-size: 24px;
-    color:#5C755E;
-    margin-right: 1px;
-    margin-top: 3px;
+    font-size: 20px;
+    color: #FFFFFF;
+    /* margin-right: 1px;
+    margin-top: 3px; */
     transition: color 0.5s ease;
 }
 
 .facebookdiv {
-    background-color: #FFFFFF;
-    border-radius: 50%;
-    padding: 5px 5px;
-    height: 40px;
     transition: background-color 0.5s ease;
 }
 
 .facebookdiv:hover, .facebook:hover {
-    background-color: #5C755E;
-    color: #FFFFFF;
+    color: #a6a5a5;
 }
 
 .linkedin {
-    font-size: 24px;
-    color: #5C755E;
-    margin-top: 2px;
+    font-size: 20px;
+    color: #FFFFFF;
+    /* margin-top: 2px; */
     transition: color 0.5s ease;
 }
 
 .linkedindiv {
-    background-color: #FFFFFF;
-    border-radius: 50%;
-    padding: 5px 5px;
-    height: 40px;
     transition: background-color 0.5s ease;
 }
 
 .linkedindiv:hover, .linkedin:hover {
-    background-color: #5C755E;
-    color: #FFFFFF;
+    color: #a6a5a5;
 }
 
 .instagram {
-    font-size: 24px;
-    color: #5C755E;
-    margin-top: 2px;
+    font-size: 20px;
+    color: #FFFFFF;
+    /* margin-top: 2px; */
     transition: color 0.5s ease;
 }
 
 .instagramdiv {
-    background-color: #FFFFFF;
-    border-radius: 50%;
-    padding: 5px 5px;
-    height: 40px;
     transition: background-color 0.5s ease;
 }
 
 .instagramdiv:hover, .instagram:hover {
-    background-color: #5C755E;
-    color: #FFFFFF;
+    color: #a6a5a5;
 }
 
 .twitter {
-    font-size: 24px;
-    color: #5C755E;
-    margin-top: 2px;
-    transition: color 0.5s ease;
+    font-size: 20px;
+    color: #FFFFFF;
+    /* margin-top: 2px; */
+    transition: color 1s ease;
 }
 
 .twitterdiv {
-    background-color: #FFFFFF;
-    border-radius: 50%;
-    padding: 5px 5px;
-    height: 40px;
     transition: background-color 0.5s ease;
 }
 
 .twitterdiv:hover, .twitter:hover {
-    background-color: #5C755E;
-    color: #FFFFFF;
+    color: #a6a5a5;
 }
 
-.socials {
+/* .socials {
     margin-left: 30px;
-}
+} */
 
 .sociallinks {
     font-size: 18px;
     color: #FFFFFF;
-    margin-top: 70px;
+    /* margin-top: 70px; */
     font-weight: bold;
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
 }
 
 .socialdiv {
     display: flex;
     gap: 15px;
+    margin-bottom: 20px;
 }
 
 .play {
     display: flex;
-    margin-top: 10px;
-    margin-left: -10px;
+    /* margin-top: 10px; */
+    /* margin-left: -10px; */
 }
 
 .appstore {
     border-radius: 5px;
-    margin-right: 7px;
+    margin-right: 5px;
     width: 110px;
     height: 40px;
 }
@@ -368,8 +376,10 @@
 .copyright {
     color: #FFFFFF;
     text-align: center;
-    font-size: 17px;
+    font-size: 14px;
+    font-weight: bold;
     margin-top: 20px;
+    letter-spacing: 1px;
 }
 
 @media only screen and (min-width: 320px) and (max-width: 480px) {
@@ -384,10 +394,19 @@
         margin-bottom: 20px;
     }
 
+    .quickstore {
+        display: flex;
+        justify-content: center; 
+        gap: 30px;
+        margin-left: 0;
+    }
+
     .quicklinkdiv {
         display: flex;
         flex-direction: column;
-        text-align: center;
+        justify-content: center;
+        margin-left: 15px;
+        /* text-align: center; */
     }
 
     .quicklink {
@@ -399,7 +418,7 @@
 
     .quicklinktext1 {
         font-size: 20px;
-        margin-bottom: 0;
+        /* margin-bottom: 0; */
         letter-spacing: 1px;
     }
 
@@ -438,7 +457,27 @@
     .storediv {
         display: flex;
         flex-direction: column;
-        text-align: center;
+        /* text-align: center; */
+        margin-left: 0;
+    }
+
+    .developercompany {
+        display: flex;
+        /* justify-content: center; 
+        gap: 30px; 
+        margin-left: -10px; */
+        margin-left: 18px;
+    }
+
+    .main2 {
+        justify-content: center;
+        margin-left: 0;
+    }
+
+    .developerdiv {
+        /* margin-top: 50px; */
+        margin-left: 0;
+        text-align: left;
     }
 
     .developer {
@@ -449,11 +488,18 @@
     .developertext1 {
         font-size: 20px;
         letter-spacing: 1px;
+        margin-top: 20px;
     }
 
     .developertext2 {
         font-size: 20px;
         letter-spacing: 1px;
+    }
+
+    .partnerdiv {
+        /* margin-top: 50px; */
+        margin-left: 0;
+        text-align: left;
     }
 
     .partner {
@@ -464,6 +510,7 @@
     .partnertext1 {
         font-size: 20px;
         letter-spacing: 1px;
+        margin-top: 20px;
     }
 
     .partnertext2 {
@@ -474,6 +521,14 @@
     .partnertext3 {
         font-size: 20px;
         letter-spacing: 1px;
+    }
+
+    .companydiv {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        margin-left: 0;
+        margin-top: 20px;
     }
 
     .company {
@@ -547,13 +602,6 @@
 
     .partner {
         margin-top: 20px;
-    }
-
-    .companydiv {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        margin-left: 0;
     }
 
     .contactdiv {
@@ -631,10 +679,16 @@
         margin-bottom: 20px;
     }
 
+    .quickstore {
+        display: flex;
+        justify-content: center; 
+        gap: 40px;
+    }
+
     .quicklinkdiv {
         display: flex;
         flex-direction: column;
-        text-align: center;
+        /* text-align: center; */
     }
 
     .quicklink {
@@ -646,7 +700,7 @@
 
     .quicklinktext1 {
         font-size: 22px;
-        margin-bottom: 0;
+        /* margin-bottom: 0; */
         letter-spacing: 1px;
     }
 
@@ -685,7 +739,8 @@
     .storediv {
         display: flex;
         flex-direction: column;
-        text-align: center;
+        /* text-align: center; */
+        margin-left: 0;
     }
 
     .developer {
@@ -872,10 +927,16 @@
         margin-bottom: 20px;
     }
 
+    .quickstore {
+        display: flex;
+        justify-content: center; 
+        gap: 40px;
+    }
+
     .quicklinkdiv {
         display: flex;
         flex-direction: column;
-        text-align: center;
+        /* text-align: center; */
     }
 
     .quicklink {
@@ -887,7 +948,7 @@
 
     .quicklinktext1 {
         font-size: 24px;
-        margin-bottom: 0;
+        /* margin-bottom: 0; */
         letter-spacing: 1px;
     }
 
@@ -926,7 +987,7 @@
     .storediv {
         display: flex;
         flex-direction: column;
-        text-align: center;
+        /* text-align: center; */
     }
 
     .developer {
@@ -1115,10 +1176,16 @@
         margin-bottom: 20px;
     }
 
+    .quickstore {
+        display: flex;
+        justify-content: center; 
+        gap: 50px;
+    }
+
     .quicklinkdiv {
         display: flex;
         flex-direction: column;
-        text-align: center;
+        /* text-align: center; */
     }
 
     .quicklink {
@@ -1130,7 +1197,7 @@
 
     .quicklinktext1 {
         font-size: 26px;
-        margin-bottom: 0;
+        /* margin-bottom: 0; */
         letter-spacing: 1px;
     }
 
@@ -1169,7 +1236,7 @@
     .storediv {
         display: flex;
         flex-direction: column;
-        text-align: center;
+        /* text-align: center; */
     }
 
     .developer {
@@ -1356,10 +1423,16 @@
         margin-bottom: 20px;
     }
 
+    .quickstore {
+        display: flex;
+        justify-content: center; 
+        gap: 60px;
+    }
+
     .quicklinkdiv {
         display: flex;
         flex-direction: column;
-        text-align: center;
+        /* text-align: center; */
     }
 
     .quicklink {
@@ -1371,7 +1444,7 @@
 
     .quicklinktext1 {
         font-size: 28px;
-        margin-bottom: 0;
+        /* margin-bottom: 0; */
         letter-spacing: 1px;
     }
 
@@ -1410,7 +1483,7 @@
     .storediv {
         display: flex;
         flex-direction: column;
-        text-align: center;
+        /* text-align: center; */
     }
 
     .developer {
