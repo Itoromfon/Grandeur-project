@@ -27,7 +27,7 @@ const Footer = () => {
     <div className={styles.quickstore}>
        <div className={styles.quicklinkdiv}>
         <h1 className={styles.quicklink}>QUICKLINKS</h1>
-        <p className={styles.quicklinktext1}>Blogs</p>
+        <p className={styles.quicklinktext1}><a href='#'>Blogs</a></p>
         <p className={styles.quicklinktext2}>Documentation</p>
         <p className={styles.quicklinktext3}>Integration</p>
         <p className={styles.quicklinktext4}>Product</p>

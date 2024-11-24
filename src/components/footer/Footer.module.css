@@ -19,7 +19,7 @@
 } */
 
 .grandeur {
-    width: 180px;
+    width: 150px;
     height: 63px;
 }
 
@@ -39,7 +39,6 @@
 .quicklinktext1 {
     color: #FFFFFF;
     font-size: 16px;
-    font-weight: bold;
     /* margin-bottom: 0; */
     letter-spacing: 1px;
 }
@@ -47,7 +46,6 @@
 .quicklinktext2 {
     color: #FFFFFF;
     font-size: 16px;
-    font-weight: bold;
     /* margin: 5px 0; */
     letter-spacing: 1px;
 }
@@ -55,7 +53,6 @@
 .quicklinktext3 {
     color: #FFFFFF;
     font-size: 16px;
-    font-weight: bold;
     /* margin: 5px 0; */
     letter-spacing: 1px;
 }
@@ -63,7 +60,6 @@
 .quicklinktext4 {
     color: #FFFFFF;
     font-size: 16px;
-    font-weight: bold;
     letter-spacing: 1px;
 }
 
@@ -73,16 +69,15 @@
 }
 
 .store {
-    font-weight: bold;
     color: #FFFFFF;
     font-size: 17px;
+    font-weight: bold;
     letter-spacing: 1px;
     /* margin: 10px 0; */
 }
 
 .storetext1 {
     font-size: 16px;
-    font-weight: bold;
     letter-spacing: 1px;
     color: #FFFFFF;
     /* margin: 5px 0 0 0; */
@@ -90,7 +85,6 @@
 
 .storetext2 {
     font-size: 16px;
-    font-weight: bold;
     letter-spacing: 1px;
     color: #FFFFFF;
 }
@@ -110,15 +104,14 @@
 
 .developer {
     font-size: 17px;
-    letter-spacing: 1px;
     font-weight: bold;
+    letter-spacing: 1px;
     color: #FFFFFF;
     /* margin-bottom: 10px; */
 }
 
 .developertext1 {
     font-size: 16px;
-    font-weight: bold;
     letter-spacing: 1px;
     color: #FFFFFF;
     /* margin: 5px 0; */
@@ -126,7 +119,6 @@
 
 .developertext2 {
     font-size: 16px;
-    font-weight: bold;
     letter-spacing: 1px;
     color: #FFFFFF;
 }
@@ -142,7 +134,6 @@
 .partnertext1 {
     color: #FFFFFF;
     font-size: 16px;
-    font-weight: bold;
     letter-spacing: 1px;
     /* margin: 5px 0; */
 }
@@ -150,7 +141,6 @@
 .partnertext2 {
     color: #FFFFFF;
     font-size: 16px;
-    font-weight: bold;
     letter-spacing: 1px;
     /* margin: 5px 0; */
 }
@@ -158,7 +148,6 @@
 .partnertext3 {
     color: #FFFFFF;
     font-size: 16px;
-    font-weight: bold;
     letter-spacing: 1px;
 }
 
@@ -177,14 +166,12 @@
 
 .companytext1 {
     font-size: 16px;
-    font-weight: bold;
     letter-spacing: 1px;
     color: #FFFFFF;
 }
 
 .companytext2 {
     font-size: 16px;
-    font-weight: bold;
     letter-spacing: 1px;
     color: #FFFFFF;
     /* margin: 5px 0; */
@@ -192,7 +179,6 @@
 
 .companytext3 {
     font-size: 16px;
-    font-weight: bold;
     letter-spacing: 1px;
     color: #FFFFFF;
     /* margin: 5px 0; */
@@ -200,7 +186,6 @@
 
 .companytext4 {
     font-size: 16px;
-    font-weight: bold;
     letter-spacing: 1px;
     color: #FFFFFF;
     /* margin: 5px 0; */
@@ -208,7 +193,6 @@
 
 .companytext5 {
     font-size: 16px;
-    font-weight: bold;
     letter-spacing: 1px;
     color: #FFFFFF;
 }
@@ -228,7 +212,6 @@
 
 .contacttext1 {
     font-size: 16px;
-    font-weight: bold;
     letter-spacing: 1px;
     color: #FFFFFF;
     display: flex;
@@ -237,7 +220,6 @@
 
 .contacttext2 {
     font-size: 16px;
-    font-weight: bold;
     letter-spacing: 1px;
     color: #FFFFFF;
     /* margin: 5px 0; */
@@ -247,7 +229,6 @@
 
 .contacttext3 {
     font-size: 16px;
-    font-weight: bold;
     letter-spacing: 1px;
     color: #FFFFFF;
     display: flex;
@@ -377,7 +358,6 @@
     color: #FFFFFF;
     text-align: center;
     font-size: 14px;
-    font-weight: bold;
     margin-top: 20px;
     letter-spacing: 1px;
 }
@@ -463,10 +443,9 @@
 
     .developercompany {
         display: flex;
-        /* justify-content: center; 
+        justify-content: center; 
         gap: 30px; 
-        margin-left: -10px; */
-        margin-left: 18px;
+        margin-left: 0;
     }
 
     .main2 {
@@ -581,12 +560,13 @@
     .contacttext3 {
         font-size: 20px;
         letter-spacing: 1px;
+        padding-bottom: 20px;
     }
 
     .location {
         font-size: 40px;
         margin-top: -10px;
-        margin-right: -10px;
+        margin-right: -2px;
     }
 
     .main2 {
@@ -664,6 +644,22 @@
     .copyright {
         font-size: 18px;
     }
+
+    .facebook {
+        font-size: 22px;
+    }
+
+    .linkedin {
+        font-size: 22px;
+    }
+
+    .instagram {
+        font-size: 22px;
+    }
+
+    .twitter {
+        font-size: 22px;
+    }
 }
 
 
@@ -683,6 +679,7 @@
         display: flex;
         justify-content: center; 
         gap: 40px;
+        margin-left: 60px;
     }
 
     .quicklinkdiv {
@@ -743,6 +740,25 @@
         margin-left: 0;
     }
 
+    .developercompany {
+        display: flex;
+        justify-content: center; 
+        gap: 30px; 
+        /* margin-right: 65px; */
+        /* margin-left: 17px; */
+    }
+
+    .main2 {
+        justify-content: center;
+        margin-left: 0;
+    }
+
+    .developerdiv {
+        /* margin-top: 50px; */
+        margin-left: 0;
+        text-align: left;
+    }
+
     .developer {
         font-size: 22px;
         letter-spacing: 1px;
@@ -756,6 +772,11 @@
     .developertext2 {
         font-size: 22px;
         letter-spacing: 1px;
+    }
+
+    .partnerdiv {
+        margin-left: 0;
+        text-align: left;
     }
 
     .partner {
@@ -778,6 +799,12 @@
         letter-spacing: 1px;
     }
 
+    .companydiv {
+        margin-top: 20px;
+        margin-left: 0;
+        text-align: left;
+    }
+
     .company {
         font-size: 22px;
         letter-spacing: 1px;
@@ -786,26 +813,31 @@
     .companytext1 {
         font-size: 22px;
         letter-spacing: 1px;
+        text-align: left;
     }
 
     .companytext2 {
         font-size: 22px;
         letter-spacing: 1px;
+        text-align: left;
     }
 
     .companytext3 {
         font-size: 22px;
         letter-spacing: 1px;
+        text-align: left;
     }
 
     .companytext4 {
         font-size: 22px;
         letter-spacing: 1px;
+        text-align: left;
     }
 
     .companytext5 {
         font-size: 22px;
         letter-spacing: 1px;
+        text-align: left;
     }
 
     .contact {
@@ -873,6 +905,7 @@
 
     .contacttext3 {
         margin: auto;
+        padding-bottom: 20px;
     }
 
     .sociallinks {
@@ -913,6 +946,22 @@
     .copyright {
         font-size: 19px;
     }
+
+    .facebook {
+        font-size: 24px;
+    }
+
+    .linkedin {
+        font-size: 24px;
+    }
+
+    .instagram {
+        font-size: 24px;
+    }
+
+    .twitter {
+        font-size: 24px;
+    }
 }
 
 @media only screen and (min-width: 601px) and (max-width: 768px) {
@@ -931,6 +980,7 @@
         display: flex;
         justify-content: center; 
         gap: 40px;
+        margin-left: 90px;
     }
 
     .quicklinkdiv {
@@ -990,6 +1040,25 @@
         /* text-align: center; */
     }
 
+    .developercompany {
+        display: flex;
+        justify-content: center; 
+        gap: 30px; 
+        /* margin-right: 95px; */
+        /* margin-left: 17px; */
+    }
+
+    .main2 {
+        justify-content: center;
+        margin-left: 0;
+    }
+
+    .developerdiv {
+        /* margin-top: 50px; */
+        margin-left: 0;
+        text-align: left;
+    }
+
     .developer {
         font-size: 24px;
         letter-spacing: 1px;
@@ -1003,6 +1072,11 @@
     .developertext2 {
         font-size: 24px;
         letter-spacing: 1px;
+    }
+
+    .partnerdiv {
+        margin-left: 0;
+        text-align: left;
     }
 
     .partner {
@@ -1025,6 +1099,12 @@
         letter-spacing: 1px;
     }
 
+    .companydiv {
+        margin-left: 0;
+        text-align: left;
+        margin-top: 20px;
+    }
+
     .company {
         font-size: 24px;
         letter-spacing: 1px;
@@ -1033,26 +1113,31 @@
     .companytext1 {
         font-size: 24px;
         letter-spacing: 1px;
+        text-align: left;
     }
 
     .companytext2 {
         font-size: 24px;
         letter-spacing: 1px;
+        text-align: left;
     }
 
     .companytext3 {
         font-size: 24px;
         letter-spacing: 1px;
+        text-align: left;
     }
 
     .companytext4 {
         font-size: 24px;
         letter-spacing: 1px;
+        text-align: left;
     }
 
     .companytext5 {
         font-size: 24px;
         letter-spacing: 1px;
+        text-align: left;
     }
 
     .contact {
@@ -1075,6 +1160,7 @@
     .contacttext3 {
         font-size: 24px;
         letter-spacing: 1px;
+        padding-bottom: 20px;
     }
 
     .location {
@@ -1160,6 +1246,22 @@
     .copyright {
         font-size: 20px;
     }
+
+    .facebook {
+        font-size: 26px;
+    }
+
+    .linkedin {
+        font-size: 26px;
+    }
+
+    .instagram {
+        font-size: 26px;
+    }
+
+    .twitter {
+        font-size: 26px;
+    }
 }
 
 
@@ -1180,11 +1282,13 @@
         display: flex;
         justify-content: center; 
         gap: 50px;
+        margin-left: 130px;
     }
 
     .quicklinkdiv {
         display: flex;
         flex-direction: column;
+        justify-content: center;
         /* text-align: center; */
     }
 
@@ -1239,6 +1343,25 @@
         /* text-align: center; */
     }
 
+    .developercompany {
+        display: flex;
+        justify-content: center; 
+        gap: 30px; 
+        /* margin-right: 115px; */
+        /* margin-left: 17px; */
+    }
+
+    .main2 {
+        justify-content: center;
+        margin-left: 0;
+    }
+
+    .developerdiv {
+        /* margin-top: 50px; */
+        margin-left: 0;
+        text-align: left;
+    }
+
     .developer {
         font-size: 26px;
         letter-spacing: 1px;
@@ -1252,6 +1375,11 @@
     .developertext2 {
         font-size: 26px;
         letter-spacing: 1px;
+    }
+
+    .partnerdiv {
+        margin-left: 0;
+        text-align: left;
     }
 
     .partner {
@@ -1274,6 +1402,11 @@
         letter-spacing: 1px;
     }
 
+    .companydiv {
+        margin-top: 20px;
+        text-align: left;
+    }
+
     .company {
         font-size: 26px;
         letter-spacing: 1px;
@@ -1282,26 +1415,31 @@
     .companytext1 {
         font-size: 26px;
         letter-spacing: 1px;
+        text-align: left;
     }
 
     .companytext2 {
         font-size: 26px;
         letter-spacing: 1px;
+        text-align: left;
     }
 
     .companytext3 {
         font-size: 26px;
         letter-spacing: 1px;
+        text-align: left;
     }
 
     .companytext4 {
         font-size: 26px;
         letter-spacing: 1px;
+        text-align: left;
     }
 
     .companytext5 {
         font-size: 26px;
         letter-spacing: 1px;
+        text-align: left;
     }
 
     .contact {
@@ -1324,6 +1462,11 @@
     .contacttext3 {
         font-size: 26px;
         letter-spacing: 1px;
+        padding-bottom: 20px;
+    }
+
+    .mail {
+        margin-top: 4px;
     }
 
     .location {
@@ -1408,6 +1551,22 @@
 
     .copyright {
         font-size: 21px;
+    }
+
+    .facebook {
+        font-size: 28px;
+    }
+
+    .linkedin {
+        font-size: 28px;
+    }
+
+    .instagram {
+        font-size: 28px;
+    }
+
+    .twitter {
+        font-size: 28px;
     }
 }
 
@@ -1655,5 +1814,21 @@
 
     .copyright {
         font-size: 22px;
+    }
+
+    .facebook {
+        font-size: 30px;
+    }
+
+    .linkedin {
+        font-size: 30px;
+    }
+
+    .instagram {
+        font-size: 30px;
+    }
+
+    .twitter {
+        font-size: 30px;
     }
 }
