@@ -24,7 +24,6 @@ const Carousel = () => {
     <div className={styles.main}>
     <Slider {...settings}>
       <div className={styles.section1}>
-        
         <Navbar2 />
         <Section1 />
       </div>
