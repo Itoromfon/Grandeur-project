@@ -1,0 +1,7 @@
+@media only screen and (min-width: 769px) and (max-width: 900px) {
+    .search {
+        width: 22px;
+        height: 22px;
+        margin-top: 2px;
+    }
+}

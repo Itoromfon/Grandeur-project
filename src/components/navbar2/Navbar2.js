@@ -95,7 +95,7 @@ const Navbar2 = () => {
                     )}
                     </li>
                 ))}
-                </div>
+                
             <div className={styles.icons}>
             <div>
               <SearchBar />
@@ -127,6 +127,7 @@ const Navbar2 = () => {
                 className={styles.cart}
               />
             </Link>
+            </div>
             </div>
             </ul>
         </div>

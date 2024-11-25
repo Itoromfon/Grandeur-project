@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import Image from 'next/image';
+import style from './SearchBar.module.css'
 
 const SearchBar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -25,6 +26,7 @@ const SearchBar = () => {
         <Image 
           src="/icon.png"
           alt="search-icon"
+          className={style.search}
           width={21.35}
           height={19.17}
         />
