@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import styles from './Section1b.module.css'
 import { motion } from 'framer-motion'
+import { FaHouse } from "react-icons/fa6";
 
 const variants = {
   hidden: { opacity: 0},
@@ -28,7 +29,7 @@ const images = {
   }
 }
 
-function Section1b() {
+function Section1() {
   return (
     <div>
     <div className={styles.section1}>
@@ -48,16 +49,23 @@ function Section1b() {
             className={styles.h1main}
             variants={images}
           >
-            Smart Security and Safety
+            Smart Security and Safety Kit
           </motion.h1>
           <motion.p 
             className={styles.p1main}
             variants={images}
           >
-            Security and Safety: Advanced security systems to protect life and property such as 
-            smart locks, survelliance, camera, motion, sensor and more. providing peace of mind to 
-            home owners.
+            Security and Safety: Advanced security systems to protect life and property such as smart locks, survelliance, camera, motion, sensor and more. providing peace of mind to home owners.
           </motion.p>
+          <div className={styles.p1adiv}>
+            <p className={styles.p1amain}><FaHouse className={styles.fahouse} />Reduce heating during peak hours to save 20% on energy costs.</p>
+          </div>
+          <div className={styles.p1bdiv}>
+            <p className={styles.p1bmain}><FaHouse className={styles.fahouse} />Run appliances after 9PM for reduced rates & energy efficiency.</p>
+          </div>
+          <div className={styles.p1cdiv}>
+            <p className={styles.p1cmain}><FaHouse className={styles.fahouse} />Switch to eco-mode in the early afternoon to save energy.</p>
+          </div>
           <motion.a 
             href="/product"
             variants={images}
@@ -67,7 +75,7 @@ function Section1b() {
               className={styles.button}
             >
                 <div className={styles.buttontext}>
-                    Explore Product
+                    Learn More
                 </div>
             </button>
             </div>
@@ -75,16 +83,11 @@ function Section1b() {
         </motion.div>
       </motion.div>
       <div className={styles.gadget}>
-         <Image 
-          src="/phone.png"
-          alt="Grandeur-smart phone"
-          width={160}
-          height={215}
-        />
         <Image 
-          src="/laptop.png"
+          src="/smartapp.png"
           alt="Grandeur-smart phone"
-          width={480}
+          className={styles.gadgetimg}
+          width={500}
           height={288}
         />
       </div>
@@ -93,4 +96,4 @@ function Section1b() {
   )
 }
 
-export default Section1b
+export default Section1

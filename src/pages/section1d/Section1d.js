@@ -2,6 +2,7 @@ import React from 'react'
 import styles from './Section1d.module.css'
 import Image from 'next/image'
 import Link from 'next/link'
+import { FaHouse } from "react-icons/fa6";
 
 function Section1d() {
   return (
@@ -14,13 +15,22 @@ function Section1d() {
             Integration with Google Assistance, Alexa, SMART (Mainlogix), and Siri for seamless voice control
             allowing users to manage their devices hands free.
           </p>
+          <div className={styles.p1adiv}>
+            <p className={styles.p1amain}><FaHouse className={styles.fahouse} />Reduce heating during peak hours to save 20% on energy costs.</p>
+          </div>
+          <div className={styles.p1bdiv}>
+            <p className={styles.p1bmain}><FaHouse className={styles.fahouse} />Run appliances after 9PM for reduced rates & energy efficiency.</p>
+          </div>
+          <div className={styles.p1cdiv}>
+            <p className={styles.p1cmain}><FaHouse className={styles.fahouse} />Switch to eco-mode in the early afternoon to save energy.</p>
+          </div>
           <Link href="/product">
           <div className={styles.buttoncontainer}>
             <button 
               className={styles.button}
             >
                 <div className={styles.buttontext}>
-                    Explore Product
+                    Learn More
                 </div>
             </button>
             </div>
@@ -28,16 +38,11 @@ function Section1d() {
         </div>
       </div>
       <div className={styles.gadget}>
-         <Image 
-          src="/phone.png"
-          alt="Grandeur-smart phone"
-          width={160}
-          height={215}
-        />
         <Image 
-          src="/laptop.png"
+          src="/smartapp.png"
           alt="Grandeur-smart phone"
-          width={480}
+          className={styles.gadgetimg}
+          width={500}
           height={288}
         />
       </div>

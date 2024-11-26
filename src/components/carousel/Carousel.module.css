@@ -4,7 +4,8 @@
 
 .section1 {
     position: relative;
-    background-image: url("/modernroom.png"); /* Adjusted image path */
+    background: linear-gradient(90deg, #5C755E, #78A67C);
+    /* background-image: url("/modernroom.png");  */
     background-size: cover;
     background-position: center;
     color: white; /* Set text color to white */
@@ -40,7 +41,8 @@
     height: 85vh;
     background-size: cover;
     background-position: center;
-    background-image: url("/grandeurproduct.png");
+    background: linear-gradient(90deg, #5C755E, #78A67C);
+    /* background-image: url("/grandeurproduct.png"); */
     color: white; /* Set text color to white */
     display: flex;
     align-items: center;
@@ -64,7 +66,8 @@
     height: 85vh;
     background-size: cover;
     background-position: center;
-    background-image: url("/grandeur-energy.png");
+    background: linear-gradient(90deg, #5C755E, #78A67C);
+    /* background-image: url("/grandeur-energy.png"); */
     color: white; /* Set text color to white */
     display: flex;
     align-items: center;
@@ -87,7 +90,8 @@
     height: 85vh;
     background-size: cover;
     background-position: center;
-    background-image: url("/grandeurproduct.png");
+    background: linear-gradient(90deg, #5C755E, #78A67C);
+    /* background-image: url("/grandeurproduct.png"); */
     animation: moveBackground 2.5s linear infinite;
 }
 
@@ -102,17 +106,135 @@
     z-index: 1;
   }
 
-  @media only screen and (min-width: 320px) and (max-width: 478px) {
+  @media only screen and (min-width: 320px) and (max-width: 400px) {
     .section1 {
       margin-right: 0;
+      height: 88vh;
     }
     .section2 {
       margin-right: 0;
+      height: 88vh;
     }
     .section3 {
       margin-right: 0;
+      height: 88vh;
     }
     .section4 {
       margin-right: 0;
+      height: 88vh;
+    }
+  }
+
+  @media only screen and (min-width: 401px) and (max-width: 480px) {
+    .section1 {
+      margin-right: 0;
+      height: 87vh;
+    }
+    .section2 {
+      margin-right: 0;
+      height: 87vh;
+    }
+    .section3 {
+      margin-right: 0;
+      height: 87vh;
+    }
+    .section4 {
+      margin-right: 0;
+      height: 87vh;
+    }
+  }
+
+  @media only screen and (min-width: 481px) and (max-width: 600px) {
+    .section1 {
+      margin-right: 0;
+      height: 84vh;
+    }
+    .section2 {
+      margin-right: 0;
+      height: 84vh;
+    }
+    .section3 {
+      margin-right: 0;
+      height: 84vh;
+    }
+    .section4 {
+      margin-right: 0;
+      height: 84vh;
+    }
+  }
+
+  @media only screen and (min-width: 601px) and (max-width: 768px) {
+    .section1 {
+      margin-right: 0;
+      height: 83vh;
+    }
+    .section2 {
+      margin-right: 0;
+      height: 83vh;
+    }
+    .section3 {
+      margin-right: 0;
+      height: 83vh;
+    }
+    .section4 {
+      margin-right: 0;
+      height: 83vh;
+    }
+  }
+
+  @media only screen and (min-width: 769px) and (max-width: 900px) {
+    .section1 {
+      margin-right: 0;
+      height: 80vh;
+    }
+    .section2 {
+      margin-right: 0;
+      height: 80vh;
+    }
+    .section3 {
+      margin-right: 0;
+      height: 80vh;
+    }
+    .section4 {
+      margin-right: 0;
+      height: 80vh;
+    }
+  }
+
+  @media only screen and (min-width: 901px) and (max-width: 1023px) {
+    .section1 {
+      margin-right: 0;
+      height: 83vh;
+    }
+    .section2 {
+      margin-right: 0;
+      height: 83vh;
+    }
+    .section3 {
+      margin-right: 0;
+      height: 83vh;
+    }
+    .section4 {
+      margin-right: 0;
+      height: 83vh;
+    }
+  }
+
+  @media only screen and (min-width: 1024px) and (max-width: 1200px) {
+    .section1 {
+      margin-right: 0;
+      height: 90vh;
+    }
+    .section2 {
+      margin-right: 0;
+      height: 90vh;
+    }
+    .section3 {
+      margin-right: 0;
+      height: 90vh;
+    }
+    .section4 {
+      margin-right: 0;
+      height: 90vh;
     }
   }

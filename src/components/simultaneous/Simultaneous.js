@@ -14,6 +14,7 @@ import Navbar2 from '../navbar2/Navbar2';
 const ProductKitCarousel = () => {
     const activeIndex = useSelector((state) => state.activeIndex.value);
     const dispatch = useDispatch();
+    const [isHovered, setIsHovered] = useState(false);
     // const { addToCart } = useCart();
     // const router = useRouter();
     const [selectedText, setSelectedText] = useState({});
@@ -35,6 +36,9 @@ const ProductKitCarousel = () => {
     // function showAlert(product) {
     //     toast.success(`${product.name} (${product.selectedPackage} Package) has been added to your cart!`);
     // }
+
+    const handleMouseEnter = () => setIsHovered(true);
+    const handleMouseLeave = () => setIsHovered(false);
 
     const handleButtonClick = (productKit, selectedPackage, index) => {
         // const nestedCarousels = productKit.nestedCarousels || [];
@@ -68,10 +72,14 @@ const ProductKitCarousel = () => {
                 </video>
                 <Navbar2 />
                 <Carousel
+                    // key={isHovered ? 'hovered' : 'unhovered'}
                     activeIndex={activeIndex}
                     onSelect={(index) => dispatch(setActiveIndex(index))}
                     fade 
+                    interval={isHovered ? null : 5000}
                     className={styles.carouselContent}
+                    onMouseEnter={handleMouseEnter}
+                    onMouseLeave={handleMouseLeave}
                 >
                     {ProductsData.map((productKit) => {
                         // const availablePackages = ['Basic', 'Advance', 'Premium', 'Ultimate'].filter(

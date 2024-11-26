@@ -1,22 +1,23 @@
 .section1 {
     display: flex;
     z-index: 2;
-    margin-top: 30px;
+    margin-top: 50px;
 }
 
 .section1x {
     flex-direction: column;
-    margin: 50px 50px 0px 50px;
+    margin: 30px 50px 0px 50px;
 }
 
 .h1main {
     background-image: linear-gradient(90deg, #5C755E, #78A67C);
     background-clip: text;
     -webkit-background-clip: text; /* For WebKit browsers */
-    font-size: 55px;
+    font-size: 40px;
     font-weight: 900;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
     letter-spacing: 3px;
+    color: #FFFFFF;
     position: relative;
     z-index: 2; /* Make sure text is above the overlay */
     animation: backgroundPop 4s ease-in-out infinite;
@@ -40,15 +41,50 @@
 .p1main {
     font-size: 16px;
     font-weight: 400;
-    margin-bottom: 30px;
-    width: 70%;
+    margin-bottom: 15px;
+    width: 690px;
+    color: #FFFFFF;
     position: relative;
     z-index: 2;
+    letter-spacing: 1px;
     animation: backgroundPop 4s ease-in-out infinite;
 }
 
+.fahouse {
+    margin-right: 10px;
+    font-size: 18px;
+    /* animation: backgroundPop 4s ease-in-out infinite; */
+}
+
+.p1amain {
+    font-size: 14px;
+    margin-bottom: 10px;
+    display: flex;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    /* animation: backgroundPop 4s ease-in-out infinite; */
+}
+
+.p1bmain {
+    font-size: 14px;
+    margin-bottom: 10px;
+    display: flex;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    /* animation: backgroundPop 4s ease-in-out infinite; */
+}
+
+.p1cmain {
+    font-size: 14px;
+    display: flex;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    color: #FFFFFF;
+    /* animation: backgroundPop 4s ease-in-out infinite; */
+}
+
 .button {
-    background-image: linear-gradient(90deg, rgba(103, 69, 5, 0.941), rgba(120, 79, 3, 0.941));
+    background-color: #A97D5D;
     border: none;
     border-radius: 40px;
     padding: 20px 40px;
@@ -60,14 +96,14 @@
 }
 
 .button:hover {
-    background-image: linear-gradient(90deg, #6a11cb, #2575fc);
+    background-color: #87512a;
     transform: scale(1.05);
     position: relative;
     z-index: 2; /* Make sure text is above the overlay */
 }
 
 .buttontext {
-    font-size: 16px;
+    font-size: 17px;
     color: #FFFFFF;
     font-weight: 700;
     letter-spacing: 2px;
@@ -76,9 +112,11 @@
 }
 
 .gadget {
-    display: flex;
-    margin: 70px 50px 90px 0px;
+    /* display: flex; */
+    margin: 0 100px 0 0px; 
 }
+
+
 
 .devices {
     display: flex;
@@ -102,23 +140,69 @@
         margin-top: 30px;
     }
 
+    .section1x {
+        margin: 30px 12px 0px 12px;
+    }
+
     .h1main {
-        font-size: 30px;
+        font-size: 25px;
         text-align: center;
         margin: 0 auto;
         width: 100%;
         max-width: 90%;
-        margin-bottom: 50px;
+        margin-bottom: 30px;
     }
 
     .p1main {
-        font-size: 17px;
+        font-size: 16px;
         text-align: center;
         margin: 0 auto;
         width: 100%;
         max-width: 90%;
         margin-bottom: 30px;
         letter-spacing: 1px;
+    }
+
+    .p1adiv {
+        display: flex;
+        justify-content: center;
+    }
+
+    .p1bdiv {
+        display: flex;
+        justify-content: center;
+    }
+
+    .p1cdiv {
+        display: flex;
+        justify-content: center;
+    }
+
+    .fahouse {
+        margin-right: 10px;
+        font-size: 25px;
+        /* animation: backgroundPop 4s ease-in-out infinite; */
+    }
+    
+    .p1amain {
+        font-size: 16px;
+        margin-bottom: 20px;
+        letter-spacing: 1px;
+        /* animation: backgroundPop 4s ease-in-out infinite; */
+    }
+    
+    .p1bmain {
+        font-size: 16px;
+        margin-bottom: 20px;
+        letter-spacing: 1px;
+        /* animation: backgroundPop 4s ease-in-out infinite; */
+    }
+    
+    .p1cmain {
+        font-size: 16px;
+        letter-spacing: 1px;
+        margin-bottom: 20px;
+        /* animation: backgroundPop 4s ease-in-out infinite; */
     }
 
     .gadget {
@@ -138,7 +222,7 @@
     }
 
     .buttontext {
-        font-size: 14px;
+        font-size: 16px;
         color: #FFFFFF;
         font-weight: 700;
         letter-spacing: 2px;
@@ -151,16 +235,20 @@
 @media only screen and (min-width: 481px) and (max-width: 600px) {
     .section1 {
         flex-direction: column;
-        margin-top: 50px;
+        margin-top: 30px;
+    }
+
+    .section1x {
+        margin: 15px 12px 0px 12px;
     }
 
     .h1main {
-        font-size: 35px;
+        font-size: 30px;
         text-align: center;
         margin: 0 auto;
         width: 100%;
         max-width: 90%;
-        margin-bottom: 30px;
+        margin-bottom: 20px;
     }
 
     .p1main {
@@ -170,7 +258,53 @@
         width: 100%;
         max-width: 90%;
         letter-spacing: 1px;
-        margin-bottom: 30px;
+        margin-bottom: 20px;
+    }
+
+    .p1adiv {
+        display: flex;
+        justify-content: center;
+    }
+
+    .p1bdiv {
+        display: flex;
+        justify-content: center;
+    }
+
+    .p1cdiv {
+        display: flex;
+        justify-content: center;
+    }
+
+    .fahouse {
+        margin-right: 10px;
+        font-size: 28px;
+        margin-top: -3px;
+        /* animation: backgroundPop 4s ease-in-out infinite; */
+    }
+    
+    .p1amain {
+        font-size: 16px;
+        margin-bottom: 10px;
+        display: flex;
+        letter-spacing: 1px;
+        /* animation: backgroundPop 4s ease-in-out infinite; */
+    }
+    
+    .p1bmain {
+        font-size: 16px;
+        margin-bottom: 10px;
+        display: flex;
+        letter-spacing: 1px;
+        /* animation: backgroundPop 4s ease-in-out infinite; */
+    }
+    
+    .p1cmain {
+        font-size: 16px;
+        display: flex;
+        letter-spacing: 1px;
+        margin-bottom: 20px;
+        /* animation: backgroundPop 4s ease-in-out infinite; */
     }
 
     .gadget {
@@ -190,7 +324,7 @@
     }
 
     .buttontext {
-        font-size: 14px;
+        font-size: 16px;
         color: #FFFFFF;
         font-weight: 700;
         letter-spacing: 2px;
@@ -205,23 +339,73 @@
         margin-top: 50px;
     }
 
+    .section1x {
+        margin: 30px 12px 0px 12px;
+    }
+
     .h1main {
-        font-size: 38px;
+        font-size: 32px;
         text-align: center;
         margin: 0 auto;
         width: 100%;
         max-width: 90%;
-        margin-bottom: 50px;
+        margin-bottom: 20px;
     }
 
     .p1main {
-        font-size: 22px;
+        font-size: 20px;
         text-align: center;
         margin: 0 auto;
         width: 100%;
         max-width: 90%;
         letter-spacing: 1px;
         margin-bottom: 30px;
+    }
+
+    .p1adiv {
+        display: flex;
+        justify-content: center;
+    }
+
+    .p1bdiv {
+        display: flex;
+        justify-content: center;
+    }
+
+    .p1cdiv {
+        display: flex;
+        justify-content: center;
+    }
+
+    .fahouse {
+        margin-right: 10px;
+        font-size: 28px;
+        margin-top: -2px;
+        /* animation: backgroundPop 4s ease-in-out infinite; */
+    }
+    
+    .p1amain {
+        font-size: 16px;
+        margin-bottom: 10px;
+        display: flex;
+        letter-spacing: 1px;
+        /* animation: backgroundPop 4s ease-in-out infinite; */
+    }
+    
+    .p1bmain {
+        font-size: 16px;
+        margin-bottom: 10px;
+        display: flex;
+        letter-spacing: 1px;
+        /* animation: backgroundPop 4s ease-in-out infinite; */
+    }
+    
+    .p1cmain {
+        font-size: 16px;
+        display: flex;
+        letter-spacing: 1px;
+        margin-bottom: 20px;
+        /* animation: backgroundPop 4s ease-in-out infinite; */
     }
 
     .gadget {
@@ -235,13 +419,13 @@
     }
 
     .button {
-        padding: 17px 24px;
+        padding: 12px 20px;
         display: flex;
         justify-content: center;
     }
 
     .buttontext {
-        font-size: 16px;
+        font-size: 17px;
         color: #FFFFFF;
         font-weight: 700;
         letter-spacing: 2px;
@@ -256,23 +440,73 @@
         margin-top: 50px;
     }
 
+    .section1x {
+        margin: 30px 12px 0px 12px;
+    }
+
     .h1main {
-        font-size: 40px;
+        font-size: 34px;
         text-align: center;
         margin: 0 auto;
         width: 100%;
         max-width: 90%;
-        margin-bottom: 50px;
+        margin-bottom: 30px;
     }
 
     .p1main {
-        font-size: 24px;
+        font-size: 21px;
         text-align: center;
         margin: 0 auto;
         width: 100%;
         max-width: 90%;
         letter-spacing: 1px;
-        margin-bottom: 47px;
+        margin-bottom: 30px;
+    }
+
+    .p1adiv {
+        display: flex;
+        justify-content: center;
+    }
+
+    .p1bdiv {
+        display: flex;
+        justify-content: center;
+    }
+
+    .p1cdiv {
+        display: flex;
+        justify-content: center;
+    }
+
+    .fahouse {
+        margin-right: 10px;
+        font-size: 28px;
+        margin-top: -3px;
+        /* animation: backgroundPop 4s ease-in-out infinite; */
+    }
+    
+    .p1amain {
+        font-size: 17px;
+        margin-bottom: 10px;
+        display: flex;
+        letter-spacing: 1px;
+        /* animation: backgroundPop 4s ease-in-out infinite; */
+    }
+    
+    .p1bmain {
+        font-size: 17px;
+        margin-bottom: 10px;
+        display: flex;
+        letter-spacing: 1px;
+        /* animation: backgroundPop 4s ease-in-out infinite; */
+    }
+    
+    .p1cmain {
+        font-size: 17px;
+        display: flex;
+        letter-spacing: 1px;
+        margin-bottom: 30px;
+        /* animation: backgroundPop 4s ease-in-out infinite; */
     }
 
     .gadget {
@@ -286,13 +520,13 @@
     }
 
     .button {
-        padding: 16px 26px;
+        padding: 12px 20px;
         display: flex;
         justify-content: center;
     }
 
     .buttontext {
-        font-size: 16px;
+        font-size: 17px;
         color: #FFFFFF;
         font-weight: 700;
         letter-spacing: 2px;
@@ -309,23 +543,73 @@
         margin-top: 50px;
     }
 
+    .section1x {
+        margin: 30px 12px 0px 12px;
+    }
+
     .h1main {
-        font-size: 50px;
+        font-size: 36px;
         text-align: center;
         margin: 0 auto;
         width: 100%;
         max-width: 90%;
-        margin-bottom: 50px;
+        margin-bottom: 35px;
     }
 
     .p1main {
-        font-size: 26px;
+        font-size: 23px;
         text-align: center;
         margin: 0 auto;
         width: 100%;
         max-width: 90%;
-        margin-bottom: 67px;
         letter-spacing: 1px;
+        margin-bottom: 30px;
+    }
+
+    .p1adiv {
+        display: flex;
+        justify-content: center;
+    }
+
+    .p1bdiv {
+        display: flex;
+        justify-content: center;
+    }
+
+    .p1cdiv {
+        display: flex;
+        justify-content: center;
+    }
+
+    .fahouse {
+        margin-right: 10px;
+        font-size: 29px;
+        margin-top: -3px;
+        /* animation: backgroundPop 4s ease-in-out infinite; */
+    }
+    
+    .p1amain {
+        font-size: 18px;
+        margin-bottom: 10px;
+        display: flex;
+        letter-spacing: 1px;
+        /* animation: backgroundPop 4s ease-in-out infinite; */
+    }
+    
+    .p1bmain {
+        font-size: 18px;
+        margin-bottom: 10px;
+        display: flex;
+        letter-spacing: 1px;
+        /* animation: backgroundPop 4s ease-in-out infinite; */
+    }
+    
+    .p1cmain {
+        font-size: 18px;
+        display: flex;
+        letter-spacing: 1px;
+        margin-bottom: 35px;
+        /* animation: backgroundPop 4s ease-in-out infinite; */
     }
 
     .gadget {
@@ -339,17 +623,18 @@
     }
 
     .button {
-        padding: 20px 30px;
+        padding: 12px 20px;
         display: flex;
         justify-content: center;
     }
 
     .buttontext {
-        font-size: 17px;
+        font-size: 18px;
         color: #FFFFFF;
         font-weight: 700;
         letter-spacing: 2px;
         position: relative;
         z-index: 2; /* Make sure text is above the overlay */
     }
+
 }

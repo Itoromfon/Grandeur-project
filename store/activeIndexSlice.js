@@ -9,7 +9,7 @@ const activeIndexSlice = createSlice({
     initialState,
     reducers: {
         setActiveIndex: (state, action) => {
-            state.value = action.payload
+            state.value = action.payload;
         },
     },
 });
