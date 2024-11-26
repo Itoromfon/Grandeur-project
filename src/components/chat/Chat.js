@@ -97,7 +97,7 @@ const Chat = () => {
     };
 
     return (
-        <div className={`${styles.container} ${theme === 'dark' ? styles.light : styles.dark}`}>
+        <div className={`${styles.container} ${theme === 'dark' ? styles.dark : styles.light}`}>
         
         
         <div className={styles.slideToggle} onClick={toggleSlide}>
@@ -145,7 +145,7 @@ const Chat = () => {
             <div className={styles.container2}>
                 <h1 
                     className={styles.htext}
-                    style={{ color: theme === 'dark' ? 'black' : 'white' }}
+                    style={{ color: theme === 'dark' ? 'white' : 'white' }}
                 >
                     Ask Grandeur Smart
                 </h1>

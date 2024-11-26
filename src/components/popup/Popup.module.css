@@ -5,8 +5,19 @@
 }
 
 .popdiv {
-    margin-right: 150px;
-    animation: backgroundPop 4s ease-in-out infinite;
+    margin-right: 60px;
+    /* animation: backgroundPop 4s ease-in-out infinite; */
+}
+
+.h1text {
+    font-weight: bold;
+    font-size: 36px;
+    width: 540px;
+}
+
+.ptext {
+    font-size: 16px;
+    width: 570px;
 }
 
 .popupimage { 
@@ -99,7 +110,7 @@
     }
 }
 
-@media only screen and (min-width: 320px) and (max-width: 480px) {
+@media only screen and (min-width: 320px) and (max-width: 400px) {
     .popup {
         flex-direction: column;
         /* margin: auto; */
@@ -134,11 +145,102 @@
         margin: auto;
       }
       
-      .video {
-        /* width: 100%; */
-        max-width: 350px;
-        border-radius: 8px;
+    .video {
+    /* width: 100%; */
+    max-width: 345px;
+    border-radius: 8px;
+    }
+
+    .htextdiv {
+        display: flex;
+        justify-content: center;
+    }
+
+    .ptextdiv {
+        display: flex;
+        justify-content: center;
+    }
+
+    .h1text {
+        font-weight: bold;
+        font-size: 22px;
+        width: 330px;
+        text-align: center;
+    }
+
+    .ptext {
+        font-size: 17px;
+        width: 300px;
+        margin: 20px auto;
+        text-align: center;
+    }
+}
+
+
+@media only screen and (min-width: 401px) and (max-width: 480px) {
+    .popup {
+        flex-direction: column;
+        /* margin: auto; */
+    }
+
+    .popdiv {
+        margin-right: 0;
+        margin: auto;
+        /* margin-left: 200px; */
+    }
+
+    .popupimage {
+        margin: auto;
+    }
+
+    .pop {
+        margin: 20px auto;
+    }
+
+    .line {
+        display: none;
+    }
+
+    .chat {
+        margin: 0 auto;
+    }
+
+    .videoContainer {
+        text-align: center;
+        /* margin-top: 0; 
+        margin-right: 50px; */
+        margin: auto;
       }
+      
+    .video {
+    /* width: 100%; */
+    max-width: 360px;
+    border-radius: 8px;
+    }
+
+    .htextdiv {
+        display: flex;
+        justify-content: center;
+    }
+
+    .ptextdiv {
+        display: flex;
+        justify-content: center;
+    }
+
+    .h1text {
+        font-weight: bold;
+        font-size: 22px;
+        width: 340px;
+        text-align: center;
+    }
+
+    .ptext {
+        font-size: 17px;
+        width: 300px;
+        margin: 20px auto;
+        text-align: center;
+    }
 }
 
 @media only screen and (min-width: 481px) and (max-width: 600px) {
@@ -186,9 +288,33 @@
       
       .video {
         /* width: 100%; */
-        max-width: 360px;
+        max-width: 390px;
         border-radius: 8px;
       }
+
+    .h1text {
+        font-weight: bold;
+        font-size: 23px;
+        width: 340px;
+        text-align: center;
+    }
+
+    .ptext {
+        font-size: 18px;
+        width: 300px;
+        margin: 20px auto;
+        text-align: center;
+    }
+
+    .htextdiv {
+        display: flex;
+        justify-content: center;
+    }
+
+    .ptextdiv {
+        display: flex;
+        justify-content: center;
+    }
 }
 
 @media only screen and (min-width: 601px) and (max-width: 768px) {
@@ -236,9 +362,33 @@
       
       .video {
         /* width: 100%; */
-        max-width: 385px;
+        max-width: 410px;
         border-radius: 8px;
       }
+
+      .h1text {
+        font-weight: bold;
+        font-size: 24px;
+        width: 400px;
+        text-align: center;
+    }
+
+    .ptext {
+        font-size: 19px;
+        width: 350px;
+        margin: 20px auto;
+        text-align: center;
+    }
+
+    .htextdiv {
+        display: flex;
+        justify-content: center;
+    }
+
+    .ptextdiv {
+        display: flex;
+        justify-content: center;
+    }
 }
 
 @media only screen and (min-width: 769px) and (max-width: 900px) {
@@ -286,9 +436,33 @@
       
       .video {
         /* width: 100%; */
-        max-width: 385px;
+        max-width: 430px;
         border-radius: 8px;
       }
+
+      .h1text {
+        font-weight: bold;
+        font-size: 24px;
+        width: 400px;
+        text-align: center;
+    }
+
+    .ptext {
+        font-size: 20px;
+        width: 370px;
+        margin: 20px auto;
+        text-align: center;
+    }
+
+    .htextdiv {
+        display: flex;
+        justify-content: center;
+    }
+
+    .ptextdiv {
+        display: flex;
+        justify-content: center;
+    }
 }
 
 @media only screen and (min-width: 901px) and (max-width: 1200px) {
@@ -336,7 +510,31 @@
       
       .video {
         /* width: 100%; */
-        max-width: 385px;
+        max-width: 450px;
         border-radius: 8px;
       }
+
+      .h1text {
+        font-weight: bold;
+        font-size: 25px;
+        width: 450px;
+        text-align: center;
+    }
+
+    .ptext {
+        font-size: 20px;
+        width: 450px;
+        margin: 20px auto;
+        text-align: center;
+    }
+
+    .htextdiv {
+        display: flex;
+        justify-content: center;
+    }
+
+    .ptextdiv {
+        display: flex;
+        justify-content: center;
+    }
 }

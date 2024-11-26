@@ -11,19 +11,25 @@ function Popup() {
   return (
     <div className={styles.popup}>
         <div className={styles.popdiv}>
-            <FaRegCirclePlay 
-                className={styles.popupimage} 
-                style={{ color: 'black', fontSize: '52px' 
-                }} 
-            /> 
-            <div className={styles.pop}>
-                <p className={styles.popuptext}>Got three minutes?</p>
-                <Link 
-                    className={styles.link} 
-                    href='#'>Watch The Video 
-                        <IoIosArrowForward className={styles.arrow} />
-                </Link>
-            </div> 
+        <div>
+            <div className={styles.htextdiv}>
+                <h1 className={styles.h1text}>Experience The Power of AI-Assisted Living</h1>
+            </div>
+            <div className={styles.ptextdiv}>
+                <p className={styles.ptext}>See how AI-driven automations transform home energy management, security,
+                    and comfort.
+                </p>
+            </div>
+        </div>
+        <video 
+            className={styles.video} 
+            controls // Adds playback controls (play, pause, volume, etc.)
+            width="100%" // Makes the video responsive
+            height="auto"
+        >
+            <source src="/video/smarthome.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+        </video>
         </div>
         {/* <div className={styles.videoContainer}>
             <video
@@ -36,7 +42,7 @@ function Popup() {
             >
             </video>
         </div> */}
-        <div className={styles.line}></div>
+        {/* <div className={styles.line}></div> */}
         <div className={styles.chat}>
             <Chat />
         </div>
