@@ -1,0 +1,516 @@
+.main {
+    width: 520px;
+    height: 540px;
+    background: linear-gradient(to right, #f3f3f3, #ededed);
+    border-radius: 50%;
+    padding: 30px;
+    margin: 10px auto 50px auto;
+    animation: backgroundPop 4s ease-in-out infinite;
+}
+
+.NightMode {
+    background-color: #000;
+    width: 255px;
+    height: 480px;
+    border-radius: 15px;
+    margin: auto;
+}
+
+.text {
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 50px;
+    letter-spacing: 1px;
+}
+
+.moondiv {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.bulbdiv {
+    display: flex;
+    background-color: #2E2E2E;
+    width: 200px;
+    border-radius: 15px;
+    justify-content: center;
+    margin: 40px auto 20px auto;
+    cursor: pointer;
+    margin-bottom: 70px;
+}
+
+.bulbdiv:hover {
+    background-color: #1a1919;
+}
+
+.bulbtext {
+    color: #FFFFFF;
+    font-size: 17px;
+    letter-spacing: 1px;
+    margin-top: 15px;
+}
+
+.secureimg {
+    margin-top: 5px;
+}
+
+@keyframes backgroundPop {
+    0% {
+      transform: scale(1); /* Start with normal size */
+      background-position: center; /* Normal position */
+    }
+    50% {
+      transform: scale(1.05); /* Pop-up effect: enlarge */
+      background-position: center; /* Keep the image centered */
+    }
+    100% {
+      transform: scale(1); /* Return to normal size */
+      background-position: center; /* Normal position */
+    }
+}
+
+.healthdiv {
+    background-color: #A97D5D;
+    width: 211px;
+    border-radius: 99px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 8px 0;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.healthdiv:hover {
+    background-color: #8e6141;
+}
+
+.healthdiv2 {
+    background-color: #A97D5D;
+    width: 211px;
+    border-radius: 99px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 8px 0;
+    cursor: pointer;
+}
+
+.healthdiv2:hover {
+    background-color: #8e6141;
+}
+
+.safetytext {
+    color: #FFFFFF;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: 3px;
+}
+
+.safetytext2 {
+    color: #FFFFFF;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: 3px;
+}
+
+.safetyicon {
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-top: 3px;
+}
+
+.safetyicon2 {
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-top: 3px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 400px) {
+    .main {
+        width: 350px;
+        height: 480px;
+        padding: 20px;
+    }
+    
+    .NightMode {
+        width: 275px;
+        height: 507px;
+    }
+
+    .text {
+        font-size: 20px;
+        letter-spacing: 1px;
+        padding-top: 60px;
+    }
+
+    .bulbdiv {
+        width: 218px;
+    }
+
+    .bulbtext {
+        font-size: 17px;
+        letter-spacing: 1px;
+        margin-top: 15px;
+    }
+
+    .healthdiv {
+        width: 231px;
+        margin-bottom: 15px;
+    }
+
+    .healthdiv2 {
+        width: 231px;
+    }
+
+    .safetytext {
+        color: #FFFFFF;
+        font-size: 16px;
+        margin-top: 15px;
+        margin-left: 3px;
+    }
+
+    .safetytext2 {
+        color: #FFFFFF;
+        font-size: 16px;
+        margin-top: 10px;
+        margin-left: 3px;
+    }
+
+    .safetyicon {
+        font-size: 20px;
+        color: #FFFFFF;
+        margin-top: 9px;
+    }
+
+    .safetyicon2 {
+        font-size: 20px;
+        color: #FFFFFF;
+        margin-top: 3px;
+    }
+}
+
+@media only screen and (min-width: 401px) and (max-width: 480px) {
+    .main {
+        width: 350px;
+        height: 480px;
+        padding: 20px;
+    }
+    
+    .NightMode {
+        width: 295px;
+        height: 507px;
+    }
+
+    .text {
+        font-size: 20px;
+        letter-spacing: 1px;
+        padding-top: 60px;
+    }
+
+    .bulbdiv {
+        width: 230px;
+    }
+
+    .bulbtext {
+        font-size: 18px;
+        letter-spacing: 1px;
+        margin-top: 15px;
+    }
+
+    .healthdiv {
+        width: 231px;
+        margin-bottom: 15px;
+    }
+
+    .healthdiv2 {
+        width: 231px;
+    }
+
+    .safetytext {
+        color: #FFFFFF;
+        font-size: 16px;
+        margin-top: 15px;
+        margin-left: 3px;
+    }
+
+    .safetytext2 {
+        color: #FFFFFF;
+        font-size: 16px;
+        margin-top: 10px;
+        margin-left: 3px;
+    }
+
+    .safetyicon {
+        font-size: 20px;
+        color: #FFFFFF;
+        margin-top: 9px;
+    }
+
+    .safetyicon2 {
+        font-size: 20px;
+        color: #FFFFFF;
+        margin-top: 3px;
+    }
+}
+
+
+@media only screen and (min-width: 481px) and (max-width: 600px) {
+    .main {
+        width: 350px;
+        height: 480px;
+        padding: 20px;
+    }
+    
+    .NightMode {
+        width: 325px;
+        height: 527px;
+    }
+
+    .text {
+        font-size: 22px;
+        letter-spacing: 1px;
+        padding-top: 80px;
+    }
+
+    .bulbdiv {
+        width: 230px;
+    }
+
+    .bulbtext {
+        font-size: 17px;
+        letter-spacing: 1px;
+        margin-top: 15px;
+    }
+
+    .healthdiv {
+        width: 251px;
+        margin-bottom: 15px;
+    }
+
+    .healthdiv2 {
+        width: 251px;
+    }
+
+    .safetytext {
+        color: #FFFFFF;
+        font-size: 17px;
+        margin-top: 15px;
+        margin-left: 3px;
+    }
+
+    .safetytext2 {
+        color: #FFFFFF;
+        font-size: 17px;
+        margin-top: 10px;
+        margin-left: 3px;
+    }
+
+    .safetyicon {
+        font-size: 20px;
+        color: #FFFFFF;
+        margin-top: 9px;
+    }
+
+    .safetyicon2 {
+        font-size: 20px;
+        color: #FFFFFF;
+        margin-top: 3px;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+    .main {
+        width: 350px;
+        height: 480px;
+        padding: 20px;
+    }
+    
+    .NightMode {
+        width: 330px;
+        height: 537px;
+    }
+
+    .text {
+        font-size: 24px;
+        letter-spacing: 1px;
+        padding-top: 80px;
+    }
+
+    .bulbdiv {
+        width: 220px;
+    }
+
+    .bulbtext {
+        font-size: 17px;
+        letter-spacing: 1px;
+        margin-top: 15px;
+    }
+
+    .healthdiv {
+        width: 251px;
+        margin-bottom: 15px;
+    }
+
+    .healthdiv2 {
+        width: 251px;
+    }
+
+    .safetytext {
+        color: #FFFFFF;
+        font-size: 17px;
+        margin-top: 15px;
+        margin-left: 3px;
+    }
+
+    .safetytext2 {
+        color: #FFFFFF;
+        font-size: 17px;
+        margin-top: 10px;
+        margin-left: 3px;
+    }
+
+    .safetyicon {
+        font-size: 20px;
+        color: #FFFFFF;
+        margin-top: 9px;
+    }
+
+    .safetyicon2 {
+        font-size: 20px;
+        color: #FFFFFF;
+        margin-top: 3px;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 900px) {
+    .main {
+        width: 350px;
+        height: 480px;
+        padding: 20px;
+    }
+    
+    .NightMode {
+        width: 330px;
+        height: 537px;
+    }
+
+    .text {
+        font-size: 24px;
+        letter-spacing: 1px;
+        padding-top: 80px;
+    }
+
+    .bulbdiv {
+        width: 220px;
+    }
+
+    .bulbtext {
+        font-size: 17px;
+        letter-spacing: 1px;
+        margin-top: 15px;
+    }
+
+    .healthdiv {
+        width: 251px;
+        margin-bottom: 15px;
+    }
+
+    .healthdiv2 {
+        width: 251px;
+    }
+
+    .safetytext {
+        color: #FFFFFF;
+        font-size: 18px;
+        margin-top: 15px;
+        margin-left: 3px;
+    }
+
+    .safetytext2 {
+        color: #FFFFFF;
+        font-size: 18px;
+        margin-top: 12px;
+        margin-left: 3px;
+    }
+
+    .safetyicon {
+        font-size: 20px;
+        color: #FFFFFF;
+        margin-top: 9px;
+    }
+
+    .safetyicon2 {
+        font-size: 20px;
+        color: #FFFFFF;
+        margin-top: 7px;
+    }
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1200px) {
+    .main {
+        width: 350px;
+        height: 480px;
+        padding: 20px;
+    }
+    
+    .NightMode {
+        width: 330px;
+        height: 537px;
+    }
+
+    .text {
+        font-size: 24px;
+        letter-spacing: 1px;
+        padding-top: 80px;
+    }
+
+    .bulbdiv {
+        width: 220px;
+    }
+
+    .bulbtext {
+        font-size: 17px;
+        letter-spacing: 1px;
+        margin-top: 15px;
+    }
+
+    .healthdiv {
+        width: 251px;
+        margin-bottom: 15px;
+    }
+
+    .healthdiv2 {
+        width: 251px;
+    }
+
+    .safetytext {
+        color: #FFFFFF;
+        font-size: 18px;
+        margin-top: 15px;
+        margin-left: 3px;
+    }
+
+    .safetytext2 {
+        color: #FFFFFF;
+        font-size: 18px;
+        margin-top: 12px;
+        margin-left: 3px;
+    }
+
+    .safetyicon {
+        font-size: 20px;
+        color: #FFFFFF;
+        margin-top: 9px;
+    }
+
+    .safetyicon2 {
+        font-size: 20px;
+        color: #FFFFFF;
+        margin-top: 7px;
+    }
+
+}
