@@ -1,0 +1,319 @@
+.embla {
+    max-width: 81rem; 
+    margin: auto;
+    --slide-height: 19rem;
+    --slide-spacing: 1rem;
+    --slide-size: 80%;
+  }
+  .emblaviewport {
+    overflow: hidden;
+  }
+  .emblacontainer {
+    display: flex;
+    touch-action: pan-y pinch-zoom;
+    margin-left: 0;
+    gap: 0;
+  }
+  .emblaslide {
+    flex: 0 0 var(--slide-size); /* Maintain slide size proportion */
+    padding: 0; /* Remove padding */
+    display: flex;
+    align-items: center; /* Center-align content */
+    justify-content: center; 
+  }
+  .emblaslideimg {
+    border-radius: 0; 
+    display: block; 
+    width: 100%; 
+    height: var(--slide-height);
+    object-fit: cover; 
+    margin: 0;
+    padding: 0; 
+  }
+
+  .button {
+    margin-top: 30px;
+  }
+
+  .previcon {
+    color: #FFFFFF;
+    font-size: 30px;
+  }
+
+  .nexticon {
+    color: #FFFFFF;
+    font-size: 30px;
+    margin-left: 30px
+  }
+
+  .embla__controls {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    justify-content: space-between;
+    gap: 1.2rem;
+    margin-top: 1.8rem;
+  }
+  .embla__buttons {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.6rem;
+    align-items: center;
+  }
+  .embla__button {
+    -webkit-tap-highlight-color: rgba(var(--text-high-contrast-rgb-value), 0.5);
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: transparent;
+    touch-action: manipulation;
+    display: inline-flex;
+    text-decoration: none;
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    box-shadow: inset 0 0 0 0.2rem var(--detail-medium-contrast);
+    width: 3.6rem;
+    height: 3.6rem;
+    z-index: 1;
+    border-radius: 50%;
+    color: var(--text-body);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .embla__button:disabled {
+    color: var(--detail-high-contrast);
+  }
+  .embla__button__svg {
+    width: 35%;
+    height: 35%;
+  }
+  .embla__dots {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: calc((2.6rem - 1.4rem) / 2 * -1);
+  }
+  .embla__dot {
+    -webkit-tap-highlight-color: rgba(var(--text-high-contrast-rgb-value), 0.5);
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: transparent;
+    touch-action: manipulation;
+    display: inline-flex;
+    text-decoration: none;
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    width: 2.6rem;
+    height: 2.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+  }
+  .embla__dot:after {
+    box-shadow: inset 0 0 0 0.2rem var(--detail-medium-contrast);
+    width: 1.4rem;
+    height: 1.4rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    content: '';
+  }
+  .embla__dot--selected:after {
+    box-shadow: inset 0 0 0 0.2rem var(--text-body);
+  }
+  .embla__slide {
+    transition: opacity 0.2s ease-in-out;
+    transition: filter 0.3s ease;
+  }
+  .embla__slide:not(.is-snapped) {
+    opacity: 1;
+  }
+
+  .embla__slide--center {
+    filter: brightness(1.2); /* Increase brightness by 20% */
+  }
+
+.curtaindiv {
+    margin-left: 0;
+}
+
+  
+/* .adapter {
+  width: 300px;
+  height: 100px;
+} */
+
+
+.text {
+  color: rgb(8, 123, 8);
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  /* .smartadapter {
+    width: 270px;
+    height: 180px;
+  }
+  
+  .motionsensor {
+    width: 270px;
+    height: 180px;
+  }
+  
+  .smartmotor {
+    width: 270px;
+    height: 180px;
+  }
+  
+  .smartdoorbell {
+    width: 270px;
+    height: 180px;
+  }
+  
+  .smartdevice {
+    width: 270px;
+    height: 180px;
+  } */
+
+  .text {
+    font-size: 13px;
+  }
+  
+}
+
+
+@media only screen and (min-width: 481px) and (max-width: 600px) {
+  /* .smartadapter {
+    width: 270px;
+    height: 185px;
+  }
+  
+  .motionsensor {
+    width: 270px;
+    height: 185px;
+  }
+  
+  .smartmotor {
+    width: 270px;
+    height: 185px;
+  }
+  
+  .smartdoorbell {
+    width: 270px;
+    height: 185px;
+  }
+  
+  .smartdevice {
+    width: 270px;
+    height: 185px;
+  } */
+
+  .text {
+    font-size: 14px;
+  }
+  
+}
+
+
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+  /* .smartadapter {
+    width: 270px;
+    height: 188px;
+  }
+  
+  .motionsensor {
+    width: 270px;
+    height: 188px;
+  }
+  
+  .smartmotor {
+    width: 270px;
+    height: 188px;
+  }
+  
+  .smartdoorbell {
+    width: 270px;
+    height: 188px;
+  }
+  
+  .smartdevice {
+    width: 270px;
+    height: 188px;
+  } */
+
+  .text {
+    font-size: 15px;
+  } 
+}
+
+@media only screen and (min-width: 769px) and (max-width: 900px) {
+  /* .smartadapter {
+    width: 270px;
+    height: 191px;
+  }
+  
+  .motionsensor {
+    width: 270px;
+    height: 191px;
+  }
+  
+  .smartmotor {
+    width: 270px;
+    height: 191px;
+  }
+  
+  .smartdoorbell {
+    width: 270px;
+    height: 191px;
+  }
+  
+  .smartdevice {
+    width: 270px;
+    height: 191px;
+  } */
+
+  .text {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1200px) {
+  /* .smartadapter {
+    width: 270px;
+    height: 200px;
+  }
+  
+  .motionsensor {
+    width: 270px;
+    height: 200px;
+  }
+  
+  .smartmotor {
+    width: 270px;
+    height: 200px;
+  }
+  
+  .smartdoorbell {
+    width: 270px;
+    height: 200px;
+  }
+  
+  .smartdevice {
+    width: 270px;
+    height: 200px;
+  } */
+
+  .text {
+    font-size: 17px;
+  }
+  
+}
+
+
+
+
+

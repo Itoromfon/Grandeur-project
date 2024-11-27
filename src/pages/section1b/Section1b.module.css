@@ -47,6 +47,7 @@
     position: relative;
     z-index: 2;
     letter-spacing: 1px;
+    line-height: 20px;
     animation: backgroundPop 4s ease-in-out infinite;
 }
 

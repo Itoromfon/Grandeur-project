@@ -30,6 +30,8 @@ import FramerMotion from "@/components/framermotion/FramerMotion";
 // import { motion, AnimatePresence } from "framer-motion";
 import Energy from "../components/energy/Energy";
 import Chart from "@/components/chart/Chart";
+import MultipleAI from "@/components/multipleAI/MultipleAI";
+import Heading from "@/components/heading/Heading";
 // import ParticleBackground from "@/components/particlesbackground/ParticlesBackground";
 
 export default function Home() {
@@ -44,6 +46,8 @@ export default function Home() {
       </div>
       <Popup />
       <SmartHome />
+      <MultipleAI />
+      <Heading />
       <EmblaCarousel2 slides={slides} />
       <Automation />
       <AutomateHome />

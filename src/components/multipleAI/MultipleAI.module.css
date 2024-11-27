@@ -1,0 +1,157 @@
+.main {
+    margin-bottom: 100px;
+    padding: 50px 50px;
+    background: linear-gradient(to right, #5C755E, #78A67C); 
+}
+
+.hdiv {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.htext {
+    font-size: 36px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.pdiv {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.ptext {
+    font-size: 16px;
+    width: 746px;
+    letter-spacing: 1px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    .main {
+        padding: 50px 30px;
+    }
+
+    .hdiv {
+        margin-bottom: 10px;
+    }
+    
+    .htext {
+        font-size: 30px;
+        width: 300px;
+        letter-spacing: 1.1px;
+        line-height: 40px;
+    }
+
+    .ptext {
+        font-size: 16px;
+        width: 846px;
+        letter-spacing: 1px;
+        line-height: 22px;
+        color: #FFFFFF;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 600px) {
+    .main {
+        padding: 50px 30px;
+    }
+
+    .hdiv {
+        margin-bottom: 10px;
+    }
+    
+    .htext {
+        font-size: 31px;
+        width: 400px;
+        letter-spacing: 1.1px;
+        line-height: 40px;
+    }
+
+    .ptext {
+        font-size: 17px;
+        width: 846px;
+        letter-spacing: 1px;
+        line-height: 23px;
+        color: #FFFFFF;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+    .main {
+        padding: 50px 40px;
+    }
+
+    .hdiv {
+        margin-bottom: 10px;
+    }
+    
+    .htext {
+        font-size: 32px;
+        width: 500px;
+        letter-spacing: 1.1px;
+        line-height: 40px;
+    }
+
+    .ptext {
+        font-size: 18px;
+        width: 846px;
+        letter-spacing: 1px;
+        line-height: 23px;
+        color: #FFFFFF;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 900px) {
+    .main {
+        padding: 50px 40px;
+    }
+
+    .hdiv {
+        margin-bottom: 10px;
+    }
+    
+    .htext {
+        font-size: 33px;
+        width: 500px;
+        letter-spacing: 1.1px;
+        line-height: 40px;
+    }
+
+    .ptext {
+        font-size: 19px;
+        width: 846px;
+        letter-spacing: 1px;
+        line-height: 24px;
+        color: #FFFFFF;
+    }
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1200px) {
+    .main {
+        padding: 50px 40px;
+    }
+
+    .hdiv {
+        margin-bottom: 10px;
+    }
+    
+    .htext {
+        font-size: 34px;
+        width: 700px;
+        letter-spacing: 1.1px;
+        line-height: 40px;
+    }
+
+    .ptext {
+        font-size: 20px;
+        width: 900px;
+        letter-spacing: 1px;
+        line-height: 26px;
+        color: #FFFFFF;
+    }
+}

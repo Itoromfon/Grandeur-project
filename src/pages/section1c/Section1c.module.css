@@ -46,7 +46,8 @@
     color: #FFFFFF;
     position: relative;
     z-index: 2;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
+    line-height: 20px;
     animation: backgroundPop 4s ease-in-out infinite;
 }
 
