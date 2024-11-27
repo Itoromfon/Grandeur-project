@@ -1,0 +1,429 @@
+.main {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 500px;
+}
+
+/* .main2 {
+    margin-left: 50px;
+} */
+
+.background1 {
+    background-color: #e3e1e1;
+    border-radius: 50%;
+    width: 380px;
+    height: 400px;
+    padding-top: 50px;
+    margin: -40px auto 0 auto;
+}
+
+.background2 {
+    background-color: #ebebeb;
+    border-radius: 50%;
+    width: 400px;
+    height: 420px;
+    padding-top: 50px;
+    margin: -40px auto 0 auto;
+}
+
+.background3 {
+    background-color: #f3f3f3;
+    border-radius: 50%;
+    width: 420px;
+    height: 440px;
+    padding-top: 50px;
+}
+
+.divwrapper {
+    margin-top: -40px;
+    margin-left: -30px;
+}
+
+.div1 {
+    display: flex;
+    margin-left: 50px;
+}
+
+.lorawandiv {
+    background-color: #FFFFFF;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    /* padding: 20px 20px; */
+    width: 106px;
+    height: 107px;
+    border-radius: 50%;
+    animation: backgroundPop 4s ease-in-out infinite;
+}
+
+.lorawan {
+    margin-top: 40px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.wavediv {
+    margin-right: -60px;
+    margin-top: 50px;
+    animation: backgroundPop 4s ease-in-out infinite;
+}
+
+.awsdiv {
+    margin-right: 0;
+    animation: backgroundPop 4s ease-in-out infinite;
+}
+
+.matterdiv {
+    margin-left: -30px;
+    margin-top: 20px;
+    animation: backgroundPop 4s ease-in-out infinite;
+}
+
+.zigbeediv {
+    margin-left: -30px;
+    margin-top: -10px;
+    animation: backgroundPop 4s ease-in-out infinite;
+}
+
+/* .zigbeeimg {
+    z-index: 2;
+} */
+
+@keyframes backgroundPop {
+    0% {
+      transform: scale(1); /* Start with normal size */
+      background-position: center; /* Normal position */
+    }
+    50% {
+      transform: scale(1.19); /* Pop-up effect: enlarge */
+      background-position: center; /* Keep the image centered */
+    }
+    100% {
+      transform: scale(1); /* Return to normal size */
+      background-position: center; /* Normal position */
+    }
+}
+
+
+.div2 {
+    display: flex;
+}
+
+.awsdiv2 {
+    margin-top: -30px;
+    margin-left: 15px;
+    animation: backgroundPop 4s ease-in-out infinite;
+}
+
+.matterdiv2 {
+    margin-left: -50px;
+    margin-top: 10px;
+    animation: backgroundPop 4s ease-in-out infinite;
+}
+
+.zigbeediv2 {
+    margin-left: -50px;
+    margin-top: -40px;
+    animation: backgroundPop 4s ease-in-out infinite;
+}
+
+.phonediv {
+    margin-left: -60px;
+    margin-top: -75px;
+    /* background-color: #f3f3f3;
+    border-radius: 50%;
+    width: 200px; */
+    animation: backgroundPop 4s ease-in-out infinite;
+}
+
+.phoneimg {
+    margin-left: 20px;
+}
+
+.awsdiv3 {
+    margin-left: -20px;
+    margin-top: -20px;
+    animation: backgroundPop 4s ease-in-out infinite;
+}
+
+.matterdiv3 {
+    margin-top: 10px;
+    margin-left: -50px;
+    animation: backgroundPop 4s ease-in-out infinite;
+}
+
+.zigbeediv3 {
+    margin-top: -30px;
+    margin-left: -50px;
+    animation: backgroundPop 4s ease-in-out infinite;
+}
+
+
+
+
+
+
+.div3 {
+    display: flex;
+}
+
+.alexadiv {
+    margin-top: -150px;
+    margin-left: 10px;
+    animation: backgroundPop 4s ease-in-out infinite;
+}
+
+.rainbowdiv {
+    margin-top: -110px;
+    margin-left: -30px;
+    animation: backgroundPop 4s ease-in-out infinite;
+}
+
+.homekitdiv {
+    margin-top: -50px;
+    margin-left: -55px;
+    animation: backgroundPop 4s ease-in-out infinite;
+}
+
+.matterdiv4 {
+    margin-top: -45px;
+    margin-left: -30px;
+    animation: backgroundPop 4s ease-in-out infinite;
+}
+
+.wavediv2 {
+    margin-top: -25px;
+    margin-left: -40px;
+    animation: backgroundPop 4s ease-in-out infinite;
+}
+
+.homekitdiv2 {
+    margin-top: -65px;
+    margin-left: -30px;
+    animation: backgroundPop 4s ease-in-out infinite;
+}
+
+.alexadiv2 {
+    margin-top: -140px;
+    margin-left: -110px;
+    animation: backgroundPop 4s ease-in-out infinite;
+}
+
+.rainbowdiv2 {
+    margin-top: -110px;
+    margin-left: -50px;
+    animation: backgroundPop 4s ease-in-out infinite;
+}
+
+.smartdivimg {
+    margin-top: -60px;
+    margin-left: 30px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 400px) {
+    .main {
+        /* margin: 50px auto; */
+        flex-direction: column;
+    }
+
+    .main2 {
+        margin-bottom: 100px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .background1 {
+        width: 300px;
+        height: 350px;
+    }
+    
+    .background2 {
+        width: 330px;
+        height: 370px;
+    }
+    
+    .background3 {
+        width: 340px;
+        height: 390px;
+    }
+
+    .smartdivimg {
+        margin-left: 0;
+        margin-top: -90px;
+    }
+}
+
+@media only screen and (min-width: 401px) and (max-width: 480px) {
+    .main {
+        /* margin: 50px auto; */
+        flex-direction: column;
+    }
+
+    .main2 {
+        margin-bottom: 100px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .background1 {
+        width: 340px;
+        height: 360px;
+    }
+    
+    .background2 {
+        width: 360px;
+        height: 380px;
+    }
+    
+    .background3 {
+        width: 380px;
+        height: 400px;
+    }
+
+    .smartdivimg {
+        margin-left: 0;
+        margin-top: -90px;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 600px) {
+    .main {
+        /* margin: 50px auto; */
+        flex-direction: column;
+    }
+
+    .main2 {
+        margin-bottom: 100px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .background1 {
+        width: 360px;
+        height: 370px;
+    }
+    
+    .background2 {
+        width: 380px;
+        height: 390px;
+    }
+    
+    .background3 {
+        width: 400px;
+        height: 410px;
+    }
+
+    .smartdivimg {
+        margin-left: 0;
+        margin-top: -90px;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+    .main {
+        /* margin: 50px auto; */
+        flex-direction: column;
+    }
+
+    .main2 {
+        margin-bottom: 100px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .background1 {
+        width: 380px;
+        height: 380px;
+    }
+    
+    .background2 {
+        width: 400px;
+        height: 400px;
+    }
+    
+    .background3 {
+        width: 420px;
+        height: 420px;
+    }
+
+    .smartdivimg {
+        margin-left: 0;
+        margin-top: -90px;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+@media only screen and (min-width: 769px) and (max-width: 900px) {
+    .main {
+        /* margin: 50px auto; */
+        flex-direction: column;
+    }
+
+    .main2 {
+        margin-bottom: 100px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .background1 {
+        width: 400px;
+        height: 390px;
+    }
+    
+    .background2 {
+        width: 420px;
+        height: 410px;
+    }
+    
+    .background3 {
+        width: 440px;
+        height: 430px;
+    }
+
+    .smartdivimg {
+        margin-left: 0;
+        margin-top: -90px;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1200px) {
+    .main {
+        /* margin: 50px auto; */
+        flex-direction: column;
+    }
+
+    .main2 {
+        margin-bottom: 100px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .background1 {
+        width: 420px;
+        height: 400px;
+    }
+    
+    .background2 {
+        width: 440px;
+        height: 420px;
+    }
+    
+    .background3 {
+        width: 460px;
+        height: 440px;
+    }
+
+    .smartdivimg {
+        margin-left: 0;
+        margin-top: -90px;
+        display: flex;
+        justify-content: center;
+    }
+}

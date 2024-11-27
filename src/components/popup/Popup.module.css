@@ -89,7 +89,7 @@
   .video {
     width: 100%;
     max-width: 550px;
-    border-radius: 8px;
+    border-radius: 15px;
   }
 
   
@@ -148,7 +148,7 @@
     .video {
     /* width: 100%; */
     max-width: 345px;
-    border-radius: 8px;
+    border-radius: 15px;
     }
 
     .htextdiv {
@@ -215,7 +215,7 @@
     .video {
     /* width: 100%; */
     max-width: 360px;
-    border-radius: 8px;
+    border-radius: 15px;
     }
 
     .htextdiv {
@@ -289,7 +289,7 @@
       .video {
         /* width: 100%; */
         max-width: 390px;
-        border-radius: 8px;
+        border-radius: 15px;
       }
 
     .h1text {
@@ -363,7 +363,7 @@
       .video {
         /* width: 100%; */
         max-width: 410px;
-        border-radius: 8px;
+        border-radius: 15px;
       }
 
       .h1text {
@@ -437,7 +437,7 @@
       .video {
         /* width: 100%; */
         max-width: 430px;
-        border-radius: 8px;
+        border-radius: 15px;
       }
 
       .h1text {
@@ -511,7 +511,7 @@
       .video {
         /* width: 100%; */
         max-width: 450px;
-        border-radius: 8px;
+        border-radius: 15px;
       }
 
       .h1text {
