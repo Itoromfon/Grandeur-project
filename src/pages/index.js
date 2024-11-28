@@ -32,6 +32,9 @@ import Energy from "../components/energy/Energy";
 import Chart from "@/components/chart/Chart";
 import MultipleAI from "@/components/multipleAI/MultipleAI";
 import Heading from "@/components/heading/Heading";
+import FlowDiagram from "@/components/flowdiagram/FlowDiagram";
+import { ReactFlowProvider } from "reactflow";
+import Carousel3 from "@/components/carousel3/Carousel3";
 // import ParticleBackground from "@/components/particlesbackground/ParticlesBackground";
 
 export default function Home() {
@@ -48,6 +51,10 @@ export default function Home() {
       <SmartHome />
       <MultipleAI />
       <Heading />
+      <ReactFlowProvider>
+      {/* <FlowDiagram /> */}
+      <Carousel3 />
+      </ReactFlowProvider>
       <EmblaCarousel2 slides={slides} />
       <Automation />
       <AutomateHome />

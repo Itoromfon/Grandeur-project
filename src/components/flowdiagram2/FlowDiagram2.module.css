@@ -1,0 +1,799 @@
+.main {
+  margin: 70px 0;
+  width: 55vw;
+  height: 100vh;
+  margin-left: auto;
+}
+
+.reactflow {
+  margin-top: -280px;
+  height: 80vh;
+}
+
+.flowcontainer {
+  height: 400px;
+  /* width: 100%;  */
+  /* position: relative;  */
+  position: relative;
+  margin-left: -100px;
+}
+
+.seenflowdiv {
+  display: flex;
+  justify-content: end;
+  position: relative;
+}
+
+@keyframes inkFlow {
+0% {
+  stroke-dasharray: 0, 200;
+  stroke-dashoffset: 0;
+}
+100% {
+  stroke-dasharray: 200, 200;
+  stroke-dashoffset: -200;
+}
+}
+
+.node1 {
+background-color: #FFFFFF;
+color: #000000;
+border: 1px solid #FFFFFF;
+border-radius: 15px;
+width: 380px;
+height: 40px;
+padding: 45px 0;
+font-size: 14px;
+display: flex;
+}
+
+.nodediv1 {
+  margin: auto;
+  display: flex;
+}
+
+.filldiv {
+  background: #5C755E;
+  padding: 5px 5px;
+  border-radius: 50%;
+  margin-top: -20px;
+  margin-right: 0;
+  height: 40px;
+}
+
+.fill {
+  margin-top: 0;
+  margin-right: 0;
+  color: #FFFFFF;
+  font-size: 25px;
+  margin: auto;
+}
+
+.nodetextdiv {
+  margin-top: -7px;
+  width: 300px;
+}
+
+.nodetext {
+  text-align: center;
+  font-size: 20px;
+}
+
+
+
+
+
+
+
+.nodediv2 {
+  margin: auto;
+  display: flex;
+}
+
+.filldiv2 {
+  background: #FFFFFF;
+  padding: 5px 5px;
+  border-radius: 50%;
+  margin-top: -20px;
+  margin-right: 10px;
+  height: 40px;
+}
+
+.fill2 {
+  margin-top: 0;
+  margin-right: 0;
+  font-size: 25px;
+  margin: auto;
+}
+
+.nodetextdiv2 {
+  margin-top: -7px;
+}
+
+.nodetext2 {
+  text-align: center;
+  font-size: 20px;
+}
+
+.node2 {
+  background-color: #A97D5D;
+  color: #FFFFFF;
+  border: 1px solid #A97D5D;
+  border-radius: 10px;
+  width: 380px;
+  height: 40px;
+  padding: 45px 0;
+  font-size: 14px;
+  display: flex;
+}
+
+
+
+
+
+.nodediv3 {
+  margin: auto;
+  display: flex;
+}
+
+.filldiv3 {
+  padding: 5px 5px;
+  margin-top: -75px;
+  margin-right: 5px;
+}
+
+.fill3 {
+  margin-top: 0;
+  margin-right: 10px;
+  color: yellowgreen;
+  font-size: 25px;
+  margin: auto;
+}
+
+.nodetextdiv3 {
+  margin-top: -7px;
+  width: 200px;
+  margin-left: -50px;
+}
+
+.nodetext3 {
+  text-align: center;
+  font-size: 20px;
+}
+
+.node3 {
+  background-color: #FFFFFF;
+  color: #000000;
+  border: 1px solid #FFFFFF;
+  border-radius: 10px;
+  width: 380px;
+  height: 40px;
+  padding: 45px 0;
+  font-size: 14px;
+  display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+.nodediv4 {
+  margin: auto;
+  display: flex;
+}
+
+.filldiv4 {
+  padding: 5px 5px;
+  margin-top: -75px;
+}
+
+.fill4 {
+  margin-top: 0;
+  margin-right: 10px;
+  color: yellowgreen;
+  font-size: 25px;
+  margin: auto;
+}
+
+.nodetextdiv4 {
+  margin-top: -7px;
+  margin-left: -30px;
+}
+
+.nodetext4 {
+  text-align: center;
+  width: 200px;
+  font-size: 20px;
+  margin-top: -2px;
+  /* padding-left: -20px; */
+}
+
+.node4 {
+  background-color: #FFFFFF;
+  color: #000000;
+  border: 1px solid #FFFFFF;
+  border-radius: 10px;
+  width: 380px;
+  height: 40px;
+  padding: 45px 0;
+  font-size: 14px;
+  display: flex;
+}
+
+
+
+
+
+
+
+.nodediv5 {
+  margin: auto;
+  display: flex;
+}
+
+.filldiv5 {
+  padding: 5px 5px;
+  margin-top: -55px;
+}
+
+.fill5 {
+  margin-top: 0;
+  margin-right: 10px;
+  color: yellowgreen;
+  font-size: 25px;
+  margin: auto;
+}
+
+.nodetextdiv5 {
+  margin-top: -10px;
+  margin-left: -30px;
+}
+
+.nodetext5 {
+  text-align: center;
+  width: 200px;
+  font-size: 20px;
+  /* padding-left: -20px; */
+}
+
+.node5 {
+  background-color: #FFFFFF;
+  color: #000000;
+  border: 1px solid #FFFFFF;
+  border-radius: 10px;
+  width: 380px;
+  height: 40px;
+  padding: 45px 0;
+  font-size: 14px;
+  display: flex;
+}
+
+
+.alert1 {
+  display: flex;
+  margin-left: 50px;
+}
+
+.alerth1 {
+  font-size: 22px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.alertp1 {
+  font-size: 15px;
+  letter-spacing: 1px;
+  width: 259px;
+}
+
+.alert2 {
+  display: flex;
+  margin-left: 10px;
+}
+
+.alerth2 {
+  font-size: 22px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.alertp2 {
+  font-size: 15px;
+  letter-spacing: 1px;
+  width: 259px;
+}
+
+.alertmain {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0 50px 0;
+}
+
+.alertdiv {
+  background-color: white;
+  /* padding: 5px; */
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.alertimg {
+  margin: 10px auto 0 auto;
+}
+
+.alertdiv2 {
+  background-color: white;
+  /* padding: 5px; */
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.alertimg2 {
+  margin: 10px auto 0 auto;
+}
+
+.alert2main {
+  margin-left: 10px;
+}
+
+.autosmart {
+  padding-top: -50px;
+} 
+
+@media only screen and (min-width: 320px) and (max-width: 400px) {
+  .main {
+      margin: 50px auto 50px auto;
+      width: 100vw;
+  }
+  .divmain {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .alertmain {
+    flex-direction: column;
+  }
+
+  .seenflowimg {
+      visibility: hidden;
+  }
+
+  .flowcontainer {
+    margin-left: 0;
+}
+
+  .reactflow {
+      margin-left: 0;
+      display: flex;
+      justify-content: center;
+  }
+
+  .alertdiv {
+      margin: auto;
+  }
+
+  .alert1 {
+      margin: 30px auto;
+      flex-direction: column;
+  }
+
+  .alerth1 {
+      text-align: center;
+      margin-top: 10px;
+  }
+
+  .alertp1 {
+      font-size: 17px;
+      text-align: center;
+  }
+
+  .alerth2 {
+      text-align: center;
+      margin-top: 10px;
+  }
+
+  .alertp2 {
+      font-size: 17px;
+      text-align: center;
+  }
+
+  .alertdiv2 {
+      margin: auto;
+  }
+
+  .alert2 {
+      margin: 10px auto;
+      flex-direction: column;
+    }
+}
+
+
+
+@media only screen and (min-width: 401px) and (max-width: 480px) {
+  .main {
+      margin: 50px auto 50px auto;
+      width: 100vw;
+  }
+  .divmain {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .alertmain {
+    flex-direction: column;
+  }
+
+  .seenflowimg {
+      visibility: hidden;
+  }
+
+  .flowcontainer {
+    margin-left: 0;
+}
+
+  .reactflow {
+      margin-left: 0;
+      display: flex;
+      justify-content: center;
+  }
+
+  /* .nodetext {
+      font-size: 37px;
+  } */
+
+  .alertdiv {
+      margin: auto;
+  }
+
+  .alert1 {
+      margin: 30px auto;
+      flex-direction: column;
+  }
+
+  .alerth1 {
+      text-align: center;
+      margin-top: 10px;
+      font-size: 23px;
+  }
+
+  .alertp1 {
+      font-size: 17px;
+      text-align: center;
+  }
+
+  .alerth2 {
+      text-align: center;
+      margin-top: 10px;
+      font-size: 23px;
+  }
+
+  .alertp2 {
+      font-size: 17px;
+      text-align: center;
+  }
+
+  .alertdiv2 {
+      margin: auto;
+  }
+
+  .alert2 {
+      margin: 10px auto;
+      flex-direction: column;
+    }
+}
+
+
+
+
+@media only screen and (min-width: 481px) and (max-width: 600px) {
+  .main {
+      margin: 50px auto 50px auto;
+      width: 100vw;
+  }
+  .divmain {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .alertmain {
+    flex-direction: column;
+    margin-left: -100px;
+  }
+
+  .seenflowimg {
+      visibility: hidden;
+  }
+
+  .flowcontainer {
+    margin-left: 0;
+}
+
+  .reactflow {
+      margin-left: -20px;
+      display: flex;
+      justify-content: center;
+  }
+
+  /* .nodetext {
+      font-size: 37px;
+  } */
+
+  .alertdiv {
+      margin: auto;
+  }
+
+  .alert1 {
+      margin: 30px auto;
+      flex-direction: column;
+  }
+
+  .alerth1 {
+      text-align: center;
+      margin-top: 10px;
+      font-size: 23px;
+  }
+
+  .alertp1 {
+      font-size: 17px;
+      text-align: center;
+  }
+
+  .alerth2 {
+      text-align: center;
+      margin-top: 10px;
+      font-size: 23px;
+  }
+
+  .alertp2 {
+      font-size: 17px;
+      text-align: center;
+  }
+
+  .alertdiv2 {
+      margin: auto;
+  }
+
+  .alert2 {
+      margin: 10px auto;
+      flex-direction: column;
+    }
+}
+
+
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+  .main {
+      margin: 50px auto 50px auto;
+      width: 100vw;
+  }
+  .divmain {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .alertmain {
+    flex-direction: column;
+  }
+
+  .seenflowimg {
+      visibility: hidden;
+  }
+
+  .flowcontainer {
+    margin-left: 0;
+}
+
+  .reactflow {
+      margin-left: 30px;
+      display: flex;
+      justify-content: center;
+  }
+
+  /* .nodetext {
+      font-size: 37px;
+  } */
+
+  .alertdiv {
+      margin: auto;
+  }
+
+  .alert1 {
+      margin: 30px auto;
+      flex-direction: column;
+  }
+
+  .alerth1 {
+      text-align: center;
+      margin-top: 10px;
+      font-size: 23px;
+  }
+
+  .alertp1 {
+      font-size: 17px;
+      text-align: center;
+  }
+
+  .alerth2 {
+      text-align: center;
+      margin-top: 10px;
+      font-size: 23px;
+  }
+
+  .alertp2 {
+      font-size: 17px;
+      text-align: center;
+  }
+
+  .alertdiv2 {
+      margin: auto;
+  }
+
+  .alert2 {
+      margin: 10px auto;
+      flex-direction: column;
+    }
+}
+
+
+@media only screen and (min-width: 769px) and (max-width: 900px) {
+  .main {
+      margin: 50px auto 50px auto;
+      width: 100vw;
+  }
+  .divmain {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .alertmain {
+    flex-direction: column;
+  }
+
+  .seenflowimg {
+      visibility: hidden;
+  }
+
+  .flowcontainer {
+    margin-left: 0;
+}
+
+  .reactflow {
+      margin-left: 30px;
+      display: flex;
+      justify-content: center;
+  }
+
+  /* .nodetext {
+      font-size: 37px;
+  } */
+
+  .alertdiv {
+      margin: auto;
+  }
+
+  .alert1 {
+      margin: 30px auto;
+      flex-direction: column;
+  }
+
+  .alerth1 {
+      text-align: center;
+      margin-top: 10px;
+      font-size: 23px;
+  }
+
+  .alertp1 {
+      font-size: 17px;
+      text-align: center;
+  }
+
+  .alerth2 {
+      text-align: center;
+      margin-top: 10px;
+      font-size: 23px;
+  }
+
+  .alertp2 {
+      font-size: 17px;
+      text-align: center;
+  }
+
+  .alertdiv2 {
+      margin: auto;
+  }
+
+  .alert2 {
+      margin: 10px auto;
+      flex-direction: column;
+    }
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1200px) {
+  .main {
+      margin: 50px auto 50px auto;
+      width: 100vw;
+  }
+  .divmain {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .alertmain {
+    flex-direction: column;
+  }
+
+  .seenflowimg {
+      visibility: hidden;
+  }
+
+  .flowcontainer {
+    margin: 0 auto 0 auto;
+}
+
+  .reactflow {
+      margin-left: 0;
+      display: flex;
+      justify-content: center;
+  }
+
+  /* .nodetext {
+      font-size: 37px;
+  } */
+
+  .alertdiv {
+      margin: auto;
+  }
+
+  .alert1 {
+      margin: 30px auto;
+      flex-direction: column;
+  }
+
+  .alerth1 {
+      text-align: center;
+      margin-top: 10px;
+      font-size: 23px;
+  }
+
+  .alertp1 {
+      font-size: 20px;
+      text-align: center;
+      width: 350px;
+  }
+
+  .alerth2 {
+      text-align: center;
+      margin-top: 10px;
+      font-size: 23px;
+  }
+
+  .alertp2 {
+      font-size: 20px;
+      text-align: center;
+      width: 350px;
+  }
+
+  .alertdiv2 {
+      margin: auto;
+  }
+
+  .alert2 {
+      margin: 10px auto;
+      flex-direction: column;
+    }
+}
+
+
+
+
+
+
+
+

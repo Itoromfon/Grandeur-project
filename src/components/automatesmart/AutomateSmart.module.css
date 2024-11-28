@@ -1,0 +1,224 @@
+.main {
+    /* margin-top: 80px; */
+    padding-top: 50px;
+    margin-bottom: -150px;
+    margin-left: 30px;
+}
+
+.htextdiv {
+    animation: backgroundPop 4s ease-in-out infinite;
+}
+
+.htext {
+    display: flex;
+    font-size: 28px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: #FFFFFF;
+    width: 504px;
+}
+
+.ptextdiv {
+    animation: backgroundPop 4s ease-in-out infinite;
+}
+
+.ptext {
+    font-size: 16px;
+    letter-spacing: 1px;
+    width: 420px;
+    color: #FFFFFF;
+    line-height: 24px;
+}
+
+.smartaiimg {
+    margin-top: -20px;
+}
+
+
+@keyframes backgroundPop {
+    0% {
+      transform: scale(1); /* Start with normal size */
+      background-position: center; /* Normal position */
+    }
+    50% {
+      transform: scale(1.03); /* Pop-up effect: enlarge */
+      background-position: center; /* Keep the image centered */
+    }
+    100% {
+      transform: scale(1); /* Return to normal size */
+      background-position: center; /* Normal position */
+    }
+}
+  
+
+
+
+@media screen and (min-width: 320px) and (max-width: 400px) {
+    .main {
+        margin-bottom: 50px;
+    }
+
+    .htext {
+        font-size: 22px;
+        width: 304px;
+    }
+
+    .htextdiv {
+        display: flex;
+        justify-content: center;
+        margin: 20px 0;
+    }
+
+    .ptext {
+        font-size: 17px;
+        width: 300px;
+        text-align: center;
+    }
+
+    .ptextdiv {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 401px) and (max-width: 480px) {
+    .main {
+        margin-bottom: 50px;
+    }
+
+    .htext {
+        font-size: 22px;
+        width: 304px;
+    }
+
+    .htextdiv {
+        display: flex;
+        justify-content: center;
+        margin: 20px 0;
+    }
+
+    .ptext {
+        font-size: 17px;
+        width: 300px;
+        text-align: center;
+    }
+
+    .ptextdiv {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+@media screen and (min-width: 481px) and (max-width: 600px) {
+    .main {
+        margin-bottom: 50px;
+    }
+
+    .htext {
+        font-size: 22px;
+        width: 304px;
+    }
+
+    .htextdiv {
+        display: flex;
+        justify-content: center;
+        margin: 20px 0;
+    }
+
+    .ptext {
+        font-size: 17px;
+        width: 300px;
+        text-align: center;
+    }
+
+    .ptextdiv {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 768px) {
+    .main {
+        margin-bottom: 50px;
+    }
+
+    .htext {
+        font-size: 22px;
+        width: 304px;
+    }
+
+    .htextdiv {
+        display: flex;
+        justify-content: center;
+        margin: 20px 0;
+    }
+
+    .ptext {
+        font-size: 17px;
+        width: 300px;
+        text-align: center;
+    }
+
+    .ptextdiv {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 900px) {
+    .main {
+        margin-bottom: 50px;
+    }
+
+    .htext {
+        font-size: 22px;
+        width: 304px;
+    }
+
+    .htextdiv {
+        display: flex;
+        justify-content: center;
+        margin: 20px 0;
+    }
+
+    .ptext {
+        font-size: 17px;
+        width: 300px;
+        text-align: center;
+    }
+
+    .ptextdiv {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 901px) and (max-width: 1200px) {
+    .main {
+        margin-bottom: 50px;
+    }
+
+    .htext {
+        font-size: 28px;
+        width: 400px;
+    }
+
+    .htextdiv {
+        display: flex;
+        justify-content: center;
+        margin: 20px 0;
+    }
+
+    .ptext {
+        font-size: 22px;
+        width: 400px;
+        text-align: center;
+        letter-spacing: 2px;
+    }
+
+    .ptextdiv {
+        display: flex;
+        justify-content: center;
+    }
+}
