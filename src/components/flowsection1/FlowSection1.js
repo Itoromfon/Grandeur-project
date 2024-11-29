@@ -21,7 +21,7 @@ function FlowSection1() {
         </div>
         </div>
         </div>
-        </div>
+    </div>
         <div className={styles.seenflowdiv}>
         <Image 
             src='/seenflow.png'
@@ -61,9 +61,9 @@ function FlowSection1() {
         <div>
         <div className={styles.hpdiv3}>
         <div>
-            <h1 className={styles.htext3}>Security (Theft Prevention Mode)</h1>
-            <p className={styles.ptext3}>If door opens unexpectedly and no one is home, locks
-               all doors, activate an alarm, and notify the owner.
+            <h1 className={styles.htext3}>Airbnb (Property Management)</h1>
+            <p className={styles.ptext3}>Set lights, temperature, and security to a 
+                ‘guest-ready’ mode upon guest check-in.
             </p>
         </div>
         </div>
@@ -78,7 +78,7 @@ function FlowSection1() {
             className={styles.seenflowimg3}
         />
         </div>
-    </div>
+        </div>
   )
 }
 
