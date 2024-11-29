@@ -36,6 +36,7 @@ import FlowDiagram from "@/components/flowdiagram/FlowDiagram";
 import { ReactFlowProvider } from "reactflow";
 import Carousel3 from "@/components/carousel3/Carousel3";
 import FlowCreation from "@/components/flowcreation/FlowCreation";
+import Recommendation from "@/components/recommendation/Recommendation";
 // import ParticleBackground from "@/components/particlesbackground/ParticlesBackground";
 
 export default function Home() {
@@ -58,6 +59,7 @@ export default function Home() {
       </ReactFlowProvider>
       <EmblaCarousel2 slides={slides} />
       <FlowCreation />
+      <Recommendation />
       <Automation />
       <AutomateHome />
       <Energy />

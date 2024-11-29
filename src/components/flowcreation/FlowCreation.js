@@ -3,7 +3,7 @@ import FlowSection1 from '../flowsection1/FlowSection1';
 
 const FlowCreation = () => {
   return (
-    <div>
+    <div className={styles.main}>
         <div>
             <div className={styles.hdiv}>
                 <h1 className={styles.flowh1}>Flow Creation</h1>
