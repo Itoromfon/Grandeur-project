@@ -7,231 +7,158 @@ import { RiAlertFill } from "react-icons/ri";
 import { GiMovementSensor } from "react-icons/gi";
 import Image from 'next/image';
 import AutomateSmart from '../automatesmart/AutomateSmart';
+import { FaStaffSnake } from "react-icons/fa6";
+import { LuMoveDown } from "react-icons/lu";
+import { LuMoveDownLeft } from "react-icons/lu";
+import { LuMoveDownRight } from "react-icons/lu";
 
-// Define initial nodes with the fifth node
-const initialNodes = [
-{ 
-    id: '1', 
-    position: { x: 250, y: 5 }, 
-    data: {
-        label: (
-        <>
-        <div className={styles.nodediv1}>
-          <div className={styles.filldiv}>
-            <GiMovementSensor className={styles.fill} />
-          </div>
-          <div className={styles.nodetextdiv}>
-            <p className={styles.nodetext}>Unusual Movement Detected!</p>
-          </div>
-          </div>
-          </>
-        ),
-      },
-    // style: {
-    //     backkgroundColor: 'lightblue', 
-    //     color: 'black',
-    //     border: '1px solid gray'
-    // }
-    className: styles.node1,
-},
-{ 
-    id: '2', position: { x: 250, y: 150 }, 
-    data: {
-        label: (
-        <>
-        <div className={styles.nodediv2}>
-          <div className={styles.filldiv2}>
-            {/* <RiAlertFill className={styles.fill2} /> */}
-            <Image 
-                src='/clippath.png'
-                alt='clip path'
-                width={24}
-                height={24}
-            />
-          </div>
-          <div className={styles.nodetextdiv2}>
-            <p className={styles.nodetext2}>Theft Prevention Mode Activated</p>
-          </div>
-          </div>
-      </>
-        ),
-      },
-    className: styles.node2,
-},
-{ 
-    id: '3', 
-    position: { x: 100, y: 400 }, 
-    data: {
-        label: (
-        <div className={styles.nodediv3}>
-          <div className={styles.filldiv3}>
-            {/* <RiAlertFill className={styles.fill2} /> */}
-            <Image 
-                src='/removebg.png'
-                alt='clip path'
-                width={184}
-                height={185}
-            />
-          </div>
-          <div className={styles.nodetextdiv3}>
-            <p className={styles.nodetext3}>Turn On All Lights</p>
-          </div>
-          </div>
-        ),
-      },
-    className: styles.node3,
-},
-{ 
-    id: '4', 
-    position: { x: 250, y: 550 },
-    data: {
-        label: (
-        <div className={styles.nodediv4}>
-          <div className={styles.filldiv4}>
-            {/* <RiAlertFill className={styles.fill2} /> */}
-            <Image 
-                src='/doormart.png'
-                alt='clip path'
-                width={99}
-                height={144}
-            />
-          </div>
-          <div className={styles.nodetextdiv4}>
-            <p className={styles.nodetext4}>Lock All Doors</p>
-          </div>
-          </div>
-        ),
-      },
-      className: styles.node4,
-},
-{ 
-    id: '5', 
-    position: { x: 400, y: 700 }, 
-    data: {
-        label: (
-        <div className={styles.nodediv5}>
-          <div className={styles.filldiv5}>
-            {/* <RiAlertFill className={styles.fill2} /> */}
-            <Image 
-                src='/trigger.png'
-                alt='clip path'
-                width={99}
-                height={144}
-            />
-          </div>
-          <div className={styles.nodetextdiv5}>
-            <p className={styles.nodetext5}>Trigger Alarm</p>
-          </div>
-          </div>
-        ),
-      }, 
-      className: styles.node5,
-    }, 
-];
-
-// Define edges including the fifth node
-const initialEdges = [
-  { id: 'e1-2', source: '1', target: '2', type: 'ink' },
-  { id: 'e2-3', source: '2', target: '3', type: 'ink' },
-  { id: 'e3-4', source: '3', target: '4', type: 'ink' },
-  { id: 'e4-5', source: '4', target: '5', type: 'ink' }, // New edge connecting to Node 5
-];
-
-const FlowDiagram = () => {
-  const [nodes, setNodes, onNodesChange] = useNodesState(initialNodes);
-  const [edges, setEdges, onEdgesChange] = useEdgesState(initialEdges);
-  const { fitView } = useReactFlow();
-
-  const edgeTypes = { ink: InkEdge };
-
-  const onConnect = useCallback(
-    (params) => setEdges((eds) => addEdge({ ...params, type: 'ink' }, eds)),
-    [setEdges]
-  );
-
-  // Log nodes state for debugging
-  useEffect(() => {
-    console.log("Nodes state has been updated:", nodes);
-    fitView({ padding: 0.2 });
-  }, [fitView, nodes, edges]);
-
-//   const edgeTypes = { ink: InkEdge };
-
+const FlowDiagram2 = () => {
   return (
     <div className={styles.divmain}>
         <div className={styles.autosmart}>
             <AutomateSmart />
         </div>
-    <div className={styles.main}>
-        <div className={styles.seenflowdiv}>
+        <div className={styles.seendown}>
+        <div className={styles.divmain2}>
+        <div className={styles.divss}>
+        <div className={styles.div1}>
+            <div className={styles.staffsnakediv}>
+                <FaStaffSnake className={styles.staffsnake} />
+            </div>
+            <div>
+                <p className={styles.ptext1}>Enable Traveller Mode</p>
+            </div>
+        </div>
+        </div>
+        <div className={styles.seenflowdivs}>
             <Image 
-                src='/seenflow.png'
-                alt='Flow'
-                width={206}
-                height={206}
-                className={styles.seenflowimg}
+                src='/airac.png'
+                width={125}
+                height={150}
+                className={styles.seenflowimages}
             />
         </div>
-    <div className={styles.flowcontainer}>
-      <ReactFlow
-        nodes={nodes}
-        edges={edges}
-        edgeTypes={edgeTypes}
-        onNodesChange={onNodesChange}
-        onEdgesChange={onEdgesChange}
-        onConnect={onConnect}
-        fitView
-        className={styles.reactflow}
-      >
-        <Background gap={12} size={1} />
-        {/* <Controls /> */}
-      </ReactFlow>
-      </div>
-    <div className={styles.alertmain}>
-    <div className={styles.alert1}>
-    <div className={styles.alertdiv}>
-        <Image 
-            src='/alert.png' 
-            alt='Alert'
-            width={32}
-            height={32}
-            className={styles.alertimg}
-        />
-    </div>
-    <div>
-        <div className={styles.alerth1div}>
-            <h1 className={styles.alerth1}>Alert</h1>
         </div>
-        <div className={styles.alertp1div}>
-            <p className={styles.alertp1}>Send an immediate notification to the user, with a live feed from
-            security cameras.</p>
+        <div className={styles.lumovedivs}>
+            <LuMoveDown className={styles.lumoves} />
         </div>
-    </div>
-    </div>
-    <div className={styles.alert2}>
-    <div className={styles.alertdiv2}>
-        <Image 
-            src='/callflow.png' 
-            alt='Alert'
-            width={32}
-            height={32}
-            className={styles.alertimg2}
-        />
-    </div>
-    <div>
-        <div className={styles.alerth2div}>
-            <h1 className={styles.alerth2}>Follow-Up</h1>
+        <div className={styles.div2}>
+            <div className={styles.staffsnakediv2}>
+                <Image 
+                    src='/warningalert.png'
+                    alt='warning alert'
+                    width={24}
+                    height={24}
+                />
+            </div>
+            <div>
+                <p className={styles.ptext2}>Set humidity to 40%-60%</p>
+            </div>
         </div>
-        <div className={styles.alertp2div}>
-            <p className={styles.alertp2}>Send an immediate notification to the user, with a live feed from
-            security cameras.</p>
+        <div className={styles.arrows}>
+        <div className={styles.lumoveleftdiv}>
+            <LuMoveDownLeft className={styles.lumoveleft} />
         </div>
-    </div>
-    </div>
-    </div> 
-    </div>
+        <div className={styles.lumovediv2}>
+            <LuMoveDown className={styles.lumove2} />
+        </div>
+        <div className={styles.lumoveright}>
+            <LuMoveDownRight className={styles.lumoveright} />
+        </div>
+        </div>
+        <div className={styles.div3mains}>
+        <div className={styles.div3}>
+            <div className={styles.staffsnakediv3}>
+                <Image 
+                    src='/doormart.png'
+                    alt='Door mart'
+                    width={80}
+                    height={154}
+                    className={styles.doorimg}
+                />
+            </div>
+            <div>
+                <p className={styles.ptext3}>Sensors Check Air Quality levels</p>
+            </div>
+        </div>
+        <div className={styles.lumovediv3}>
+            <LuMoveDown className={styles.lumove3} />
+        </div>
+        <div className={styles.div4}>
+            <div className={styles.staffsnakediv4}>
+                <Image 
+                    src='/bulb.png'
+                    alt='bulb'
+                    width={184}
+                    height={185}
+                />
+            </div>
+            <div>
+                <p className={styles.ptext4}>User receives App notofications</p>
+            </div>
+        </div>
+        <div className={styles.lumovediv4}>
+            <LuMoveDown className={styles.lumove4} />
+        </div>
+        <div className={styles.div5}>
+            <div className={styles.staffsnakediv5}>
+                <Image 
+                    src='/trigger.png'
+                    alt='trigger alarm'
+                    width={90}
+                    height={144}
+                />
+            </div>
+            <div>
+                <p className={styles.ptext5}>User deactivate travellers mode.</p>
+            </div>
+        </div>
+        </div>
+        <div className={styles.alertmain}>
+        <div className={styles.alert1}>
+        <div className={styles.alertdiv}>
+            <Image 
+                src='/alert.png' 
+                alt='Alert'
+                width={32}
+                height={32}
+                className={styles.alertimg}
+            />
+        </div>
+        <div>
+            <div className={styles.alerth1div}>
+                <h1 className={styles.alerth1}>Alert</h1>
+            </div>
+            <div className={styles.alertp1div}>
+                <p className={styles.alertp1}>Send an immediate notification to the user, with a live feed from
+                security cameras.</p>
+            </div>
+        </div>
+        </div>
+        <div className={styles.alert2}>
+        <div className={styles.alertdiv2}>
+            <Image 
+                src='/callflow.png' 
+                alt='Alert'
+                width={32}
+                height={32}
+                className={styles.alertimg2}
+            />
+        </div>
+        <div>
+            <div className={styles.alerth2div}>
+                <h1 className={styles.alerth2}>Follow-Up</h1>
+            </div>
+            <div className={styles.alertp2div}>
+                <p className={styles.alertp2}>Send an immediate notification to the user, with a live feed from
+                security cameras.</p>
+            </div>
+        </div>
+        </div>
+        </div> 
+        </div>
     </div>
   );
 };
 
-export default FlowDiagram;
+export default FlowDiagram2;
