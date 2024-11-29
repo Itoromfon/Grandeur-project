@@ -118,7 +118,7 @@ const FlowDiagram = () => {
         <div className={styles.alert1}>
         <div className={styles.alertdiv}>
             <Image 
-                src='/alert.png' 
+                src='/alerticonss.png' 
                 alt='Alert'
                 width={32}
                 height={32}
