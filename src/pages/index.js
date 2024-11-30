@@ -39,6 +39,7 @@ import FlowCreation from "@/components/flowcreation/FlowCreation";
 import Recommendation from "@/components/recommendation/Recommendation";
 import AdvanceFlow from "@/components/advanceflow/AdvanceFlow";
 import EnergyManagementKit from "@/components/energymanagementkit/EnergyManagementKit";
+import Gateway from "@/components/gateway/Gateway";
 // import ParticleBackground from "@/components/particlesbackground/ParticlesBackground";
 
 export default function Home() {
@@ -64,6 +65,7 @@ export default function Home() {
       <Recommendation />
       <AdvanceFlow />
       <EnergyManagementKit />
+      <Gateway />
       <Automation />
       <AutomateHome />
       <Energy />

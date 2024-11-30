@@ -11,7 +11,7 @@ import { GrLinkPrevious, GrLinkNext } from 'react-icons/gr';
 export default function EmblaCarousel4() {
   const [emblaRef, emblaApi] = useEmblaCarousel(
     { loop: true },
-    [Autoplay({ delay: 2000 })]
+    [Autoplay({ delay: 3000 })]
   );
 
   const scrollPrev = useCallback(() => {
