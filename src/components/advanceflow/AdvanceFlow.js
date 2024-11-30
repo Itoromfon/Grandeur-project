@@ -26,7 +26,7 @@ function AdvanceFlow() {
             </div>
         </div>
         </div>
-        <div>
+        <div className={styles.advanceimg}>
             <Image 
                 src='/newmp.png'
                 alt='Advance Flow Image'
