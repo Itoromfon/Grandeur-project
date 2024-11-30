@@ -1,0 +1,162 @@
+.main {
+    margin-top: -100px;
+    margin-bottom: 50px;
+}
+
+.h1div {
+    display: flex;
+    justify-content: center;
+}
+
+.pdiv {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.imagediv {
+    display: flex;
+    justify-content: center;
+}
+
+.htext {
+    font-size: 36px;
+    font-weight: bold;
+    width: 690px;
+    color: #212121;
+    text-align: center;
+    line-height: 42px;
+    letter-spacing: 1px;
+}
+
+.ptext {
+    font-size: 17px;
+    color: #212121;
+    letter-spacing: 1px;
+    line-height: 22px;
+    font-weight: 500;
+    width: 521px;
+    text-align: center;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 400px) {
+    .main {
+        margin-top: -150px;
+    }
+    
+    .htext {
+        font-size: 25px;
+    }
+
+    .pdiv {
+        text-align: center;
+    }
+
+    .ptext {
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 401px) and (max-width: 480px) {
+    .main {
+        margin-top: -200px;
+    }
+    
+    .htext {
+        font-size: 26px;
+        width: 400px;
+    }
+
+    .pdiv {
+        text-align: center;
+    }
+
+    .ptext {
+        text-align: center;
+        font-size: 18px;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 600px) {
+    .main {
+        margin-top: -100px;
+    }
+    
+    .htext {
+        font-size: 28px;
+        width: 400px;
+    }
+
+    .pdiv {
+        text-align: center;
+    }
+
+    .ptext {
+        text-align: center;
+        font-size: 19px;
+        width: 450px;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+    .main {
+        margin-top: -250px;
+    }
+    
+    .htext {
+        font-size: 30px;
+        width: 550px;
+    }
+
+    .pdiv {
+        text-align: center;
+    }
+
+    .ptext {
+        text-align: center;
+        font-size: 20px;
+        width: 450px;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 900px) {
+    .main {
+        margin-top: -300px;
+    }
+    
+    .htext {
+        font-size: 31px;
+        width: 550px;
+    }
+
+    .pdiv {
+        text-align: center;
+    }
+
+    .ptext {
+        text-align: center;
+        font-size: 21px;
+        width: 450px;
+    }
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1200px) {
+    .main {
+        margin-top: -400px;
+    }
+    
+    .htext {
+        font-size: 33px;
+        width: 600px;
+    }
+
+    .pdiv {
+        text-align: center;
+    }
+
+    .ptext {
+        text-align: center;
+        font-size: 23px;
+        width: 450px;
+    }
+}
