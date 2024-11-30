@@ -33,6 +33,7 @@ const FlowDiagram2 = () => {
         <div className={styles.seenflowdivs}>
             <Image 
                 src='/airac.png'
+                alt='air'
                 width={125}
                 height={150}
                 className={styles.seenflowimages}

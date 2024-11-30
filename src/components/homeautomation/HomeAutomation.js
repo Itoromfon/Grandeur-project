@@ -20,7 +20,7 @@ function HomeAutomation() {
           >
             <div className={styles.buttoncontainer}>
                 <div className={styles.buttontext}>
-                    See SMART's Predictive Suggestions <GrFormNext className={styles.next}/>
+                    See SMARTs Predictive Suggestions <GrFormNext className={styles.next}/>
                 </div>
             </div>
           </Link>
