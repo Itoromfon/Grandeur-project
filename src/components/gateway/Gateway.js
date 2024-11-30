@@ -45,7 +45,7 @@ function Gateway() {
         <div className={styles.div3}>
             <div className={styles.dataprotectiondiv3}>
                 <Image 
-                    src='/securityprivacy.png'
+                    src='/Securityprivacy.png'
                     alt='Security Privacy'
                     width={40}
                     height={40}

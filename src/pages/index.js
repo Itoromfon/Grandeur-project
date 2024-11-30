@@ -40,6 +40,7 @@ import Recommendation from "@/components/recommendation/Recommendation";
 import AdvanceFlow from "@/components/advanceflow/AdvanceFlow";
 import EnergyManagementKit from "@/components/energymanagementkit/EnergyManagementKit";
 import Gateway from "@/components/gateway/Gateway";
+import Permission from "@/components/permission/Permission";
 // import ParticleBackground from "@/components/particlesbackground/ParticlesBackground";
 
 export default function Home() {
@@ -66,6 +67,7 @@ export default function Home() {
       <AdvanceFlow />
       <EnergyManagementKit />
       <Gateway />
+      <Permission />
       <Automation />
       <AutomateHome />
       <Energy />
