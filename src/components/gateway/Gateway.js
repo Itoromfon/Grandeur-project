@@ -74,7 +74,7 @@ function Gateway() {
         </div>
         </div>
         
-        <div className={styles.imagediv4}>
+        {/* <div className={styles.imagediv4}>
         <div className={styles.imagediv3}>
         <div className={styles.imagediv2}>
         <div className={styles.imagediv}>
@@ -171,6 +171,83 @@ function Gateway() {
                 </div>
                 </div>
             </div>
+            </div>
+        </div>
+        </div> */}
+        <div>
+        <div className={styles.imagediv}>
+            <div className={styles.wadiv}>
+                <Image 
+                    src='/waveprivacy.png'
+                    width={220}
+                    height={220}
+                    alt='wave'
+                />
+            </div>
+            <div className={styles.zigdiv}>
+                <Image 
+                    src='/zigbeeprivacy.png'
+                    width={220}
+                    height={220}
+                    alt='zigbee'
+                />
+            </div>
+            <div className={styles.loradiv}>
+                <Image 
+                    src='/lorawanprivacy.png'
+                    width={220}
+                    height={220}
+                    alt='lorawan'
+                />
+            </div>
+            <div className={styles.parldiv}>
+                <Image 
+                    src='/parliaprivacy.png'
+                    width={220}
+                    height={220}
+                    alt='parlia'
+                />
+            </div>
+        </div>
+            <div className={styles.diskimagediv5}>
+            <div className={styles.diskimagediv4}>
+            <div className={styles.diskimagediv3}>
+            <div className={styles.diskimagediv2}>
+                <Image 
+                    src='/diskprivacy.png'
+                    width={402}
+                    height={237}
+                    alt='Disk Privacy'
+                    className={styles.diskimg}
+                />
+            </div>
+            </div>
+            </div>
+        </div>
+        <div className={styles.imagedivs}>
+            <div className={styles.bludiv}>
+                <Image 
+                    src='/bluetoothprivacy.png'
+                    alt='Bluetooth'
+                    width={110}
+                    height={110}
+                />
+            </div>
+            <div className={styles.madiv}>
+                <Image 
+                    src='/matterprivacy.png'
+                    alt='Matter'
+                    width={110}
+                    height={110}
+                />
+            </div>
+            <div className={styles.simdiv}>
+                <Image 
+                    src='/simprivacy.png'
+                    alt='Sim'
+                    width={110}
+                    height={110}
+                />
             </div>
         </div>
         </div>

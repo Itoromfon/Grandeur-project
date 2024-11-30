@@ -264,12 +264,39 @@
     margin-top: 90px;
 }
 
+.imagedivs {
+    display: flex;
+    margin-left: 100px;
+    margin-top: -150px;
+}
+
+
+
+.bludiv {
+    margin-top: -120px;
+    margin-left: -50px;
+    animation: backgroundPop 4s ease-in-out infinite;
+}
+
+
+.madiv {
+    margin-left: 30px;
+    margin-top: -30px;
+    animation: backgroundPop 4s ease-in-out infinite;
+    
+}
+
+.simdiv {
+    margin-top: -120px;
+    margin-left: 30px;
+    animation: backgroundPop 4s ease-in-out infinite;
+}
 
 
 
 
 .imagediv {
-    background-color: #6c896d;
+    background-color: transparent;
     width: 400px;
     height: 370px;
     border-radius: 50%;
@@ -308,13 +335,19 @@
 }
 
 
+
+.imagediv {
+    display: flex;
+}
+
+
 @keyframes backgroundPop {
     0% {
       transform: scale(1); /* Start with normal size */
       background-position: center; /* Normal position */
     }
     50% {
-      transform: scale(1.03); /* Pop-up effect: enlarge */
+      transform: scale(1.1); /* Pop-up effect: enlarge */
       background-position: center; /* Keep the image centered */
     }
     100% {
@@ -327,6 +360,84 @@
     width: 130px;
     height: 80px;
 }
+
+
+
+
+
+
+.diskimagediv2 {
+    background-color: #9ebaa1;
+    border-radius: 50%;
+    height: 350px;
+    width: 350px;
+    padding: 80px;
+    margin: auto;
+}
+
+.diskimagediv3 {
+    background-color: #aac4ac;
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
+    padding-top: 20px;  
+    margin: auto;  
+}
+
+.diskimagediv4 {
+    background-color: #bcd3be;
+    border-radius: 50%;
+    height: 450px;
+    width: 450px;
+    padding-top: 20px;
+    margin: auto;
+}
+
+.diskimagediv5 {
+    background-color: #c5dbc7;
+    border-radius: 50%;
+    height: 500px;
+    width: 500px;
+    padding: 25px;
+    margin-top: -330px;
+}
+
+.diskimg {
+    margin: 5px auto;
+}
+
+
+
+
+.zigdiv {
+    margin-top: 70px;
+    animation: backgroundPop 4s ease-in-out infinite;
+}
+
+.loradiv {
+    margin-top: 70px;
+    animation: backgroundPop 4s ease-in-out infinite;
+}
+
+.wadiv {
+    margin-top: 140px;
+    margin-left: -15px;
+    animation: backgroundPop 4s ease-in-out infinite;
+}
+
+.parldiv {
+    margin-top: 140px;
+    animation: backgroundPop 4s ease-in-out infinite;
+}
+
+
+
+
+
+
+
+
+
 
 
 @media only screen and (min-width: 320px) and (max-width: 400px) {
@@ -486,6 +597,18 @@
     }
 
     .imagediv4 {
+        display: none;
+    }
+
+    .diskimagediv5 {
+        display: none;
+    }
+
+    .imagediv {
+        display: none;
+    }
+
+    .imagedivs {
         display: none;
     }
 }
@@ -652,6 +775,18 @@
     .imagediv4 {
         display: none;
     }
+
+    .diskimagediv5 {
+        display: none;
+    }
+
+    .imagediv {
+        display: none;
+    }
+
+    .imagedivs {
+        display: none;
+    }
 }
 
 
@@ -816,6 +951,18 @@
     .imagediv4 {
         display: none;
     }
+
+    .diskimagediv5 {
+        display: none;
+    }
+
+    .imagediv {
+        display: none;
+    }
+
+    .imagedivs {
+        display: none;
+    }
 }
 
 
@@ -976,6 +1123,18 @@
     }
 
     .imagediv4 {
+        display: none;
+    }
+
+    .diskimagediv5 {
+        display: none;
+    }
+
+    .imagediv {
+        display: none;
+    }
+
+    .imagedivs {
         display: none;
     }
 }
@@ -1139,6 +1298,18 @@
     .imagediv4 {
         display: none;
     }
+
+    .diskimagediv5 {
+        display: none;
+    }
+
+    .imagediv {
+        display: none;
+    }
+
+    .imagedivs {
+        display: none;
+    }
 }
 
 
@@ -1300,6 +1471,18 @@
     }
 
     .imagediv4 {
+        display: none;
+    }
+
+    .diskimagediv5 {
+        display: none;
+    }
+
+    .imagediv {
+        display: none;
+    }
+
+    .imagedivs {
         display: none;
     }
 }
