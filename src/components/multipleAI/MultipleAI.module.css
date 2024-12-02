@@ -11,9 +11,10 @@
 }
 
 .htext {
-    font-size: 36px;
+    font-size: 25px;
     font-weight: bold;
     color: #FFFFFF;
+    letter-spacing: 1px;
 }
 
 .pdiv {

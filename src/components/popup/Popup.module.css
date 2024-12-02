@@ -5,14 +5,16 @@
 }
 
 .popdiv {
+    margin-top: 55px;
     margin-right: 60px;
     /* animation: backgroundPop 4s ease-in-out infinite; */
 }
 
 .h1text {
     font-weight: bold;
-    font-size: 36px;
+    font-size: 25px;
     width: 540px;
+    letter-spacing: 1px;
 }
 
 .ptext {

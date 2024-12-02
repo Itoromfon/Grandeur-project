@@ -6,12 +6,12 @@
 }
 
 .htextdiv {
-    animation: backgroundPop 4s ease-in-out infinite;
+    /* animation: backgroundPop 4s ease-in-out infinite; */
 }
 
 .htext {
     display: flex;
-    font-size: 28px;
+    font-size: 25px;
     letter-spacing: 1px;
     font-weight: bold;
     color: #FFFFFF;
@@ -19,7 +19,7 @@
 }
 
 .ptextdiv {
-    animation: backgroundPop 4s ease-in-out infinite;
+    /* animation: backgroundPop 4s ease-in-out infinite; */
 }
 
 .ptext {
@@ -31,7 +31,7 @@
 }
 
 .smartaiimg {
-    margin-top: -20px;
+    margin-top: -15px;
 }
 
 

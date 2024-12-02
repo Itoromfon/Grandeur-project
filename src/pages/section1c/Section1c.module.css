@@ -13,14 +13,14 @@
     background-image: linear-gradient(90deg, #5C755E, #78A67C);
     background-clip: text;
     -webkit-background-clip: text; /* For WebKit browsers */
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 900;
     margin-bottom: 15px;
     letter-spacing: 3px;
     color: #FFFFFF;
     position: relative;
     z-index: 2; /* Make sure text is above the overlay */
-    animation: backgroundPop 4s ease-in-out infinite;
+    /* animation: backgroundPop 4s ease-in-out infinite; */
 }
 
 @keyframes backgroundPop {
@@ -48,7 +48,7 @@
     z-index: 2;
     letter-spacing: 0.5px;
     line-height: 20px;
-    animation: backgroundPop 4s ease-in-out infinite;
+    /* animation: backgroundPop 4s ease-in-out infinite; */
 }
 
 .fahouse {

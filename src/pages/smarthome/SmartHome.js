@@ -4,7 +4,7 @@ import PhoneBubble from '@/components/phonebubble/PhoneBubble'
 
 function SmartHome() {
   return (
-    <>
+    <div className={styles.main}>
         <div className={styles.h1div}>
             <h1 className={styles.h1text}>One App, Multiple Integrations</h1>
         </div>
@@ -14,7 +14,7 @@ function SmartHome() {
             </p>
         </div>
         <PhoneBubble />
-    </>
+    </div>
   )
 }
 

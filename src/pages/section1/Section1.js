@@ -88,8 +88,8 @@ function Section1() {
           src="/smartapp.png"
           alt="Grandeur-smart phone"
           className={styles.gadgetimg}
-          width={500}
-          height={288}
+          width={370}
+          height={208}
         />
       </div>
       </div>

@@ -9,9 +9,10 @@
 }
 
 .h1text {
-    font-size: 36px;
+    font-size: 25px;
     color: #000000;
     font-weight: bold;
+    letter-spacing: 1px;
 }
 
 .p1text {
@@ -23,8 +24,9 @@
 }
 
 .activateh1 {
-    font-size: 24px;
+    font-size: 17px;
     font-weight: bold;
+    letter-spacing: 1px;
 }
 
 .maindiv {
