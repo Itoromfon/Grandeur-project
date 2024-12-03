@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faToggleOn, faToggleOff } from '@fortawesome/free-solid-svg-icons';
 import Link from 'next/link';
 import { GrFormNext } from "react-icons/gr";
+import Image from 'next/image';
 
 function Heading() {
   // State to track if the button is on or off
@@ -39,7 +40,7 @@ function Heading() {
             </div>
             <div className={styles.maindiv}>
             <div>
-            <button
+            {/* <button
             onClick={toggleButton}
             className={styles.buttontoggle}
             >
@@ -47,7 +48,13 @@ function Heading() {
                 icon={isOn ? faToggleOn : faToggleOff} // Show different icons based on state
                 color={isOn ? '#4CAF50' : '#c4c4c6'}  // Green for "on", Red for "off"
             />
-            </button>
+            </button> */}
+            <Image 
+                src='/smalltoggle2.svg'
+                alt='Small Toggle'
+                width={73}
+                height={49}
+            />
             </div>
             <div className={styles.viewdiv}>
                 <div className={styles.viewlinkdiv}>

@@ -13,7 +13,7 @@ function NightMode() {
             </div>
             <div className={styles.moondiv}>
                 <Image 
-                    src='/groupmoon.png'
+                    src='/smallmoon.svg'
                     alt='Moon'
                     width={47}
                     height={47}
@@ -22,7 +22,7 @@ function NightMode() {
             <div className={styles.bulbdiv}>
             <div>
                 <Image 
-                    src='/groupbulb.png'
+                    src='/smallbulbss.svg'
                     alt='bulb'
                     width={48}
                     height={48}
@@ -34,7 +34,13 @@ function NightMode() {
             </div>
             <div className={styles.healthdiv}>
                 <div className={styles.secureimg}>
-                    <AiOutlineSafetyCertificate className={styles.safetyicon} />
+                    {/* <AiOutlineSafetyCertificate className={styles.safetyicon} /> */}
+                    <Image 
+                        src='smallsecure.svg'
+                        alt='Health and Security'
+                        width={24}
+                        height={24}
+                    />
                 </div>
                 <div>
                     <p className={styles.safetytext}>Health and Safety Alerts</p>
@@ -42,7 +48,13 @@ function NightMode() {
             </div>
             <div className={styles.healthdiv2}>
                 <div className={styles.secureimg}>
-                    <CiLock className={styles.safetyicon2} />
+                    {/* <CiLock className={styles.safetyicon2} /> */}
+                    <Image 
+                        src='/smalllock.svg'
+                        alt='Small Lock'
+                        width={24}
+                        height={24}
+                    />
                 </div>
                 <div>
                     <p className={styles.safetytext2}>Permissions</p>

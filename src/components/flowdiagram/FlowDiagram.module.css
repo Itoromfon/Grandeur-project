@@ -15,7 +15,14 @@
 .staffsnakediv {
     background-color: #5C755E;
     border-radius: 50%;
-    padding: 5px 5px;
+    /* padding: 5px 5px; */
+    width: 58px;
+    height: 58px;
+    margin-top: -8px;
+}
+
+.snakeimg {
+    margin: 15px auto 0 auto;
 }
 
 .staffsnake {
@@ -27,7 +34,7 @@
 .ptext1 {
     color: #212121;
     font-size: 14px;
-    margin-top: 13px;
+    margin-top: 5px;
     margin-left: 8px;
 }
 
@@ -418,7 +425,7 @@
     /* background-color: #5C755E; */
     border-radius: 50%;
     padding: 5px 5px;
-    margin-top: -3px;
+    margin-top: -62px;
     margin-left: -30px;
 }
 

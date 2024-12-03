@@ -23,7 +23,14 @@ const FlowDiagram = () => {
         <div className={styles.divss}>
         <div className={styles.div1}>
             <div className={styles.staffsnakediv}>
-                <FaStaffSnake className={styles.staffsnake} />
+                {/* <FaStaffSnake className={styles.staffsnake} /> */}
+                <Image 
+                    src='/smallsnake.svg'
+                    width={38}
+                    height={24}
+                    alt='Smart Movement'
+                    className={styles.snakeimg}
+                />
             </div>
             <div>
                 <p className={styles.ptext1}>Unusual Movement Detected</p>
@@ -32,7 +39,7 @@ const FlowDiagram = () => {
         </div>
         <div className={styles.seenflowdiv}>
             <Image 
-                src='/seenflow.png'
+                src='/smallseen.svg'
                 alt='seen flow'
                 width={206}
                 height={206}
@@ -52,7 +59,7 @@ const FlowDiagram = () => {
         <div className={styles.div2}>
             <div className={styles.staffsnakediv2}>
                 <Image 
-                    src='/warningalert.png'
+                    src='/smallalert.svg'
                     alt='warning alert'
                     width={24}
                     height={24}
@@ -83,7 +90,7 @@ const FlowDiagram = () => {
         <div className={styles.div3}>
             <div className={styles.staffsnakediv3}>
                 <Image 
-                    src='/doormart.png'
+                    src='/smalldoors.svg'
                     alt='Door mart'
                     width={80}
                     height={154}
@@ -100,7 +107,7 @@ const FlowDiagram = () => {
         <div className={styles.div4}>
             <div className={styles.staffsnakediv4}>
                 <Image 
-                    src='/bulb.png'
+                    src='/smallbulbs.svg'
                     alt='bulb'
                     width={184}
                     height={185}
@@ -116,7 +123,7 @@ const FlowDiagram = () => {
         <div className={styles.div5}>
             <div className={styles.staffsnakediv5}>
                 <Image 
-                    src='/trigger.png'
+                    src='/smallalarms.svg'
                     alt='trigger alarm'
                     width={90}
                     height={144}
@@ -131,7 +138,7 @@ const FlowDiagram = () => {
         <div className={styles.alert1}>
         <div className={styles.alertdiv}>
             <Image 
-                src='/alerticonss.png' 
+                src='/alertlaysmall.svg' 
                 alt='Alert'
                 width={32}
                 height={32}
@@ -151,7 +158,7 @@ const FlowDiagram = () => {
         <div className={styles.alert2}>
         <div className={styles.alertdiv2}>
             <Image 
-                src='/callflow.png' 
+                src='/callsmall.svg' 
                 alt='Alert'
                 width={32}
                 height={32}

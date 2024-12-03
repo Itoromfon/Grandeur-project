@@ -84,7 +84,7 @@ function Section1() {
       </motion.div>
       <div className={styles.gadget}>
         <Image 
-          src="/smartapp.png"
+          src="/smallbannerside.svg"
           alt="Grandeur-smart phone"
           className={styles.gadgetimg}
           width={500}
