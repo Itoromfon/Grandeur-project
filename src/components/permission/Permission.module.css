@@ -4,20 +4,22 @@
 }
 
 .htext {
-    font-size: 40px;
+    font-size: 25px;
     line-height: 55px;
     width: 400px; 
     font-weight: bold; 
     background-image: linear-gradient(to right, #78A67C, #5C755E); 
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    letter-spacing: 2px;
 }
 
 .htext2 {
-    font-size: 36px;
+    font-size: 25px;
     font-weight: bold;
     color: #212121;
     line-height: 42px;
+    letter-spacing: 2px;
 }
 
 .ptext {

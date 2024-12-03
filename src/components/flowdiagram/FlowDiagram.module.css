@@ -45,9 +45,170 @@
     flex-direction: column;
 }
 
-.arrows {
-    margin-left: 85px;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.arrow1 {
+    margin-top: -43px;
+    margin-left: 160px;
 }
+
+.arrow2 {
+    margin-left: -95px;
+    margin-top: 1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .lumovediv {
     /* margin: auto; */
@@ -98,7 +259,7 @@
     border-radius: 20px;
     width: 270px;
     margin-left: 50px;
-    margin-top: 5px;
+    margin-top: 0;
     animation: backgroundPop 4s ease-in-out infinite;
 }
 
@@ -136,7 +297,7 @@
 
 .div3mains {
     display: flex;
-    margin-top: 30px;
+    margin-top: -10px;
     margin-left: -150px;
     gap: 20px;
 }
@@ -292,7 +453,7 @@
   }
   
   .alerth1 {
-    font-size: 22px;
+    font-size: 20px;
     font-weight: bold;
     letter-spacing: 1px;
   }
@@ -309,7 +470,7 @@
   }
   
   .alerth2 {
-    font-size: 22px;
+    font-size: 20px;
     font-weight: bold;
     letter-spacing: 1px;
   }

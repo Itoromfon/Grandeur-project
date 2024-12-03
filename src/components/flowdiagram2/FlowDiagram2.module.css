@@ -9,13 +9,21 @@
   padding: 20px 20px;
   border-radius: 20px;
   width: 270px;
-  animation: backgroundPop 4s ease-in-out infinite;
+  margin-top: -15px;
+  /* animation: backgroundPop 4s ease-in-out infinite; */
 }
 
 .staffsnakediv {
   background-color: #5C755E;
   border-radius: 50%;
-  padding: 5px 5px;
+  /* padding: 7px 7px; */
+  height: 58px;
+  width: 58px;
+  margin-top: -10px;
+}
+
+.hatman {
+    margin: 10px auto 0 auto;
 }
 
 .staffsnake {
@@ -53,7 +61,47 @@
 .lumovedivs {
   /* margin: auto; */
   margin-left: 160px;
+  margin-top: -55px;
 }
+
+.lumovedivs2 {
+    /* margin: auto; */
+    margin-left: 160px;
+    margin-top: 0;
+  }
+
+  .lumovedivs3 {
+    /* margin: auto; */
+    margin-left: 110px;
+    margin-top: -20px;
+  }
+
+  .lumovedivs4 {
+    /* margin: auto; */
+    margin-left: 112px;
+    margin-top: -21px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .lumoves {
   font-size: 50px;
   margin-top: -30px;
@@ -99,12 +147,12 @@
   border-radius: 20px;
   width: 270px;
   margin-left: 50px;
-  margin-top: 5px;
-  animation: backgroundPop 4s ease-in-out infinite;
+  margin-top: -1px;
+  /* animation: backgroundPop 4s ease-in-out infinite; */
 }
 
 .staffsnakediv2 {
-  background-color: #5C755E;
+  background-color: #FFFFFF;
   border-radius: 50%;
   padding: 5px 8px;
 }
@@ -118,7 +166,7 @@
 .ptext2 {
   color: #FFFFFF;
   font-size: 14px;
-  margin-top: 3px;
+  margin-top: 10px;
   margin-left: 10px;
 }
 
@@ -137,8 +185,9 @@
 
 .div3mains {
   display: flex;
+  flex-direction: column;
   margin-top: 30px;
-  margin-left: -150px;
+  margin-left: 50px;
   gap: 20px;
 }
 
@@ -160,15 +209,16 @@
   height: 80px;
   padding: 20px 20px;
   border-radius: 20px;
-  width: 213px;
-  animation: backgroundPop 4s ease-in-out infinite;
+  width: 270px;
+  margin-top: -31px;
+  /* animation: backgroundPop 4s ease-in-out infinite; */
 }
 
 .staffsnakediv3 {
   /* background-color: #5C755E; */
   border-radius: 50%;
   padding: 5px 5px;
-  margin-top: -50px;
+  margin-top: -25px;
 }
 
 /* .doorimg {
@@ -206,16 +256,16 @@
   height: 80px;
   padding: 10px 10px;
   border-radius: 20px;
-  width: 213px;
-  margin-top: 30px;
-  animation: backgroundPop 4s ease-in-out infinite;
+  width: 270px;
+  margin-top: -21px;
+  /* animation: backgroundPop 4s ease-in-out infinite; */
 }
 
 .staffsnakediv4 {
   /* background-color: #5C755E; */
   border-radius: 50%;
   padding: 5px 0;
-  margin-top: -60px;
+  margin-top: -70px;
   margin-left: -30px;
 }
 
@@ -250,8 +300,9 @@
   height: 80px;
   padding: 10px 10px;
   border-radius: 20px;
-  width: 213px;
-  animation: backgroundPop 4s ease-in-out infinite;
+  width: 270px;
+  margin-top: -22px;
+  /* animation: backgroundPop 4s ease-in-out infinite; */
 }
 
 .staffsnakediv5 {
@@ -259,7 +310,7 @@
   border-radius: 50%;
   padding: 5px 5px;
   margin-top: -3px;
-  margin-left: -30px;
+  margin-left: -50px;
 }
 
 .staffsnake5 {

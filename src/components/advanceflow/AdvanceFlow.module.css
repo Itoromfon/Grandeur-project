@@ -22,20 +22,20 @@
     background: linear-gradient(90deg, #78A67C, #5C755E); /* Gradient colors */
     -webkit-background-clip: text; /* Makes the background apply only to the text */
     -webkit-text-fill-color: transparent;
-    font-size: 40px;
+    font-size: 25px;
     font-weight: bold;
-    letter-spacing: 1px;
-    width: 489px;
+    letter-spacing: 2px;
+    /* width: 489px; */
     text-align: center;
-    animation: backgroundPop 4s ease-in-out infinite;
+    /* animation: backgroundPop 4s ease-in-out infinite; */
 }
 
 .h1text {
-    font-size: 36px;
+    font-size: 20px;
     font-weight: bold;
     letter-spacing: 1px;
     width: 591px;
-    animation: backgroundPop 4s ease-in-out infinite;
+    /* animation: backgroundPop 4s ease-in-out infinite; */
 }
 
 .h1textdiv {
@@ -49,12 +49,12 @@
     line-height: 22px;
     width: 500px;
     color: #212121;
-    animation: backgroundPop 4s ease-in-out infinite;
+    /* animation: backgroundPop 4s ease-in-out infinite; */
 }
 
 .getdiv {
     display: flex;
-    animation: backgroundPop 4s ease-in-out infinite;
+    /* animation: backgroundPop 4s ease-in-out infinite; */
 }
 
 .next {
@@ -109,20 +109,20 @@
     background: linear-gradient(90deg, #78A67C, #5C755E); /* Gradient colors */
     -webkit-background-clip: text; /* Makes the background apply only to the text */
     -webkit-text-fill-color: transparent;
-    font-size: 40px;
+    font-size: 25px;
     font-weight: bold;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     width: 489px;
     text-align: center;
     animation: backgroundPop 4s ease-in-out infinite;
 }
 
 .h2text {
-    font-size: 36px;
+    font-size: 20px;
     font-weight: bold;
     letter-spacing: 1px;
     width: 591px;
-    animation: backgroundPop 4s ease-in-out infinite;
+    /* animation: backgroundPop 4s ease-in-out infinite; */
 }
 
 .h2textdiv {
@@ -136,12 +136,12 @@
     line-height: 22px;
     width: 500px;
     color: #212121;
-    animation: backgroundPop 4s ease-in-out infinite;
+    /* animation: backgroundPop 4s ease-in-out infinite; */
 }
 
 .getdiv2 {
     display: flex;
-    animation: backgroundPop 4s ease-in-out infinite;
+    /* animation: backgroundPop 4s ease-in-out infinite; */
 }
 
 .linkdiv2 {
@@ -165,11 +165,11 @@
 
 .h3textdiv {
     margin-top: 50px;
-    animation: backgroundPop 4s ease-in-out infinite;
+    /* animation: backgroundPop 4s ease-in-out infinite; */
 }
 
 .h3text {
-    font-size: 36px;
+    font-size: 20px;
     font-weight: bold;
     letter-spacing: 1px;
     width: 591px;
@@ -182,7 +182,7 @@
     line-height: 22px;
     width: 500px;
     color: #212121;
-    animation: backgroundPop 4s ease-in-out infinite;
+    /* animation: backgroundPop 4s ease-in-out infinite; */
 }
 
 .getdiv {
@@ -195,7 +195,7 @@
     size: 16px;
     font-weight: bold;
     line-height: 18px;
-} 
+}
 
 .lightenergyimg {
     animation: backgroundPop 4s ease-in-out infinite;
@@ -222,7 +222,7 @@
         flex-direction: column;
         align-items: center;
     }
-    
+
     .maindiv {
         flex-direction: column;
         align-items: center;
@@ -313,7 +313,7 @@
         flex-direction: column;
         align-items: center;
     }
-    
+
     .maindiv {
         flex-direction: column;
         align-items: center;
@@ -418,7 +418,7 @@
         flex-direction: column;
         align-items: center;
     }
-    
+
     .maindiv {
         flex-direction: column;
         align-items: center;
@@ -521,7 +521,7 @@
         flex-direction: column;
         align-items: center;
     }
-    
+
     .maindiv {
         flex-direction: column;
         align-items: center;
@@ -624,7 +624,7 @@
         flex-direction: column;
         align-items: center;
     }
-    
+
     .maindiv {
         flex-direction: column;
         align-items: center;
@@ -730,7 +730,7 @@
         flex-direction: column;
         align-items: center;
     }
-    
+
     .maindiv {
         flex-direction: column;
         align-items: center;

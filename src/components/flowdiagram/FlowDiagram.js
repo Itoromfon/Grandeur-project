@@ -40,8 +40,14 @@ const FlowDiagram = () => {
             />
         </div>
         </div>
-        <div className={styles.lumovediv}>
-            <LuMoveDown className={styles.lumove} />
+        <div className={styles.arrow1}>
+            {/* <LuMoveDown className={styles.lumove} /> */}
+            <Image 
+                src='/automatearrow1.svg'
+                width={23}
+                height={79}
+                alt='arrow one'
+            />
         </div>
         <div className={styles.div2}>
             <div className={styles.staffsnakediv2}>
@@ -56,8 +62,14 @@ const FlowDiagram = () => {
                 <p className={styles.ptext2}>Theft Prevention Mode Activated</p>
             </div>
         </div>
-        <div className={styles.arrows}>
-        <div className={styles.lumoveleftdiv}>
+        <div className={styles.arrow2}>
+            <Image 
+                src='/automatearrow2.svg'
+                width={538}
+                height={147}
+                alt='arrow one'
+            />
+        {/* <div className={styles.lumoveleftdiv}>
             <LuMoveDownLeft className={styles.lumoveleft} />
         </div>
         <div className={styles.lumovediv2}>
@@ -65,7 +77,7 @@ const FlowDiagram = () => {
         </div>
         <div className={styles.lumoveright}>
             <LuMoveDownRight className={styles.lumoveright} />
-        </div>
+        </div> */}
         </div>
         <div className={styles.div3mains}>
         <div className={styles.div3}>

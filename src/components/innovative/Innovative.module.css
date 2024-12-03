@@ -20,17 +20,17 @@
 }
 
 .htext {
-    font-size: 36px;
+    font-size: 25px;
     font-weight: bold;
     width: 690px;
     color: #212121;
     text-align: center;
     line-height: 42px;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
 }
 
 .ptext {
-    font-size: 17px;
+    font-size: 16px;
     color: #212121;
     letter-spacing: 1px;
     line-height: 22px;

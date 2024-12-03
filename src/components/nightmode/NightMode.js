@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from './NightMode.module.css'
 import { AiOutlineSafetyCertificate } from "react-icons/ai";
+import { CiLock } from "react-icons/ci";
 import Image from 'next/image'
 
 function NightMode() {
@@ -41,10 +42,10 @@ function NightMode() {
             </div>
             <div className={styles.healthdiv2}>
                 <div className={styles.secureimg}>
-                    <AiOutlineSafetyCertificate className={styles.safetyicon2} />
+                    <CiLock className={styles.safetyicon2} />
                 </div>
                 <div>
-                    <p className={styles.safetytext2}>Health and Safety Alerts</p>
+                    <p className={styles.safetytext2}>Permissions</p>
                 </div>
             </div>
         </div>
