@@ -8,10 +8,10 @@
 }
 
 .main {
-    position: fixed;    
-    height: 100%;       
-    width: 100%;        
-    background-color: transparent; 
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
 }
 
 .form {
@@ -30,8 +30,8 @@
 .container {
     margin-left: -100px;
     margin-right: auto;
-    padding-left: 1rem;  
-    padding-right: 1rem; 
+    padding-left: 1rem;
+    padding-right: 1rem;
     margin-top: 110px;
     margin-bottom: 50px;
     /* height: 100%; */
@@ -51,11 +51,11 @@
 
 .htext {
   /* color: #FFFFFF;  */
-  text-align: center;  
-  padding: 0.75rem 0;  
-  font-weight: bold; 
-  font-size: 25px; 
-  letter-spacing: 2px; 
+  text-align: center;
+  padding: 0.75rem 0;
+  font-weight: bold;
+  font-size: 25px;
+  letter-spacing: 2px;
 }
 
 .messagediv {
@@ -70,13 +70,13 @@
 }
 
 .message > *:not(:last-child) {
-    margin-bottom: 1rem; 
+    margin-bottom: 1rem;
 }
 
 .flex {
     display: flex;
 }
-  
+
 .justifyEnd {
 justify-content: flex-end;
 }
@@ -88,23 +88,24 @@ justify-content: flex-start;
 .bgPurple {
     background: linear-gradient(90deg, #5C755E, #78A67C);
 }
-  
+
   .bgGray {
     background-color: #FFFFFF; /* Tailwind's bg-gray-800 */
   }
-  
+
   .rounded {
-    border-radius: 30px 30px 30px 0; /* Tailwind's rounded-lg */
+    border-radius: 30px 30px 30px 0;
+    z-index: 10;
   }
-  
+
   .padding {
     padding: 1rem; /* Tailwind's p-4 */
   }
-  
+
   .textWhite {
     color: white; /* Tailwind's text-white */
   }
-  
+
 .maxWidth {
     max-width: 24rem; /* Tailwind's max-w-sm */
 }
@@ -113,7 +114,7 @@ justify-content: flex-start;
 flex-grow: 0;
 flex-shrink: 0;
 flex-basis: auto;
-padding: 1.5rem;
+padding: 2rem 0.5rem 0 0.5rem;
 }
 
 .divform {
@@ -134,14 +135,14 @@ padding: 1.5rem;
 }
 
 .button {
-  background-color: #CCCCCC;  
-  border-radius: 50%;      
-  padding: 8px 10px;   
-  color: #FFFFFF;               
-  font-weight: 600;           
-  outline: none;              
-  transition-property: background-color, color;  
-  transition-duration: 300ms; 
+  background-color: #CCCCCC;
+  border-radius: 50%;
+  padding: 8px 10px;
+  color: #FFFFFF;
+  font-weight: 600;
+  outline: none;
+  transition-property: background-color, color;
+  transition-duration: 300ms;
 }
 
 /* .button:hover {
@@ -194,13 +195,13 @@ padding: 1.5rem;
 }
 
 .container.light {
-    background-color: #2f2f2f;
+    background-color: #FFFFFF;
     width: 430px;
     color: #000000;
 }
 
 .container.dark {
-    background-color: #ffffff;
+    background-color: #FFFFFF;
     color: #ffffff;
     /* border-radius: 5px; */
     width: 430px;
@@ -242,10 +243,62 @@ padding: 1.5rem;
 
 .chatdevicediv {
     margin-left: 10px;
+    z-index: 10;
 }
 
 
 
+
+
+.backgroundShapes {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 300px;
+    /* display: flex; */
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.circle1 {
+    width: 270px;
+    height: 270px;
+    border-radius: 50%;
+    z-index: 1;
+    margin-top: -50px auto 0 auto;
+    background: rgb(242, 242, 242); /* Transparent color */
+    backdrop-filter: blur(10px); /* Optional glass effect */
+}
+
+.circle2 {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    /* margin-left: 50px;
+    margin-top: -300px; */
+    margin: -245px auto 0 25px;
+    background: rgb(233, 233, 233); 
+    backdrop-filter: blur(10px); /* Optional glass effect */
+}
+
+.circle3 {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    /* margin-left: 50px;
+    margin-top: -300px; */
+    margin: -195px auto 0 50px;
+    background: rgb(228, 227, 227); 
+    backdrop-filter: blur(10px); /* Optional glass effect */
+}
+
+.transparent {
+    background-color: transparent !important;
+}
 
 
 
@@ -313,13 +366,13 @@ padding: 1.5rem;
     border-radius: 10px;
     padding: 20px 20px;
 }
-  
+
   .slidePanel.open {
     transform: translateX(0); /* Slide the panel into view */
     opacity: 1; /* Make it visible */
     visibility: visible; /* Enable interactions */
   }
-  
+
   .closeButton {
     position: absolute;
     top: 10px;
@@ -330,7 +383,7 @@ padding: 1.5rem;
     cursor: pointer;
     color: #FFFFFF;
   }
-  
+
   .slideToggle {
     position: fixed;
     top: 15px;
