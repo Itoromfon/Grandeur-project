@@ -16,13 +16,37 @@ function Section1c() {
             and real time energy consumption tracking, helping reduce utility bills and enviromental impact.
           </p>
           <div className={styles.p1adiv}>
-            <p className={styles.p1amain}><FaHouse className={styles.fahouse} />Reduce heating during peak hours to save 20% on energy costs.</p>
+          <div className={styles.smallhomediv}>
+              <Image 
+                src='/smallhouse.svg'
+                width={22}
+                height={20}
+                alt='Smart Home'
+              />
+            </div>
+            <p className={styles.p1amain}>Reduce heating during peak hours to save 20% on energy costs.</p>
           </div>
           <div className={styles.p1bdiv}>
-            <p className={styles.p1bmain}><FaHouse className={styles.fahouse} />Run appliances after 9PM for reduced rates & energy efficiency.</p>
+          <div className={styles.smallhomediv}>
+              <Image 
+                src='/smallhouse.svg'
+                width={22}
+                height={20}
+                alt='Smart Home'
+              />
+            </div>
+            <p className={styles.p1bmain}>Run appliances after 9PM for reduced rates & energy efficiency.</p>
           </div>
           <div className={styles.p1cdiv}>
-            <p className={styles.p1cmain}><FaHouse className={styles.fahouse} />Switch to eco-mode in the early afternoon to save energy.</p>
+          <div className={styles.smallhomediv}>
+              <Image 
+                src='/smallhouse.svg'
+                width={22}
+                height={20}
+                alt='Smart Home'
+              />
+            </div>
+            <p className={styles.p1cmain}>Switch to eco-mode in the early afternoon to save energy.</p>
           </div>
           <Link className={styles.link} href="/product">
           <div className={styles.buttoncontainer}>

@@ -135,6 +135,23 @@
     height: 220px;
 }
 
+.p1adiv {
+    display: flex;
+}
+
+.smallhomediv {
+    margin-top: -5px;
+    margin-right: 10px;
+}
+
+.p1bdiv {
+    display: flex;
+}
+
+.p1cdiv {
+    display: flex;
+}
+
 @media only screen and (min-width: 320px) and (max-width: 480px) {
     .section1 {
         flex-direction: column;
