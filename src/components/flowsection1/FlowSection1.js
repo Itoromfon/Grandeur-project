@@ -9,7 +9,14 @@ function FlowSection1() {
     <div className={styles.maindiv}>
     <div className={styles.main}>
         <div className={styles.checkdiv}>
-            <HiOutlineShieldCheck className={styles.check} />
+            {/* <HiOutlineShieldCheck className={styles.check} /> */}
+            <Image 
+                src='/smallcheck.svg'
+                width={30}
+                height={30}
+                alt='Check'
+                className={styles.checkimg}
+            />
         </div>
         <div>
         <div className={styles.hpdiv}>
@@ -22,18 +29,34 @@ function FlowSection1() {
         </div>
         </div>
     </div>
-        <div className={styles.seenflowdiv}>
+    <div className={styles.seenarrow}>
+    <div className={styles.seenflowdiv}>
         <Image 
-            src='/seenflow.png'
+            src='/smallseenflow.svg'
             alt='Flow'
             width={220}
             height={220}
             className={styles.seenflowimg}
         />
-        </div>
+    </div>
+    <div className={styles.smallflowarrow1}>
+        <Image 
+            src='/smallflowarrow1.svg'
+            width={399}
+            height={87}
+            alt='Arrow One'
+        />
+    </div>
+    </div>
         <div className={styles.main2}>
         <div className={styles.checkdiv2}>
-            <GiSelfLove className={styles.check2} />
+            {/* <GiSelfLove className={styles.check2} /> */}
+            <Image 
+                src='/smallhealth.svg' 
+                width={32} height={32} 
+                alt='Health'
+                className={styles.smallhealthimg} 
+            />
         </div>
         <div>
         <div className={styles.hpdiv2}>
@@ -47,16 +70,31 @@ function FlowSection1() {
         </div>
         <div className={styles.seenflowdiv2}>
         <Image 
-            src='/healthair.png'
+            src='/healthair.svg'
             alt='Flow'
             width={135}
             height={174}
             className={styles.seenflowimg2}
         />
         </div>
+        <div className={styles.smallflowarrow2}>
+            <Image 
+                src='/smallflowarrow2.svg'
+                width={648}
+                height={131}
+                alt='Arrow two'
+            />
+        </div>
         <div className={styles.main3}>
         <div className={styles.checkdiv3}>
-            <HiOutlineShieldCheck className={styles.check3} />
+            {/* <HiOutlineShieldCheck className={styles.check3} /> */}
+            <Image 
+                src='/smallhotel.svg' 
+                width={34} 
+                height={34} 
+                alt='Hotel'
+                className={styles.smallhotelimg3}
+            />
         </div>
         <div>
         <div className={styles.hpdiv3}>
@@ -71,7 +109,7 @@ function FlowSection1() {
         </div>
         <div className={styles.seenflowdiv3}>
         <Image 
-            src='/doormart.png'
+            src='/doormart.svg'
             alt='Flow'
             width={138}
             height={210}

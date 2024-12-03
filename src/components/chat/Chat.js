@@ -7,6 +7,7 @@ import { CgAttachment } from "react-icons/cg";
 import { FaArrowUp } from "react-icons/fa6";
 import { FaSquare } from "react-icons/fa";
 import { FaBars, FaTimes } from "react-icons/fa";
+import Image from "next/image";
 
 const Chat = () => {
     const [inputValue, setInputValue] = useState('');
@@ -97,7 +98,7 @@ const Chat = () => {
     };
 
     return (
-        <div className={`${styles.container} ${theme === 'dark' ? styles.dark : styles.light}`}>
+        <div className={`${styles.container} ${theme === 'dark' ? styles.light : styles.dark}`}>
         
         
         <div className={styles.slideToggle} onClick={toggleSlide}>
@@ -172,6 +173,14 @@ const Chat = () => {
                                     ${styles.maxWidth}`}
                                 >
                                     {message.message}
+                                </div>
+                                <div className={styles.chatdevicediv}>
+                                    <Image 
+                                        src='/chatdevice.svg'
+                                        width={44}
+                                        height={44}
+                                        alt="Chat Device"
+                                    />
                                 </div>
                             </div>
                         ))}

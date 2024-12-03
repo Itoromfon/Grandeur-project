@@ -213,7 +213,7 @@ function PhoneBubble() {
     <div className={styles.mybackground4}>
     <div className={styles.mymatterdiv1}>
         <Image 
-            src='/groupmatter.png'
+            src='/smallmatter00.svg'
             alt='matter'
             width={136}
             height={96}
@@ -221,7 +221,7 @@ function PhoneBubble() {
     </div>
     <div className={styles.myawsdiv1}>
         <Image 
-            src='/groupaws.png'
+            src='/smallaws00.svg'
             alt='aws'
             width={136}
             height={96}
@@ -229,7 +229,7 @@ function PhoneBubble() {
     </div>
     <div className={styles.myzigbeediv1}>
         <Image 
-            src='/groupzigbee.png'
+            src='/smallzigbee00.svg'
             alt='zigbee'
             width={136}
             height={96}
@@ -237,7 +237,7 @@ function PhoneBubble() {
     </div>
     <div className={styles.mywavediv1}>
         <Image 
-            src='/groupwave.png'
+            src='/smallwave00.svg'
             alt='wave'
             width={136}
             height={96}
@@ -245,7 +245,7 @@ function PhoneBubble() {
     </div>
     <div className={styles.myawsdiv2}>
         <Image 
-            src='/groupaws.png'
+            src='/smallaws00.svg'
             alt='aws'
             width={136}
             height={96}
@@ -253,7 +253,7 @@ function PhoneBubble() {
     </div>
     <div className={styles.mymatterdiv2}>
         <Image 
-            src='/groupmatter.png'
+            src='/smallmatter00.svg'
             alt='matter'
             width={136}
             height={96}
@@ -261,7 +261,7 @@ function PhoneBubble() {
     </div>
     <div className={styles.myzigbeediv2}>
         <Image 
-            src='/groupzigbee.png'
+            src='/smallzigbee00.svg'
             alt='zigbee'
             width={136}
             height={96}
@@ -269,7 +269,7 @@ function PhoneBubble() {
     </div>
     <div className={styles.mylorawandiv}>
         <Image 
-            src='/grouplorawan.png'
+            src='/smalllorawan00.svg'
             alt='Lorawan'
             width={166}
             height={96}
@@ -278,7 +278,7 @@ function PhoneBubble() {
     </div>
     <div className={styles.myzigbeediv3}>
         <Image 
-            src='/groupzigbee.png'
+            src='/smallzigbee00.svg'
             alt='zigbee'
             width={136}
             height={96}
@@ -286,7 +286,7 @@ function PhoneBubble() {
     </div>
     <div className={styles.myawsdiv3}>
         <Image 
-            src='/groupaws.png'
+            src='/smallaws00.svg'
             alt='aws'
             width={136}
             height={96}
@@ -294,7 +294,7 @@ function PhoneBubble() {
     </div>
     <div className={styles.mymatterdiv3}>
         <Image 
-            src='/groupmatter.png'
+            src='/smallmatter00.svg'
             alt='matter'
             width={136}
             height={96}
@@ -303,7 +303,7 @@ function PhoneBubble() {
     <div className={styles.belowdiv}>
     <div className={styles.myalexadiv1}>
         <Image 
-            src='/groupalexa.png'
+            src='/smallalexa00.svg'
             alt='alexa'
             width={136}
             height={96}
@@ -319,7 +319,7 @@ function PhoneBubble() {
     </div>
     <div className={styles.myhomekitdiv1}>
         <Image 
-            src='/grouphomekit.png'
+            src='/smallhomekit00.svg'
             alt='Home Kit'
             width={136}
             height={96} 
@@ -327,7 +327,7 @@ function PhoneBubble() {
     </div>
     <div className={styles.mymatterdiv4}>
         <Image 
-            src='/groupmatter.png'
+            src='/smallmatter00.svg'
             alt='Matter'
             width={136}
             height={96} 
@@ -335,7 +335,7 @@ function PhoneBubble() {
     </div>
     <div className={styles.mywavediv2}>
         <Image 
-            src='/groupwave.png'
+            src='/smallwave00.svg'
             alt='Matter'
             width={136}
             height={96} 
@@ -343,7 +343,7 @@ function PhoneBubble() {
     </div>
     <div className={styles.myhomekitdiv2}>
         <Image 
-            src='/grouphomekit.png'
+            src='/smallhomekit00.svg'
             alt='Home Kit'
             width={136}
             height={96} 
@@ -351,7 +351,7 @@ function PhoneBubble() {
     </div>
     <div className={styles.myalexadiv2}>
         <Image 
-            src='/groupalexa.png'
+            src='/smallalexa00.svg'
             alt='alexa'
             width={136}
             height={96}
@@ -374,7 +374,7 @@ function PhoneBubble() {
     </div>
     <div className={styles.myphonediv}>
       <Image 
-        src='/groupphone.png'
+        src='/groupphonesmall.svg'
         width={200}
         height={350}
         alt='Phone Image'
@@ -384,7 +384,7 @@ function PhoneBubble() {
   </div>
   <div className={styles.myphonediv2}>
     <Image 
-        src='/smallbigset.png'
+        src='/smallbigset.svg'
         width={558}
         height={537}
         alt=''

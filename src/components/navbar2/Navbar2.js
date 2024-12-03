@@ -37,7 +37,7 @@ const Navbar2 = () => {
             {/* Logo */}
             <div className={styles.navbarlogo}>
             <Image
-              src="/grandeursmart.png"
+              src="/grandeursmart.svg"
               alt="Grandeur Smart Logo"
               width={100}
               height={32}

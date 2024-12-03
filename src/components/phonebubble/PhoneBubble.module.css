@@ -313,7 +313,7 @@
     height: 100vh;
     /* background-color: #f0f0f0;  */
     position: relative;
-    animation: rotateAnimation 20s linear infinite; 
+    animation: rotateAnimation 30s linear infinite; 
   }
   
   .mybackground4 {
