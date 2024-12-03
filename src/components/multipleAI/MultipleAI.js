@@ -2,6 +2,8 @@ import React from 'react'
 import styles from './MultipleAI.module.css'
 import MultiAISlides from '../multiAISlides/MultiAISlides'
 import EmblaCarousel4 from '../emblacarousel4/EmblaCarousel4'
+// import EmblaCarousel5 from '../emblacarousel15/EmblaCarousel15'
+import MyCarousel1 from '../ui/MyCarousel1'
 
 function MultipleAI() {
   return (
@@ -19,7 +21,9 @@ function MultipleAI() {
             </p>
         </div>
         <div>
-            <EmblaCarousel4 />
+            {/* <EmblaCarousel4 /> */}
+            {/* <EmblaCarousel5 /> */}
+            <MyCarousel1 />
         </div>
     </div>
   )

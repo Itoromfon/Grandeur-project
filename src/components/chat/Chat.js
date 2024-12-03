@@ -139,9 +139,7 @@ const Chat = () => {
 
             {/* Centered Background Shapes */}
             <div
-                className={`${styles.backgroundShapes} ${
-                    isBackgroundTransparent ? styles.transparent : ''
-                }`}
+                className={styles.backgroundShapes} 
             >
                 <div
                     className={styles.circle1}

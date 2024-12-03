@@ -16,8 +16,19 @@ function AdvanceFlow() {
             <div className={styles.h1textdiv}>
                 <h1 className={styles.h1text}>Custom Flow Suggestions</h1>
             </div>
-            <div>
-                <p className={styles.ptext}>Smart continuously learns from user behavior, suggesting tailored routines for times of day or specific activities.</p>
+            <div className={styles.ptextarrowdiv}>
+                <div>
+                    <p className={styles.ptext}>Smart continuously learns from user behavior, suggesting tailored routines for times of day or specific activities.</p>
+                </div>
+                <div className={styles.arrowstraightdiv}>
+                    <Image 
+                        src='/arrowstraight.svg'
+                        alt='arrow straight'
+                        width={390}
+                        height={87}
+                        className={styles.arrowstraightimg}
+                    />
+                </div>
             </div>
             <div className={styles.getdiv}>
                 <div>
@@ -28,18 +39,28 @@ function AdvanceFlow() {
         </div>
         <div className={styles.advanceimg}>
             <Image 
-                src='/newmp.png'
+                src='/newmp.svg'
                 alt='Advance Flow Image'
-                width={380}
-                height={380}
+                width={450}
+                height={400}
+                className={styles.newmpimg}
             />
         </div>
+        </div>
+        <div className={styles.arrowcurvediv}>
+            <Image 
+                src='/arrowcurve.svg'
+                width={745}
+                height={180}
+                alt='Arrow Curve'
+                className={styles.arrowcurveimg}
+            />
         </div>
         <div className={styles.imagetextdiv}>
         <div className={styles.imagediv}>
             <div className={styles.smartlightdiv}>
                 <Image 
-                    src='/smartlight.png'
+                    src='/smartlight.svg'
                     alt='smart light'
                     width={284}
                     height={255}
@@ -47,13 +68,14 @@ function AdvanceFlow() {
             </div>
             <div className={styles.bulbdiv}>
                 <Image 
-                    src='/bulb.png'
+                    src='/smartbulb.svg'
                     alt='bulb'
                     width={416}
                     height={417}
                 />
             </div>
         </div>
+        
         <div className={styles.main3}>
         <div>
             <div className={styles.h2textdiv}>
@@ -74,9 +96,19 @@ function AdvanceFlow() {
         <div className={styles.maindiv3}>
         <div className={styles.main4}>
         <div>
-            <div className={styles.h3textdiv}>
-                <h1 className={styles.h3text}>Scenario Creation</h1>
-            </div>
+        <div className={styles.arrowcurvediv2}>
+            <Image 
+                src='/arrowcurves2.svg'
+                width={828}
+                height={148}
+                alt='Arrow Curve'
+            />
+        </div>
+        <div className={styles.sceneriodiv2}>
+        <div className={styles.sceneriodiv}>
+        <div className={styles.h3textdiv}>
+            <h1 className={styles.h3text}>Scenario Creation</h1>
+        </div>
             <div>
                 <p className={styles.p3text}>Offer pre-built flows for situations like Traveler Mode (automatically lowers heating/cooling to save energy while maintaining humidity levels)</p>
             </div>
@@ -86,14 +118,16 @@ function AdvanceFlow() {
                 </div>
             </div>
         </div>
-        </div>
         <div className={styles.lightenergyimg}>
             <Image 
-                src='/lightenergy.png'
+                src='/lightenergy.svg'
                 alt='Advance Flow Image'
-                width={380}
+                width={302}
                 height={380}
             />
+        </div>
+        </div>
+        </div>
         </div>
         </div>
     </div>

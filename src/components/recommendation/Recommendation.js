@@ -29,7 +29,7 @@ function Recommendation() {
         <div className={styles.gsmartdiv2}>
         <div className={styles.gsmartdiv}>
             <Image 
-                src='/gsmart.png'
+                src='/gsmart.svg'
                 alt='smart'
                 width={144}
                 height={92}
@@ -99,7 +99,7 @@ function Recommendation() {
         <div className={styles.gsmartdiv2}>
         <div className={styles.gsmartdiv}>
             <Image 
-                src='/gsmart.png'
+                src='/gsmart.svg'
                 alt='smart'
                 width={144}
                 height={92}
