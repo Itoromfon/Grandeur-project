@@ -58,6 +58,7 @@ function VoiceAssistant() {
                     src='/smalldisk.png'
                     width={92}
                     height={92}
+                    alt='disk'
                 />
             </div>
             <div className={styles.logo}>
@@ -65,6 +66,7 @@ function VoiceAssistant() {
                     src='/grandeurlogos.png'
                     width={127}
                     height={48}
+                    alt='logo'
                 />
             </div>
         </div>
