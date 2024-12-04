@@ -31,7 +31,7 @@
 
 .dataprotectionimg {
     display: flex;
-    margin: 0 auto;
+    margin: 3px auto;
 }
 
 .h2text {
@@ -347,7 +347,7 @@
       background-position: center; /* Normal position */
     }
     50% {
-      transform: scale(1.1); /* Pop-up effect: enlarge */
+      transform: scale(1.01); /* Pop-up effect: enlarge */
       background-position: center; /* Keep the image centered */
     }
     100% {
@@ -429,6 +429,269 @@
     margin-top: 140px;
     animation: backgroundPop 4s ease-in-out infinite;
 }
+
+.mybackground6 {
+    background-color: rgba(255, 255, 255, 0.1); 
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+    padding-top: 21px;
+    animation: backgroundPop 4s ease-in-out infinite;
+}
+
+.mybackground5 {
+    background-color: rgba(255, 255, 255, 0.1); 
+    border-radius: 50%;
+    width: 450px;
+    height: 450px;
+    margin: auto;
+    padding-top: 21px;
+}
+
+.mybackground4 {
+    background-color: rgba(255, 255, 255, 0.1); 
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    padding-top: 21px;
+}
+
+.mybackground3 {
+    background-color: rgba(255, 255, 255, 0.1); 
+    border-radius: 50%;
+    width: 350px;
+    height: 350px;
+    margin: auto;
+    padding-top: 21px;
+}
+
+.mybackground2 {
+    background-color: rgba(255, 255, 255, 0.1); 
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    padding-top: 21px;
+}
+
+.mybackground1 {
+    background-color: rgba(255, 255, 255, 0.1); 
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    margin: auto;
+    padding-top: 21px;
+}
+
+.mybackground {
+    background-color: rgba(255, 255, 255, 0.1); 
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}
+
+.myimagesdiv {
+    display: flex;
+}
+
+.mydiskdiv {
+    position: absolute;
+    margin-left: -100px;
+}
+
+.mywifidiv {
+    position: absolute;
+    z-index: 1;
+    margin-left: -210px;
+    margin-top: 80px;
+}
+
+.mywavediv {
+    position: absolute;
+    z-index: 1;
+    margin-left: -170px;
+    margin-top: -90px;
+}
+
+.myzigbeediv {
+    position: absolute;
+    z-index: 1;
+    margin-left: -60px;
+    margin-top: -180px;
+}
+
+.mylorawandiv {
+    position: absolute;
+    z-index: 1;
+    margin-left: 80px;
+    margin-top: -180px;
+}
+
+.myparliadiv {
+    position: absolute;
+    z-index: 1;
+    margin-left: 220px;
+    margin-top: -92px;
+}
+
+.mybatterydiv {
+    position: absolute;
+    z-index: 1;
+    margin-left: 270px;
+    margin-top: 80px;
+}
+
+.myimagesdiv2 {
+    display: flex;
+}
+
+.mybluetoothdiv {
+    position: absolute;
+    z-index: 1;
+    margin-top: 230px;
+    margin-left: -140px;
+}
+
+.mymatterdiv {
+    position: absolute;
+    z-index: 1;
+    margin-top: 290px;
+    margin-left: 30px;
+}
+
+.mysimdiv {
+    position: absolute;
+    z-index: 1;
+    margin-top: 240px;
+    margin-left: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

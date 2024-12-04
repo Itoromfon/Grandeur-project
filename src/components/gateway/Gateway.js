@@ -15,7 +15,7 @@ function Gateway() {
         <div className={styles.div1}>
             <div className={styles.dataprotectiondiv}>
                 <Image 
-                    src='/dataprotection.png'
+                    src='/dataprotection.svg'
                     alt='Data Protection'
                     width={40}
                     height={40}
@@ -30,7 +30,7 @@ function Gateway() {
         <div className={styles.div2}>
             <div className={styles.dataprotectiondiv2}>
                 <Image 
-                    src='/batteryprivacy.png'
+                    src='/batteryprivacy.svg'
                     alt='Battery'
                     width={40}
                     height={40}
@@ -45,7 +45,7 @@ function Gateway() {
         <div className={styles.div3}>
             <div className={styles.dataprotectiondiv3}>
                 <Image 
-                    src='/Securityprivacy.png'
+                    src='/Securityprivacys.svg'
                     alt='Security Privacy'
                     width={40}
                     height={40}
@@ -60,7 +60,7 @@ function Gateway() {
         <div className={styles.div4}>
             <div className={styles.dataprotectiondiv4}>
                 <Image 
-                    src='/messageprivacy.png'
+                    src='/messageprivacy.svg'
                     alt='Message Privacy'
                     width={40}
                     height={40}
@@ -174,7 +174,7 @@ function Gateway() {
             </div>
         </div>
         </div> */}
-        <div>
+        {/* <div>
         <div className={styles.imagediv}>
             <div className={styles.wadiv}>
                 <Image 
@@ -250,6 +250,106 @@ function Gateway() {
                 />
             </div>
         </div>
+        </div> */}
+        <div>
+            <div className={styles.mybackground6}>
+            <div className={styles.mybackground5}>
+            <div className={styles.mybackground4}>
+            <div className={styles.mybackground3}>
+            <div className={styles.mybackground2}>
+            <div className={styles.mybackground1}>
+            <div className={styles.mybackground}>
+            <div className={styles.myimagesdiv}>
+                <div className={styles.mywifidiv}>
+                    <Image 
+                        src='/mywifi.svg'
+                        width={150}
+                        height={92}
+                        alt='wifi'
+                    />
+                </div>
+                <div className={styles.mywavediv}>
+                    <Image 
+                        src='/mywave.svg'
+                        width={150}
+                        height={92}
+                        alt='wifi'
+                    />
+                </div>
+                <div className={styles.myzigbeediv}>
+                    <Image 
+                        src='/myzigbee.svg'
+                        width={150}
+                        height={92}
+                        alt='wifi'
+                    />
+                </div>
+                <div className={styles.mylorawandiv}>
+                    <Image 
+                        src='/mylorawan.svg'
+                        width={150}
+                        height={92}
+                        alt='wifi'
+                    />
+                </div>
+                <div className={styles.myparliadiv}>
+                    <Image 
+                        src='/myparlia.svg'
+                        width={150}
+                        height={92}
+                        alt='wifi'
+                    />
+                </div>
+                <div className={styles.mybatterydiv}>
+                    <Image 
+                        src='/mybattery.svg'
+                        width={150}
+                        height={92}
+                        alt='wifi'
+                    />
+                </div>
+                </div>
+                <div className={styles.mydiskdiv}>
+                    <Image 
+                        src='/diskprivacy.svg'
+                        width={402}
+                        height={237}
+                        alt='Disk'
+                    />
+                </div>
+                <div className={styles.myimagesdiv2}>
+                    <div className={styles.mybluetoothdiv}>
+                        <Image 
+                            src='/mybluetooth.svg'
+                            width={150}
+                            height={92}
+                            alt='wifi'
+                        />
+                    </div>
+                    <div className={styles.mymatterdiv}>
+                        <Image 
+                            src='/mymatter.svg'
+                            width={150}
+                            height={92}
+                            alt='wifi'
+                        />
+                    </div>
+                    <div className={styles.mysimdiv}>
+                        <Image 
+                            src='/mysim.svg'
+                            width={150}
+                            height={92}
+                            alt='wifi'
+                        />
+                    </div>
+                </div>
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
         </div>
     </div>
   )
