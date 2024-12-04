@@ -22,23 +22,23 @@ const images = [
   },
   {
     images: 'mpcarousel.svg',
-    text: 'Curtain & Blind Control'
+    text: 'Door & Window Sensor'
   },
   {
     images: 'soscarousel.svg',
-    text: 'Curtain & Blind Control'
+    text: 'SOS'
   },
   {
     images: 'bulbsscarousel.svg',
-    text: 'Curtain & Blind Control'
+    text: 'Smart Bulb'
   },
   {
     images: 'gassensorcarousel.svg',
-    text: 'Curtain & Blind Control'
+    text: 'Human Presence Sensor'
   },
   {
     images: 'humansensorcarousel.svg',
-    text: 'Curtain & Blind Control'
+    text: 'Gas Sensor'
   },
   {
     images: '/lorawancarousel.svg',
@@ -50,23 +50,23 @@ const images = [
   },
   {
     images: 'mpcarousel.svg',
-    text: 'Curtain & Blind Control'
+    text: 'Door & Window Sensor'
   },
   {
     images: 'soscarousel.svg',
-    text: 'Curtain & Blind Control'
+    text: 'SOS'
   },
   {
     images: 'bulbsscarousel.svg',
-    text: 'Curtain & Blind Control'
+    text: 'Smart Bulb'
   },
   {
     images: 'gassensorcarousel.svg',
-    text: 'Curtain & Blind Control'
+    text: 'Human Presence Sensor'
   },
   {
     images: 'humansensorcarousel.svg',
-    text: 'Curtain & Blind Control'
+    text: 'Gas Sensor'
   },
 ]
 
@@ -86,10 +86,10 @@ function MyCarousel1() {
     >   
       <CarouselContent>
         {images.map((item, index) => (
-          <CarouselItem key={index} className="basis-[170px]">
+          <CarouselItem key={index} className="basis-[175px]">
             <div>
-              <Card className='flex justify-center'>
-                <CardContent className="flex flex-col h-[160px]  aspect-square items-center justify-center rounded-[15px]">
+              <Card className='flex justify-center rounded-[13px]'>
+                <CardContent className="flex flex-col h-[160px]  aspect-square items-center justify-center">
                   {/* <span className="text-3xl text-blue-800 font-semibold">{index + 1}</span> */}
                     <div className="h-[100%]">
                       <Image 
@@ -100,7 +100,7 @@ function MyCarousel1() {
                         className="h-[95%] w-full object-contain"
                       />
                       <div>
-                      <p className="text-[13px] text-nowrap border-t pt-2">{item.text}</p>
+                      <p className="text-[13px] text-nowrap text-center border-t pt-2">{item.text}</p>
                     </div>
                     </div>           
                 </CardContent>

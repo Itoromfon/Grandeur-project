@@ -1,24 +1,59 @@
 .main {
     display: flex;
     justify-content: center;
+    align-items: center;
     box-shadow: 0px 0px 10px 5px rgba(123, 123, 123, 0.2);
-    padding: 70px 0;
+    padding: 10px 50px;
     border-radius: 20px;
-    height: 462px;
-    margin-left: 50px;
+    min-height: 40vh; /* Ensures flexibility */
+    margin: auto;
+    width: 1000px;
 }
+
+/* .maindiv {
+    text-align: center;
+} */
+
+.variouskitdiv {
+    margin-top: 20px;
+  }
+
+  .indicatorContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 10px; /* Adds spacing between indicators */
+  }
+  
+  .indicator {
+    width: 15px; /* Increased size of the indicator */
+    height: 15px; /* Increased size of the indicator */
+    border-radius: 50%;
+    background-color: #d3d3d3;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .activeIndicator {
+    background-color: #5C755E; /* Active indicator color */
+  }
+  
+  .indicator:hover {
+    background-color: #aaa; /* Hover effect for inactive indicators */
+  }
 
 .maindiv {
     margin-top: 50px;
 }
 
 .htext {
-    font-size: 25px;
+    font-size: 24px;
     font-weight: bold;
     color: #212121;
     width: 444px;
     line-height: 42px;
     letter-spacing: 2px;
+    margin-top: -40px;
     /* animation: backgroundPop 4s ease-in-out infinite; */
 }
 
@@ -87,7 +122,7 @@
 }
 
 .variouskitdiv {
-    animation: backgroundPop 4s ease-in-out infinite;
+    /* animation: backgroundPop 4s ease-in-out infinite; */
     margin-top: 30px;
 }
 

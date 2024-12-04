@@ -67,6 +67,13 @@
 .message {
     display: flex;
     flex-direction: column;
+    max-width: 70%; /* Limit the width of the message to 80% of the chat box */
+    word-wrap: break-word; /* Break words that exceed the width */
+    overflow-wrap: break-word; /* Ensure text wraps within the container */
+    white-space: pre-wrap; /* Preserve whitespace and allow wrapping */
+    margin-bottom: 10px; 
+    margin-left: auto;
+    
 }
 
 .message > *:not(:last-child) {

@@ -39,6 +39,8 @@ import FlowCreation from "@/components/flowcreation/FlowCreation";
 import Recommendation from "@/components/recommendation/Recommendation";
 import AdvanceFlow from "@/components/advanceflow/AdvanceFlow";
 import EnergyManagementKit from "@/components/energymanagementkit/EnergyManagementKit";
+import EnergyManagementKit2 from "@/components/energymanagementkit2/EnergyManagementKit2";
+import EnergyManagementKit3 from "@/components/energymanagementkit3/EnergyManagementKit3";
 import Gateway from "@/components/gateway/Gateway";
 import Permission from "@/components/permission/Permission";
 import VoiceAssistant from "@/components/voiceassistant/VoiceAssistant";
@@ -67,7 +69,11 @@ export default function Home() {
       <FlowCreation />
       <Recommendation />
       <AdvanceFlow />
-      <EnergyManagementKit />
+      <div className={styles.energydiv}>
+        <EnergyManagementKit />
+        <EnergyManagementKit2 />
+        <EnergyManagementKit3 />
+      </div>
       <Gateway />
       <Permission />
       <VoiceAssistant />

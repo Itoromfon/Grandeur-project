@@ -1,21 +1,19 @@
 .main {
     width: 100%;
-    /* margin-bottom: 200px; */
-    /* margin: auto; */
-    margin-bottom: 30px;
+    margin-top: 50px;
 }
 
   .section1 {
         position: relative;
-        background-color: #FFFFFF;
-        padding: 10px 50px;
-        width: 80%; 
-        max-width: 1200px;
-        margin: 0 auto; 
+        background: #FFFFFF;
+        padding: 10px 0 0 0;
+        width: 80%; /* Set your desired width */
+        max-width: 1200px; /* Optionally limit the maximum width */
+        margin: 0 auto; /* Center the div */
         background-size: cover;
         background-position: center;
-        color: white; 
-        height: 48vh;
+        color: white; /* Set text color to white */
+        height: 58vh;
         display: flex;
         align-items: center;
         justify-content: center;

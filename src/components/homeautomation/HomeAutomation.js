@@ -28,7 +28,7 @@ function HomeAutomation() {
     </div>
     <div className={styles.variouskitdiv}>
         <Image 
-            src='/ultimateH.png'
+            src='/ultimateHs.svg'
             alt='Ultimate Grandeur Smart'
             width={494}
             height={273}

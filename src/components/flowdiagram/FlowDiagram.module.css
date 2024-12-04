@@ -9,7 +9,7 @@
     padding: 20px 20px;
     border-radius: 20px;
     width: 270px;
-    animation: backgroundPop 4s ease-in-out infinite;
+    /* animation: backgroundPop 4s ease-in-out infinite; */
 }
 
 .staffsnakediv {
@@ -267,7 +267,7 @@
     width: 270px;
     margin-left: 50px;
     margin-top: 0;
-    animation: backgroundPop 4s ease-in-out infinite;
+    /* animation: backgroundPop 4s ease-in-out infinite; */
 }
 
 .staffsnakediv2 {
@@ -328,7 +328,7 @@
     padding: 20px 20px;
     border-radius: 20px;
     width: 213px;
-    animation: backgroundPop 4s ease-in-out infinite;
+    /* animation: backgroundPop 4s ease-in-out infinite; */
 }
 
 .staffsnakediv3 {
@@ -375,7 +375,7 @@
     border-radius: 20px;
     width: 213px;
     margin-top: 30px;
-    animation: backgroundPop 4s ease-in-out infinite;
+    /* animation: backgroundPop 4s ease-in-out infinite; */
 }
 
 .staffsnakediv4 {
@@ -418,7 +418,7 @@
     padding: 10px 10px;
     border-radius: 20px;
     width: 213px;
-    animation: backgroundPop 4s ease-in-out infinite;
+    /* animation: backgroundPop 4s ease-in-out infinite; */
 }
 
 .staffsnakediv5 {

@@ -12,6 +12,10 @@
     padding-bottom: 0;
 }
 
+.energydiv {
+    margin-left: 30px;
+  }
+
 .section1 {
     display: flex;
     width: 100%;

@@ -1,7 +1,7 @@
 .popup {
     display: flex;
     justify-content: center;
-    margin-top: 100px;
+    margin-top: 150px;
 }
 
 .popdiv {
@@ -10,11 +10,19 @@
     /* animation: backgroundPop 4s ease-in-out infinite; */
 }
 
+.htextdiv {
+    margin-top: -100px;
+}
+
 .h1text {
     font-weight: bold;
     font-size: 25px;
     width: 540px;
     letter-spacing: 1px;
+}
+
+.ptextdiv {
+    margin-bottom: 30px;
 }
 
 .ptext {
@@ -93,6 +101,8 @@
   .video {
     width: 100%;
     max-width: 550px;
+    height: 393px; /* Increase height as needed */
+    object-fit: cover;
     border-radius: 15px;
   }
 

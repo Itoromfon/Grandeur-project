@@ -30,7 +30,7 @@ function SecuritySafety() {
     </div>
     <div className={styles.variouskitdiv}>
         <Image 
-            src='/variouskits.png'
+            src='/varioussmart.svg'
             alt='Various Kits'
             width={494}
             height={273}
