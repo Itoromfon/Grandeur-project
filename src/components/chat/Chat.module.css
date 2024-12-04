@@ -59,7 +59,7 @@
 }
 
 .messagediv {
-    height: 200px; /* Set a fixed height for the messages area */
+    height: 250px; 
     overflow-y: auto; /* Enable scrolling if content overflows */
     padding: 10px;
 }
@@ -107,14 +107,14 @@ justify-content: flex-start;
   }
 
 .maxWidth {
-    max-width: 24rem; /* Tailwind's max-w-sm */
+    max-width: 24rem;
 }
 
 .form {
-flex-grow: 0;
-flex-shrink: 0;
-flex-basis: auto;
-padding: 2rem 0.5rem 0 0.5rem;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: auto;
+    padding: 2rem 0.5rem 0 0.5rem;
 }
 
 .divform {
@@ -375,7 +375,7 @@ padding: 2rem 0.5rem 0 0.5rem;
     top: 0;
     right: 0;
     width: 300px;
-    height: 66vh;
+    height: 64vh;
     background-color: #333;
     box-shadow: -2px 0 5px rgba(0, 0, 0, 0.3);
     transform: translateX(100%); /* Initially move the panel off-screen */

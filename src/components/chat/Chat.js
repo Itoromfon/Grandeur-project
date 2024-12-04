@@ -132,9 +132,9 @@ const Chat = () => {
             </div>
 
             <div className={styles.toggleContainer}>
-                <button onClick={toggleTheme} className={styles.toggleButton}>
+                {/* <button onClick={toggleTheme} className={styles.toggleButton}>
                     {theme === 'light' ? '🌞' : '🌙'}
-                </button>
+                </button> */}
             </div>
 
             {/* Centered Background Shapes */}
