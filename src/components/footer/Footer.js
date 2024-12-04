@@ -15,7 +15,7 @@ const Footer = () => {
     <div className={styles.mains}>
       <div>
         <Image 
-          src='/grandeurfooter.png'
+          src='/grandeurfooter.svg'
           alt='Grandeur smart Image'
           width={145}
           height={63}
@@ -103,14 +103,14 @@ const Footer = () => {
           </div>
           <div className={styles.play}>
             <Image 
-              src='/appstore.png'
+              src='/appstore.svg'
               alt='App Store'
               width={119}
               height={35}
               className={styles.appstore}
             />
             <Image 
-              src='/googlestore.png'
+              src='/googlestore.svg'
               alt='Google Play'
               width={119}
               height={35}

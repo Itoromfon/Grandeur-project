@@ -13,7 +13,7 @@ function Innovative() {
         </div>
         <div className={styles.imagediv}>
             <Image 
-                src='/smartgadgetdevice.png'
+                src='/smartgadgetdevice.svg'
                 width={1126}
                 height={557}
                 alt='Smart Devices'

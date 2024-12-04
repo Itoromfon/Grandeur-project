@@ -55,7 +55,7 @@ function VoiceAssistant() {
         <div className={styles.imagediv}>
             <div className={styles.smalldiskdiv}>
                 <Image 
-                    src='/smalldisk.png'
+                    src='/smalldisk.svg'
                     width={92}
                     height={92}
                     alt='disk'
@@ -63,7 +63,7 @@ function VoiceAssistant() {
             </div>
             <div className={styles.logo}>
                 <Image 
-                    src='/grandeurlogos.png'
+                    src='/grandeurlogos.svg'
                     width={127}
                     height={48}
                     alt='logo'

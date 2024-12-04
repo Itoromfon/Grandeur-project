@@ -7,7 +7,7 @@ function Permission() {
     <div className={styles.main}>
         <div className={styles.imagecontainer}>
             <Image 
-                src='/people.png'
+                src='/people.svg'
                 width={626}
                 height={486}
                 alt='people'

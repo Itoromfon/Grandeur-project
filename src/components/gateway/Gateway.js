@@ -306,16 +306,9 @@ function Gateway() {
                         width={150}
                         height={92}
                         alt='wifi'
+                        className={styles.mybatteryimg}
                     />
                 </div>
-                </div>
-                <div className={styles.mydiskdiv}>
-                    <Image 
-                        src='/diskprivacy.svg'
-                        width={402}
-                        height={237}
-                        alt='Disk'
-                    />
                 </div>
                 <div className={styles.myimagesdiv2}>
                     <div className={styles.mybluetoothdiv}>
@@ -342,6 +335,14 @@ function Gateway() {
                             alt='wifi'
                         />
                     </div>
+                </div>
+                <div className={styles.mydiskdiv}>
+                    <Image 
+                        src='/diskprivacy.svg'
+                        width={402}
+                        height={237}
+                        alt='Disk'
+                    />
                 </div>
             </div>
             </div>
