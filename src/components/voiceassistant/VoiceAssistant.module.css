@@ -1,6 +1,7 @@
 .main {
     margin: 100px 50px 150px 60px;
     display: flex;
+    justify-content: space-around;
 }
 
 .htext {

@@ -7,9 +7,94 @@ import { GiSelfLove } from "react-icons/gi";
 function FlowSection1() {
   return (
     <div className={styles.maindiv}>
-    <div className={styles.main}>
+        <div className='flex justify-center items-center'>
+            <div className='z-10 ml-[-150px]'>
+                <Image 
+                    src='/mysecuremode.svg'
+                    width={573}
+                    height={239}
+                    alt='Security'
+                />
+            </div>
+            <div className='ml-[-50px]'>
+                <Image 
+                    src='/mysecurearrow.svg'
+                    width={399}
+                    height={87}
+                    alt='Security'
+                />
+            </div>
+        </div>
+    <div className='flex justify-center ml-[500px] mt-[-140px]'>
+        <div className='ml-[20px] mt-4'>
+            <Image 
+                src='/healthair.svg'
+                alt='Flow'
+                width={135}
+                height={174}
+                
+                // className={styles.seenflowimg2}
+            />
+        </div>
+        <div>
+            <Image 
+                src='/myhealthqq.svg'
+                alt='Flow'
+                width={465}
+                height={217}
+                // className={styles.seenflowimg2}
+            />
+        </div>
+    </div>
+    <div className='flex justify-center mt-[-44px] ml-[130px]'>
+        <Image 
+            src='/smallflowarrow2.svg'
+            width={648}
+            height={131}
+            alt='Arrow two'
+        />
+    </div>
+    <div className='flex justify-center items-center mt-[-38px]'>
+        <div className='z-10 ml-[-470px]'>
+            <Image 
+                src='/myairbnbqq.svg'
+                width={465}
+                height={217}
+                alt='Airbnb Smart'
+            />
+        </div>
+        <div className='z-10'>
+            <Image 
+                src='/doormart.svg'
+                alt='Flow'
+                width={178}
+                height={210}
+                className='ml-[-50px]'
+                // className={styles.seenflowimg3}
+            />
+        </div>
+    </div>
+    </div>
+  )
+}
+
+export default FlowSection1
+
+
+
+
+
+
+
+
+
+
+
+
+
+{/* <div className={styles.main}>
         <div className={styles.checkdiv}>
-            {/* <HiOutlineShieldCheck className={styles.check} /> */}
+        
             <Image 
                 src='/smallcheck.svg'
                 width={30}
@@ -34,7 +119,7 @@ function FlowSection1() {
         <Image 
             src='/smallseenflow.svg'
             alt='Flow'
-            width={220}
+            width={2220}
             height={220}
             className={styles.seenflowimg}
         />
@@ -42,7 +127,7 @@ function FlowSection1() {
     <div className={styles.smallflowarrow1}>
         <Image 
             src='/smallflowarrow1.svg'
-            width={399}
+            width={1299}
             height={87}
             alt='Arrow One'
         />
@@ -50,7 +135,7 @@ function FlowSection1() {
     </div>
         <div className={styles.main2}>
         <div className={styles.checkdiv2}>
-            {/* <GiSelfLove className={styles.check2} /> */}
+            
             <Image 
                 src='/smallhealth.svg' 
                 width={32} height={32} 
@@ -87,7 +172,7 @@ function FlowSection1() {
         </div>
         <div className={styles.main3}>
         <div className={styles.checkdiv3}>
-            {/* <HiOutlineShieldCheck className={styles.check3} /> */}
+            
             <Image 
                 src='/smallhotel.svg' 
                 width={34} 
@@ -115,9 +200,4 @@ function FlowSection1() {
             height={210}
             className={styles.seenflowimg3}
         />
-        </div>
-        </div>
-  )
-}
-
-export default FlowSection1
+        </div> */}
