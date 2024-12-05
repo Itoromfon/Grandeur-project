@@ -1,5 +1,9 @@
 .divmain {
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 100vh; 
+    width: 100%; 
 }
 
 .div1 {
@@ -548,6 +552,150 @@
       background-position: center; /* Normal position */
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 1201px) and (max-width: 1800px) {
+    .main {
+        margin-top: 0;
+    }
+}
+
+@media only screen and (min-width: 1801px) and (max-width: 2700px) {
+    .main {
+        margin-top: -200px;
+        margin-bottom: 200px;
+    }
+}
+
+@media only screen and (min-width: 2701px) and (max-width: 3500px) {
+    .main {
+        margin-top: -300px;
+        margin-bottom: 200px;
+    }
+}
+
+@media only screen and (min-width: 3501px) and (max-width: 4500px) {
+    .main {
+        margin-top: -400px;
+        margin-bottom: 200px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

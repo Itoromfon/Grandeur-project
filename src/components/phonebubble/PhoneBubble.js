@@ -387,7 +387,8 @@ function PhoneBubble() {
         src='/smallbigset.svg'
         width={558}
         height={537}
-        alt=''
+        alt='Phone Smart'
+        className={styles.bigsetimg}
     />
   </div>
   </div>

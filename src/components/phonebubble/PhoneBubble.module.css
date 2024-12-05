@@ -301,7 +301,7 @@
 .main {
     margin: 0;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     margin: 50px 20px 50px 120px;
 }
@@ -880,27 +880,48 @@
     .main {
         margin-top: 0;
         margin-bottom: 0;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .bigsetimg {
+        width: 550px;
     }
 }
 
 @media only screen and (min-width: 1801px) and (max-width: 2700px) {
     .main {
-        margin-top: -200px;
+        margin-top: -700px;
         margin-bottom: 0;
+        justify-content: space-around;
+    }
+
+    .bigsetimg {
+        width: 700px;
     }
 }
 
 @media only screen and (min-width: 2701px) and (max-width: 3500px) {
     .main {
-        margin-top: -300px;
+        margin-top: -800px;
         margin-bottom: 0;
+        justify-content: space-around;
+    }
+
+    .bigsetimg {
+        width: 700px;
     }
 }
 
 @media only screen and (min-width: 3501px) and (max-width: 4500px) {
     .main {
-        margin-top: -300px;
+        margin-top: -800px;
         margin-bottom: 0;
+        justify-content: space-around;
+    }
+
+    .bigsetimg {
+        width: 800px;
     }
 }
 

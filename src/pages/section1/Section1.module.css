@@ -646,7 +646,7 @@
         align-items: center;
         min-height: 100vh; 
         width: 100%; 
-    }
+}
     
     .section1x {
         /* flex-direction: column; */

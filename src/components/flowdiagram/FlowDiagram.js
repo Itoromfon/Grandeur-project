@@ -14,6 +14,7 @@ import { LuMoveDownRight } from "react-icons/lu";
 
 const FlowDiagram = () => {
   return (
+    // <div className="flex justify-center items-center">
     <div className={styles.divmain}>
         <div className={styles.autosmart}>
             <AutomateSmart />
@@ -178,6 +179,7 @@ const FlowDiagram = () => {
         </div> 
         </div>
     </div>
+    // </div>
   );
 };
 
