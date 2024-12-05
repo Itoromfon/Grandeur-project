@@ -31,8 +31,7 @@ const images = {
 
 function Section1() {
   return (
-    <div>
-    <div className={styles.section1}>
+    <div className={`${styles.section1} flex flex-col sm:justify-center items-center h-screen px-3 md:flex-row md:justify-aorund`}>
       <motion.div 
         className={styles.section1x}
         variants={variants}
@@ -59,7 +58,7 @@ function Section1() {
             to your usage.
           </motion.p>
           <div className={styles.p1adiv}>
-            <div className={styles.smallhomediv}>
+            <div className='mr-3'>
               <Image 
                 src='/smallhouse.svg'
                 width={22}
@@ -70,7 +69,7 @@ function Section1() {
             <p className={styles.p1amain}>Reduce heating during peak hours to save 20% on energy costs.</p>
           </div>
           <div className={styles.p1bdiv}>
-          <div className={styles.smallhomediv}>
+          <div className='mr-3'>
               <Image 
                 src='/smallhouse.svg'
                 width={22}
@@ -81,7 +80,7 @@ function Section1() {
             <p className={styles.p1bmain}>Run appliances after 9PM for reduced rates & energy efficiency.</p>
           </div>
           <div className={styles.p1cdiv}>
-          <div className={styles.smallhomediv}>
+          <div className='mr-3'>
               <Image 
                 src='/smallhouse.svg'
                 width={22}
@@ -107,17 +106,16 @@ function Section1() {
           </motion.a>
         </motion.div>
       </motion.div>
-      <div className={styles.gadget}>
+      <div className='ml-5 hidden xl:block'>
         <Image 
           src="/smallbannerside.svg"
           alt="Grandeur-smart phone"
-          className={styles.gadgetimg}
-          width={370}
-          height={208}
+          className='w-[434px] h-[400px] mt-[-50px]'
+          width={500}
+          height={288}
         />
       </div>
       </div>
-    </div>
   )
 }
 

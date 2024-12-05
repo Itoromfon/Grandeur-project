@@ -68,6 +68,34 @@ const images = [
     images: 'humansensorcarousel.svg',
     text: 'Gas Sensor'
   },
+  {
+    images: '/lorawancarousel.svg',
+    text: 'LoRaWAN Ethernet'
+  },
+  {
+    images: 'blindcarousel.svg',
+    text: 'Curtain & Blind Control'
+  },
+  {
+    images: 'mpcarousel.svg',
+    text: 'Door & Window Sensor'
+  },
+  {
+    images: 'soscarousel.svg',
+    text: 'SOS'
+  },
+  {
+    images: 'bulbsscarousel.svg',
+    text: 'Smart Bulb'
+  },
+  {
+    images: 'gassensorcarousel.svg',
+    text: 'Human Presence Sensor'
+  },
+  {
+    images: 'humansensorcarousel.svg',
+    text: 'Gas Sensor'
+  },
 ]
 
 function MyCarousel1() {

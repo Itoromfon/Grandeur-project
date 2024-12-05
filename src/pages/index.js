@@ -23,7 +23,7 @@ import Footer from "@/components/footer/Footer";
 import Carousel from "@/components/carousel/Carousel";
 import Popup from "@/components/popup/Popup";
 import SmartHome from "./smarthome/SmartHome";
-import EmblaCarousel2 from "@/components/emblacarousel2/EmblaCarousel2";
+// import EmblaCarousel2 from "@/components/emblacarousel2/EmblaCarousel2";
 // import Automation from "../components/automation/Automation";
 // import AutomateHome from "@/pages/automatehome/AutomateHome";
 // import FramerMotion from "@/components/framermotion/FramerMotion";
@@ -45,6 +45,7 @@ import Gateway from "@/components/gateway/Gateway";
 import Permission from "@/components/permission/Permission";
 import VoiceAssistant from "@/components/voiceassistant/VoiceAssistant";
 import Innovative from "@/components/innovative/Innovative";
+import Customize from "@/components/ui/Customize";
 // import ParticleBackground from "@/components/particlesbackground/ParticlesBackground";
 
 export default function Home() {
@@ -65,7 +66,8 @@ export default function Home() {
       {/* <FlowDiagram /> */}
       <Carousel3 />
       </ReactFlowProvider>
-      <EmblaCarousel2 slides={slides} />
+      {/* <EmblaCarousel2 slides={slides} /> */}
+      <Customize />
       <FlowCreation />
       <Recommendation />
       <AdvanceFlow />

@@ -6,12 +6,12 @@
     position: relative;
     z-index: 10;
     display: flex;
-    /* justify-content: space-between; */
+    justify-content: space-between;
   }
 
   .navdiv {
     display: flex;
-    margin-left: 170px;
+    /* margin-right: 170px; */
   }
   
   .navList {

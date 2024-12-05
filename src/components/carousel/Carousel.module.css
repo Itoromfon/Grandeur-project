@@ -106,24 +106,354 @@
     z-index: 1;
   }
 
+  @media only screen and (min-width: 3501px) and (max-width: 4500px) {
+    .main {
+      width: 100%;
+    }
+    
+    .section1 {
+        position: relative;
+        background: linear-gradient(90deg, #5C755E, #78A67C);
+        /* background-image: url("/modernroom.png");  */
+        background-size: cover;
+        background-position: center;
+        color: white; /* Set text color to white */
+        height: 97vh;
+        display: flex;
+        justify-content: center;
+        animation: moveBackground 2.5s linear infinite;
+      }
+    
+      @keyframes moveBackground {
+        0% {
+          background-position: 0 0;
+        }
+        100% {
+          background-position: 100% 100%;
+        }
+      }
+      
+      .section1::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        /* background-color: rgba(0, 0, 0, 0.5);  */
+        /* z-index: 1; */
+      }
+    
+    .section2 {
+        position: relative;
+        height: 97vh;
+        background-size: cover;
+        background-position: center;
+        background: linear-gradient(90deg, #5C755E, #78A67C);
+        /* background-image: url("/grandeurproduct.png"); */
+        color: white; /* Set text color to white */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        animation: moveBackground 2.5s linear infinite;
+    }
+    
+    .section2::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      /* background-color: rgba(76, 75, 75, 0.5); */
+      z-index: 1;
+    }
+    
+    .section3 {
+        position: relative;
+        height: 97vh;
+        background-size: cover;
+        background-position: center;
+        background: linear-gradient(90deg, #5C755E, #78A67C);
+        /* background-image: url("/grandeur-energy.png"); */
+        color: white; /* Set text color to white */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        animation: moveBackground 2.5s linear infinite;
+    }
+    .section3::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        /* background-color: rgba(0, 0, 0, 0.5);  */
+        z-index: 1;
+      }
+    
+    .section4 {
+        position: relative;
+        height: 97vh;
+        background-size: cover;
+        background-position: center;
+        background: linear-gradient(90deg, #5C755E, #78A67C);
+        /* background-image: url("/grandeurproduct.png"); */
+        animation: moveBackground 2.5s linear infinite;
+    }
+    
+    .section4::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        /* background-color: rgba(0, 0, 0, 0.5);  */
+        z-index: 1;
+      }
+  }
+
+  @media only screen and (min-width: 2161px) and (max-width: 3500px) {
+    .main {
+      width: 100%;
+    }
+    
+    .section1 {
+        position: relative;
+        background: linear-gradient(90deg, #5C755E, #78A67C);
+        /* background-image: url("/modernroom.png");  */
+        background-size: cover;
+        background-position: center;
+        color: white; /* Set text color to white */
+        height: 96vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        animation: moveBackground 2.5s linear infinite;
+      }
+    
+      @keyframes moveBackground {
+        0% {
+          background-position: 0 0;
+        }
+        100% {
+          background-position: 100% 100%;
+        }
+      }
+      
+      .section1::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        /* background-color: rgba(0, 0, 0, 0.5);  */
+        /* z-index: 1; */
+      }
+    
+    .section2 {
+        position: relative;
+        height: 96vh;
+        background-size: cover;
+        background-position: center;
+        background: linear-gradient(90deg, #5C755E, #78A67C);
+        /* background-image: url("/grandeurproduct.png"); */
+        color: white; /* Set text color to white */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        animation: moveBackground 2.5s linear infinite;
+    }
+    
+    .section2::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      /* background-color: rgba(76, 75, 75, 0.5); */
+      z-index: 1;
+    }
+    
+    .section3 {
+        position: relative;
+        height: 96vh;
+        background-size: cover;
+        background-position: center;
+        background: linear-gradient(90deg, #5C755E, #78A67C);
+        /* background-image: url("/grandeur-energy.png"); */
+        color: white; /* Set text color to white */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        animation: moveBackground 2.5s linear infinite;
+    }
+    .section3::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        /* background-color: rgba(0, 0, 0, 0.5);  */
+        z-index: 1;
+      }
+    
+    .section4 {
+        position: relative;
+        height: 97vh;
+        background-size: cover;
+        background-position: center;
+        background: linear-gradient(90deg, #5C755E, #78A67C);
+        /* background-image: url("/grandeurproduct.png"); */
+        animation: moveBackground 2.5s linear infinite;
+    }
+    
+    .section4::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        /* background-color: rgba(0, 0, 0, 0.5);  */
+        z-index: 1;
+      }
+  }
+
+
+  @media only screen and (min-width: 1201px) and (max-width: 2160px) {
+    .main {
+      width: 100%;
+    }
+    
+    .section1 {
+        position: relative;
+        background: linear-gradient(90deg, #5C755E, #78A67C);
+        /* background-image: url("/modernroom.png");  */
+        background-size: cover;
+        background-position: center;
+        color: white; /* Set text color to white */
+        height: 97vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        animation: moveBackground 2.5s linear infinite;
+      }
+    
+      @keyframes moveBackground {
+        0% {
+          background-position: 0 0;
+        }
+        100% {
+          background-position: 100% 100%;
+        }
+      }
+      
+      .section1::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        /* background-color: rgba(0, 0, 0, 0.5);  */
+        /* z-index: 1; */
+      }
+    
+    .section2 {
+        position: relative;
+        height: 97vh;
+        background-size: cover;
+        background-position: center;
+        background: linear-gradient(90deg, #5C755E, #78A67C);
+        /* background-image: url("/grandeurproduct.png"); */
+        color: white; /* Set text color to white */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        animation: moveBackground 2.5s linear infinite;
+    }
+    
+    .section2::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      /* background-color: rgba(76, 75, 75, 0.5); */
+      z-index: 1;
+    }
+    
+    .section3 {
+        position: relative;
+        height: 97vh;
+        background-size: cover;
+        background-position: center;
+        background: linear-gradient(90deg, #5C755E, #78A67C);
+        /* background-image: url("/grandeur-energy.png"); */
+        color: white; /* Set text color to white */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        animation: moveBackground 2.5s linear infinite;
+    }
+    .section3::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        /* background-color: rgba(0, 0, 0, 0.5);  */
+        z-index: 1;
+      }
+    
+    .section4 {
+        position: relative;
+        height: 97vh;
+        background-size: cover;
+        background-position: center;
+        background: linear-gradient(90deg, #5C755E, #78A67C);
+        /* background-image: url("/grandeurproduct.png"); */
+        animation: moveBackground 2.5s linear infinite;
+    }
+    
+    .section4::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        /* background-color: rgba(0, 0, 0, 0.5);  */
+        z-index: 1;
+      }
+  }
+
   @media only screen and (min-width: 320px) and (max-width: 400px) {
     .section1 {
-      background-image: url("/modernroom.png"); 
+      background: linear-gradient(90deg, #5C755E, #78A67C); 
       margin-right: 0;
       height: 92vh;
     }
     .section2 {
-      background-image: url("/modernroom.png"); 
+      background: linear-gradient(90deg, #5C755E, #78A67C);
       margin-right: 0;
       height: 92vh;
     }
     .section3 {
-      background-image: url("/modernroom.png"); 
+      background: linear-gradient(90deg, #5C755E, #78A67C); 
       margin-right: 0;
       height: 92vh;
     }
     .section4 {
-      background-image: url("/modernroom.png"); 
+      background: linear-gradient(90deg, #5C755E, #78A67C); 
       margin-right: 0;
       height: 92vh;
     }
@@ -131,22 +461,22 @@
 
   @media only screen and (min-width: 401px) and (max-width: 480px) {
     .section1 {
-      background-image: url("/modernroom.png"); 
+      background: linear-gradient(90deg, #5C755E, #78A67C);
       margin-right: 0;
       height: 91vh;
     }
     .section2 {
-      background-image: url("/modernroom.png"); 
+      background: linear-gradient(90deg, #5C755E, #78A67C);
       margin-right: 0;
       height: 91vh;
     }
     .section3 {
-      background-image: url("/modernroom.png"); 
+      background: linear-gradient(90deg, #5C755E, #78A67C);
       margin-right: 0;
       height: 91vh;
     }
     .section4 {
-      background-image: url("/modernroom.png"); 
+      background: linear-gradient(90deg, #5C755E, #78A67C); 
       margin-right: 0;
       height: 91vh;
     }
@@ -154,22 +484,22 @@
 
   @media only screen and (min-width: 481px) and (max-width: 600px) {
     .section1 {
-      background-image: url("/modernroom.png"); 
+      background: linear-gradient(90deg, #5C755E, #78A67C);
       margin-right: 0;
       height: 84vh;
     }
     .section2 {
-      background-image: url("/modernroom.png"); 
+      background: linear-gradient(90deg, #5C755E, #78A67C); 
       margin-right: 0;
       height: 84vh;
     }
     .section3 {
-      background-image: url("/modernroom.png"); 
+      background: linear-gradient(90deg, #5C755E, #78A67C); 
       margin-right: 0;
       height: 84vh;
     }
     .section4 {
-      background-image: url("/modernroom.png"); 
+      background: linear-gradient(90deg, #5C755E, #78A67C);
       margin-right: 0;
       height: 84vh;
     }
@@ -177,22 +507,22 @@
 
   @media only screen and (min-width: 601px) and (max-width: 768px) {
     .section1 {
-      background-image: url("/modernroom.png"); 
+      background: linear-gradient(90deg, #5C755E, #78A67C);
       margin-right: 0;
       height: 83vh;
     }
     .section2 {
-      background-image: url("/modernroom.png"); 
+      background: linear-gradient(90deg, #5C755E, #78A67C); 
       margin-right: 0;
       height: 83vh;
     }
     .section3 {
-      background-image: url("/modernroom.png"); 
+      background: linear-gradient(90deg, #5C755E, #78A67C); 
       margin-right: 0;
       height: 83vh;
     }
     .section4 {
-      background-image: url("/modernroom.png"); 
+      background: linear-gradient(90deg, #5C755E, #78A67C); 
       margin-right: 0;
       height: 83vh;
     }
@@ -200,22 +530,22 @@
 
   @media only screen and (min-width: 769px) and (max-width: 900px) {
     .section1 {
-      background-image: url("/modernroom.png"); 
+      background: linear-gradient(90deg, #5C755E, #78A67C); 
       margin-right: 0;
       height: 80vh;
     }
     .section2 {
-      background-image: url("/modernroom.png"); 
+      background: linear-gradient(90deg, #5C755E, #78A67C); 
       margin-right: 0;
       height: 80vh;
     }
     .section3 {
-      background-image: url("/modernroom.png"); 
+      background: linear-gradient(90deg, #5C755E, #78A67C); 
       margin-right: 0;
       height: 80vh;
     }
     .section4 {
-      background-image: url("/modernroom.png"); 
+      background: linear-gradient(90deg, #5C755E, #78A67C); 
       margin-right: 0;
       height: 80vh;
     }
@@ -223,46 +553,50 @@
 
   @media only screen and (min-width: 901px) and (max-width: 1023px) {
     .section1 {
-      background-image: url("/modernroom.png"); 
+      background: linear-gradient(90deg, #5C755E, #78A67C); 
       margin-right: 0;
-      height: 83vh;
+      height: 98vh;
     }
     .section2 {
-      background-image: url("/modernroom.png"); 
+      background: linear-gradient(90deg, #5C755E, #78A67C); 
       margin-right: 0;
-      height: 83vh;
+      height: 98vh;
     }
     .section3 {
-      background-image: url("/modernroom.png"); 
+      background: linear-gradient(90deg, #5C755E, #78A67C); 
       margin-right: 0;
-      height: 83vh;
+      height: 98vh;
     }
     .section4 {
-      background-image: url("/modernroom.png"); 
+      background: linear-gradient(90deg, #5C755E, #78A67C); 
       margin-right: 0;
-      height: 83vh;
+      height: 98vh;
     }
   }
 
   @media only screen and (min-width: 1024px) and (max-width: 1200px) {
     .section1 {
-      background-image: url("/modernroom.png"); 
+      /* background-image: url("/modernroom.png");  */
+      background: linear-gradient(90deg, #5C755E, #78A67C);
       margin-right: 0;
-      height: 90vh;
+      height: 98vh;
     }
     .section2 {
-      background-image: url("/modernroom.png"); 
+      /* background-image: url("/modernroom.png");  */
+      background: linear-gradient(90deg, #5C755E, #78A67C);
       margin-right: 0;
-      height: 90vh;
+      height: 98vh;
     }
     .section3 {
-      background-image: url("/modernroom.png"); 
+      /* background-image: url("/modernroom.png");  */
+      background: linear-gradient(90deg, #5C755E, #78A67C);
       margin-right: 0;
-      height: 90vh;
+      height: 98vh;
     }
     .section4 {
-      background-image: url("/modernroom.png"); 
+      /* background-image: url("/modernroom.png");  */
+      background: linear-gradient(90deg, #5C755E, #78A67C);
       margin-right: 0;
-      height: 90vh;
+      height: 98vh;
     }
   }

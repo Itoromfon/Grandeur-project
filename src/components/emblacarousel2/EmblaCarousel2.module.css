@@ -1,8 +1,17 @@
-.embla {
-    max-width: 51rem;
+
+
+
+
+
+
+
+
+
+/* .embla {
+    max-width: 61rem;
     margin: auto;
     --slide-height: 19rem;
-    --slide-spacing: 1rem;
+    --slide-spacing: -8rem; 
     --slide-size: 70%;
   }
   .embla__viewport {
@@ -23,7 +32,8 @@
     border-radius: 1.8rem;
     display: block;
     height: var(--slide-height);
-    width: 95%;
+    width: 500px;
+    height: 601px;
     object-fit: cover;
   }
   .embla__controls {
@@ -115,6 +125,5 @@
   }
 
   .embla__slide--center {
-    filter: brightness(1.2); /* Increase brightness by 20% */
-  }
-  
+    filter: brightness(1.2); 
+  } */

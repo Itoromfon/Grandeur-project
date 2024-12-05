@@ -1,12 +1,14 @@
 .section1 {
     display: flex;
-    z-index: 2;
-    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+    width: 100%; 
 }
 
 .section1x {
-    flex-direction: column;
-    margin: 30px 50px 0px 50px;
+    /* flex-direction: column; */
+    /* margin: 30px 50px 0px 50px; */
 }
 
 .h1main {
@@ -14,6 +16,8 @@
     background-clip: text;
     -webkit-background-clip: text; /* For WebKit browsers */
     font-size: 30px;
+    width: 500px;
+    margin-top: -80px;
     font-weight: 900;
     margin-bottom: 15px;
     letter-spacing: 3px;
@@ -39,15 +43,15 @@
 }
 
 .p1main {
-    font-size: 16px;
+    font-size: 17px;
     font-weight: 400;
     margin-bottom: 15px;
-    width: 570px;
+    width: 520px;
     color: #FFFFFF;
     position: relative;
     z-index: 2;
     letter-spacing: 1px;
-    line-height: 20px;
+    line-height: 30px;
     /* animation: backgroundPop 4s ease-in-out infinite; */
 }
 
@@ -58,8 +62,8 @@
 }
 
 .p1amain {
-    font-size: 14px;
-    margin-bottom: 10px;
+    font-size: 15px;
+    margin-bottom: 20px;
     display: flex;
     letter-spacing: 1px;
     color: #FFFFFF;
@@ -67,8 +71,8 @@
 }
 
 .p1bmain {
-    font-size: 14px;
-    margin-bottom: 10px;
+    font-size: 15px;
+    margin-bottom: 20px;
     display: flex;
     letter-spacing: 1px;
     color: #FFFFFF;
@@ -76,7 +80,7 @@
 }
 
 .p1cmain {
-    font-size: 14px;
+    font-size: 15px;
     display: flex;
     letter-spacing: 1px;
     margin-bottom: 30px;
@@ -114,7 +118,7 @@
 
 .gadget {
     /* display: flex; */
-    margin: 0 100px 0 0px; 
+    margin: 0 50px 0 0px; 
 }
 
 
@@ -139,10 +143,10 @@
     display: flex;
 }
 
-.smallhomediv {
-    margin-top: -5px;
+/* .smallhomediv1 {
+    margin-top: 15px;
     margin-right: 10px;
-}
+} */
 
 .p1bdiv {
     display: flex;
@@ -152,14 +156,660 @@
     display: flex;
 }
 
+@media only screen and (min-width: 3501px) and (max-width: 4500px) {
+    .section1 {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        min-height: 100vh; 
+        /* width: 100%;  */
+    }
+    
+    .section1x {
+        /* flex-direction: column; */
+        /* margin: 30px 50px 0px 50px; */
+    }
+    
+    .h1main {
+        background-image: linear-gradient(90deg, #5C755E, #78A67C);
+        background-clip: text;
+        -webkit-background-clip: text; /* For WebKit browsers */
+        font-size: 39px;
+        width: 800px;
+        margin-top: -80px;
+        font-weight: 900;
+        margin-bottom: 15px;
+        letter-spacing: 5px;
+        color: #FFFFFF;
+        position: relative;
+        z-index: 2; /* Make sure text is above the overlay */
+        /* animation: backgroundPop 4s ease-in-out infinite; */
+    }
+    
+    @keyframes backgroundPop {
+        0% {
+          transform: scale(1); /* Start with normal size */
+          background-position: center; /* Normal position */
+        }
+        50% {
+          transform: scale(1.05); /* Pop-up effect: enlarge */
+          background-position: center; /* Keep the image centered */
+        }
+        100% {
+          transform: scale(1); /* Return to normal size */
+          background-position: center; /* Normal position */
+        }
+    }
+    
+    .p1main {
+        font-size: 20px;
+        font-weight: 400;
+        margin-bottom: 15px;
+        width: 620px;
+        color: #FFFFFF;
+        position: relative;
+        z-index: 2;
+        letter-spacing: 1px;
+        line-height: 30px;
+        /* animation: backgroundPop 4s ease-in-out infinite; */
+    }
+    
+    .fahouse {
+        margin-right: 10px;
+        font-size: 18px;
+        /* animation: backgroundPop 4s ease-in-out infinite; */
+    }
+    
+    .p1amain {
+        font-size: 18px;
+        margin-bottom: 35px;
+        display: flex;
+        letter-spacing: 1px;
+        color: #FFFFFF;
+        /* animation: backgroundPop 4s ease-in-out infinite; */
+    }
+    
+    .p1bmain {
+        font-size: 18px;
+        margin-bottom: 35px;
+        display: flex;
+        letter-spacing: 1px;
+        color: #FFFFFF;
+        /* animation: backgroundPop 4s ease-in-out infinite; */
+    }
+    
+    .p1cmain {
+        font-size: 18px;
+        display: flex;
+        letter-spacing: 1px;
+        margin-bottom: 40px;
+        color: #FFFFFF;
+        /* width: 450px; */
+        /* animation: backgroundPop 4s ease-in-out infinite; */
+    }
+    
+    .button {
+        background-color: #A97D5D;
+        border: none;
+        border-radius: 40px;
+        padding: 20px 40px;
+        cursor: pointer;
+        transition: background-image 1.5s ease, transform 0.8s ease;
+        position: relative;
+        z-index: 2; /* Make sure text is above the overlay */
+        animation: backgroundPop 4s ease-in-out infinite;
+    }
+    
+    .button:hover {
+        background-color: #87512a;
+        transform: scale(1.05);
+        position: relative;
+        z-index: 2; /* Make sure text is above the overlay */
+    }
+    
+    .buttontext {
+        font-size: 18px;
+        color: #FFFFFF;
+        font-weight: 700;
+        letter-spacing: 2px;
+        position: relative;
+        z-index: 2; /* Make sure text is above the overlay */
+    }
+    
+    .gadget {
+        /* display: flex; */
+        margin: 0 50px 0 0px; 
+    }
+    
+    
+    
+    .devices {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .phone {
+        width: 160px;
+        height: 215px;
+    }
+    
+    .laptop {
+        width: 480px;
+        height: 220px;
+    }
+    
+    .p1adiv {
+        display: flex;
+    }
+    
+    .smallhomediv {
+        margin-top: -5px;
+        margin-right: 10px;
+    }
+    
+    .p1bdiv {
+        display: flex;
+    }
+    
+    .p1cdiv {
+        display: flex;
+    }
+}
+
+@media only screen and (min-width: 2701px) and (max-width: 3500px) {
+    .section1 {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        min-height: 100vh; 
+        /* width: 100%;  */
+    }
+    
+    .section1x {
+        /* flex-direction: column; */
+        /* margin: 30px 50px 0px 50px; */
+    }
+    
+    .h1main {
+        background-image: linear-gradient(90deg, #5C755E, #78A67C);
+        background-clip: text;
+        -webkit-background-clip: text; /* For WebKit browsers */
+        font-size: 35px;
+        width: 600px;
+        margin-top: -80px;
+        font-weight: 900;
+        margin-bottom: 15px;
+        letter-spacing: 5px;
+        color: #FFFFFF;
+        position: relative;
+        z-index: 2; /* Make sure text is above the overlay */
+        /* animation: backgroundPop 4s ease-in-out infinite; */
+    }
+    
+    @keyframes backgroundPop {
+        0% {
+          transform: scale(1); /* Start with normal size */
+          background-position: center; /* Normal position */
+        }
+        50% {
+          transform: scale(1.05); /* Pop-up effect: enlarge */
+          background-position: center; /* Keep the image centered */
+        }
+        100% {
+          transform: scale(1); /* Return to normal size */
+          background-position: center; /* Normal position */
+        }
+    }
+    
+    .p1main {
+        font-size: 19px;
+        font-weight: 400;
+        margin-bottom: 15px;
+        width: 620px;
+        color: #FFFFFF;
+        position: relative;
+        z-index: 2;
+        letter-spacing: 1px;
+        line-height: 30px;
+        /* animation: backgroundPop 4s ease-in-out infinite; */
+    }
+    
+    .fahouse {
+        margin-right: 10px;
+        font-size: 18px;
+        /* animation: backgroundPop 4s ease-in-out infinite; */
+    }
+    
+    .p1amain {
+        font-size: 17px;
+        margin-bottom: 35px;
+        display: flex;
+        letter-spacing: 1px;
+        color: #FFFFFF;
+        /* animation: backgroundPop 4s ease-in-out infinite; */
+    }
+    
+    .p1bmain {
+        font-size: 17px;
+        margin-bottom: 35px;
+        display: flex;
+        letter-spacing: 1px;
+        color: #FFFFFF;
+        /* animation: backgroundPop 4s ease-in-out infinite; */
+    }
+    
+    .p1cmain {
+        font-size: 17px;
+        display: flex;
+        letter-spacing: 1px;
+        margin-bottom: 40px;
+        color: #FFFFFF;
+        /* width: 450px; */
+        /* animation: backgroundPop 4s ease-in-out infinite; */
+    }
+    
+    .button {
+        background-color: #A97D5D;
+        border: none;
+        border-radius: 40px;
+        padding: 20px 40px;
+        cursor: pointer;
+        transition: background-image 1.5s ease, transform 0.8s ease;
+        position: relative;
+        z-index: 2; /* Make sure text is above the overlay */
+        animation: backgroundPop 4s ease-in-out infinite;
+    }
+    
+    .button:hover {
+        background-color: #87512a;
+        transform: scale(1.05);
+        position: relative;
+        z-index: 2; /* Make sure text is above the overlay */
+    }
+    
+    .buttontext {
+        font-size: 17px;
+        color: #FFFFFF;
+        font-weight: 700;
+        letter-spacing: 2px;
+        position: relative;
+        z-index: 2; /* Make sure text is above the overlay */
+    }
+    
+    .gadget {
+        /* display: flex; */
+        margin: 0 50px 0 0px; 
+    }
+    
+    
+    
+    .devices {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .phone {
+        width: 160px;
+        height: 215px;
+    }
+    
+    .laptop {
+        width: 480px;
+        height: 220px;
+    }
+    
+    .p1adiv {
+        display: flex;
+    }
+    
+    .smallhomediv {
+        margin-top: -5px;
+        margin-right: 10px;
+    }
+    
+    .p1bdiv {
+        display: flex;
+    }
+    
+    .p1cdiv {
+        display: flex;
+    }
+}
+
+@media only screen and (min-width: 1801px) and (max-width: 2700px) {
+    .section1 {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        min-height: 100vh; 
+        /* width: 100%;  */
+    }
+    
+    .section1x {
+        /* flex-direction: column; */
+        /* margin: 30px 50px 0px 50px; */
+    }
+    
+    .h1main {
+        background-image: linear-gradient(90deg, #5C755E, #78A67C);
+        background-clip: text;
+        -webkit-background-clip: text; /* For WebKit browsers */
+        font-size: 35px;
+        width: 600px;
+        margin-top: -80px;
+        font-weight: 900;
+        margin-bottom: 15px;
+        letter-spacing: 5px;
+        color: #FFFFFF;
+        position: relative;
+        z-index: 2; /* Make sure text is above the overlay */
+        /* animation: backgroundPop 4s ease-in-out infinite; */
+    }
+    
+    @keyframes backgroundPop {
+        0% {
+          transform: scale(1); /* Start with normal size */
+          background-position: center; /* Normal position */
+        }
+        50% {
+          transform: scale(1.05); /* Pop-up effect: enlarge */
+          background-position: center; /* Keep the image centered */
+        }
+        100% {
+          transform: scale(1); /* Return to normal size */
+          background-position: center; /* Normal position */
+        }
+    }
+    
+    .p1main {
+        font-size: 19px;
+        font-weight: 400;
+        margin-bottom: 15px;
+        width: 620px;
+        color: #FFFFFF;
+        position: relative;
+        z-index: 2;
+        letter-spacing: 1px;
+        line-height: 30px;
+        /* animation: backgroundPop 4s ease-in-out infinite; */
+    }
+    
+    .fahouse {
+        margin-right: 10px;
+        font-size: 18px;
+        /* animation: backgroundPop 4s ease-in-out infinite; */
+    }
+    
+    .p1amain {
+        font-size: 17px;
+        margin-bottom: 35px;
+        display: flex;
+        letter-spacing: 1px;
+        color: #FFFFFF;
+        /* animation: backgroundPop 4s ease-in-out infinite; */
+    }
+    
+    .p1bmain {
+        font-size: 17px;
+        margin-bottom: 35px;
+        display: flex;
+        letter-spacing: 1px;
+        color: #FFFFFF;
+        /* animation: backgroundPop 4s ease-in-out infinite; */
+    }
+    
+    .p1cmain {
+        font-size: 17px;
+        display: flex;
+        letter-spacing: 1px;
+        margin-bottom: 40px;
+        color: #FFFFFF;
+        /* width: 450px; */
+        /* animation: backgroundPop 4s ease-in-out infinite; */
+    }
+    
+    .button {
+        background-color: #A97D5D;
+        border: none;
+        border-radius: 40px;
+        padding: 20px 40px;
+        cursor: pointer;
+        transition: background-image 1.5s ease, transform 0.8s ease;
+        position: relative;
+        z-index: 2; /* Make sure text is above the overlay */
+        animation: backgroundPop 4s ease-in-out infinite;
+    }
+    
+    .button:hover {
+        background-color: #87512a;
+        transform: scale(1.05);
+        position: relative;
+        z-index: 2; /* Make sure text is above the overlay */
+    }
+    
+    .buttontext {
+        font-size: 17px;
+        color: #FFFFFF;
+        font-weight: 700;
+        letter-spacing: 2px;
+        position: relative;
+        z-index: 2; /* Make sure text is above the overlay */
+    }
+    
+    .gadget {
+        /* display: flex; */
+        margin: 0 50px 0 0px; 
+    }
+    
+    
+    
+    .devices {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .phone {
+        width: 160px;
+        height: 215px;
+    }
+    
+    .laptop {
+        width: 480px;
+        height: 220px;
+    }
+    
+    .p1adiv {
+        display: flex;
+    }
+    
+    .smallhomediv {
+        margin-top: -5px;
+        margin-right: 10px;
+    }
+    
+    .p1bdiv {
+        display: flex;
+    }
+    
+    .p1cdiv {
+        display: flex;
+    }
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 1800px) {
+    .section1 {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        min-height: 100vh; 
+        width: 100%; 
+    }
+    
+    .section1x {
+        /* flex-direction: column; */
+        /* margin: 30px 50px 0px 50px; */
+    }
+    
+    .h1main {
+        background-image: linear-gradient(90deg, #5C755E, #78A67C);
+        background-clip: text;
+        -webkit-background-clip: text; /* For WebKit browsers */
+        font-size: 32px;
+        width: 500px;
+        margin-top: -80px;
+        font-weight: 900;
+        margin-bottom: 15px;
+        letter-spacing: 4px;
+        color: #FFFFFF;
+        position: relative;
+        z-index: 2; /* Make sure text is above the overlay */
+        /* animation: backgroundPop 4s ease-in-out infinite; */
+    }
+    
+    @keyframes backgroundPop {
+        0% {
+          transform: scale(1); /* Start with normal size */
+          background-position: center; /* Normal position */
+        }
+        50% {
+          transform: scale(1.05); /* Pop-up effect: enlarge */
+          background-position: center; /* Keep the image centered */
+        }
+        100% {
+          transform: scale(1); /* Return to normal size */
+          background-position: center; /* Normal position */
+        }
+    }
+     
+    .p1main {
+        font-size: 17px;
+        font-weight: 400;
+        margin-bottom: 15px;
+        width: 520px;
+        color: #FFFFFF;
+        position: relative;
+        z-index: 2;
+        letter-spacing: 1px;
+        line-height: 30px;
+        /* animation: backgroundPop 4s ease-in-out infinite; */
+    }
+    
+    .fahouse {
+        margin-right: 10px;
+        font-size: 18px;
+        /* animation: backgroundPop 4s ease-in-out infinite; */
+    }
+    
+    .p1amain {
+        font-size: 15px;
+        margin-bottom: 25px;
+        display: flex;
+        letter-spacing: 1px;
+        color: #FFFFFF;
+        /* animation: backgroundPop 4s ease-in-out infinite; */
+    }
+    
+    .p1bmain {
+        font-size: 15px;
+        margin-bottom: 25px;
+        display: flex;
+        letter-spacing: 1px;
+        color: #FFFFFF;
+        /* animation: backgroundPop 4s ease-in-out infinite; */
+    }
+    
+    .p1cmain {
+        font-size: 15px;
+        display: flex;
+        letter-spacing: 1px;
+        margin-bottom: 35px;
+        color: #FFFFFF;
+        /* width: 450px; */
+        /* animation: backgroundPop 4s ease-in-out infinite; */
+    }
+    
+    .button {
+        background-color: #A97D5D;
+        border: none;
+        border-radius: 40px;
+        padding: 20px 40px;
+        cursor: pointer;
+        transition: background-image 1.5s ease, transform 0.8s ease;
+        position: relative;
+        z-index: 2; /* Make sure text is above the overlay */
+        animation: backgroundPop 4s ease-in-out infinite;
+    }
+    
+    .button:hover {
+        background-color: #87512a;
+        transform: scale(1.05);
+        position: relative;
+        z-index: 2; /* Make sure text is above the overlay */
+    }
+    
+    .buttontext {
+        font-size: 17px;
+        color: #FFFFFF;
+        font-weight: 700;
+        letter-spacing: 2px;
+        position: relative;
+        z-index: 2; /* Make sure text is above the overlay */
+    }
+    
+    .gadget {
+        /* display: flex; */
+        margin: 0 50px 0 0px; 
+    }
+    
+    
+    
+    .devices {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .phone {
+        width: 160px;
+        height: 215px;
+    }
+    
+    .laptop {
+        width: 480px;
+        height: 220px;
+    }
+    
+    .p1adiv {
+        display: flex;
+    }
+    
+    .smallhomediv {
+        margin-top: -5px;
+        margin-right: 10px;
+    }
+    
+    .p1bdiv {
+        display: flex;
+    }
+    
+    .p1cdiv {
+        display: flex;
+    }
+}
+
 @media only screen and (min-width: 320px) and (max-width: 400px) {
     .section1 {
         flex-direction: column;
-        margin-top: 30px;
+        /* align-items: center; */
     }
 
     .section1x {
-        margin: 30px 12px 0px 12px;
+        /* margin: 30px 12px 0px 12px; */
+        justify-content: center;
+        align-items: center;
     }
 
     .h1main {
@@ -653,7 +1303,7 @@
 
 
 
-@media only screen and (min-width: 901px) and (max-width: 1200px) {
+@media only screen and (min-width: 901px) and (max-width: 1279px) {
     .section1 {
         flex-direction: column;
         margin-top: 50px;
@@ -709,6 +1359,7 @@
         margin-bottom: 10px;
         display: flex;
         letter-spacing: 1px;
+        text-align: center;
         /* animation: backgroundPop 4s ease-in-out infinite; */
     }
     
@@ -717,6 +1368,7 @@
         margin-bottom: 10px;
         display: flex;
         letter-spacing: 1px;
+        text-align: center;
         /* animation: backgroundPop 4s ease-in-out infinite; */
     }
     
@@ -725,6 +1377,7 @@
         display: flex;
         letter-spacing: 1px;
         margin-bottom: 35px;
+        text-align: center;
         /* animation: backgroundPop 4s ease-in-out infinite; */
     }
 
@@ -752,5 +1405,4 @@
         position: relative;
         z-index: 2; /* Make sure text is above the overlay */
     }
-
 }
