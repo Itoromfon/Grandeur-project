@@ -8,7 +8,7 @@ function SmartRoutines() {
     <div className={styles.main}>
       <div className={styles.imageWrapper}>
         <Image
-          src="/smartroutine.png"
+          src="/smartroutine.svg"
           width={579}
           height={432}
           alt="Smart Routine"
@@ -23,7 +23,7 @@ function SmartRoutines() {
       </div>
       <div className={styles.imageWrapper2}>
         <Image
-          src="/predictivesuggest.png"
+          src="/predictivesuggest.svg"
           width={579}
           height={432}
           alt="Smart Routine"
@@ -41,7 +41,7 @@ function SmartRoutines() {
       <div className={styles.main2}>
       <div className={styles.imageWrapper3}>
         <Image
-          src="/energyinsight.png"
+          src="/energyinsight.svg"
           width={579}
           height={432}
           alt="Smart Routine"
@@ -57,7 +57,7 @@ function SmartRoutines() {
       </div>
       <div className={styles.imageWrapper4}>
         <Image
-          src="/geofencing.png"
+          src="/geofencing.svg"
           width={579}
           height={432}
           alt="Smart Routine"
@@ -77,7 +77,7 @@ function SmartRoutines() {
       <div className={styles.main3}>
       <div className={styles.imageWrapper5}>
         <Image
-          src="/eventbase.png"
+          src="/eventbase.svg"
           width={1188}
           height={432}
           alt="Smart Routine"
