@@ -6,7 +6,8 @@ function AutomateSmart() {
   return (
     <div className={styles.main}>
     <div className={styles.htextdiv}>
-    <h1 className={styles.htext}>Automate & Let Smart AI Make Decisions</h1>
+    <h1 className={styles.htext}>Automate & Let <Image className='mt-[-7px]' src='/smartai.svg' width={70} height={44} alt='smart ai' /> AI </h1>
+    <h1 className={styles.h2text}>Make Decisions</h1>
     </div>
     <div className={styles.ptextdiv}>
         <p className={styles.ptext}>

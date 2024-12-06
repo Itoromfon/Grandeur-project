@@ -7,6 +7,9 @@ module.exports = {
   ],
   theme: {
   	extend: {
+		fontFamily: {
+			custom: ['Arial', 'Helvetica', 'sans-serif'], // Add your font stack
+		  },
   		borderRadius: {
   			lg: 'var(--radius)',
   			md: 'calc(var(--radius) - 2px)',

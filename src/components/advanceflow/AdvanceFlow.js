@@ -7,10 +7,13 @@ import Image from 'next/image';
 function AdvanceFlow() {
   return (
     <div className={styles.main}>
-        <div className='flex justify-center items-center space-y-0'>
+        <div className='flex justify-center'>
+            <h1 className={styles.htext}>Advance Flow</h1>
+        </div>
+        <div className='flex justify-center items-center mt-[-50px] space-y-0'>
             <div>
                 <div>
-                    <h1 className='font-bold text-[25px] tracking-widest mb-[20px]'>Custom Flow Suggestions</h1>
+                    <h1 className='font-bold font-custom text-[25px] tracking-widest mb-[20px]'>Custom Flow Suggestions</h1>
                 </div>
                 <div>
                     <p className='w-[500px] text-base tracking-wide'>continuously learns from user behavior, suggesting tailored routines for times of day or specific activities.</p>
@@ -69,7 +72,7 @@ function AdvanceFlow() {
             </div>
             <div className='ml-[50px] mt-5'>
                 <div>
-                    <h1 className='font-bold text-[25px] tracking-widest mb-[20px]'>Complex Conditions</h1>
+                    <h1 className='font-bold font-custom text-[25px] tracking-widest mb-[20px]'>Complex Conditions</h1>
                 </div>
                 <div>
                     <p className='w-[400px] text-base tracking-wide'>Include conditionals (IF, AND, OR) for unique customizations. 
@@ -94,7 +97,7 @@ function AdvanceFlow() {
         <div className='flex justify-center'>
         <div className='ml-[-50px]'>
             <div>
-                <h1 className='font-bold text-[25px] tracking-widest mb-[20px]'>Scenerio Creation</h1>
+                <h1 className='font-bold font-custom text-[25px] tracking-widest mb-[20px]'>Scenerio Creation</h1>
             </div>
             <div>
                 <p className='w-[500px] text-base tracking-wide'>Offer pre-built flows for situations like Traveler 
