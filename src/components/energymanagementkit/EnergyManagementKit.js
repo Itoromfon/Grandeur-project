@@ -48,7 +48,7 @@ const EnergyManagementKit = () => {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 3000,
-    prevArrow: <CustomPrevArrow />,
+    prevArrow: <CustomPrevArrow  />,
     nextArrow: <CustomNextArrow />,
   };
 

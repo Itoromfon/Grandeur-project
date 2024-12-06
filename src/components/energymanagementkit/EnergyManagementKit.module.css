@@ -21,7 +21,7 @@
     align-items: center;
     justify-content: center;
     animation: moveBackground 2.5s linear infinite;
-    padding: 10px 70px;
+    padding: 10px 80px;
     z-index: 1;
   }
 
