@@ -1,5 +1,5 @@
 import Slider from 'react-slick';
-import styles from './EnergyManagementKit2.module.css';
+import styles from './EnergyManagementkit2.module.css'
 // import FlowDiagram from '../flowdiagram/FlowDiagram';
 // import FlowDiagram2 from '../flowdiagram2/FlowDiagram2';
 import HomeAutomation from '../homeautomation/HomeAutomation';
