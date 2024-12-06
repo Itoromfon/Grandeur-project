@@ -48,6 +48,7 @@ import Innovative from "@/components/innovative/Innovative";
 import Customize from "@/components/ui/Customize";
 import Emblacarol from "@/components/ui/Emblacarol";
 import EnergyManagement from "@/components/energymanagement/EnergyManagement";
+import SmartRoutines from "@/components/smartroutines/SmartRoutines";
 // import ParticleBackground from "@/components/particlesbackground/ParticlesBackground";
 
 export default function Home() {
@@ -84,6 +85,7 @@ export default function Home() {
       <Permission />
       <VoiceAssistant />
       <Innovative />
+      <SmartRoutines />
       {/* <Automation />
       <AutomateHome />
       <Energy />

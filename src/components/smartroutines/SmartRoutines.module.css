@@ -1,0 +1,330 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh; 
+    margin-bottom: 430px;
+}
+
+.main {
+    display: flex;
+    gap: 20px;
+    margin: 20px 50px;
+}
+  
+  .imageWrapper {
+    position: relative;
+    width: 579px;
+    height: 432px;
+  }
+  
+  .image {
+    opacity: 0.7; /* Adjust the opacity to your liking */
+    border-radius: 10px; /* Optional for rounded corners */
+  }
+  
+  .overlayText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #000000;
+    text-align: center;
+    background-color: transparent; /* Semi-transparent background */
+    padding: 10px 20px;
+    border-radius: 10px; /* Optional for rounded corners */
+    margin-top: -100px;
+  }
+
+  .h1text {
+    font-weight: bold;
+    font-size: 25px;
+    letter-spacing: 2px;
+  }
+
+  .p1text {
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    width: 443px;
+    line-height: 22px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .imageWrapper2 {
+    position: relative;
+    width: 579px;
+    height: 432px;
+  }
+
+  .image2 {
+    opacity: 0.7; /* Adjust the opacity to your liking */
+    border-radius: 10px; /* Optional for rounded corners */
+  }
+  
+  .overlayText2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #000000;
+    text-align: center;
+    background-color: transparent; /* Semi-transparent background */
+    padding: 10px 20px;
+    border-radius: 10px; /* Optional for rounded corners */
+    margin-top: 100px;
+  }
+
+  .h2text {
+    font-weight: bold;
+    font-size: 25px;
+    letter-spacing: 2px;
+  }
+
+  .p2text {
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    width: 443px;
+    line-height: 22px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .main2 {
+        display: flex;
+        gap: 20px;
+        margin: 0 50px;
+    }
+
+    .imageWrapper3 {
+    position: relative;
+    width: 579px;
+    height: 432px;
+    }
+
+  .image3 {
+    opacity: 0.7; /* Adjust the opacity to your liking */
+    border-radius: 10px; /* Optional for rounded corners */
+  }
+  
+  .overlayText3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #000000;
+    text-align: center;
+    background-color: transparent; /* Semi-transparent background */
+    padding: 10px 20px;
+    border-radius: 10px; /* Optional for rounded corners */
+    margin-top: -100px;
+  }
+
+  .h3text {
+    font-weight: bold;
+    font-size: 25px;
+    letter-spacing: 2px;
+  }
+
+  .p3text {
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    width: 443px;
+    line-height: 22px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .imageWrapper4 {
+    position: relative;
+    width: 579px;
+    height: 432px;
+  }
+
+  .image4 {
+    opacity: 0.7; /* Adjust the opacity to your liking */
+    border-radius: 10px; /* Optional for rounded corners */
+  }
+  
+  .overlayText4 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #000000;
+    text-align: center;
+    background-color: transparent; /* Semi-transparent background */
+    padding: 10px 20px;
+    border-radius: 10px; /* Optional for rounded corners */
+    margin-top: 100px;
+  }
+
+  .h4text {
+    font-weight: bold;
+    font-size: 25px;
+    letter-spacing: 2px;
+  }
+
+  .p4text {
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    width: 443px;
+    line-height: 22px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .main3 {
+    margin-top: 25px;
+  }
+
+  .imageWrapper5 {
+    position: relative;
+    /* width: 579px;
+    height: 432px; */
+  }
+
+  .image5 {
+    opacity: 0.7; /* Adjust the opacity to your liking */
+    border-radius: 10px; /* Optional for rounded corners */
+   
+  }
+  
+  .overlayText5 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #000000;
+    text-align: center;
+    background-color: transparent; /* Semi-transparent background */
+    padding: 10px 20px;
+    border-radius: 10px; /* Optional for rounded corners */
+    margin-top: -100px;
+  }
+
+  .h5text {
+    font-weight: bold;
+    font-size: 25px;
+    letter-spacing: 2px;
+  }
+
+  .p5text {
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    width: 443px;
+    line-height: 22px;
+  }
+  
