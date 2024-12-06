@@ -81,8 +81,8 @@ function Customize() {
                 />
                 {/* Text on top of the image */}
                 <div className="absolute inset-0 flex flex-col items-center justify-center text-white text-center px-4 top-[-50%]">
-                    <h2 className="text-[25px] font-bold mb-2">{item.htext}</h2>
-                    <p className="text-[16px] w-[400px] mt-3 leading-relaxed">{item.ptext}</p>
+                    <h2 className="text-[25px] font-bold mb-2 tracking-widest">{item.htext}</h2>
+                    <p className="text-[16px] w-[400px] mt-3 leading-relaxed tracking-wide">{item.ptext}</p>
                 </div>
             </div>
             </CarouselItem>

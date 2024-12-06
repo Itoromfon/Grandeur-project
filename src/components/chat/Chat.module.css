@@ -59,7 +59,7 @@
 }
 
 .messagediv {
-    height: 250px; 
+    height: 270px; 
     overflow-y: auto; /* Enable scrolling if content overflows */
     padding: 10px;
 }

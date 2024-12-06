@@ -7,58 +7,50 @@ import Image from 'next/image';
 function AdvanceFlow() {
   return (
     <div className={styles.main}>
-        <div className={styles.hdiv}>
-        <h1 className={styles.htext}>Advanced Flow Creation</h1>
-        </div>
-        <div className={styles.maindiv}>
-        <div className={styles.main2}>
-        <div>
-            <div className={styles.h1textdiv}>
-                <h1 className={styles.h1text}>Custom Flow Suggestions</h1>
-            </div>
-            <div className={styles.ptextarrowdiv}>
+        <div className='flex justify-center items-center space-y-0'>
+            <div>
                 <div>
-                    <p className={styles.ptext}>Smart continuously learns from user behavior, suggesting tailored routines for times of day or specific activities.</p>
+                    <h1 className='font-bold text-[25px] tracking-widest mb-[20px]'>Custom Flow Suggestions</h1>
                 </div>
-                <div className={styles.arrowstraightdiv}>
-                    <Image 
-                        src='/arrowstraight.svg'
-                        alt='arrow straight'
-                        width={390}
-                        height={87}
-                        className={styles.arrowstraightimg}
-                    />
-                </div>
-            </div>
-            <div className={styles.getdiv}>
                 <div>
-                    <Link className={styles.linkdiv} href="#">Get Started <GrFormNext className={styles.next} /></Link>
+                    <p className='w-[500px] text-base tracking-wide'>continuously learns from user behavior, suggesting tailored routines for times of day or specific activities.</p>
+                </div>
+                <div>
+                    <Link className='flex font-bold text-base text-[#5C755E]' href='#'>Get Started <GrFormNext className='mt-[5px]' /></Link>
                 </div>
             </div>
+            
+            <div className='flex ml-[-107px] '>
+            <div className='z-10'>
+                <Image 
+                    src='/arrowstraight.svg'
+                    alt='arrow straight'
+                    width={350}
+                    height={87}
+                    className='mt-[146px]'
+                />
+            </div>
+                <Image 
+                    src='/mymp3.svg'
+                    width={380}
+                    height={380}
+                    alt='Custom Flow'
+                    className='ml-[-85px]'
+                />
+            </div>
         </div>
-        </div>
-        <div className={styles.advanceimg}>
-            <Image 
-                src='/newmp.svg'
-                alt='Advance Flow Image'
-                width={450}
-                height={400}
-                className={styles.newmpimg}
-            />
-        </div>
-        </div>
-        <div className={styles.arrowcurvediv}>
+        <div className='flex justify-center mt-[-46px] ml-[-40px]'>
             <Image 
                 src='/arrowcurve.svg'
-                width={745}
+                width={645}
                 height={180}
                 alt='Arrow Curve'
-                className={styles.arrowcurveimg}
+                // className={styles.arrowcurveimg}
+                className='z-10'
             />
         </div>
-        <div className={styles.imagetextdiv}>
-        <div className={styles.imagediv}>
-            <div className={styles.smartlightdiv}>
+        <div className='flex justify-center mt-[-34px]'>
+            <div>
                 <Image 
                     src='/smartlight.svg'
                     alt='smart light'
@@ -66,68 +58,62 @@ function AdvanceFlow() {
                     height={255}
                 />
             </div>
-            <div className={styles.bulbdiv}>
+            <div>
                 <Image 
                     src='/smartbulb.svg'
                     alt='bulb'
                     width={416}
                     height={417}
+                    className='ml-[-80px] mt-[-30px]'
                 />
             </div>
-        </div>
-        
-        <div className={styles.main3}>
-        <div>
-            <div className={styles.h2textdiv}>
-                <h1 className={styles.h2text}>Complex Conditions</h1>
-            </div>
-            <div>
-                <p className={styles.p2text}>Include conditionals (IF, AND, OR) for unique customizations. For instance, “If it’s past 10 PM and there’s movement detected, send an alert.</p>
-            </div>
-            <div className={styles.getdiv2}>
+            <div className='ml-[50px] mt-5'>
                 <div>
-                    <Link className={styles.linkdiv2} href="#">Get Started <GrFormNext className={styles.next} /></Link>
+                    <h1 className='font-bold text-[25px] tracking-widest mb-[20px]'>Complex Conditions</h1>
+                </div>
+                <div>
+                    <p className='w-[400px] text-base tracking-wide'>Include conditionals (IF, AND, OR) for unique customizations. 
+                    For instance, “If it’s past 10 PM and there’s movement detected, 
+                    send an alert.
+                    </p>
+                </div>
+                <div>
+                <Link className='flex font-bold text-base text-[#5C755E]' href='#'>Get Started <GrFormNext className='mt-[5px]' /></Link>
                 </div>
             </div>
         </div>
-        </div>
-        </div>
-
-        <div className={styles.maindiv3}>
-        <div className={styles.main4}>
-        <div>
-        <div className={styles.arrowcurvediv2}>
+        <div className='flex justify-center mt-[-52px]'>
             <Image 
                 src='/arrowcurves2.svg'
-                width={828}
-                height={148}
+                width={645}
+                height={100}
                 alt='Arrow Curve'
+                className='z-10'
             />
         </div>
-        <div className={styles.sceneriodiv2}>
-        <div className={styles.sceneriodiv}>
-        <div className={styles.h3textdiv}>
-            <h1 className={styles.h3text}>Scenario Creation</h1>
-        </div>
+        <div className='flex justify-center'>
+        <div className='ml-[-50px]'>
             <div>
-                <p className={styles.p3text}>Offer pre-built flows for situations like Traveler Mode (automatically lowers heating/cooling to save energy while maintaining humidity levels)</p>
+                <h1 className='font-bold text-[25px] tracking-widest mb-[20px]'>Scenerio Creation</h1>
             </div>
-            <div className={styles.getdiv2}>
-                <div>
-                    <Link className={styles.linkdiv2} href="#">Get Started <GrFormNext className={styles.next} /></Link>
-                </div>
+            <div>
+                <p className='w-[500px] text-base tracking-wide'>Offer pre-built flows for situations like Traveler 
+                Mode (automatically lowers heating/cooling to save energy 
+                while maintaining humidity levels)
+                </p>
+            </div>
+            <div>
+            <Link className='flex font-bold text-base text-[#5C755E]' href='#'>Get Started <GrFormNext className='mt-[5px]' /></Link>
             </div>
         </div>
-        <div className={styles.lightenergyimg}>
-            <Image 
+        <div>
+        <Image 
                 src='/lightenergy.svg'
                 alt='Advance Flow Image'
                 width={302}
                 height={380}
+                className='ml-[150px] mt-[-68px]'
             />
-        </div>
-        </div>
-        </div>
         </div>
         </div>
     </div>
