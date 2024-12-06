@@ -1,16 +1,43 @@
-// components/Carousel.js
 import Slider from 'react-slick';
-import Image from 'next/image';
-import Section1 from '@/pages/section1/Section1';
-import styles from './EnergyManagementKit.module.css'
-import Navbar from '../navbar/Navbar';
-import Navbar2 from '../navbar2/Navbar2';
-import Section1b from '@/pages/section1b/Section1b';
-import Section1c from '@/pages/section1c/Section1c';
-import Section1d from '@/pages/section1d/Section1d';
-import EnergyManagement from '../energymanagement/EnergyManagement';
-import HomeAutomation from '../homeautomation/HomeAutomation';
-import SecuritySafety from '../securitysafety/SecuritySafety';
+import styles from './EnergyManagementKit.module.css';
+// import FlowDiagram from '../flowdiagram/FlowDiagram';
+// import FlowDiagram2 from '../flowdiagram2/FlowDiagram2';
+import Energy1 from './Energy1';
+import Energy2 from './Energy2';
+// import EnergyManagementKit from '../energymanagement/EnergyManagement';
+
+// Custom Arrow Components
+const CustomPrevArrow = ({ className, style, onClick }) => (
+  <div
+    className={`${className} ${styles.customArrow}`}
+    style={{
+      ...style,
+      display: 'block',
+      left: '10px', // Adjust positioning
+      zIndex: 1,
+    }}
+    onClick={onClick}
+  >
+    {/* Custom content (e.g., an icon or character) */}
+    <span className={styles.arrowText}>&lt;</span>
+  </div>
+);
+
+const CustomNextArrow = ({ className, style, onClick }) => (
+  <div
+    className={`${className} ${styles.customArrow}`}
+    style={{
+      ...style,
+      display: 'block',
+      right: '10px', // Adjust positioning
+      zIndex: 1,
+    }}
+    onClick={onClick}
+  >
+    {/* Custom content (e.g., an icon or character) */}
+    <span className={styles.arrowText}>&gt;</span>
+  </div>
+);
 
 const EnergyManagementKit = () => {
   const settings = {
@@ -20,25 +47,24 @@ const EnergyManagementKit = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 5000,
-    draggable: false,
+    autoplaySpeed: 3000,
+    prevArrow: <CustomPrevArrow />,
+    nextArrow: <CustomNextArrow />,
   };
 
   return (
     <div className={styles.main}>
-    <Slider className={styles.slider} {...settings}>
-      <div className={styles.section1}>
-        <EnergyManagement />
-      </div>
-      <div className={styles.section1}>
-        <EnergyManagement />
-      </div>
-      {/* <div className={styles.section1}>
-        <SecuritySafety />
-      </div> */}
-    </Slider>
+      <Slider {...settings}>
+        <div className={styles.section1}>
+          <Energy1 />
+        </div>
+        <div className={styles.section1}>
+          <Energy2 />
+        </div>
+      </Slider>
     </div>
   );
 };
 
 export default EnergyManagementKit;
+

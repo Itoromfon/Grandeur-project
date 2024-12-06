@@ -46,6 +46,8 @@ import Permission from "@/components/permission/Permission";
 import VoiceAssistant from "@/components/voiceassistant/VoiceAssistant";
 import Innovative from "@/components/innovative/Innovative";
 import Customize from "@/components/ui/Customize";
+import Emblacarol from "@/components/ui/Emblacarol";
+import EnergyManagement from "@/components/energymanagement/EnergyManagement";
 // import ParticleBackground from "@/components/particlesbackground/ParticlesBackground";
 
 export default function Home() {
@@ -71,11 +73,13 @@ export default function Home() {
       <FlowCreation />
       <Recommendation />
       <AdvanceFlow />
-      <div className={styles.energydiv}>
+      
         <EnergyManagementKit />
         <EnergyManagementKit2 />
         <EnergyManagementKit3 />
-      </div>
+        {/* <EnergyManagementKit2 />
+        <EnergyManagementKit3 /> */}
+      
       <Gateway />
       <Permission />
       <VoiceAssistant />

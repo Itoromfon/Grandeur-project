@@ -1,275 +1,291 @@
 .main {
-    width: 100%;
-    margin-top: 50px;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
 }
 
-  .section1 {
-        position: relative;
-        background: #FFFFFF;
-        padding: 10px 0 0 0;
-        width: 80%; /* Set your desired width */
-        max-width: 1200px; /* Optionally limit the maximum width */
-        margin: 0 auto; /* Center the div */
-        background-size: cover;
-        background-position: center;
-        color: white; /* Set text color to white */
-        height: 58vh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        animation: moveBackground 2.5s linear infinite;
+/* .flow1 {
+  z-index: 1;
+} */
+
+.section1 {
+    position: relative;
+    /* background: linear-gradient(to right, #5C755E, #78A67C);  */
+    /* background-image: url("/modernroom.png");  */
+    background-size: cover;
+    background-position: center;
+    color: white; /* Set text color to white */
+    height: 50vh;
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: moveBackground 2.5s linear infinite;
+    padding: 10px 70px;
+    z-index: 1;
+  }
+
+  @keyframes moveBackground {
+    0% {
+      background-position: 0 0;
     }
-  
-    @keyframes moveBackground {
-      0% {
-        background-position: 0 0;
-      }
-      100% {
-        background-position: 100% 100%;
-      }
+    100% {
+      background-position: 100% 100%;
     }
-    
-    .section1::before {
-      content: "";
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      /* background-color: rgba(0, 0, 0, 0.5);  */
-      /* z-index: 1; */
-    }
-  
-  .section2 {
-      position: relative;
-      height: 85vh;
-      background-size: cover;
-      background-position: center;
-      background: linear-gradient(90deg, #5C755E, #78A67C);
-      /* background-image: url("/grandeurproduct.png"); */
-      color: white; /* Set text color to white */
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      animation: moveBackground 2.5s linear infinite;
   }
   
-  .section2::before {
+  .section1::before {
     content: "";
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    /* background-color: rgba(76, 75, 75, 0.5); */
+    /* background-color: rgba(0, 0, 0, 0.5);  */
+    /* z-index: 1; */
+  }
+
+.section2 {
+    position: relative;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background: linear-gradient(90deg, #5C755E, #78A67C);
+    /* background-image: url("/grandeurproduct.png"); */
+    color: white; /* Set text color to white */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin-bottom: 500px;
+    animation: moveBackground 2.5s linear infinite;
+}
+
+.section2::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /* background-color: rgba(76, 75, 75, 0.5); */
+  z-index: 1;
+}
+
+.section3 {
+    position: relative;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background: linear-gradient(90deg, #5C755E, #78A67C);
+    /* background-image: url("/grandeur-energy.png"); */
+    color: white; /* Set text color to white */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin-bottom: 500px;
+    animation: moveBackground 2.5s linear infinite;
+}
+.section3::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /* background-color: rgba(0, 0, 0, 0.5);  */
     z-index: 1;
   }
-  
-  .section3 {
-      position: relative;
-      height: 85vh;
-      background-size: cover;
-      background-position: center;
-      background: linear-gradient(90deg, #5C755E, #78A67C);
-      /* background-image: url("/grandeur-energy.png"); */
-      color: white; /* Set text color to white */
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      animation: moveBackground 2.5s linear infinite;
+
+.section4 {
+    position: relative;
+    height: 85vh;
+    background-size: cover;
+    background-position: center;
+    background: linear-gradient(90deg, #5C755E, #78A67C);
+    /* background-image: url("/grandeurproduct.png"); */
+    animation: moveBackground 2.5s linear infinite;
+    height: 100vh;
+    margin-bottom: 500px;
+}
+
+.section4::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /* background-color: rgba(0, 0, 0, 0.5);  */
+    z-index: 1;
   }
-  .section3::before {
-      content: "";
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      /* background-color: rgba(0, 0, 0, 0.5);  */
-      z-index: 1;
-    }
-  
-  .section4 {
-      position: relative;
-      height: 85vh;
-      background-size: cover;
-      background-position: center;
-      background: linear-gradient(90deg, #5C755E, #78A67C);
-      /* background-image: url("/grandeurproduct.png"); */
-      animation: moveBackground 2.5s linear infinite;
-  }
-  
-  .section4::before {
-      content: "";
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      /* background-color: rgba(0, 0, 0, 0.5);  */
-      z-index: 1;
-    }
-  
-    @media only screen and (min-width: 320px) and (max-width: 400px) {
+
+  @media only screen and (min-width: 320px) and (max-width: 400px) {
     .section1 {
-        background: #dfd9d9;
-        margin-right: 0;
-        height: 135vh;
+      background: linear-gradient(to right, #5C755E, #78A67C); 
+      margin-right: 0;
+      height: 260vh;
+      padding: 60px 0;
     }
-
     .section2 {
-    background-image: url("/modernroom.png"); 
-    margin-right: 0;
-    height: 92vh;
+      background-image: url("/modernroom.png"); 
+      margin-right: 0;
+      height: 92vh;
     }
-      .section3 {
-        background-image: url("/modernroom.png"); 
-        margin-right: 0;
-        height: 92vh;
-      }
-      .section4 {
-        background-image: url("/modernroom.png"); 
-        margin-right: 0;
-        height: 92vh;
-      }
+    .section3 {
+      background-image: url("/modernroom.png"); 
+      margin-right: 0;
+      height: 92vh;
     }
-  
-    @media only screen and (min-width: 401px) and (max-width: 480px) {
-      .section1 {
-        background: #dfd9d9;
-        margin-right: 0;
-        height: 120vh;
-      }
+    .section4 {
+      background-image: url("/modernroom.png"); 
+      margin-right: 0;
+      height: 92vh;
+    }
+  }
 
-      .section2 {
-        background-image: url("/modernroom.png"); 
-        margin-right: 0;
-        height: 91vh;
-      }
-      .section3 {
-        background-image: url("/modernroom.png"); 
-        margin-right: 0;
-        height: 91vh;
-      }
-      .section4 {
-        background-image: url("/modernroom.png"); 
-        margin-right: 0;
-        height: 91vh;
-      }
-    }
-  
-    @media only screen and (min-width: 481px) and (max-width: 600px) {
-      .section1 {
-        background: #dfd9d9;
-        margin-right: 0;
-        height: 150vh;
-      }
+  @media only screen and (min-width: 401px) and (max-width: 480px) {
+    .section1 {
+      background: linear-gradient(to right, #5C755E, #78A67C); 
+      margin-right: 0;
+      height: 190vh;
+      padding: 60px 0;
       
-      .section2 {
-        background-image: url("/modernroom.png"); 
-        margin-right: 0;
-        height: 84vh;
-      }
-      .section3 {
-        background-image: url("/modernroom.png"); 
-        margin-right: 0;
-        height: 84vh;
-      }
-      .section4 {
-        background-image: url("/modernroom.png"); 
-        margin-right: 0;
-        height: 84vh;
-      }
     }
+    .section2 {
+      background-image: url("/modernroom.png"); 
+      margin-right: 0;
+      height: 91vh;
+    }
+    .section3 {
+      background-image: url("/modernroom.png"); 
+      margin-right: 0;
+      height: 91vh;
+    }
+    .section4 {
+      background-image: url("/modernroom.png"); 
+      margin-right: 0;
+      height: 91vh;
+    }
+  }
+
+  @media only screen and (min-width: 481px) and (max-width: 600px) {
+    .section1 {
+      background: linear-gradient(to right, #5C755E, #78A67C);  
+      margin-right: 0;
+      height: 250vh;
+      padding: 60px 0;
+    }
+    .section2 {
+      background-image: url("/modernroom.png"); 
+      margin-right: 0;
+      height: 84vh;
+    }
+    .section3 {
+      background-image: url("/modernroom.png"); 
+      margin-right: 0;
+      height: 84vh;
+    }
+    .section4 {
+      background-image: url("/modernroom.png"); 
+      margin-right: 0;
+      height: 84vh;
+    }
+  }
+
+  @media only screen and (min-width: 601px) and (max-width: 768px) {
+    .section1 {
+      background: linear-gradient(to right, #5C755E, #78A67C); 
+      margin-right: 0;
+      height: 200vh;
+      padding: 60px 0;
+    }
+    .section2 {
+      background: linear-gradient(to right, #5C755E, #78A67C); 
+      margin-right: 0;
+      height: 83vh;
+    }
+    .section3 {
+      background-image: url("/modernroom.png"); 
+      margin-right: 0;
+      height: 83vh;
+    }
+    .section4 {
+      background-image: url("/modernroom.png"); 
+      margin-right: 0;
+      height: 83vh;
+    }
+  }
+
+  @media only screen and (min-width: 769px) and (max-width: 900px) {
+    .section1 {
+      background: linear-gradient(to right, #5C755E, #78A67C); 
+      margin-right: 0;
+      height: 180vh;
+    }
+    .section2 {
+      background-image: url("/modernroom.png"); 
+      margin-right: 0;
+      height: 80vh;
+    }
+    .section3 {
+      background-image: url("/modernroom.png"); 
+      margin-right: 0;
+      height: 80vh;
+    }
+    .section4 {
+      background-image: url("/modernroom.png"); 
+      margin-right: 0;
+      height: 80vh;
+    }
+  }
+
+  @media only screen and (min-width: 901px) and (max-width: 1023px) {
+    .section1 {
+      background: linear-gradient(to right, #5C755E, #78A67C); 
+      margin-right: 0;
+      height: 180vh;
+    }
+    .section2 {
+      background-image: url("/modernroom.png"); 
+      margin-right: 0;
+      height: 83vh;
+    }
+    .section3 {
+      background-image: url("/modernroom.png"); 
+      margin-right: 0;
+      height: 83vh;
+    }
+    .section4 {
+      background-image: url("/modernroom.png"); 
+      margin-right: 0;
+      height: 83vh;
+    }
+  }
+
+  @media only screen and (min-width: 1024px) and (max-width: 1200px) {
+    .section1 {
+      background: linear-gradient(to right, #5C755E, #78A67C); 
+      margin-right: 0;
+      height: 160vh;
+    }
+    .section2 {
+      background-image: url("/modernroom.png"); 
+      margin-right: 0;
+      height: 90vh;
+    }
+    .section3 {
+      background-image: url("/modernroom.png"); 
+      margin-right: 0;
+      height: 90vh;
+    }
+    .section4 {
+      background-image: url("/modernroom.png"); 
+      margin-right: 0;
+      height: 90vh;
+    }
+  }
+
+
   
-    @media only screen and (min-width: 601px) and (max-width: 768px) {
-      .section1 {
-        background: #dfd9d9;
-        margin-right: 0;
-        height: 120vh;
-      }
-      .section2 {
-        background-image: url("/modernroom.png"); 
-        margin-right: 0;
-        height: 83vh;
-      }
-      .section3 {
-        background-image: url("/modernroom.png"); 
-        margin-right: 0;
-        height: 83vh;
-      }
-      .section4 {
-        background-image: url("/modernroom.png"); 
-        margin-right: 0;
-        height: 83vh;
-      }
-    }
-  
-    @media only screen and (min-width: 769px) and (max-width: 900px) {
-      .section1 {
-        background: #dfd9d9;
-        margin-right: 0;
-        height: 100vh;
-      }
-      .section2 {
-        background-image: url("/modernroom.png"); 
-        margin-right: 0;
-        height: 80vh;
-      }
-      .section3 {
-        background-image: url("/modernroom.png"); 
-        margin-right: 0;
-        height: 80vh;
-      }
-      .section4 {
-        background-image: url("/modernroom.png"); 
-        margin-right: 0;
-        height: 80vh;
-      }
-    }
-  
-    @media only screen and (min-width: 901px) and (max-width: 1023px) {
-      .section1 {
-        background: #dfd9d9;
-        margin-right: 0;
-        height: 100vh;
-      }
-      .section2 {
-        background-image: url("/modernroom.png"); 
-        margin-right: 0;
-        height: 83vh;
-      }
-      .section3 {
-        background-image: url("/modernroom.png"); 
-        margin-right: 0;
-        height: 83vh;
-      }
-      .section4 {
-        background-image: url("/modernroom.png"); 
-        margin-right: 0;
-        height: 83vh;
-      }
-    }
-  
-    @media only screen and (min-width: 1024px) and (max-width: 1200px) {
-      .section1 {
-        background: #dfd9d9;
-        margin-right: 0;
-        height: 110vh;
-      }
-      .section2 {
-        background-image: url("/modernroom.png"); 
-        margin-right: 0;
-        height: 90vh;
-      }
-      .section3 {
-        background-image: url("/modernroom.png"); 
-        margin-right: 0;
-        height: 90vh;
-      }
-      .section4 {
-        background-image: url("/modernroom.png"); 
-        margin-right: 0;
-        height: 90vh;
-      }
-    }

@@ -1,7 +1,7 @@
 import React, { useCallback, useEffect } from 'react';
 import { ReactFlow,ReactFlowProvider, useNodesState, useEdgesState, addEdge, Background, Controls, useReactFlow } from 'reactflow';
 import 'reactflow/dist/style.css';
-import styles from './SecuritySafety.module.css';
+import styles from './Energy1.module.css';
 import { RiAlertFill } from "react-icons/ri";
 import { GiMovementSensor } from "react-icons/gi";
 import Image from 'next/image';
@@ -13,16 +13,16 @@ import { LuMoveDownRight } from "react-icons/lu";
 import Link from 'next/link';
 import { GrFormNext } from "react-icons/gr";
 
-const SecuritySafety = () => {
+const Energy1 = () => {
   return (
     // <div className="flex justify-center items-center">
     <div className={styles.divmain}>
         <div className={styles.autosmart}>
             <div>
-                <h1 className={styles.htext}>Security & Safety</h1>
+                <h1 className={styles.htext}>Energy Management Kit</h1>
             </div>
             <div>
-                <p className={styles.ptext}>Showcase features like Geo-Fencing to adjust settings when users leave or enter the home, and Event-Based Automation based on local alerts (e.g., adjusting for extreme weather).</p>
+                <p className={styles.ptext}>Show energy insights, including real-time power consumption and cost-saving tips, along with predictive usage trends based on time of day</p>
                 <Link  href="/product">
                 <div className={styles.buttoncontainer}>
                     <div className={styles.buttontext}>
@@ -34,7 +34,7 @@ const SecuritySafety = () => {
         </div>
         <div>
            <Image 
-                src='/mysafetykits.svg'
+                src='/variouskits.svg'
                 width={494}
                 height={273}
                 alt='kits'
@@ -45,4 +45,4 @@ const SecuritySafety = () => {
   );
 };
 
-export default SecuritySafety;
+export default Energy1;

@@ -20,6 +20,18 @@ function EnergyManagement() {
       link: 'View Energy Saving Tips',
       img: '/variouskits.svg'
     },
+    {
+      htext: 'Energy Management Kit 1',
+      ptext: 'Show energy insights, including real-time power consumption and cost-saving tips, along with predictive usage trends based on time of day.',
+      link: 'View Energy Efficiency Insights',
+      img: '/variouskits.svg'
+    },
+    {
+      htext: 'Energy Management Kit 2',
+      ptext: 'Provide insights on how to save energy in the household with real-time data.',
+      link: 'View Energy Saving Tips',
+      img: '/variouskits.svg'
+    },
   ];
 
   const handleIndicatorClick = (index) => {
