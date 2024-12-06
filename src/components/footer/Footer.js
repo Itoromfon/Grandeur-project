@@ -12,9 +12,9 @@ import Link from 'next/link';
 
 const Footer = () => {
   return (
-    <div className={styles.mains}>
-      <div>
-        <Image 
+    <div className={styles.main}>
+      <div className={styles.logo}>
+      <Image 
           src='/grandeurfooter.svg'
           alt='Grandeur smart Image'
           width={145}
@@ -22,108 +22,180 @@ const Footer = () => {
           className={styles.grandeur}
         />
       </div>
-    <div className={styles.main}>
-    {/* <div className={styles.main1}> */}
-    <div className={styles.quickstore}>
-       <div className={styles.quicklinkdiv}>
-        <h1 className={styles.quicklink}>QUICKLINKS</h1>
-        <p className={styles.quicklinktext1}><a href='#'>Blogs</a></p>
-        <p className={styles.quicklinktext2}>Documentation</p>
-        <p className={styles.quicklinktext3}>Integration</p>
-        <p className={styles.quicklinktext4}>Product</p>
-       </div>
-      {/* </div> */}
-      <div className={styles.storediv}>
-        <h1 className={styles.store}>STORE</h1>
-        <p className={styles.storetext1}>Buy grandeur Smart</p>
-        <p className={styles.storetext2}>Where to buy</p>
+    <div className={styles.mains}>
+      <div>
+        <div>
+          <h1 className='text-white text-[14px] font-bold tracking-widest'>QUICKLINKS</h1>
+        </div>
+        <div>
+          <p className='text-white text-[14px] tracking-widest'>Blog</p>
+        </div>
+        <div>
+          <p className='text-white text-[14px] tracking-widest'>Documentation</p>
+        </div>
+        <div>
+          <p className='text-white text-[14px] tracking-widest'>Integration</p>
+        </div>
+        <div>
+          <p className='text-white text-[14px] tracking-widest'>Product</p>
+        </div>
+      </div>
+      <div>
+        <div>
+        <h1 className='text-white text-[14px] font-bold tracking-widest'>STORE</h1>
+        </div>
+        <div>
+          <p className='text-white text-[14px] tracking-widest'>Buy Grandeur Smart</p>
+        </div>
+        <div>
+          <p className='text-white text-[14px] tracking-widest'>Where to buy</p>
+        </div>
+      </div>
+      <div>
+        <div>
+        <h1 className='text-white text-[14px] font-bold tracking-widest'>DEVELOPERS</h1>
+        </div>
+        <div>
+        <p className='text-white text-[14px] tracking-widest'>Get Started</p>
+        </div>
+        <div>
+        <p className='text-white text-[14px] tracking-widest'>Server Status</p>
+        </div>
+        <div>
+        <p className='text-white text-[14px] mt-4 font-bold tracking-widest'>PARTNERS</p>
+        </div>
+        <div>
+        <p className='text-white text-[14px] tracking-widest'>For Installers</p>
+        </div>
+        <div>
+        <p className='text-white text-[14px] tracking-widest'>For Manufacturers</p>
+        </div>
+        <div>
+        <p className='text-white text-[14px] tracking-widest'>For retailers</p>
+        </div>
+      </div>
+      <div>
+        <div>
+        <h1 className='text-white text-[14px] font-bold tracking-widest'>COMPANY</h1>
+        </div>
+        <div>
+        <p className='text-white text-[14px] tracking-widest'>Careers</p>
+        </div>
+        <div>
+        <p className='text-white text-[14px] tracking-widest'>Our Story</p>
+        </div>
+        <div>
+        <p className='text-white text-[14px] tracking-widest'>Support</p>
+        </div>
+        <div>
+        <p className='text-white text-[14px] tracking-widest'>Press</p>
+        </div>
+        <div>
+        <p className='text-white text-[14px] tracking-widest'>Contact</p>
+        </div>
+      </div>
+      <div>
+        <div>
+          <h1 className='text-white text-[14px] font-bold tracking-widest'>CONTACT</h1>
+        </div>
+        <div className='flex'>
+          <Image 
+            src='/grlocate.svg'
+            width={24}
+            height={24}
+            alt='Location'
+            className='mt-[-25px] mr-2'
+          />
+        <p className='flex tracking-wide text-white w-[241px] text-[14px]'>315 Herbert Macaulay Way, Yaba, Lagos 100001 Nigeria.</p>
+        </div>
+        <div className='flex'>
+          <Image 
+            src='/footercall.svg'
+            width={22}
+            height={22}
+            alt='Footer call'
+            className='mt-[-18px] mr-2'
+          />
+          <p className='flex tracking-widest text-white w-[241px] text-[14px]'>+234 813 997 2473</p>
+        </div>
+        <div className='flex'>
+          <Image 
+            src='/footermail.svg'
+            width={20}
+            height={16}
+            alt='Mail'
+            className='mt-[-15px] mr-2'
+          />
+          <p className='flex tracking-widest text-white w-[241px] text-[14px]'>info@grandeursmart.com</p>
+        </div>
+      </div>
+      <div>
+        <div>
+          <h1 className='text-white text-[14px] font-bold tracking-widest'>SOCIAL LINKS</h1>
+        </div>
+        <div className='flex gap-2 mt-2'>
+          <div className='bg-white w-[31px] h-[31px] rounded-full'>
+            <Image 
+              src='/footerfacebook.svg'
+              width={19}
+              height={10}
+              alt='Facebook'
+              className='mx-auto pt-[5px]'
+            />
+          </div>
+          <div className='bg-white w-[31px] h-[31px] rounded-full'>
+            <Image 
+              src='/footerlinkedin.svg'
+              width={15}
+              height={15}
+              alt='Facebook'
+              className='mx-auto pt-[5px]'
+            />
+          </div>
+          <div className='bg-white w-[31px] h-[31px] rounded-full'>
+            <Image 
+              src='/footerinstagram.svg'
+              width={20}
+              height={22}
+              alt='Facebook'
+              className='mx-auto pt-[5px]'
+            />
+          </div>
+          <div className='bg-white w-[31px] h-[31px] rounded-full'>
+            <Image 
+              src='/footertwitter.svg'
+              width={20}
+              height={20}
+              alt='Facebook'
+              className='mx-auto pt-[5px]'
+            />
+          </div>
+        </div>
+        <div className='flex gap-2 mt-[17px]'>
+          <div>
+            <Image 
+              src='/appstorefooter.svg.svg'
+              width={119}
+              height={35}
+              alt='AppStore'
+            />
+          </div>
+          <div>
+            <Image 
+              src='/googlestorefooter.svg'
+              width={119}
+              height={35}
+              alt='AppStore'
+            />
+          </div>
+        </div>
       </div>
     </div>
-    <div className={styles.developercompany}>
-      <div className={styles.main2}>
-      <div className={styles.developerdiv}>
-        <h1 className={styles.developer}>DEVELOPERS</h1>
-        <p className={styles.developertext1}>Get Started</p>
-        <p className={styles.developertext2}>Server Status</p>
-      </div>
-      <div className={styles.partnerdiv}>
-        <h1 className={styles.partner}>PARTNERS</h1>
-        <p className={styles.partnertext1}>For Installers</p>
-        <p className={styles.partnertext2}>For Manufacturers</p>
-        <p className={styles.partnertext3}>For Retailers</p>
-      </div>
-      </div>
-        <div className={styles.companydiv}>
-          <h1 className={styles.company}>COMPANY</h1>
-          <p className={styles.companytext1}>Careers</p>
-          <p className={styles.companytext2}>Our Story</p>
-          <p className={styles.companytext3}>Support</p>
-          <p className={styles.companytext4}>Press</p>
-          <p className={styles.companytext5}>Contact</p>
-        </div>
-        </div>
-        <div className={styles.contactdiv}>
-          <h1 className={styles.contact}>
-            Contact
-          </h1>
-          <p 
-            className={styles.contacttext1}
-          >
-          <GrLocation className={styles.location} />
-            315 Herbert Macaulay Way, Yaba,<br /> Lagos 100001, Nigeria.
-          </p>
-          <p 
-            className={styles.contacttext2}
-          >
-            <FaPhone className={styles.phone} />
-            +234 813 997 2473
-          </p>
-        <p 
-          className={styles.contacttext3}
-        >
-        <MdOutlineEmail className={styles.mail} />
-          info@grandeursmart.com
-        </p>
-        </div>
-        <div className={styles.socials}>
-          <h1 className={styles.sociallinks}>SOCIAL LINKS</h1>
-          <div className={styles.socialdiv}>
-            <div className={styles.facebookdiv}>
-              <Link href='#' prefetch={true}><FaFacebookF className={styles.facebook} /></Link>
-            </div>
-            <div className={styles.linkedindiv}>
-              <Link href='#' prefetch={true}><FaLinkedinIn className={styles.linkedin} /></Link>
-            </div>
-            <div className={styles.instagramdiv}>
-              <Link href='#' prefetch={true}><FaSquareInstagram className={styles.instagram} /></Link>
-            </div>
-            <div className={styles.twitterdiv}>
-              <Link href='#' prefetch={true}><FaSquareXTwitter className={styles.twitter} /></Link>
-            </div>
-          </div>
-          <div className={styles.play}>
-            <Image 
-              src='/appstore.svg'
-              alt='App Store'
-              width={119}
-              height={35}
-              className={styles.appstore}
-            />
-            <Image 
-              src='/googlestore.svg'
-              alt='Google Play'
-              width={119}
-              height={35}
-              className={styles.googlestore}
-            />
-          </div>
-        </div>
-      </div>
-      <div className={styles.hr}></div>
-      <div>
-        <p className={styles.copyright}>© Website 2024 All Right Reserved.</p>
-      </div>
-      </div>
+    <div className='mx-auto w-[90%] h-[1px] bg-white'></div>
+    <div className='flex justify-center mt-4 tracking-widest'>
+      <p className='text-white text-[13px]'>© Website 2024 All Right Reserved.</p>
+    </div>
+    </div>
   )
 }
 
