@@ -251,7 +251,7 @@ function Gateway() {
             </div>
         </div>
         </div> */}
-        <div>
+        <div className={styles.main2}>
             <div className={styles.mybackground6}>
             <div className={styles.mybackground5}>
             <div className={styles.mybackground4}>

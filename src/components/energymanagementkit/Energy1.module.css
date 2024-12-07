@@ -737,6 +737,18 @@
     .divmain {
         flex-direction: column;
         align-items: center;
+        border-radius: 20px;
+        padding: 50px 10px;
+    }
+
+    .htext {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .ptext {
+        width: 330px;
+        text-align: center;
     }
 
     .divmain2 {
@@ -919,6 +931,11 @@
     .alert2 {
         margin: 10px auto;
         flex-direction: column;
+      }
+
+      .buttontext {
+        display: flex;
+        justify-content: center;
       }
 }
 
@@ -930,6 +947,18 @@
     .divmain {
         flex-direction: column;
         align-items: center;
+        border-radius: 20px;
+        padding: 50px 10px;
+    }
+
+    .htext {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .ptext {
+        width: 330px;
+        text-align: center;
     }
 
     .divmain2 {
@@ -1112,6 +1141,11 @@
     .alert2 {
         margin: 10px auto;
         flex-direction: column;
+      }
+
+      .buttontext {
+        display: flex;
+        justify-content: center;
       }
 }
 
@@ -1126,6 +1160,18 @@
     .divmain {
         flex-direction: column;
         align-items: center;
+        border-radius: 20px;
+        padding: 40px 10px;
+    }
+
+    .htext {
+        font-size: 21px;
+        text-align: center;
+    }
+
+    .ptext {
+        width: 360px;
+        text-align: center;
     }
 
     .divmain2 {
@@ -1308,6 +1354,11 @@
     .alert2 {
         margin: 10px auto;
         flex-direction: column;
+      }
+
+      .buttontext {
+        display: flex;
+        justify-content: center;
       }
 }
 
@@ -1319,6 +1370,19 @@
     .divmain {
         flex-direction: column;
         align-items: center;
+        border-radius: 20px;
+        padding: 40px 10px;
+    }
+
+    .htext {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .ptext {
+        width: 400px;
+        text-align: center;
+        font-size: 17px;
     }
 
     .divmain2 {
@@ -1417,27 +1481,19 @@
         margin: auto;
     }
 
-    .ptext2 {
-        font-size: 16px;
-    }
-
-    .ptext1 {
-        font-size: 16px;
-    }
-
 
     .ptext3 {
         margin-top: 15px;
-        font-size: 16px;
+        font-size: 15px;
     }
 
     .ptext4 {
-        font-size: 16px;
+        font-size: 15px;
         margin-top: 20px;
     }
 
     .ptext5 {
-        font-size: 16px;
+        font-size: 15px;
     }
 
     
@@ -1454,19 +1510,19 @@
 
     .div3 {
         margin: auto;
-        width: 280px;
+        width: 270px;
     }
 
     .div4 {
         display: flex;
         margin: auto;
-        width: 280px;
+        width: 270px;
     }
 
     .div5 {
         display: flex;
         margin: auto;
-        width: 280px;
+        width: 270px;
     }
 
     .alertmain {
@@ -1488,7 +1544,7 @@
     }
   
     .alertp1 {
-        font-size: 18px;
+        font-size: 17px;
         text-align: center;
     }
 
@@ -1498,7 +1554,7 @@
     }
   
     .alertp2 {
-        font-size: 18px;
+        font-size: 17px;
         text-align: center;
     }
   
@@ -1509,6 +1565,11 @@
     .alert2 {
         margin: 10px auto;
         flex-direction: column;
+      }
+
+      .buttontext {
+        display: flex;
+        justify-content: center;
       }
 }
 
@@ -1521,6 +1582,19 @@
     .divmain {
         flex-direction: column;
         align-items: center;
+        border-radius: 20px;
+        padding: 40px 10px;
+    }
+
+    .htext {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .ptext {
+        width: 420px;
+        text-align: center;
+        font-size: 18px;
     }
 
     .divmain2 {
@@ -1619,27 +1693,19 @@
         margin: auto;
     }
 
-    .ptext2 {
-        font-size: 16px;
-    }
-
-    .ptext1 {
-        font-size: 16px;
-    }
-
 
     .ptext3 {
         margin-top: 15px;
-        font-size: 16px;
+        font-size: 15px;
     }
 
     .ptext4 {
-        font-size: 16px;
+        font-size: 15px;
         margin-top: 20px;
     }
 
     .ptext5 {
-        font-size: 16px;
+        font-size: 15px;
     }
 
     
@@ -1656,19 +1722,19 @@
 
     .div3 {
         margin: auto;
-        width: 280px;
+        width: 270px;
     }
 
     .div4 {
         display: flex;
         margin: auto;
-        width: 280px;
+        width: 270px;
     }
 
     .div5 {
         display: flex;
         margin: auto;
-        width: 280px;
+        width: 270px;
     }
 
     .alertmain {
@@ -1690,19 +1756,17 @@
     }
   
     .alertp1 {
-        font-size: 18px;
+        font-size: 17px;
         text-align: center;
     }
 
     .alerth2 {
-        font-size: 24px;
         text-align: center;
         margin-top: 10px;
     }
   
     .alertp2 {
-        font-size: 24px;
-        font-size: 18px;
+        font-size: 17px;
         text-align: center;
     }
   
@@ -1713,6 +1777,11 @@
     .alert2 {
         margin: 10px auto;
         flex-direction: column;
+      }
+
+      .buttontext {
+        display: flex;
+        justify-content: center;
       }
 }
 
@@ -1728,6 +1797,19 @@
     .divmain {
         flex-direction: column;
         align-items: center;
+        border-radius: 20px;
+        padding: 40px 10px;
+    }
+
+    .htext {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .ptext {
+        width: 450px;
+        text-align: center;
+        font-size: 19px;
     }
 
     .divmain2 {
@@ -1826,27 +1908,19 @@
         margin: auto;
     }
 
-    .ptext2 {
-        font-size: 16px;
-    }
-
-    .ptext1 {
-        font-size: 16px;
-    }
-
 
     .ptext3 {
         margin-top: 15px;
-        font-size: 16px;
+        font-size: 15px;
     }
 
     .ptext4 {
-        font-size: 16px;
+        font-size: 15px;
         margin-top: 20px;
     }
 
     .ptext5 {
-        font-size: 16px;
+        font-size: 15px;
     }
 
     
@@ -1863,19 +1937,19 @@
 
     .div3 {
         margin: auto;
-        width: 280px;
+        width: 270px;
     }
 
     .div4 {
         display: flex;
         margin: auto;
-        width: 280px;
+        width: 270px;
     }
 
     .div5 {
         display: flex;
         margin: auto;
-        width: 280px;
+        width: 270px;
     }
 
     .alertmain {
@@ -1897,19 +1971,17 @@
     }
   
     .alertp1 {
-        font-size: 18px;
+        font-size: 17px;
         text-align: center;
     }
 
     .alerth2 {
-        font-size: 24px;
         text-align: center;
         margin-top: 10px;
     }
   
     .alertp2 {
-        font-size: 24px;
-        font-size: 18px;
+        font-size: 17px;
         text-align: center;
     }
   
@@ -1920,5 +1992,10 @@
     .alert2 {
         margin: 10px auto;
         flex-direction: column;
+      }
+
+      .buttontext {
+        display: flex;
+        justify-content: center;
       }
 }

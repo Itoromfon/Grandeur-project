@@ -15,8 +15,8 @@
     background-size: cover;
     background-position: center;
     color: white; /* Set text color to white */
-    height: 40vh;
-    margin-bottom: 90px;
+    height: 50vh;
+    margin-bottom: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -125,8 +125,9 @@
     .section1 {
       background: linear-gradient(to right, #5C755E, #78A67C); 
       margin-right: 0;
-      height: 260vh;
-      padding: 60px 0;
+      height: 50vh;
+      padding: 20px 10px 0 10px;
+      margin-bottom: 50px;
     }
     .section2 {
       background-image: url("/modernroom.png"); 
@@ -149,9 +150,9 @@
     .section1 {
       background: linear-gradient(to right, #5C755E, #78A67C); 
       margin-right: 0;
-      height: 190vh;
-      padding: 60px 0;
-      
+      height: 38vh;
+      padding: 20px 10px 0 10px;
+      margin-bottom: 55px;
     }
     .section2 {
       background-image: url("/modernroom.png"); 
@@ -172,11 +173,13 @@
 
   @media only screen and (min-width: 481px) and (max-width: 600px) {
     .section1 {
-      background: linear-gradient(to right, #5C755E, #78A67C);  
+      background: linear-gradient(to right, #5C755E, #78A67C); 
       margin-right: 0;
-      height: 250vh;
-      padding: 60px 0;
+      height: 49vh;
+      padding: 20px 20px 0 20px;
+      margin-bottom: 90px;
     }
+
     .section2 {
       background-image: url("/modernroom.png"); 
       margin-right: 0;
@@ -198,9 +201,11 @@
     .section1 {
       background: linear-gradient(to right, #5C755E, #78A67C); 
       margin-right: 0;
-      height: 200vh;
-      padding: 60px 0;
+      height: 35vh;
+      padding: 20px 20px 0 20px;
+      margin-bottom: 90px;
     }
+
     .section2 {
       background: linear-gradient(to right, #5C755E, #78A67C); 
       margin-right: 0;
@@ -222,8 +227,11 @@
     .section1 {
       background: linear-gradient(to right, #5C755E, #78A67C); 
       margin-right: 0;
-      height: 180vh;
+      height: 32vh;
+      padding: 20px 20px 0 20px;
+      margin-bottom: 70px;
     }
+
     .section2 {
       background-image: url("/modernroom.png"); 
       margin-right: 0;
@@ -245,8 +253,11 @@
     .section1 {
       background: linear-gradient(to right, #5C755E, #78A67C); 
       margin-right: 0;
-      height: 180vh;
+      height: 43vh;
+      padding: 20px 20px 0 20px;
+      margin-bottom: 150px;
     }
+
     .section2 {
       background-image: url("/modernroom.png"); 
       margin-right: 0;
@@ -268,8 +279,11 @@
     .section1 {
       background: linear-gradient(to right, #5C755E, #78A67C); 
       margin-right: 0;
-      height: 160vh;
+      height: 32vh;
+      padding: 20px 20px 0 20px;
+      margin-bottom: 70px;
     }
+
     .section2 {
       background-image: url("/modernroom.png"); 
       margin-right: 0;
