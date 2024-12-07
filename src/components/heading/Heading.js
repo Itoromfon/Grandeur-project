@@ -34,21 +34,26 @@ function Heading() {
                 ut aliquip ex ea commodo consequat. Duis autem
             </p>
         </div>
-        <div>
+        <div className='mobile-320-400:flex flex-col'>
             <div>
                 <h1 className={styles.activateh1}>Activate Routine</h1>
             </div>
             <div className={styles.maindiv}>
-            <div>
-            {/* <button
-            onClick={toggleButton}
-            className={styles.buttontoggle}
-            >
-            <FontAwesomeIcon
-                icon={isOn ? faToggleOn : faToggleOff} // Show different icons based on state
-                color={isOn ? '#4CAF50' : '#c4c4c6'}  // Green for "on", Red for "off"
-            />
-            </button> */}
+            <div 
+            className='
+            mobile-320-400:flex
+            mobile-320-400:justify-center
+            mobile-401-480:flex
+            mobile-401-480:justify-center
+            mobile-481-600:flex
+            mobile-481-600:justify-center
+            mobile-601-768:flex
+            mobile-601-768:justify-center
+            mobile-769-900:flex
+            mobile-769-900:justify-center
+            mobile-901-1200:flex
+            mobile-901-1200:justify-center
+            '>
             <Image 
                 src='/smalltoggle2.svg'
                 alt='Small Toggle'

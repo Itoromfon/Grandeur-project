@@ -163,6 +163,7 @@
     .video {
     /* width: 100%; */
     max-width: 345px;
+    height: 350px;
     border-radius: 15px;
     }
 
@@ -229,7 +230,8 @@
       
     .video {
     /* width: 100%; */
-    max-width: 360px;
+    max-width: 375px;
+    height: 350px;
     border-radius: 15px;
     }
 
@@ -303,7 +305,8 @@
       
       .video {
         /* width: 100%; */
-        max-width: 390px;
+        max-width: 395px;
+        height: 355px;
         border-radius: 15px;
       }
 
@@ -378,6 +381,7 @@
       .video {
         /* width: 100%; */
         max-width: 410px;
+        height: 375px;
         border-radius: 15px;
       }
 

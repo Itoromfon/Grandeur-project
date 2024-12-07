@@ -264,6 +264,7 @@
     .htext {
         font-size: 22px;
         width: 304px;
+        flex-direction: column;
     }
 
     .htextdiv {
