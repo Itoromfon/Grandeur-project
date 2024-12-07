@@ -710,6 +710,7 @@
     .main {
         flex-direction: column;
         padding: 80px 50px;
+        margin-top: 160px;
     }
 
     .main2 {
@@ -890,6 +891,7 @@
     .main {
         flex-direction: column;
         padding: 80px 50px;
+        margin-top: 220px;
     }
 
     .main2 {
@@ -1070,6 +1072,7 @@
     .main {
         flex-direction: column;
         padding: 80px 50px;
+        margin-top: 220px;
     }
 
     .main2 {
@@ -1248,6 +1251,7 @@
     .main {
         flex-direction: column;
         padding: 80px 50px;
+        margin-top: 220px;
     }
 
     .main2 {
@@ -1425,6 +1429,7 @@
     .main {
         flex-direction: column;
         padding: 80px 50px;
+        margin-top: 220px;
     }
 
     .main2 {

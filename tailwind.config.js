@@ -7,6 +7,14 @@ module.exports = {
   ],
   theme: {
   	extend: {
+		screens: {
+			'mobile-320-400': { min: '320px', max: '400px' }, 
+			'mobile-401-480': { min: '401px', max: '480px' }, 
+			'mobile-481-600': { min: '481px', max: '600px' }, 
+			'mobile-601-768': { min: '601px', max: '768px' }, 
+			'mobile-769-900': { min: '769px', max: '900px' }, 
+			'mobile-901-1200': { min: '901px', max: '1200px' },
+		},
 		fontFamily: {
 			custom: ['Arial', 'Helvetica', 'sans-serif'], // Add your font stack
 		  },

@@ -82,10 +82,9 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding: 50px 50px;
+        padding: 50px 45px;
         background: linear-gradient(to right, #5C755E, #78AC76);
         margin-top: 720px;
-        
     }
 
     .mainmobile2 {

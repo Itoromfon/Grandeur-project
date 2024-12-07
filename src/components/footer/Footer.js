@@ -385,7 +385,7 @@ const Footer = () => {
     </div>
     <div className='mx-auto mt-5 w-[90%] h-[1px] bg-white'></div>
     <div className='flex justify-center mt-4 tracking-widest'>
-      <p className='text-white text-[14px]'>© Website 2024 All Right Reserved.</p>
+      <p className='text-white text-center flex justify-center item-center text-[14px]'>© Website 2024 All Right Reserved.</p>
     </div>
     </div>
     </div>

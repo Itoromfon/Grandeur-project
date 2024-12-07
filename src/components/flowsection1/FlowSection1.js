@@ -7,8 +7,29 @@ import { GiSelfLove } from "react-icons/gi";
 function FlowSection1() {
   return (
     <div className={styles.maindiv}>
-        <div className='flex justify-center items-center'>
-            <div className='z-10 ml-[-150px]'>
+        <div 
+            className='
+                flex 
+                justify-center 
+                items-center
+                mobile-320-400:flex-col
+                mobile-401-480:flex-col
+                mobile-481-600:flex-col
+                mobile-601-768:flex-col
+                mobile-769-900:flex-col
+                mobile-901-1200:flex-col
+            '>
+            <div 
+                className='
+                    z-10 
+                    ml-[-150px]
+                    mobile-320-400:ml-0
+                    mobile-401-480:ml-0
+                    mobile-481-600:ml-0
+                    mobile-601-768:ml-0
+                    mobile-769-900:ml-0
+                    mobile-901-1200:ml-0
+                    '>
                 <Image 
                     src='/mysecuremode.svg'
                     width={573}
@@ -16,23 +37,82 @@ function FlowSection1() {
                     alt='Security'
                 />
             </div>
-            <div className='ml-[-50px]'>
+            <div 
+                className='
+                    ml-[-50px]
+                    mobile-320-400:ml-0
+                    mobile-401-480:ml-0
+                    mobile-481-600:ml-0
+                    mobile-601-768:ml-0
+                    mobile-769-900:ml-0
+                    mobile-901-1200:ml-0
+                '>
                 <Image 
                     src='/mysecurearrow.svg'
                     width={399}
                     height={87}
                     alt='Security'
+                    className='
+                    ml-0
+                    mobile-320-400:hidden
+                    mobile-401-480:hidden
+                    mobile-481-600:hidden
+                    mobile-601-768:hidden
+                    mobile-769-900:hidden
+                    mobile-901-1200:hidden'
                 />
             </div>
         </div>
-    <div className='flex justify-center ml-[500px] mt-[-140px]'>
-        <div className='ml-[20px] mt-4'>
+    <div 
+        className='
+            flex 
+            justify-center 
+            ml-[500px] 
+            mt-[-147px]
+            mobile-320-400:flex-col 
+            mobile-320-400:ml-0 
+            mobile-320-400:mt-[-55px] 
+            mobile-401-480:flex-col
+            mobile-401-480:ml-0 
+            mobile-401-480:mt-[-55px] 
+            mobile-481-600:flex-col
+            mobile-481-600:ml-0 
+            mobile-481-600:mt-[-55px] 
+            mobile-601-768:flex-col
+            mobile-601-768:ml-0
+            mobile-601-768:mt-[-55px] 
+            mobile-769-900:flex-col
+            mobile-769-900:ml-0 
+            mobile-769-900:mt-[-55px] 
+            mobile-901-1200:flex-col
+            mobile-901-1200:ml-0
+            mobile-901-1200:mt-[-55px] 
+        '>
+        <div 
+            className='
+                ml-[20px] 
+                mt-1 
+                mobile-320-400:flex
+                mobile-320-400:justify-center
+                mobile-401-480:flex
+                mobile-401-480:justify-center
+                mobile-481-600:flex
+                mobile-481-600:justify-center
+                mobile-601-768:flex
+                mobile-601-768:justify-center
+                mobile-769-900:flex
+                mobile-769-900:justify-center
+                mobile-901-1200:flex
+                mobile-901-1200:justify-center
+                '>
             <Image 
                 src='/healthair.svg'
                 alt='Flow'
                 width={135}
                 height={174}
-                
+                className='
+                    mt-5   
+                '
                 // className={styles.seenflowimg2}
             />
         </div>
@@ -40,13 +120,25 @@ function FlowSection1() {
             <Image 
                 src='/myhealthqq.svg'
                 alt='Flow'
-                width={465}
+                width={543}
                 height={217}
                 // className={styles.seenflowimg2}
             />
         </div>
     </div>
-    <div className='flex justify-center mt-[-44px] ml-[130px]'>
+    <div 
+        className='
+            flex 
+            justify-center 
+            mt-[-50px] 
+            ml-[130px]
+            mobile-320-400:hidden
+            mobile-401-480:hidden
+            mobile-481-600:hidden
+            mobile-601-768:hidden
+            mobile-769-900:hidden
+            mobile-901-1200:hidden
+        '>
         <Image 
             src='/smallflowarrow2.svg'
             width={648}
@@ -54,11 +146,39 @@ function FlowSection1() {
             alt='Arrow two'
         />
     </div>
-    <div className='flex justify-center items-center mt-[-38px]'>
-        <div className='z-10 ml-[-470px]'>
+    <div 
+        className='
+            flex 
+            justify-center 
+            items-center 
+            mt-[-43px]
+            mobile-320-400:flex-col
+            mobile-401-480:flex-col
+            mobile-481-600:flex-col
+            mobile-601-768:flex-col
+            mobile-769-900:flex-col
+            mobile-901-1200:flex-col
+        '>
+        <div 
+            className='
+                z-10 
+                ml-[-470px]
+                mobile-320-400:flex-col
+                mobile-320-400:ml-0
+                mobile-401-480:flex-col
+                mobile-401-480:ml-0
+                mobile-481-600:flex-col
+                mobile-481-600:ml-0
+                mobile-601-768:flex-col
+                mobile-601-768:ml-0
+                mobile-769-900:flex-col
+                mobile-769-900:ml-0
+                mobile-901-1200:flex-col
+                mobile-901-1200:ml-0
+                '>
             <Image 
                 src='/myairbnbqq.svg'
-                width={465}
+                width={543}
                 height={217}
                 alt='Airbnb Smart'
             />
@@ -69,7 +189,15 @@ function FlowSection1() {
                 alt='Flow'
                 width={178}
                 height={210}
-                className='ml-[-50px]'
+                className='
+                    ml-[-50px]
+                    mobile-320-400:ml-0
+                    mobile-401-480:ml-0
+                    mobile-481-600:ml-0
+                    mobile-601-768:ml-0
+                    mobile-769-900:ml-0
+                    mobile-901-1200:ml-0
+                '
                 // className={styles.seenflowimg3}
             />
         </div>
