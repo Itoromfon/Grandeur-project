@@ -25,349 +25,18 @@
     height: 63px;
 }
 
-.quickstore {
-    display: flex;
-}
-
-.quicklink {
-    font-weight: bold;
-    color: #FFFFFF;
-    font-size: 17px;
-    /* margin-bottom: 10px; */
-    /* margin-top: 10px; */
-    letter-spacing: 1px;
-}
-
-.quicklinktext1 {
-    color: #FFFFFF;
-    font-size: 16px;
-    /* margin-bottom: 0; */
-    letter-spacing: 1px;
-}
-
-.quicklinktext2 {
-    color: #FFFFFF;
-    font-size: 16px;
-    /* margin: 5px 0; */
-    letter-spacing: 1px;
-}
-
-.quicklinktext3 {
-    color: #FFFFFF;
-    font-size: 16px;
-    /* margin: 5px 0; */
-    letter-spacing: 1px;
-}
-
-.quicklinktext4 {
-    color: #FFFFFF;
-    font-size: 16px;
-    letter-spacing: 1px;
-}
-
-.storediv {
-    /* margin-top: 63px; */
-    margin-left: 30px;
-}
-
-.store {
-    color: #FFFFFF;
-    font-size: 17px;
-    font-weight: bold;
-    letter-spacing: 1px;
-    /* margin: 10px 0; */
-}
-
-.storetext1 {
-    font-size: 16px;
-    letter-spacing: 1px;
-    color: #FFFFFF;
-    /* margin: 5px 0 0 0; */
-}
-
-.storetext2 {
-    font-size: 16px;
-    letter-spacing: 1px;
-    color: #FFFFFF;
-}
-
-/* .developerdiv {
-    margin-top: 50px;
-} */
-
-.developercompany {
-    display: flex;
-}
-
-/* .main2 {
-    margin-top: 72px;
-    margin-left: 60px; 
-} */
-
-.developer {
-    font-size: 17px;
-    font-weight: bold;
-    letter-spacing: 1px;
-    color: #FFFFFF;
-    /* margin-bottom: 10px; */
-}
-
-.developertext1 {
-    font-size: 16px;
-    letter-spacing: 1px;
-    color: #FFFFFF;
-    /* margin: 5px 0; */
-}
-
-.developertext2 {
-    font-size: 16px;
-    letter-spacing: 1px;
-    color: #FFFFFF;
-}
-
-.partner {
-    color: #FFFFFF;
-    font-size: 17px;
-    letter-spacing: 1px;
-    /* margin-top: 10px; */
-    font-weight: bold;
-}
-
-.partnertext1 {
-    color: #FFFFFF;
-    font-size: 16px;
-    letter-spacing: 1px;
-    /* margin: 5px 0; */
-}
-
-.partnertext2 {
-    color: #FFFFFF;
-    font-size: 16px;
-    letter-spacing: 1px;
-    /* margin: 5px 0; */
-}
-
-.partnertext3 {
-    color: #FFFFFF;
-    font-size: 16px;
-    letter-spacing: 1px;
-}
-
-.companydiv {
-    margin-left: 30px;
-    /* margin-top: 70px; */
-}
-
-.company {
-    font-size: 17px;
-    letter-spacing: 1px;
-    font-weight: bold;
-    color: #FFFFFF;
-    /* margin-bottom: 10px; */
-}
-
-.companytext1 {
-    font-size: 16px;
-    letter-spacing: 1px;
-    color: #FFFFFF;
-}
-
-.companytext2 {
-    font-size: 16px;
-    letter-spacing: 1px;
-    color: #FFFFFF;
-    /* margin: 5px 0; */
-}
-
-.companytext3 {
-    font-size: 16px;
-    letter-spacing: 1px;
-    color: #FFFFFF;
-    /* margin: 5px 0; */
-}
-
-.companytext4 {
-    font-size: 16px;
-    letter-spacing: 1px;
-    color: #FFFFFF;
-    /* margin: 5px 0; */
-}
-
-.companytext5 {
-    font-size: 16px;
-    letter-spacing: 1px;
-    color: #FFFFFF;
-}
-
-.contactdiv {
-    /* margin-top: 71px;
-    margin-left: 50px; */
-}
-
-.contact {
-    font-size: 17px;
-    letter-spacing: 1px;
-    color: #FFFFFF;
-    font-weight: bold;
-    /* margin-bottom: 10px; */
-}
-
-.contacttext1 {
-    font-size: 16px;
-    letter-spacing: 1px;
-    color: #FFFFFF;
-    display: flex;
-    gap: 5px;
-}
-
-.contacttext2 {
-    font-size: 16px;
-    letter-spacing: 1px;
-    color: #FFFFFF;
-    /* margin: 5px 0; */
-    display: flex;
-    gap: 5px;
-}
-
-.contacttext3 {
-    font-size: 16px;
-    letter-spacing: 1px;
-    color: #FFFFFF;
-    display: flex;
-    gap: 5px;
-}
-
-.location {
-    color: #FFFFFF;
-    font-size: 30px;
-}
-
-.phone {
-    color: #FFFFFF;
-    font-size: 25px;
-}
-
-.mail {
-    color: #FFFFFF;
-    font-size: 20px;
-}
-
-.facebook {
-    font-size: 20px;
-    color: #FFFFFF;
-    /* margin-right: 1px;
-    margin-top: 3px; */
-    transition: color 0.5s ease;
-}
-
-.facebookdiv {
-    transition: background-color 0.5s ease;
-}
-
-.facebookdiv:hover, .facebook:hover {
-    color: #a6a5a5;
-}
-
-.linkedin {
-    font-size: 20px;
-    color: #FFFFFF;
-    /* margin-top: 2px; */
-    transition: color 0.5s ease;
-}
-
-.linkedindiv {
-    transition: background-color 0.5s ease;
-}
-
-.linkedindiv:hover, .linkedin:hover {
-    color: #a6a5a5;
-}
-
-.instagram {
-    font-size: 20px;
-    color: #FFFFFF;
-    /* margin-top: 2px; */
-    transition: color 0.5s ease;
-}
-
-.instagramdiv {
-    transition: background-color 0.5s ease;
-}
-
-.instagramdiv:hover, .instagram:hover {
-    color: #a6a5a5;
-}
-
-.twitter {
-    font-size: 20px;
-    color: #FFFFFF;
-    /* margin-top: 2px; */
-    transition: color 1s ease;
-}
-
-.twitterdiv {
-    transition: background-color 0.5s ease;
-}
-
-.twitterdiv:hover, .twitter:hover {
-    color: #a6a5a5;
-}
-
-/* .socials {
-    margin-left: 30px;
-} */
-
-.sociallinks {
-    font-size: 18px;
-    color: #FFFFFF;
-    /* margin-top: 70px; */
-    font-weight: bold;
-    /* margin-bottom: 10px; */
-}
-
-.socialdiv {
-    display: flex;
-    gap: 15px;
-    margin-bottom: 20px;
-}
-
-.play {
-    display: flex;
-    /* margin-top: 10px; */
-    /* margin-left: -10px; */
-}
-
-.appstore {
-    border-radius: 5px;
-    margin-right: 5px;
-    width: 110px;
-    height: 40px;
-}
-
-.googlestore {
-    border-radius: 5px;
-    width: 110px;
-    height: 40px;
-}
-
-.hr {
-    width: 100%;
-    height: 1px;
-    background-color: #FFFFFF;
-}
-
-.copyright {
-    color: #FFFFFF;
-    text-align: center;
-    font-size: 14px;
-    margin-top: 20px;
-    letter-spacing: 1px;
+.mainmobile {
+    display: none;
 }
 
 
 @media only screen and (min-width: 1201px) and (max-width: 1800px) {
     .logo {
         margin-left: 20px;
+    }
+
+    .mainmobile {
+        display: none;
     }
 }
 
@@ -377,11 +46,19 @@
     .logo {
         margin-left: 20px;
     }
+
+    .mainmobile {
+        display: none;
+    }
 }
 
 @media only screen and (min-width: 2701px) and (max-width: 3500px) {
     .logo {
         margin-left: 20px;
+    }
+
+    .mainmobile {
+        display: none;
     }
 }
 
@@ -389,1602 +66,307 @@
     .logo {
         margin-left: 20px;
     }
+
+    .mainmobile {
+        display: none;
+    }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media only screen and (min-width: 320px) and (max-width: 480px) {
+@media only screen and (min-width: 320px) and (max-width: 400px) {
     .main {
-        flex-direction: column;
+        display: none;
     }
 
-    .grandeur {
-        margin: auto;
-        width: 170px;
-        height: 70px;
-        margin-bottom: 20px;
-    }
-
-    .quickstore {
-        display: flex;
-        justify-content: center; 
-        gap: 30px;
-        margin-left: 0;
-    }
-
-    .quicklinkdiv {
+    .mainmobile {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        margin-left: 15px;
-        /* text-align: center; */
+        align-items: center;
+        padding: 50px 50px;
+        background: linear-gradient(to right, #5C755E, #78AC76);
+        margin-top: 720px;
+        
     }
 
-    .quicklink {
-        margin-top: 20px;
-        font-size: 20px;
-        letter-spacing: 1px;
-        margin-bottom: 20px;
-    }
-
-    .quicklinktext1 {
-        font-size: 20px;
-        /* margin-bottom: 0; */
-        letter-spacing: 1px;
-    }
-
-    .quicklinktext2 {
-        font-size: 20px;
-        letter-spacing: 1px;
-    }
-
-    .quicklinktext3 {
-        font-size: 20px;
-        letter-spacing: 1px;
-    }
-
-    .quicklinktext4 {
-        font-size: 20px;
-        letter-spacing: 1px;
-    }
-
-    .store {
-        margin-top: 20px;
-        font-size: 20px;
-        letter-spacing: 1px;
-    }
-
-    .storetext1 {
-        font-size: 20px;
-        letter-spacing: 1px;
-    }
-
-    .storetext2 {
-        font-size: 20px;
-        margin-bottom: 0;
-        letter-spacing: 1px;
-    }
-
-    .storediv {
+    .mainmobile2 {
         display: flex;
-        flex-direction: column;
-        /* text-align: center; */
-        margin-left: 0;
+        gap: 50px;
     }
 
-    .developercompany {
+    .mainmobile3 {
         display: flex;
-        justify-content: center; 
-        gap: 30px; 
-        margin-left: -13px;
+        margin-top: 30px;
+        gap: 60px;
+        /* margin-left: -30px; */
     }
 
-    .main2 {
-        justify-content: center;
-        margin-left: 0;
-    }
-
-    .developerdiv {
-        /* margin-top: 50px; */
-        margin-left: 0;
-        text-align: left;
-    }
-
-    .developer {
-        font-size: 20px;
-        letter-spacing: 1px;
-    }
-
-    .developertext1 {
-        font-size: 20px;
-        letter-spacing: 1px;
-        margin-top: 20px;
-    }
-
-    .developertext2 {
-        font-size: 20px;
-        letter-spacing: 1px;
-    }
-
-    .partnerdiv {
-        /* margin-top: 50px; */
-        margin-left: 0;
-        text-align: left;
-    }
-
-    .partner {
-        font-size: 20px;
-        letter-spacing: 1px;
-    }
-
-    .partnertext1 {
-        font-size: 20px;
-        letter-spacing: 1px;
-        margin-top: 20px;
-    }
-
-    .partnertext2 {
-        font-size: 20px;
-        letter-spacing: 1px;
-    }
-
-    .partnertext3 {
-        font-size: 20px;
-        letter-spacing: 1px;
-    }
-
-    .companydiv {
-        display: flex;
-        flex-direction: column;
-        text-align: left;
-        margin-left: 0;
-        margin-top: 20px;
-    }
-
-    .company {
-        font-size: 20px;
-        letter-spacing: 1px;
-    }
-
-    .companytext1 {
-        font-size: 20px;
-        letter-spacing: 1px;
-    }
-
-    .companytext2 {
-        font-size: 20px;
-        letter-spacing: 1px;
-    }
-
-    .companytext3 {
-        font-size: 20px;
-        letter-spacing: 1px;
-    }
-
-    .companytext4 {
-        font-size: 20px;
-        letter-spacing: 1px;
-    }
-
-    .companytext5 {
-        font-size: 20px;
-        letter-spacing: 1px;
-    }
-
-    .contact {
-        font-size: 20px;
-        letter-spacing: 1px;
-    }
-
-    .contacttext1 {
-        font-size: 20px;
-        letter-spacing: 1px;
-        padding-bottom: 20px;
-    }
-
-    .contacttext2 {
-        font-size: 20px;
-        letter-spacing: 1px;
-        padding-bottom: 20px;
-    }
-
-    .contacttext3 {
-        font-size: 20px;
-        letter-spacing: 1px;
-        padding-bottom: 20px;
-    }
-
-    .location {
-        font-size: 40px;
-        margin-top: -10px;
-        margin-right: -2px;
-    }
-
-    .main2 {
+    .mainmobile4 {
         display: flex;
         flex-direction: column;
         text-align: center;
-        margin-left: 0;
-    }
-
-    .developer {
-        margin-top: 20px;
-    }
-
-    .partner {
-        margin-top: 20px;
-    }
-
-    .contactdiv {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        margin-left: 0;
-    }
-
-    .contacttext1 {
-        margin: auto;
-    }
-
-    .contacttext2 {
-        margin: auto;
-    }
-
-    .contacttext3 {
-        margin: auto;
-        font-size: 16px;
-    }
-
-    .mail {
-        margin-left: -40px;
-    }
-
-    .sociallinks {
-        font-size: 20px;
-        letter-spacing: 1px;
-    }
-
-    .socialdiv {
-        display: flex;
-        justify-content: center;
-    }
-
-    .socials {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .appstore {
-        width: 140px;
-        height: 45px;
-    }
-
-    .googlestore {
-        width: 140px;
-        height: 45px;
-    }
-
-    .play {
-        display: flex;
-        justify-content: center;
-        margin-left: 0;
-        margin-top: 15px;
-    }
-
-    .copyright {
-        font-size: 18px;
-    }
-
-    .facebook {
-        font-size: 22px;
-    }
-
-    .linkedin {
-        font-size: 22px;
-    }
-
-    .instagram {
-        font-size: 22px;
-    }
-
-    .twitter {
-        font-size: 22px;
+        margin-top: 30px;
+        gap: 50px;
     }
 }
 
+@media only screen and (min-width: 401px) and (max-width: 480px) {
+    .main {
+        display: none;
+    }
+
+    .mainmobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 50px 50px;
+        background: linear-gradient(to right, #5C755E, #78AC76);
+        margin-top: 570px;
+    }
+
+    .mainmobile2 {
+        display: flex;
+        gap: 50px;
+    }
+
+    .mainmobile3 {
+        display: flex;
+        margin-top: 30px;
+        gap: 60px;
+        margin-left: -20px;
+    }
+
+    .mainmobile4 {
+        display: flex;
+        margin-top: 30px;
+        gap: 50px;
+    }
+
+    .mainmobile4 {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 30px;
+        gap: 50px;
+    }
+}
 
 @media only screen and (min-width: 481px) and (max-width: 600px) {
     .main {
-        flex-direction: column;
+        display: none;
     }
 
-    .grandeur {
-        margin: auto;
-        width: 180px;
-        height: 75px;
-        margin-bottom: 20px;
-    }
-
-    .quickstore {
-        display: flex;
-        justify-content: center; 
-        gap: 40px;
-        margin-left: 60px;
-    }
-
-    .quicklinkdiv {
+    .mainmobile {
         display: flex;
         flex-direction: column;
-        /* text-align: center; */
-    }
-
-    .quicklink {
-        margin-top: 2px;
-        font-size: 22px;
-        letter-spacing: 1px;
-        margin-bottom: 20px;
-    }
-
-    .quicklinktext1 {
-        font-size: 22px;
-        /* margin-bottom: 0; */
-        letter-spacing: 1px;
-    }
-
-    .quicklinktext2 {
-        font-size: 22px;
-        letter-spacing: 1px;
-    }
-
-    .quicklinktext3 {
-        font-size: 22px;
-        letter-spacing: 1px;
-    }
-
-    .quicklinktext4 {
-        font-size: 22px;
-        letter-spacing: 1px;
-    }
-
-    .store {
-        margin-top: 20px;
-        font-size: 22px;
-        letter-spacing: 1px;
-    }
-
-    .storetext1 {
-        font-size: 22px;
-        letter-spacing: 1px;
-    }
-
-    .storetext2 {
-        font-size: 22px;
-        margin-bottom: 0;
-        letter-spacing: 1px;
-    }
-
-    .storediv {
-        display: flex;
-        flex-direction: column;
-        /* text-align: center; */
-        margin-left: 0;
-    }
-
-    .developercompany {
-        display: flex;
-        justify-content: center; 
-        gap: 30px; 
-        /* margin-right: 65px; */
-        /* margin-left: 17px; */
-    }
-
-    .main2 {
         justify-content: center;
-        margin-left: 0;
+        align-items: center;
+        padding: 50px 50px;
+        background: linear-gradient(to right, #5C755E, #78AC76);
+        margin-top: 750px;
     }
 
-    .developerdiv {
-        /* margin-top: 50px; */
-        margin-left: 0;
-        text-align: left;
+    .mainmobile2 {
+        display: flex;
+        gap: 50px;
     }
 
-    .developer {
-        font-size: 22px;
-        letter-spacing: 1px;
+    .mainmobile3 {
+        display: flex;
+        margin-top: 30px;
+        gap: 60px;
+        margin-left: -40px;
     }
 
-    .developertext1 {
-        font-size: 22px;
-        letter-spacing: 1px;
-    }
-
-    .developertext2 {
-        font-size: 22px;
-        letter-spacing: 1px;
-    }
-
-    .partnerdiv {
-        margin-left: 0;
-        text-align: left;
-    }
-
-    .partner {
-        font-size: 22px;
-        letter-spacing: 1px;
-    }
-
-    .partnertext1 {
-        font-size: 22px;
-        letter-spacing: 1px;
-    }
-
-    .partnertext2 {
-        font-size: 22px;
-        letter-spacing: 1px;
-    }
-
-    .partnertext3 {
-        font-size: 22px;
-        letter-spacing: 1px;
-    }
-
-    .companydiv {
-        margin-top: 20px;
-        margin-left: 0;
-        text-align: left;
-    }
-
-    .company {
-        font-size: 22px;
-        letter-spacing: 1px;
-    }
-
-    .companytext1 {
-        font-size: 22px;
-        letter-spacing: 1px;
-        text-align: left;
-    }
-
-    .companytext2 {
-        font-size: 22px;
-        letter-spacing: 1px;
-        text-align: left;
-    }
-
-    .companytext3 {
-        font-size: 22px;
-        letter-spacing: 1px;
-        text-align: left;
-    }
-
-    .companytext4 {
-        font-size: 22px;
-        letter-spacing: 1px;
-        text-align: left;
-    }
-
-    .companytext5 {
-        font-size: 22px;
-        letter-spacing: 1px;
-        text-align: left;
-    }
-
-    .contact {
-        font-size: 22px;
-        letter-spacing: 1px;
-    }
-
-    .contacttext1 {
-        font-size: 22px;
-        letter-spacing: 1px;
-        padding-bottom: 20px;
-    }
-
-    .contacttext2 {
-        font-size: 22px;
-        letter-spacing: 1px;
-        padding-bottom: 20px;
-    }
-
-    .contacttext3 {
-        font-size: 22px;
-        letter-spacing: 1px;
-    }
-
-    .location {
-        font-size: 32px;
-    }
-
-    .main2 {
+    .mainmobile4 {
         display: flex;
         flex-direction: column;
         text-align: center;
-        margin-left: 0;
-    }
-
-    .developer {
-        margin-top: 20px;
-    }
-
-    .partner {
-        margin-top: 20px;
-    }
-
-    .companydiv {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        margin-left: 0;
-    }
-
-    .contactdiv {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        margin-left: 0;
-    }
-
-    .contacttext1 {
-        margin: auto;
-    }
-
-    .contacttext2 {
-        margin: auto;
-    }
-
-    .contacttext3 {
-        margin: auto;
-        padding-bottom: 20px;
-    }
-
-    .sociallinks {
-        font-size: 22px;
-        letter-spacing: 1px;
-        margin-bottom: 20px;
-    }
-
-    .socialdiv {
-        display: flex;
-        justify-content: center;
-        margin-bottom: 20px;
-    }
-
-    .socials {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .appstore {
-        width: 150px;
-        height: 50px;
-    }
-
-    .googlestore {
-        width: 150px;
-        height: 50px;
-    }
-
-    .play {
-        display: flex;
-        justify-content: center;
-        margin-left: 0;
-        margin-top: 15px;
-    }
-
-    .copyright {
-        font-size: 19px;
-    }
-
-    .facebook {
-        font-size: 24px;
-    }
-
-    .linkedin {
-        font-size: 24px;
-    }
-
-    .instagram {
-        font-size: 24px;
-    }
-
-    .twitter {
-        font-size: 24px;
+        margin-top: 30px;
+        gap: 50px;
     }
 }
 
 @media only screen and (min-width: 601px) and (max-width: 768px) {
     .main {
-        flex-direction: column;
+        display: none;
     }
 
-    .grandeur {
-        margin: auto;
-        width: 190px;
-        height: 80px;
-        margin-bottom: 20px;
-    }
-
-    .quickstore {
-        display: flex;
-        justify-content: center; 
-        gap: 40px;
-        margin-left: 90px;
-    }
-
-    .quicklinkdiv {
+    .mainmobile {
         display: flex;
         flex-direction: column;
-        /* text-align: center; */
-    }
-
-    .quicklink {
-        margin-top: 2px;
-        font-size: 24px;
-        letter-spacing: 1px;
-        margin-bottom: 20px;
-    }
-
-    .quicklinktext1 {
-        font-size: 24px;
-        /* margin-bottom: 0; */
-        letter-spacing: 1px;
-    }
-
-    .quicklinktext2 {
-        font-size: 24px;
-        letter-spacing: 1px;
-    }
-
-    .quicklinktext3 {
-        font-size: 24px;
-        letter-spacing: 1px;
-    }
-
-    .quicklinktext4 {
-        font-size: 24px;
-        letter-spacing: 1px;
-    }
-
-    .store {
-        margin-top: 20px;
-        font-size: 24px;
-        letter-spacing: 1px;
-    }
-
-    .storetext1 {
-        font-size: 24px;
-        letter-spacing: 1px;
-    }
-
-    .storetext2 {
-        font-size: 24px;
-        margin-bottom: 0;
-        letter-spacing: 1px;
-    }
-
-    .storediv {
-        display: flex;
-        flex-direction: column;
-        /* text-align: center; */
-    }
-
-    .developercompany {
-        display: flex;
-        justify-content: center; 
-        gap: 30px; 
-        /* margin-right: 95px; */
-        /* margin-left: 17px; */
-    }
-
-    .main2 {
         justify-content: center;
-        margin-left: 0;
+        align-items: center;
+        padding: 50px 50px;
+        background: linear-gradient(to right, #5C755E, #78AC76);
+        margin-top: 600px;
     }
 
-    .developerdiv {
-        /* margin-top: 50px; */
-        margin-left: 0;
-        text-align: left;
+    .mainmobile2 {
+        display: flex;
+        gap: 50px;
     }
 
-    .developer {
-        font-size: 24px;
-        letter-spacing: 1px;
+    .mainmobile3 {
+        display: flex;
+        margin-top: 30px;
+        gap: 60px;
+        margin-left: -40px;
     }
 
-    .developertext1 {
-        font-size: 24px;
-        letter-spacing: 1px;
-    }
-
-    .developertext2 {
-        font-size: 24px;
-        letter-spacing: 1px;
-    }
-
-    .partnerdiv {
-        margin-left: 0;
-        text-align: left;
-    }
-
-    .partner {
-        font-size: 24px;
-        letter-spacing: 1px;
-    }
-
-    .partnertext1 {
-        font-size: 24px;
-        letter-spacing: 1px;
-    }
-
-    .partnertext2 {
-        font-size: 24px;
-        letter-spacing: 1px;
-    }
-
-    .partnertext3 {
-        font-size: 24px;
-        letter-spacing: 1px;
-    }
-
-    .companydiv {
-        margin-left: 0;
-        text-align: left;
-        margin-top: 20px;
-    }
-
-    .company {
-        font-size: 24px;
-        letter-spacing: 1px;
-    }
-
-    .companytext1 {
-        font-size: 24px;
-        letter-spacing: 1px;
-        text-align: left;
-    }
-
-    .companytext2 {
-        font-size: 24px;
-        letter-spacing: 1px;
-        text-align: left;
-    }
-
-    .companytext3 {
-        font-size: 24px;
-        letter-spacing: 1px;
-        text-align: left;
-    }
-
-    .companytext4 {
-        font-size: 24px;
-        letter-spacing: 1px;
-        text-align: left;
-    }
-
-    .companytext5 {
-        font-size: 24px;
-        letter-spacing: 1px;
-        text-align: left;
-    }
-
-    .contact {
-        font-size: 24px;
-        letter-spacing: 1px;
-    }
-
-    .contacttext1 {
-        font-size: 24px;
-        letter-spacing: 1px;
-        padding-bottom: 20px;
-    }
-
-    .contacttext2 {
-        font-size: 24px;
-        letter-spacing: 1px;
-        padding-bottom: 20px;
-    }
-
-    .contacttext3 {
-        font-size: 24px;
-        letter-spacing: 1px;
-        padding-bottom: 20px;
-    }
-
-    .location {
-        font-size: 33px;
-    }
-
-    .main2 {
+    .mainmobile4 {
         display: flex;
         flex-direction: column;
         text-align: center;
-        margin-left: 0;
-    }
-
-    .developer {
-        margin-top: 20px;
-    }
-
-    .partner {
-        margin-top: 20px;
-    }
-
-    .companydiv {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        margin-left: 0;
-    }
-
-    .contactdiv {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        margin-left: 0;
-    }
-
-    .contacttext1 {
-        margin: auto;
-    }
-
-    .contacttext2 {
-        margin: auto;
-    }
-
-    .contacttext3 {
-        margin: auto;
-    }
-
-    .sociallinks {
-        font-size: 24px;
-        letter-spacing: 1px;
-        margin-bottom: 20px;
-    }
-
-    .socialdiv {
-        display: flex;
-        justify-content: center;
-        margin-bottom: 20px;
-    }
-
-    .socials {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .appstore {
-        width: 160px;
-        height: 60px;
-    }
-
-    .googlestore {
-        width: 160px;
-        height: 60px;
-    }
-
-    .play {
-        display: flex;
-        justify-content: center;
-        margin-left: 0;
-        margin-top: 15px;
-    }
-
-    .copyright {
-        font-size: 20px;
-    }
-
-    .facebook {
-        font-size: 26px;
-    }
-
-    .linkedin {
-        font-size: 26px;
-    }
-
-    .instagram {
-        font-size: 26px;
-    }
-
-    .twitter {
-        font-size: 26px;
+        margin-top: 30px;
+        gap: 50px;
     }
 }
 
-
-
 @media only screen and (min-width: 769px) and (max-width: 900px) {
     .main {
-        flex-direction: column;
+        display: none;
     }
 
-    .grandeur {
-        margin: auto;
-        width: 200px;
-        height: 90px;
-        margin-bottom: 20px;
-    }
-
-    .quickstore {
+    .mainmobile {
         display: flex;
-        justify-content: center; 
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 50px 50px;
+        background: linear-gradient(to right, #5C755E, #78AC76);
+        margin-top: 600px;
+    }
+
+    .mainmobile2 {
+        display: flex;
         gap: 50px;
-        margin-left: 130px;
     }
 
-    .quicklinkdiv {
+    .mainmobile3 {
         display: flex;
-        flex-direction: column;
-        justify-content: center;
-        /* text-align: center; */
+        margin-top: 30px;
+        gap: 60px;
+        margin-left: -43px;
     }
 
-    .quicklink {
-        margin-top: 2px;
-        font-size: 26px;
-        letter-spacing: 1px;
-        margin-bottom: 20px;
-    }
-
-    .quicklinktext1 {
-        font-size: 26px;
-        /* margin-bottom: 0; */
-        letter-spacing: 1px;
-    }
-
-    .quicklinktext2 {
-        font-size: 26px;
-        letter-spacing: 1px;
-    }
-
-    .quicklinktext3 {
-        font-size: 26px;
-        letter-spacing: 1px;
-    }
-
-    .quicklinktext4 {
-        font-size: 26px;
-        letter-spacing: 1px;
-    }
-
-    .store {
-        margin-top: 20px;
-        font-size: 26px;
-        letter-spacing: 1px;
-    }
-
-    .storetext1 {
-        font-size: 26px;
-        letter-spacing: 1px;
-    }
-
-    .storetext2 {
-        font-size: 26px;
-        margin-bottom: 0;
-        letter-spacing: 1px;
-    }
-
-    .storediv {
-        display: flex;
-        flex-direction: column;
-        /* text-align: center; */
-    }
-
-    .developercompany {
-        display: flex;
-        justify-content: center; 
-        gap: 30px; 
-        /* margin-right: 115px; */
-        /* margin-left: 17px; */
-    }
-
-    .main2 {
-        justify-content: center;
-        margin-left: 0;
-    }
-
-    .developerdiv {
-        /* margin-top: 50px; */
-        margin-left: 0;
-        text-align: left;
-    }
-
-    .developer {
-        font-size: 26px;
-        letter-spacing: 1px;
-    }
-
-    .developertext1 {
-        font-size: 26px;
-        letter-spacing: 1px;
-    }
-
-    .developertext2 {
-        font-size: 26px;
-        letter-spacing: 1px;
-    }
-
-    .partnerdiv {
-        margin-left: 0;
-        text-align: left;
-    }
-
-    .partner {
-        font-size: 26px;
-        letter-spacing: 1px;
-    }
-
-    .partnertext1 {
-        font-size: 26px;
-        letter-spacing: 1px;
-    }
-
-    .partnertext2 {
-        font-size: 26px;
-        letter-spacing: 1px;
-    }
-
-    .partnertext3 {
-        font-size: 26px;
-        letter-spacing: 1px;
-    }
-
-    .companydiv {
-        margin-top: 20px;
-        text-align: left;
-    }
-
-    .company {
-        font-size: 26px;
-        letter-spacing: 1px;
-    }
-
-    .companytext1 {
-        font-size: 26px;
-        letter-spacing: 1px;
-        text-align: left;
-    }
-
-    .companytext2 {
-        font-size: 26px;
-        letter-spacing: 1px;
-        text-align: left;
-    }
-
-    .companytext3 {
-        font-size: 26px;
-        letter-spacing: 1px;
-        text-align: left;
-    }
-
-    .companytext4 {
-        font-size: 26px;
-        letter-spacing: 1px;
-        text-align: left;
-    }
-
-    .companytext5 {
-        font-size: 26px;
-        letter-spacing: 1px;
-        text-align: left;
-    }
-
-    .contact {
-        font-size: 26px;
-        letter-spacing: 1px;
-    }
-
-    .contacttext1 {
-        font-size: 26px;
-        letter-spacing: 1px;
-        padding-bottom: 20px;
-    }
-
-    .contacttext2 {
-        font-size: 26px;
-        letter-spacing: 1px;
-        padding-bottom: 20px;
-    }
-
-    .contacttext3 {
-        font-size: 26px;
-        letter-spacing: 1px;
-        padding-bottom: 20px;
-    }
-
-    .mail {
-        margin-top: 4px;
-    }
-
-    .location {
-        font-size: 34px;
-    }
-
-    .main2 {
+    .mainmobile4 {
         display: flex;
         flex-direction: column;
         text-align: center;
-        margin-left: 0;
-    }
-
-    .developer {
-        margin-top: 20px;
-    }
-
-    .partner {
-        margin-top: 20px;
-    }
-
-    .companydiv {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        margin-left: 0;
-    }
-
-    .contactdiv {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        margin-left: 0;
-    }
-
-    .contacttext1 {
-        margin: auto;
-    }
-
-    .contacttext2 {
-        margin: auto;
-    }
-
-    .contacttext3 {
-        margin: auto;
-    }
-
-    .sociallinks {
-        font-size: 26px;
-        letter-spacing: 1px;
-        margin-bottom: 20px;
-    }
-
-    .socialdiv {
-        display: flex;
-        justify-content: center;
-        margin-bottom: 20px;
-    }
-
-    .socials {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .appstore {
-        width: 170px;
-        height: 70px;
-    }
-
-    .googlestore {
-        width: 170px;
-        height: 70px;
-    }
-
-    .play {
-        display: flex;
-        justify-content: center;
-        margin-left: 0;
-        margin-top: 15px;
-    }
-
-    .copyright {
-        font-size: 21px;
-    }
-
-    .facebook {
-        font-size: 28px;
-    }
-
-    .linkedin {
-        font-size: 28px;
-    }
-
-    .instagram {
-        font-size: 28px;
-    }
-
-    .twitter {
-        font-size: 28px;
+        margin-top: 30px;
+        gap: 50px;
     }
 }
 
 @media only screen and (min-width: 901px) and (max-width: 1200px) {
     .main {
-        flex-direction: column;
+        display: none;
     }
 
-    .grandeur {
-        margin: auto;
-        width: 210px;
-        height: 90px;
-        margin-bottom: 20px;
-    }
-
-    .quickstore {
+    .mainmobile {
         display: flex;
-        justify-content: center; 
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 50px 50px;
+        background: linear-gradient(to right, #5C755E, #78AC76);
+        margin-top: 500px;
+    }
+
+    .mainmobile2 {
+        display: flex;
+        gap: 50px;
+    }
+
+    .mainmobile3 {
+        display: flex;
+        margin-top: 30px;
         gap: 60px;
+        margin-left: -47px;
     }
 
-    .quicklinkdiv {
-        display: flex;
-        flex-direction: column;
-        /* text-align: center; */
-    }
-
-    .quicklink {
-        margin-top: 2px;
-        font-size: 28px;
-        letter-spacing: 1px;
-        margin-bottom: 20px;
-    }
-
-    .quicklinktext1 {
-        font-size: 28px;
-        /* margin-bottom: 0; */
-        letter-spacing: 1px;
-    }
-
-    .quicklinktext2 {
-        font-size: 28px;
-        letter-spacing: 1px;
-    }
-
-    .quicklinktext3 {
-        font-size: 28px;
-        letter-spacing: 1px;
-    }
-
-    .quicklinktext4 {
-        font-size: 28px;
-        letter-spacing: 1px;
-    }
-
-    .store {
-        margin-top: 20px;
-        font-size: 28px;
-        letter-spacing: 1px;
-    }
-
-    .storetext1 {
-        font-size: 28px;
-        letter-spacing: 1px;
-    }
-
-    .storetext2 {
-        font-size: 28px;
-        margin-bottom: 0;
-        letter-spacing: 1px;
-    }
-
-    .storediv {
-        display: flex;
-        flex-direction: column;
-        /* text-align: center; */
-    }
-
-    .developer {
-        font-size: 28px;
-        letter-spacing: 1px;
-    }
-
-    .developertext1 {
-        font-size: 28px;
-        letter-spacing: 1px;
-    }
-
-    .developertext2 {
-        font-size: 28px;
-        letter-spacing: 1px;
-    }
-
-    .partner {
-        font-size: 28px;
-        letter-spacing: 1px;
-    }
-
-    .partnertext1 {
-        font-size: 28px;
-        letter-spacing: 1px;
-    }
-
-    .partnertext2 {
-        font-size: 28px;
-        letter-spacing: 1px;
-    }
-
-    .partnertext3 {
-        font-size: 28px;
-        letter-spacing: 1px;
-    }
-
-    .company {
-        font-size: 28px;
-        letter-spacing: 1px;
-    }
-
-    .companytext1 {
-        font-size: 28px;
-        letter-spacing: 1px;
-    }
-
-    .companytext2 {
-        font-size: 28px;
-        letter-spacing: 1px;
-    }
-
-    .companytext3 {
-        font-size: 28px;
-        letter-spacing: 1px;
-    }
-
-    .companytext4 {
-        font-size: 28px;
-        letter-spacing: 1px;
-    }
-
-    .companytext5 {
-        font-size: 28px;
-        letter-spacing: 1px;
-    }
-
-    .contact {
-        font-size: 28px;
-        letter-spacing: 1px;
-    }
-
-    .contacttext1 {
-        font-size: 28px;
-        letter-spacing: 1px;
-        padding-bottom: 20px;
-    }
-
-    .contacttext2 {
-        font-size: 28px;
-        letter-spacing: 1px;
-        padding-bottom: 20px;
-    }
-
-    .contacttext3 {
-        font-size: 28px;
-        letter-spacing: 1px;
-    }
-
-    .location {
-        font-size: 35px;
-    }
-
-    .main2 {
+    .mainmobile4 {
         display: flex;
         flex-direction: column;
         text-align: center;
-        margin-left: 0;
-    }
-
-    .developer {
-        margin-top: 20px;
-    }
-
-    .partner {
-        margin-top: 20px;
-    }
-
-    .companydiv {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        margin-left: 0;
-    }
-
-    .contactdiv {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        margin-left: 0;
-    }
-
-    .contacttext1 {
-        margin: auto;
-    }
-
-    .contacttext2 {
-        margin: auto;
-    }
-
-    .contacttext3 {
-        margin: auto;
-    }
-
-    .sociallinks {
-        font-size: 28px;
-        letter-spacing: 1px;
-        margin-bottom: 20px;
-    }
-
-    .socialdiv {
-        display: flex;
-        justify-content: center;
-        margin-bottom: 20px;
-    }
-
-    .socials {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .appstore {
-        width: 200px;
-        height: 80px;
-    }
-
-    .googlestore {
-        width: 200px;
-        height: 80px;
-    }
-
-    .play {
-        display: flex;
-        justify-content: center;
-        margin-left: 0;
-        margin-top: 15px;
-    }
-
-    .copyright {
-        font-size: 22px;
-    }
-
-    .facebook {
-        font-size: 30px;
-    }
-
-    .linkedin {
-        font-size: 30px;
-    }
-
-    .instagram {
-        font-size: 30px;
-    }
-
-    .twitter {
-        font-size: 30px;
+        margin-top: 30px;
+        gap: 50px;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
