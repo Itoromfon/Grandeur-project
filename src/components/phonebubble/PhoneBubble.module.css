@@ -1075,6 +1075,14 @@
         justify-content: center;
     }
 
+    .mymain {
+        margin-top: -120px;
+    }
+
+    .myphonediv2 {
+        margin-top: -80px;
+    }
+
     .background1 {
         width: 300px;
         height: 350px;
@@ -1107,6 +1115,14 @@
         margin-bottom: 100px;
         display: flex;
         justify-content: center;
+    }
+
+    .mymain {
+        margin-top: -180px;
+    }
+
+    .myphonediv2 {
+        margin-top: -180px;
     }
 
     .background1 {
@@ -1145,6 +1161,14 @@
         justify-content: center;
     }
 
+    .mymain {
+        margin-top: -110px;
+    }
+
+    .myphonediv2 {
+        margin-top: -130px;
+    }
+
     .background1 {
         width: 360px;
         height: 370px;
@@ -1179,6 +1203,14 @@
         margin-bottom: 100px;
         display: flex;
         justify-content: center;
+    }
+
+    .mymain {
+        margin-top: -180px;
+    }
+
+    .myphonediv2 {
+        margin-top: -180px;
     }
 
     .background1 {
@@ -1218,6 +1250,14 @@
         justify-content: center;
     }
 
+    .mymain {
+        margin-top: -200px;
+    }
+
+    .myphonediv2 {
+        margin-top: -200px;
+    }
+
     .background1 {
         width: 400px;
         height: 390px;
@@ -1252,6 +1292,14 @@
         margin-bottom: 100px;
         display: flex;
         justify-content: center;
+    }
+
+    .mymain {
+        margin-top: -350px;
+    }
+
+    .myphonediv2 {
+        margin-top: -350px;
     }
 
     .background1 {

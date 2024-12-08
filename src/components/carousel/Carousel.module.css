@@ -4,7 +4,7 @@
 
 .section1 {
     position: relative;
-    background: linear-gradient(90deg, #5C755E, #78A67C);
+    /* background-image: ur('/mybackgroundsection.svg'); */
     /* background-image: url("/modernroom.png");  */
     background-size: cover;
     background-position: center;

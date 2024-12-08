@@ -55,6 +55,7 @@ const FlowDiagram = () => {
                 width={23}
                 height={79}
                 alt='arrow one'
+                className='mobile-321'
             />
         </div>
         <div className={styles.div2}>
@@ -69,6 +70,16 @@ const FlowDiagram = () => {
             <div>
                 <p className={styles.ptext2}>Theft Prevention Mode Activated</p>
             </div>
+        </div>
+        <div className={styles.arrow3}>
+            {/* <LuMoveDown className={styles.lumove} /> */}
+            <Image 
+                src='/automatearrow1.svg'
+                width={23}
+                height={79}
+                alt='arrow one'
+                className='mobile-321'
+            />
         </div>
         <div className={styles.arrow2}>
             <Image 
@@ -102,6 +113,16 @@ const FlowDiagram = () => {
                 <p className={styles.ptext3}>Lock All Doors</p>
             </div>
         </div>
+        <div className={styles.arrow4}>
+            {/* <LuMoveDown className={styles.lumove} /> */}
+            <Image 
+                src='/automatearrow1.svg'
+                width={23}
+                height={79}
+                alt='arrow one'
+                className='mobile-321'
+            />
+        </div>
         <div className={styles.lumovediv3}>
             <LuMoveDown className={styles.lumove3} />
         </div>
@@ -117,6 +138,16 @@ const FlowDiagram = () => {
             <div>
                 <p className={styles.ptext4}>Turn On All Lights</p>
             </div>
+        </div>
+        <div className={styles.arrow5}>
+            {/* <LuMoveDown className={styles.lumove} /> */}
+            <Image 
+                src='/automatearrow1.svg'
+                width={23}
+                height={79}
+                alt='arrow one'
+                className='mobile-321'
+            />
         </div>
         <div className={styles.lumovediv4}>
             <LuMoveDown className={styles.lumove4} />

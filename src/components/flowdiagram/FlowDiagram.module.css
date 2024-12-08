@@ -152,6 +152,18 @@
     margin-top: 1px;
 }
 
+.arrow3 {
+    display: none;
+}
+
+.arrow4 {
+    display: none;
+}
+
+.arrow5 {
+    display: none;
+}
+
 
 
 
@@ -826,11 +838,37 @@
     }
 
     .arrow1 {
-        display: none;
+        width: 100px;
+        height: 23px;
+        /* margin-top: -126px;
+        margin-bottom: 100px; */
+        margin: -126px 0 100px 150px;
     }
 
     .arrow2 {
         display: none;
+    }
+
+    .arrow3 {
+        display: block;
+        width: 200px;
+        height: 0;
+        margin: -21px 0 9px 150px;
+        /* margin-bottom: 100px; */
+    }
+    
+    .arrow4 {
+        display: block;
+        width: 200px;
+        height: 0;
+        margin: -21px 0 -12px 150px;
+    }
+    
+    .arrow5 {
+        display: block;
+        width: 200px;
+        height: 0;
+        margin: -21px 0 -12px 150px;
     }
 
     .div2 {
@@ -1027,12 +1065,38 @@
         font-size: 15px;
     }
 
-    .arrow1 {
+    .arrow2 {
         display: none;
     }
 
-    .arrow2 {
-        display: none;
+    .arrow1 {
+        width: 100px;
+        height: 23px;
+        /* margin-top: -126px;
+        margin-bottom: 100px; */
+        margin: -126px 0 100px 150px;
+    }
+
+    .arrow3 {
+        display: block;
+        width: 200px;
+        height: 0;
+        margin: -21px 0 9px 150px;
+        /* margin-bottom: 100px; */
+    }
+    
+    .arrow4 {
+        display: block;
+        width: 200px;
+        height: 0;
+        margin: -21px 0 -12px 150px;
+    }
+    
+    .arrow5 {
+        display: block;
+        width: 200px;
+        height: 0;
+        margin: -21px 0 -12px 150px;
     }
 
     .div2 {
@@ -1232,12 +1296,38 @@
         font-size: 15px;
     }
 
-    .arrow1 {
+    .arrow2 {
         display: none;
     }
 
-    .arrow2 {
-        display: none;
+    .arrow1 {
+        width: 100px;
+        height: 23px;
+        /* margin-top: -126px;
+        margin-bottom: 100px; */
+        margin: -126px 0 100px 150px;
+    }
+
+    .arrow3 {
+        display: block;
+        width: 200px;
+        height: 0;
+        margin: -21px 0 9px 150px;
+        /* margin-bottom: 100px; */
+    }
+    
+    .arrow4 {
+        display: block;
+        width: 200px;
+        height: 0;
+        margin: -21px 0 -12px 150px;
+    }
+    
+    .arrow5 {
+        display: block;
+        width: 200px;
+        height: 0;
+        margin: -21px 0 -12px 150px;
     }
 
     .div2 {
@@ -1434,12 +1524,38 @@
         font-size: 15px;
     }
 
-    .arrow1 {
+    .arrow2 {
         display: none;
     }
 
-    .arrow2 {
-        display: none;
+    .arrow1 {
+        width: 100px;
+        height: 23px;
+        /* margin-top: -126px;
+        margin-bottom: 100px; */
+        margin: -126px 0 100px 150px;
+    }
+
+    .arrow3 {
+        display: block;
+        width: 200px;
+        height: 0;
+        margin: -21px 0 9px 150px;
+        /* margin-bottom: 100px; */
+    }
+    
+    .arrow4 {
+        display: block;
+        width: 200px;
+        height: 0;
+        margin: -21px 0 -12px 150px;
+    }
+    
+    .arrow5 {
+        display: block;
+        width: 200px;
+        height: 0;
+        margin: -21px 0 -12px 150px;
     }
 
     .div2 {
@@ -1637,14 +1753,39 @@
         font-size: 15px;
     }
 
-    .arrow1 {
-        display: none;
-    }
-
     .arrow2 {
         display: none;
     }
 
+    .arrow1 {
+        width: 100px;
+        height: 23px;
+        /* margin-top: -126px;
+        margin-bottom: 100px; */
+        margin: -126px 0 100px 150px;
+    }
+
+    .arrow3 {
+        display: block;
+        width: 200px;
+        height: 0;
+        margin: -21px 0 9px 150px;
+        /* margin-bottom: 100px; */
+    }
+    
+    .arrow4 {
+        display: block;
+        width: 200px;
+        height: 0;
+        margin: -21px 0 -12px 150px;
+    }
+    
+    .arrow5 {
+        display: block;
+        width: 200px;
+        height: 0;
+        margin: -21px 0 -12px 150px;
+    }
     .div2 {
         display: flex;
         justify-content: center;
@@ -1843,12 +1984,38 @@
         font-size: 15px;
     }
 
-    .arrow1 {
+    .arrow2 {
         display: none;
     }
 
-    .arrow2 {
-        display: none;
+    .arrow1 {
+        width: 100px;
+        height: 23px;
+        /* margin-top: -126px;
+        margin-bottom: 100px; */
+        margin: -126px 0 100px 150px;
+    }
+
+    .arrow3 {
+        display: block;
+        width: 200px;
+        height: 0;
+        margin: -21px 0 9px 150px;
+        /* margin-bottom: 100px; */
+    }
+    
+    .arrow4 {
+        display: block;
+        width: 200px;
+        height: 0;
+        margin: -21px 0 -12px 150px;
+    }
+    
+    .arrow5 {
+        display: block;
+        width: 200px;
+        height: 0;
+        margin: -21px 0 -12px 150px;
     }
 
     .div2 {
