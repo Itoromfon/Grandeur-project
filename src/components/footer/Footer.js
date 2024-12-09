@@ -210,6 +210,17 @@ const Footer = () => {
     </div>
     </div>
     <div className={styles.mainmobile}>
+    <div className={styles.logo}>
+      <a href='#'>
+        <Image 
+          src='/grandeurfooter.svg'
+          alt='Grandeur smart Image'
+          width={145}
+          height={63}
+          className={styles.grandeurs}
+        />
+      </a>
+      </div>
       <div className={styles.mainmobile2}>
       <div>
         <div>
