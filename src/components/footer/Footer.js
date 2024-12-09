@@ -213,82 +213,82 @@ const Footer = () => {
       <div className={styles.mainmobile2}>
       <div>
         <div>
-          <h1 className='text-white text-[16px] font-bold tracking-widest'>QUICKLINKS</h1>
+          <h1 className='text-white text-[16px] font-bold tracking-widest'><a href='#'>QUICKLINKS</a></h1>
         </div>
         <div>
-          <p className='text-white text-[16px] mt-3 tracking-widest'>Blog</p>
+          <p className='text-white text-[16px] mt-3 tracking-widest'><a href='#'>Blog</a></p>
         </div>
         <div>
-          <p className='text-white text-[16px] tracking-widest'>Documentation</p>
+          <p className='text-white text-[16px] tracking-widest'><a href='#'>Documentation</a></p>
         </div>
         <div>
-          <p className='text-white text-[16px] tracking-widest'>Integration</p>
+        <p className='text-white text-[16px] tracking-widest'><a href='#'>Integration</a></p>
         </div>
         <div>
-          <p className='text-white text-[16px] tracking-widest'>Product</p>
+          <p className='text-white text-[16px] tracking-widest'><a href='#'>Product</a></p>
         </div>
       </div>
       <div>
         <div>
-          <h1 className='text-white text-[16px] font-bold tracking-widest'>STORE</h1>
+          <h1 className='text-white text-[16px] font-bold tracking-widest'><a href='#'>STORE</a></h1>
         </div>
         <div>
-          <p className='text-white text-[16px] mt-3 tracking-widest'>Buy Grandeur Smart</p>
+          <p className='text-white text-[16px] mt-3 tracking-widest'><a href='#'>Buy Grandeur Smart</a></p>
         </div>
         <div>
-          <p className='text-white text-[16px] tracking-widest'>Where to buy</p>
+          <p className='text-white text-[16px] tracking-widest'><a href='#'>Where to buy</a></p>
         </div>
       </div>
     </div>
     <div className={styles.mainmobile3}>
       <div>
         <div>
-          <h1 className='text-white text-[16px] font-bold tracking-widest'>DEVELOPERS</h1>
+          <h1 className='text-white text-[16px] font-bold tracking-widest'><a href='#'>DEVELOPERS</a></h1>
         </div>
         <div>
-          <p className='text-white text-[16px] mt-3 tracking-widest'>Get Started</p>
+          <p className='text-white text-[16px] mt-3 tracking-widest'><a href='#'>Get Started</a></p>
         </div>
         <div>
-          <p className='text-white text-[16px] tracking-widest'>Server Status</p>
+          <p className='text-white text-[16px] tracking-widest'><a href='#'>Server Status</a></p>
         </div>
         <div>
-          <p className='text-white font-bold text-[16px] tracking-widest'>PARTNERS</p>
+          <p className='text-white font-bold text-[16px] tracking-widest'><a href='#'>PARTNERS</a></p>
         </div>
         <div>
-          <p className='text-white text-[16px] tracking-widest'>For installers</p>
+          <p className='text-white text-[16px] tracking-widest'><a href='#'>For installers</a></p>
         </div>
         <div>
-          <p className='text-white text-[16px] tracking-widest'>For Manufacturers</p>
+          <p className='text-white text-[16px] tracking-widest'><a href='#'>For Manufacturers</a></p>
         </div>
         <div>
-          <p className='text-white text-[16px] tracking-widest'>For retailers</p>
+          <p className='text-white text-[16px] tracking-widest'><a href='#'>For retailers</a></p>
         </div>
       </div>
       <div>
         <div>
-          <h1 className='text-white text-[16px] font-bold tracking-widest'>COMPANY</h1>
+          <h1 className='text-white text-[16px] font-bold tracking-widest'><a href='#'>COMPANY</a></h1>
         </div>
         <div>
-          <p className='text-white text-[16px] mt-3 tracking-widest'>Careers</p>
+          <p className='text-white text-[16px] mt-3 tracking-widest'><a href='#'>Careers</a></p>
         </div>
         <div>
-          <p className='text-white text-[16px] tracking-widest'>Our story</p>
+          <p className='text-white text-[16px] tracking-widest'><a href='#'>Our story</a></p>
         </div>
         <div>
-          <p className='text-white text-[16px] tracking-widest'>Support</p>
+          <p className='text-white text-[16px] tracking-widest'><a href='#'>Support</a></p>
         </div>
         <div>
-          <p className='text-white text-[16px] tracking-widest'>Press</p>
+          <p className='text-white text-[16px] tracking-widest'><a href='#'>Press</a></p>
         </div>
         <div>
-          <p className='text-white text-[16px] tracking-widest'>Contact</p>
+          <p className='text-white text-[16px] tracking-widest'><a href='#'>Contact</a></p>
         </div>
       </div>
     </div>
     <div className={styles.mainmobile4}>
       <div>
         <div>
-          <h1 className='text-white text-[16px] font-bold tracking-widest'>CONTACT</h1>
+          <h1 className='text-white text-[16px] font-bold tracking-widest'><a href='#'>CONTACT</a></h1>
         </div>
         <div className='flex'>
           <Image 
@@ -298,7 +298,7 @@ const Footer = () => {
             alt='Location'
             className='mt-[-33px] mr-[-5px]'
           />
-        <p className='flex tracking-wide leading-normal text-white w-[241px] text-[16px]'>315 Herbert Macaulay Way, Yaba, Lagos 100001 Nigeria.</p>
+        <p className='flex tracking-wide leading-normal text-white w-[241px] text-[16px]'><a href='#'>315 Herbert Macaulay Way, Yaba, Lagos 100001 Nigeria.</a></p>
         </div>
         <div className='flex'>
           <Image 
@@ -308,7 +308,7 @@ const Footer = () => {
             alt='Footer call'
             className='mt-[-18px] mr-2'
           />
-          <p className='flex tracking-widest text-white w-[241px] text-[16px]'>+234 813 997 2473</p>
+          <p className='flex tracking-widest text-white w-[241px] text-[16px]'><a href='#'>+234 813 997 2473</a></p>
         </div>
         <div className='flex'>
           <Image 
@@ -318,15 +318,16 @@ const Footer = () => {
             alt='Mail'
             className='mt-[-15px] mr-2'
           />
-          <p className='flex tracking-widest text-white w-[241px] text-[16px]'>info@grandeursmart.com</p>
+          <p className='flex tracking-widest text-white w-[241px] text-[16px]'><a href='#'>info@grandeursmart.com</a></p>
         </div>
       </div>
       <div>
         <div>
-          <h1 className='text-white text-[16px] font-bold tracking-widest'>SOCIAL LINKS</h1>
+          <h1 className='text-white text-[16px] font-bold tracking-widest'><a href='#'>SOCIAL LINKS</a></h1>
         </div>
         <div className='flex justify-center gap-2 mt-2'>
           <div className='bg-white w-[31px] h-[31px] rounded-full'>
+            <a href='#'>
             <Image 
               src='/footerfacebook.svg'
               width={19}
@@ -334,8 +335,10 @@ const Footer = () => {
               alt='Facebook'
               className='mx-auto pt-[5px]'
             />
+            </a>
           </div>
           <div className='bg-white w-[31px] h-[31px] rounded-full'>
+            <a href='#'>
             <Image 
               src='/footerlinkedin.svg'
               width={15}
@@ -343,8 +346,10 @@ const Footer = () => {
               alt='Facebook'
               className='mx-auto pt-[5px]'
             />
+            </a>
           </div>
           <div className='bg-white w-[31px] h-[31px] rounded-full'>
+            <a href='#'>
             <Image 
               src='/footerinstagram.svg'
               width={20}
@@ -352,8 +357,10 @@ const Footer = () => {
               alt='Facebook'
               className='mx-auto pt-[5px]'
             />
+            </a>
           </div>
           <div className='bg-white w-[31px] h-[31px] rounded-full'>
+            <a href='#'>
             <Image 
               src='/footertwitter.svg'
               width={20}
@@ -361,24 +368,29 @@ const Footer = () => {
               alt='Facebook'
               className='mx-auto pt-[5px]'
             />
+            </a>
           </div>
         </div>
         <div className='flex justify-center gap-2 mt-[17px]'>
           <div>
+            <a href='#'>
             <Image 
               src='/appstorefooter.svg.svg'
               width={119}
               height={35}
               alt='AppStore'
             />
+            </a>
           </div>
           <div>
+            <a href='#'>
             <Image 
               src='/googlestorefooter.svg'
               width={119}
               height={35}
               alt='AppStore'
             />
+            </a>
           </div>
         </div>
       </div>
