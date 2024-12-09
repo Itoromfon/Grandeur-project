@@ -6,6 +6,7 @@ import { faToggleOn, faToggleOff } from '@fortawesome/free-solid-svg-icons';
 import Link from 'next/link';
 import { GrFormNext } from "react-icons/gr";
 import Image from 'next/image';
+import ThemeToggle from '../ui/ThemeToggle';
 
 function Heading() {
   // State to track if the button is on or off
@@ -54,12 +55,13 @@ function Heading() {
             mobile-901-1200:flex
             mobile-901-1200:justify-center
             '>
-            <Image 
+                <ThemeToggle />
+            {/* <Image 
                 src='/smalltoggle2.svg'
                 alt='Small Toggle'
                 width={73}
                 height={49}
-            />
+            /> */}
             </div>
             <div className={styles.viewdiv}>
                 <div className={styles.viewlinkdiv}>
