@@ -220,7 +220,7 @@ const Chat = () => {
                         <input
                             className={styles.input}
                             type="text"
-                            placeholder="Message ChatGPT"
+                            placeholder="Write here"
                             value={inputValue}
                             onChange={(e) => setInputValue(e.target.value)}
                         />

@@ -8,7 +8,8 @@ function AutomateSmart() {
   return (
     <div className={styles.main}>
     <div className={styles.htextdiv}>
-    <h1 className={styles.htext}>Automate & Let Smart AI Make Decision</h1>
+    <h1 className={styles.htext}>Automate & Let <Image className='mt-[-10px]' src='/flowsmarttext.svg' alt='smartimage' width={80} height={74}/> AI Make Decision</h1>
+    <h1 className={styles.htext2}>Automate & Let Smart AI Make Decision</h1>
     {/* <h1 className={styles.h2text}>Make Decisions</h1> */}
     </div>
     <div className={styles.ptextdiv}>

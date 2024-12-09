@@ -238,7 +238,7 @@
 .ptext3 {
   color: #212121;
   font-size: 14px;
-  margin-top: 7px;
+  margin-top: 5px;
   margin-left: 8px;
 }
 
@@ -582,17 +582,18 @@
 
 
   .ptext3 {
-      margin-top: 15px;
+      margin-top: 5px;
       font-size: 15px;
   }
 
   .ptext4 {
       font-size: 15px;
-      margin-top: 20px;
+      margin-top: 12px;
   }
 
   .ptext5 {
       font-size: 15px;
+      margin-top: 14px;
   }
 
   

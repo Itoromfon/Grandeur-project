@@ -349,7 +349,7 @@
       background-position: center; /* Normal position */
     }
     50% {
-      transform: scale(1.02); /* Pop-up effect: enlarge */
+      transform: scale(1.0); /* Pop-up effect: enlarge */
       background-position: center; /* Keep the image centered */
     }
     100% {
