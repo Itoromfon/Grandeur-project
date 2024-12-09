@@ -17,6 +17,7 @@ function Innovative() {
                 width={1126}
                 height={557}
                 alt='Smart Devices'
+                className={styles.smartgadgetimg}
             />
         </div>
     </div>
