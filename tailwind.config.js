@@ -25,6 +25,9 @@ module.exports = {
   		},
   		colors: {
 			customGray: '#DFE0E4',
+			customBlue: 'rgb(0, 166, 255)',
+			customWhite: 'rgb(239, 239, 239);',
+			customSun: 'rgb(150, 205, 208);',
 			"dark": '#232A3C',
 			"medium": '#293245',
   			background: 'hsl(var(--background))',

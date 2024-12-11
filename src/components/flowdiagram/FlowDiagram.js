@@ -65,6 +65,7 @@ const FlowDiagram = () => {
                     alt='warning alert'
                     width={24}
                     height={24}
+                    className={styles.smallalertimg}
                 />
             </div>
             <div>

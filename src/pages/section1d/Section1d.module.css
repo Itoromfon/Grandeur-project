@@ -855,14 +855,14 @@
     
     .p1amain {
         font-size: 16px;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
         letter-spacing: 1px;
         /* animation: backgroundPop 4s ease-in-out infinite; */
     }
     
     .p1bmain {
         font-size: 16px;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
         letter-spacing: 1px;
         /* animation: backgroundPop 4s ease-in-out infinite; */
     }
@@ -952,14 +952,14 @@
     
     .p1amain {
         font-size: 16px;
-        margin-bottom: 30px;
+        margin-bottom: 20px;
         letter-spacing: 1px;
         /* animation: backgroundPop 4s ease-in-out infinite; */
     }
     
     .p1bmain {
         font-size: 16px;
-        margin-bottom: 30px;
+        margin-bottom: 20px;
         letter-spacing: 1px;
         /* animation: backgroundPop 4s ease-in-out infinite; */
     }
@@ -967,7 +967,7 @@
     .p1cmain {
         font-size: 16px;
         letter-spacing: 1px;
-        margin-bottom: 50px;
+        margin-bottom: 40px;
         /* animation: backgroundPop 4s ease-in-out infinite; */
     }
 

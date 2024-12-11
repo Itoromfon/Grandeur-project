@@ -1,20 +1,21 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { Carousel, Button } from 'react-bootstrap';
 import { useRouter } from 'next/router';
 import { toast } from 'react-toastify';
 import ProductsData from '../simultaneous/SimultaneousData';
 import styles from './Simultaneous.module.css';
-import { setActiveIndex } from '../../../store/activeIndexSlice';
+import { setActiveIndex, setIsHovered } from '../../../store/activeIndexSlice';
 import { useCart } from '../contexts/CartsContext';
 import AnotherComponent from './Simultaneous2';
 import Footer from '../footer/Footer';
 import Navbar2 from '../navbar2/Navbar2';
+import { WindowsLogo } from 'phosphor-react';
 
 const ProductKitCarousel = () => {
     const activeIndex = useSelector((state) => state.activeIndex.value);
     const dispatch = useDispatch();
-    const [isHovered, setIsHovered] = useState(false);
+    // const [isHovered, setIsHovered] = useState(false);
     // const { addToCart } = useCart();
     // const router = useRouter();
     const [selectedText, setSelectedText] = useState({});
@@ -37,8 +38,19 @@ const ProductKitCarousel = () => {
     //     toast.success(`${product.name} (${product.selectedPackage} Package) has been added to your cart!`);
     // }
 
-    const handleMouseEnter = () => setIsHovered(true);
-    const handleMouseLeave = () => setIsHovered(false);
+    const handleMouseEnter = () => dispatch(setIsHovered(true));
+    const handleMouseLeave = () => dispatch(setIsHovered(false));
+
+    // useEffect(() => {
+    //     // const handleMouseEnter = () => {setIsHovered(true); console.log('mouseenter')};
+    //     // const handleMouseLeave = () => setIsHovered(false);
+    //     window.addEventListener('mouseenter', handleMouseEnter)
+    //     window.addEventListener('mouseleave', handleMouseLeave)
+    //     return () => {
+    //         window.removeEventListener('mouseenter', handleMouseEnter)
+    //         window.removeEventListener('mouseleave', handleMouseLeave)
+    //     }
+    // }, []);
 
     const handleButtonClick = (productKit, selectedPackage, index) => {
         // const nestedCarousels = productKit.nestedCarousels || [];
@@ -76,10 +88,13 @@ const ProductKitCarousel = () => {
                     activeIndex={activeIndex}
                     onSelect={(index) => dispatch(setActiveIndex(index))}
                     fade 
-                    interval={isHovered ? null : 5000}
+                    interval={5000}
+                    pause='hover'
+                    autoPlay={false}
                     className={styles.carouselContent}
                     onMouseEnter={handleMouseEnter}
                     onMouseLeave={handleMouseLeave}
+                    wrap={true}
                 >
                     {ProductsData.map((productKit) => {
                         // const availablePackages = ['Basic', 'Advance', 'Premium', 'Ultimate'].filter(

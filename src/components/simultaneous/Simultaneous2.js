@@ -1,6 +1,6 @@
 import React, { useState} from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { setActiveIndex } from '../../../store/activeIndexSlice';
+import { setActiveIndex, setIsHovered } from '../../../store/activeIndexSlice';
 import ProductsData from './SimultaneousData';
 import videoData from './videoData';
 import styles from './Simultaneous2.module.css'
@@ -44,8 +44,12 @@ const AnotherComponent = () => {
     //     }
     //     setisPlaying(!isPlaying);
     // };
+    
     const [showModal, setShowModal] = useState(false);
     const [selectedVideo, setSelectedVideo] = useState(null);
+
+    const handleMouseEnter = () => dispatch(setIsHovered(true));
+    const handleMouseLeave = () => dispatch(setIsHovered(false));
 
     const handlePlayClick = (video) => {
         setSelectedVideo(video);
@@ -115,6 +119,8 @@ const AnotherComponent = () => {
                 activeIndex={activeIndex}
                 onSelect={(selectedIndex) => dispatch(setActiveIndex(selectedIndex))}
                 className={styles.videoCarousel}
+                onMouseEnter={handleMouseEnter}
+                onMouseLeave={handleMouseLeave}
             >
                   {videoData.map((video) => (
                     <Carousel.Item key={video.id}>
@@ -224,8 +230,10 @@ const AnotherComponent = () => {
             <div className={styles.carouselcontainer}>
             <Carousel 
                 className={styles.carouseDiv}
-                activeIndex={activeIndex}
-                onSelector={(selectedIndex) => dispatch(setActiveIndex(selectedIndex))}
+                // activeIndex={activeIndex}
+                // onSelector={(selectedIndex) => dispatch(setActiveIndex(selectedIndex))}
+                onMouseEnter={handleMouseEnter}
+                onMouseLeave={handleMouseLeave}
             >
                 {ProductsData.map((product) => (
 

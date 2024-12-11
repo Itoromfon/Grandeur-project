@@ -941,6 +941,15 @@
         margin: 10px auto;
         flex-direction: column;
       }
+
+    .staffsnakediv2 {
+        width: 51px;
+        height: 51px;
+    }
+
+    .smallalertimg {
+        margin: 5px auto 0 auto;
+    }
 }
 
 
@@ -1169,6 +1178,15 @@
         margin: 10px auto;
         flex-direction: column;
       }
+
+      .staffsnakediv2 {
+        width: 51px;
+        height: 51px;
+    }
+
+    .smallalertimg {
+        margin: 5px auto 0 auto;
+    }
 }
 
 
@@ -1399,7 +1417,16 @@
     .alert2 {
         margin: 10px auto;
         flex-direction: column;
-      }
+    }
+
+    .staffsnakediv2 {
+        width: 51px;
+        height: 51px;
+    }
+
+    .smallalertimg {
+        margin: 5px auto 0 auto;
+    }
 }
 
 
@@ -1627,7 +1654,16 @@
     .alert2 {
         margin: 10px auto;
         flex-direction: column;
-      }
+    }
+
+    .staffsnakediv2 {
+        width: 51px;
+        height: 51px;
+    }
+
+    .smallalertimg {
+        margin: 5px auto 0 auto;
+    }
 }
 
 
@@ -1855,7 +1891,16 @@
     .alert2 {
         margin: 10px auto;
         flex-direction: column;
-      }
+    }
+
+    .staffsnakediv2 {
+        width: 51px;
+        height: 51px;
+    }
+
+    .smallalertimg {
+        margin: 5px auto 0 auto;
+    }
 }
 
 
@@ -2087,5 +2132,14 @@
     .alert2 {
         margin: 10px auto;
         flex-direction: column;
-      }
+    }
+
+    .staffsnakediv2 {
+        width: 51px;
+        height: 51px;
+    }
+
+    .smallalertimg {
+        margin: 5px auto 0 auto;
+    }
 }

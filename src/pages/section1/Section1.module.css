@@ -816,7 +816,7 @@
     .h1main {
         font-size: 25px;
         text-align: center;
-        margin: -140px auto 0 auto;
+        margin: -150px auto 0 auto;
         width: 100%;
         max-width: 90%;
         margin-bottom: 30px;
@@ -855,14 +855,14 @@
     
     .p1amain {
         font-size: 16px;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
         letter-spacing: 1px;
         /* animation: backgroundPop 4s ease-in-out infinite; */
     }
     
     .p1bmain {
         font-size: 16px;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
         letter-spacing: 1px;
         /* animation: backgroundPop 4s ease-in-out infinite; */
     }
@@ -913,7 +913,7 @@
     .h1main {
         font-size: 25px;
         text-align: center;
-        margin: -140px auto 0 auto;
+        margin: -160px auto 0 auto;
         width: 400px;
         max-width: 90%;
         margin-bottom: 50px;
@@ -952,14 +952,14 @@
     
     .p1amain {
         font-size: 16px;
-        margin-bottom: 30px;
+        margin-bottom: 20px;
         letter-spacing: 1px;
         /* animation: backgroundPop 4s ease-in-out infinite; */
     }
     
     .p1bmain {
         font-size: 16px;
-        margin-bottom: 30px;
+        margin-bottom: 20px;
         letter-spacing: 1px;
         /* animation: backgroundPop 4s ease-in-out infinite; */
     }
@@ -967,7 +967,7 @@
     .p1cmain {
         font-size: 16px;
         letter-spacing: 1px;
-        margin-bottom: 50px;
+        margin-bottom: 40px;
         /* animation: backgroundPop 4s ease-in-out infinite; */
     }
 

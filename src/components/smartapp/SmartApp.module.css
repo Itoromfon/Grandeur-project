@@ -1,0 +1,255 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 100px;
+    gap: 20px;
+    position: relative;
+    margin-top: 50px;
+  }
+
+  .smallphonediv {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin-top: 145px;
+    background-color: rgb(223, 221, 221);
+    width: 120px;
+    margin-left: 22px;
+    border-radius: 10px;
+  }
+  
+  .smallPhone {
+    /* background-image: url('/smartapphone.jpg');  */
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    display: flex; 
+    flex-wrap: wrap; 
+    overflow: hidden; 
+    position: relative; 
+    margin-bottom: -20px;
+  }
+
+  .smallPhone2 {
+    /* background-image: url('/smartapphone.jpg');  */
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    display: flex; 
+    flex-wrap: wrap; 
+    overflow: hidden; 
+    position: relative; 
+    margin-bottom: -20px;
+  }
+
+  .smallPhone3 {
+    /* background-image: url('/smartapphone.jpg');  */
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    display: flex; 
+    flex-wrap: wrap; 
+    overflow: hidden; 
+    position: relative; 
+  }
+
+  .smartappimg {
+    width: 160px;
+    height: 240px;
+    margin-top: 90px;
+    border-radius: 10px;
+    
+  }
+  
+  .icon {
+    width: 30px;
+    height: 50px;
+    /* background-color: red;  */
+    border-radius: 10px; /* Make the icon look like a button */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    cursor: pointer; /* Add pointer cursor */
+    transition: transform 0.3s, box-shadow 0.3s; 
+  }
+
+  .icon2 {
+    width: 30px;
+    height: 50px;
+    /* background-color: red;  */
+    border-radius: 10px; /* Make the icon look like a button */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    cursor: pointer; /* Add pointer cursor */
+    transition: transform 0.3s, box-shadow 0.3s; 
+  }
+
+  .icon3 {
+    width: 30px;
+    height: 50px;
+    /* background-color: red;  */
+    border-radius: 10px; /* Make the icon look like a button */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    cursor: pointer; /* Add pointer cursor */
+    transition: transform 0.3s, box-shadow 0.3s; 
+  }
+
+  .icon:hover {
+    transform: scale(1.1); /* Slightly enlarge on hover */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
+  }
+  
+  .icon.active {
+    /* background-color: #007bff; */
+    color: #000000;
+    transform: scale(1.2);
+  }
+  
+  .largePhone {
+    /* flex: 1; */
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-top: -270px;
+    margin-left: 70px;
+    max-width: 100px;
+    /* border: 1px solid #ccc; */
+    border-radius: 10px;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-right: auto; */
+    position: absolute;
+  }
+  
+  .deviceDisplay {
+    text-align: center;
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  
+  .deviceImage {
+    max-width: 200px;
+    max-height: 200px;
+    margin-bottom: 20px;
+  }
+  
+  .deviceName {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .placeholder {
+    color: #999;
+    font-size: 1rem;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: scale(0.9);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+
+  .wifi {
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    padding: 5px;
+    color: #000000;
+    font-size: 22px;
+  }
+
+  .door {
+    background-color: red;
+    border-radius: 5px;
+    padding: 5px;
+    color: #FFFFFF;
+    font-size: 26px;
+  }
+
+  .home {
+    background-color: rgb(0, 217, 255);
+    border-radius: 5px;
+    padding: 5px;
+    color: #FFFFFF;
+    font-size: 22px;
+    margin-top: 2px;
+  }
+
+  .hue {
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    padding: 5px;
+    color: #000000;
+    font-size: 26px;
+  }
+
+  .sonos {
+    background-color: #000000;
+    border-radius: 5px;
+    padding: 5px;
+    color: #FFFFFF;
+    font-size: 26px;
+  }
+
+  .wemo {
+    background-color: rgb(58, 238, 160);
+    border-radius: 5px;
+    padding: 5px;
+    color: #FFFFFF;
+    font-size: 26px;
+  }
+
+  .atom {
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    padding: 5px;
+    color: #000000;
+    font-size: 26px;
+  }
+
+  .iohome {
+    background-color: rgb(0, 217, 255);
+    border-radius: 5px;
+    padding: 5px;
+    color: #FFFFFF;
+    font-size: 26px;
+  }
+
+  .doorbell {
+    background-color: rgb(0, 166, 255);
+    border-radius: 5px;
+    padding: 5px;
+    color: #FFFFFF;
+    font-size: 26px;
+  }
+  
+  .smartappimg2 {
+    width: 260px;
+    height: 410px;
+  }
+
+  .dotfill {
+    color: rgb(0, 217, 255);
+  }
+
+  .demo {
+    background-color: rgb(150, 205, 208);
+  }
+  

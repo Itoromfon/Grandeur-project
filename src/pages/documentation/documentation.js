@@ -14,6 +14,7 @@ import Simultaneous from '@/components/simultaneous/Simultaneous'
 // import Carousel from '@/components/carousel/Carousel'
 import dynamic from 'next/dynamic';
 // import { CartProvider } from '@/components/contexts/CartsContext';
+import SmartApp from '@/components/smartapp/SmartApp'
 
 export default function EmblaCarousel() {
   return (
@@ -22,8 +23,9 @@ export default function EmblaCarousel() {
         <Carousel />
         <TabCarousel /> */}
         {/* <CartProvider> */}
-          <Simultaneous />
+          {/* <Simultaneous /> */}
         {/* </CartProvider> */}
+        <SmartApp />
     </div>
   )
 }
