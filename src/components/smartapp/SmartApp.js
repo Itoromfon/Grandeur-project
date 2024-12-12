@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { useAutoAnimate } from '@formkit/auto-animate/react';
 import styles from './SmartApp.module.css';
 import Image from 'next/image';
 import { FaHome } from "react-icons/fa";
@@ -17,39 +18,46 @@ import { TbAirConditioning } from "react-icons/tb";
 import { LiaTimesSolid } from "react-icons/lia";
 import { FaLightbulb } from "react-icons/fa";
 import { AiFillSun } from "react-icons/ai";
+import { FaDroplet } from "react-icons/fa6";
+import { IoFingerPrint } from "react-icons/io5";
+import { FaRegLightbulb } from "react-icons/fa6";
+import { FaEquals } from "react-icons/fa";
+import { IoIosClose } from "react-icons/io";
+
 
 const devices = [
-  { id: 1, name: 'Door Locks', icon: <FaWifi className={styles.wifi} />, image: '/images/door-lock.png', text:'HomeCo' },
-  { id: 2, name: 'Smart Light Switches', icon: <GiLockedDoor className={styles.door} />, image: '/images/light-switch.png', text:'August' },
-  { id: 3, name: 'Smart Appliance', icon: <FaHome className={styles.home} />, image: '/images/appliance.png', text:'Insteon' },  
+  { id: 1, name: 'Door Locks', icon: <FaWifi className={styles.wifi} />, image: '/healthair.svg', text:'HomeCo', texts: 'Smart Appliances', lineClass: styles.line1 },
+  { id: 2, name: 'Smart Light Switches', icon: <GiLockedDoor className={styles.door} />, image: '/doormart.svg', text:'August', texts: 'Door Locks', lineClass: styles.line2 },
+  { id: 3, name: 'Smart Appliance', icon: <FaHome className={styles.home} />, image: '/insteon.svg', text:'Insteon', texts: 'Smart Light Switches', lineClass: styles.line3 },  
 ];
 
 const devices2 = [
-  { id: 1, name: 'Door Locks', icon: <SiPhilipshue className={styles.hue} />, image: '/images/door-lock.png', text:'Hue' },
-  { id: 2, name: 'Smart Light Switches', icon: <SiSonos className={styles.sonos} />, image: '/images/light-switch.png', text:'Sonos' },
-  { id: 3, name: 'Smart Appliance', icon: <SiWemo className={styles.wemo} />, image: '/images/appliance.png', text:'Wemo' }, 
+  { id: 1, name2: 'Smart Light', icon2: <SiPhilipshue className={styles.hue} />, image: '/smartbulb.svg', text:'Hue', texts: 'Music', lineClass: styles.line4 },
+  { id: 2, name2: 'Music', icon2: <SiSonos className={styles.sonos} />, image: '/sonosmusic.svg', text:'Sonos', texts: 'Sensors,', lineClass: styles.line5 },
+  { id: 3, name2: 'Sensors', icon2: <SiWemo className={styles.wemo} />, image: '/mylorawan.svg', text:'Wemo', texts: 'Doorbell', lineClass: styles.line6 }, 
 ];
 
 const devices3 = [
-  { id: 1, name: 'Door Locks', icon: <FaAtom className={styles.atom} />, image: '/images/door-lock.png', text:'SmartThi' },
-  { id: 2, name: 'Smart Light Switches', icon: <IoIosHome className={styles.iohome} />, image: '/images/light-switch.png', text:'Nest' },
-  { id: 3, name: 'Smart Appliance', icon: <MdDoorbell className={styles.doorbell} />, image: '/images/appliance.png', text:'Ring' },
-  
+  { id: 1, name: 'Smart Plug', icon3: <FaAtom className={styles.atom} />, image: '/sonosmusic.svg', text:'SmartThi', texts: 'Climate Control/Cameras', lineClass: styles.line7 },
+  { id: 2, name: 'Climate Control/Cameras', icon3: <IoIosHome className={styles.iohome} />, image: '/smartbulb.svg', text:'Nest', texts: 'Smart Plug', lineClass: styles.line8 },
+  { id: 3, name: 'Doorbell', icon3: <MdDoorbell className={styles.doorbell} />, image: '/insteon.svg', text:'Ring', texts: 'Smart Plug', lineClass: styles.line9 }, 
 ];
 
 export default function SmartApp() {
   const [activeDevice, setActiveDevice] = useState(null);
-  const [playAnimation, setPlayAnimation] = useState(false);
+  const [activeArray, setActiveArray] = useState('devices');
+  const [parent] = useAutoAnimate();
 
-  const handleDeviceClick = (deviceId) => {
+  const handleDeviceClick = (deviceId, arrayName) => {
     setActiveDevice(deviceId);
-    if (deviceId === 1) {
-      setPlayAnimation(true); // Trigger animation for the first button
-      setTimeout(() => setPlayAnimation(false), 2000); // Reset animation after it ends
-    }
+    setActiveArray(arrayName);
+    // if (deviceId === 1 && arrayName === 'devices') {
+    //   setTimeout(() => setIsDoorOpening(false), 6000); 
+    // }
   };
 
   return (
+<>
     <div className={styles.container}>
       {/* Small Phone */}
       <Image 
@@ -63,57 +71,96 @@ export default function SmartApp() {
     <div className={styles.smallPhone}>
       {devices.map((device) => (
       <div
-      key={device.id}
-      className={`${styles.icon} ${activeDevice === device.id ? styles.active : ''}`}
-      onClick={() => handleDeviceClick(device.id)}
-    >
+        key={device.id}
+        className={`${styles.icon} ${activeDevice === device.id && activeArray === 'devices' ? styles.active : ''}`}
+        onClick={() => handleDeviceClick(device.id, 'devices')}
+      >
       {device.icon}
+    <div className='mt-[1px]'>
+      <p className='flex text-[7px] text-[#FFFFFF]'><GoDotFill className={styles.dotfill} />{device.text}</p>
+    </div>
+    <div className={device.lineClass}></div>
+    </div>
+    ))}
+    </div>
+    <div className={styles.smallPhone2}>
+      {devices2.map((device) => (
+      <div
+        key={device.id}
+        className={`${styles.icon2} ${activeDevice === device.id && activeArray === 'devices' ? styles.active : ''}`}
+        onClick={() => handleDeviceClick(device.id, 'devices')}
+      >
+      {device.icon2}
+    <div className='mt-[1px]'>
+      <p className='flex text-[7px] text-[#FFFFFF]'><GoDotFill className={styles.dotfill} />{device.text}</p>
+    </div>
+    <div className={device.lineClass}></div>
+    </div>
+    ))}
+    </div>
+    {/* <div className={styles.smallPhone2}>
+      <>
+      {devices2.map((device) => (
+      <div
+      key={device.id}
+      className={`${styles.icon2} ${activeDevice === device.id && activeArray === 'devices2' ? styles.active : ''}`}
+      onClick={() => handleDeviceClick(device.id, 'devices2')}
+    >
+      {device.icon2}
     <div className='mt-[1px]'>
       <p className='flex text-[7px] text-[#FFFFFF]'><GoDotFill className={styles.dotfill} />{device.text}</p>
     </div>
     </div>
     ))}
-    </div>
-    <div className={styles.smallPhone2}>
-        {devices2.map((device) => (
-      <div
-      key={device.id}
-      className={`${styles.icon2} ${activeDevice === device.id ? styles.active : ''}`}
-      onClick={() => setActiveDevice(device.id)}
-    >
-      {device.icon}
-      <div className='mt-[1px]'>
-      <p className='flex text-[7px] text-[#FFFFFF]'><GoDotFill className={styles.dotfill} />{device.text}</p>
+    </>
+    <>
+    {devices2.map((item, index) => (
+      <div key={index}>
+        <div className={item.lineClass2}></div>
       </div>
-    </div>
     ))}
-    </div>
-    <div className={styles.smallPhone3}>
-        {devices3.map((device) => (
-      <div
-      key={device.id}
-      className={`${styles.icon3} ${activeDevice === device.id ? styles.active : ''}`}
-      onClick={() => setActiveDevice(device.id)}
-    >
-      {device.icon}
-      <div className='mt-[1px]'>
-        <p className='flex text-[7px] text-[#FFFFFF]'><GoDotFill className={styles.dotfill} />{device.text}</p>
-      </div>
-    </div>
-    ))}
-    </div>
-    </div>
-    {/* <div>
-        {devices.map((item) => {
-            <div
-                key={item.id}
-                className={`${styles.icon} ${activeDevice === item.id ? styles.active : ''}`}
-                onClick={() => setActiveDevice(item.id)}
-            >
-                {item.icon}
-            </div>
-        })}
+    </>
     </div> */}
+    <div className={styles.smallPhone3}>
+      {devices3.map((device) => (
+      <div
+        key={device.id}
+        className={`${styles.icon} ${activeDevice === device.id && activeArray === 'devices' ? styles.active : ''}`}
+        onClick={() => handleDeviceClick(device.id, 'devices')}
+      >
+      {device.icon3}
+    <div className='mt-[1px]'>
+      <p className='flex text-[7px] text-[#FFFFFF]'><GoDotFill className={styles.dotfill} />{device.text}</p>
+    </div>
+    <div className={device.lineClass}></div>
+    </div>
+    ))}
+    </div>
+    </div>
+    <div className='flex'>
+    <div className='mt-[120px]'>
+      <div><p className='text-[11px] mb-[4px]'>Smart Appliances</p></div>
+      <div><p className='text-[11px] mb-[7px]'>Door Locks</p></div>
+      <div><p className='text-[11px] mb-[4px]'>Smart Light Switches</p></div>
+      <div><p className='text-[11px] mb-[7px]'>Smart Lights</p></div>
+      <div><p className='text-[11px] mb-[4px]'>Music</p></div>
+      <div><p className='text-[11px] mb-[7px]'>Sensors</p></div>
+      <div><p className='text-[11px] mb-[4px]'>Doorbell</p></div>
+      <div><p className='text-[11px] mb-[7px]'>Climate Control/Cameras</p></div>
+      <div><p className='text-[11px] mb-[0]'>Smart Plug</p></div>
+    </div>
+    <div className='mt-[200px]'>
+      {activeDevice ? <IoIosClose onClick={() => setActiveDevice(null)} className='text-[31px] cursor-pointer' /> : <FaEquals className='text-[31px]' />}
+
+    </div>
+    </div>
+
+
+
+
+
+
+
 
 
       {/* Large Phone */}
@@ -128,15 +175,25 @@ export default function SmartApp() {
       <div className={styles.largePhone}>
         {activeDevice !== null ? (
           <div className={styles.deviceDisplay}>
-            <img
-              src={devices.find((device) => device.id === activeDevice).image}
-              alt={devices.find((device) => device.id === activeDevice).name}
-              className={styles.deviceImage}
-            />
-            <h2 className={styles.deviceName}>
-              {devices.find((device) => device.id === activeDevice).name}
-            </h2>
-          </div>
+          {(() => {
+            const selectedArray = activeArray === 'devices' ? devices :
+                                  activeArray === 'devices2' ? devices2 : devices3;
+            const selectedDevice = selectedArray.find((device) => device.id === activeDevice);
+
+            return (
+              <>
+                <img
+                  src={selectedDevice.image || selectedDevice.image2}
+                  alt={selectedDevice.name || selectedDevice.name2}
+                  className={`${styles.deviceImage} ${activeDevice === selectedDevice.id ? styles.deviceImageVisible : ''}`}
+                />
+                <h2 className={styles.deviceName}>
+                  {selectedDevice.name || selectedDevice.name2}
+                </h2>
+              </>
+            );
+          })()}
+        </div>
         ) : (
           // <p className={styles.placeholder}>Select a device to view details</p>
           <div>
@@ -192,18 +249,35 @@ export default function SmartApp() {
                 <p className='text-[10px]'>30&deg;</p>
               </div>
             </div>
-            <div className='flex justify-around gap-24'>
-              <div className='ml-[20px]'>
+            <div className='flex justify-center gap-8 mt-[10px]'>
+              <div className='ml-[24px] mt-[10px]'>
                 <p>69m&sup2;</p>
+                <p className='text-[8px] text-[grey] mt-[-15px] tracking-wide'>First flor</p>
               </div>
-              <div>
-                <p>69m&sup2;</p>
+              <div className='bg-customWhite cursor-pointer rounded-[5px] py-2 w-[40px] h-[25px]'>
+                <h1 className='font-bold text-[white] mt-[-4px] text-[14px] flex justify-center'>Auto</h1>
+              </div>
+              <div className='mt-[10px]'>
+                <p>46m</p>
+                <p className='text-[8px] text-[grey] mt-[-15px] tracking-wide'>Time</p>
+              </div>
+            </div>
+            <div className='flex justify-around mt-[5px] ml-[12px]'>
+              <div className='mt-[5px]'>
+                <FaDroplet className='text-[17px] cursor-pointer text-customBlue' />
+              </div>
+              <div className='mt-[-5px]'>
+                <IoFingerPrint className='text-[17px] cursor-pointer text-yellow-500' />
+              </div>
+              <div className='mt-[5px]'>
+                <FaRegLightbulb className='text-[17px] cursor-pointer' />
               </div>
             </div>
           </div>
         )}
       </div>
+      </div>
     </div>
-    </div>
+    </>
   );
 }
