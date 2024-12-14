@@ -1,0 +1,509 @@
+.main {
+    /* margin-top: 80px; */
+    padding-top: -100px;
+    margin-bottom: -50px;
+    margin-left: 30px;
+}
+
+.htextdiv {
+    /* animation: backgroundPop 4s ease-in-out infinite; */
+}
+
+.htext {
+    display: flex;
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+    width: 504px;
+}
+
+.htext2 {
+    display: none;
+}
+
+.h2text {
+    display: flex;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: #FFFFFF;
+    width: 504px;
+    margin-top: -15px;
+}
+
+.ptextdiv {
+    /* animation: backgroundPop 4s ease-in-out infinite; */
+}
+
+.ptext {
+    font-size: 16px;
+    letter-spacing: 1px;
+    width: 420px;
+    color: #FFFFFF;
+    line-height: 24px;
+}
+
+.smartaiimg {
+    margin-top: -15px;
+}
+
+
+@keyframes backgroundPop {
+    0% {
+      transform: scale(1); /* Start with normal size */
+      background-position: center; /* Normal position */
+    }
+    50% {
+      transform: scale(1.03); /* Pop-up effect: enlarge */
+      background-position: center; /* Keep the image centered */
+    }
+    100% {
+      transform: scale(1); /* Return to normal size */
+      background-position: center; /* Normal position */
+    }
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 1201px) and (max-width: 1800px) {
+    .main {
+        /* margin-top: 80px; */
+        margin-top: -260px;
+    }
+
+    .htext {
+        display: flex;
+        font-size: 25px;
+        letter-spacing: 2px;
+        font-weight: bold;
+        color: #FFFFFF;
+        width: 600px;
+    }
+    
+    .ptext {
+        font-size: 16px;
+        letter-spacing: 2px;
+        width: 440px;
+        color: #FFFFFF;
+        line-height: 26px;
+    }
+}
+
+@media only screen and (min-width: 1801px) and (max-width: 2700px) {
+    .main {
+        /* margin-top: 80px; */
+        margin-top: -230px;
+    }
+
+    .htext {
+        display: flex;
+        font-size: 27px;
+        letter-spacing: 3px;
+        font-weight: bold;
+        color: #FFFFFF;
+        width: 610px;
+    }
+    
+    .ptext {
+        font-size: 17px;
+        letter-spacing: 2px;
+        width: 460px;
+        color: #FFFFFF;
+        line-height: 28px;
+    }
+}
+
+@media only screen and (min-width: 2701px) and (max-width: 3500px) {
+    .main {
+        /* margin-top: 80px; */
+        margin-top: -230px;
+    }
+
+    .htext {
+        display: flex;
+        font-size: 29px;
+        letter-spacing: 3px;
+        font-weight: bold;
+        color: #FFFFFF;
+        width: 640px;
+        line-height: 45px;
+    }
+    
+    .ptext {
+        font-size: 18px;
+        letter-spacing: 3px;
+        width: 480px;
+        color: #FFFFFF;
+        line-height: 28px;
+    }
+}
+
+@media only screen and (min-width: 3501px) and (max-width: 4500px) {
+    .main {
+        /* margin-top: 80px; */
+        margin-top: -230px;
+    }
+
+    .htext {
+        display: flex;
+        font-size: 30px;
+        letter-spacing: 3px;
+        font-weight: bold;
+        color: #FFFFFF;
+        width: 650px;
+        line-height: 45px;
+    }
+    
+    .ptext {
+        font-size: 18px;
+        letter-spacing: 3px;
+        width: 500px;
+        color: #FFFFFF;
+        line-height: 30px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+@media screen and (min-width: 320px) and (max-width: 400px) {
+    .main {
+        margin-bottom: 50px;
+    }
+
+    .htext {
+        display: none;
+        font-size: 22px;
+        width: 304px;
+        flex-direction: column;
+    }
+
+    .htext2 {
+        display: block;
+        font-size: 20px;
+        letter-spacing: 1px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #FFFFFF;
+        text-align: center;
+        width: 300px;
+    }
+
+    .htextdiv {
+        display: flex;
+        justify-content: center;
+        margin: 20px 0;
+    }
+
+    .ptext {
+        font-size: 17px;
+        width: 300px;
+        text-align: center;
+    }
+
+    .ptextdiv {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 401px) and (max-width: 480px) {
+    .main {
+        margin-bottom: 50px;
+    }
+
+    .htext {
+        display: none;
+        font-size: 22px;
+        width: 304px;
+        flex-direction: column;
+    }
+
+    .htext2 {
+        display: block;
+        font-size: 20px;
+        letter-spacing: 1px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #FFFFFF;
+        text-align: center;
+        width: 300px;
+    }
+
+    .htextdiv {
+        display: flex;
+        justify-content: center;
+        margin: 20px 0;
+    }
+
+    .ptext {
+        font-size: 17px;
+        width: 300px;
+        text-align: center;
+    }
+
+    .ptextdiv {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+@media screen and (min-width: 481px) and (max-width: 600px) {
+    .main {
+        margin-bottom: 50px;
+    }
+
+    .htext {
+        display: none;
+        font-size: 22px;
+        width: 304px;
+        flex-direction: column;
+    }
+
+    .htext2 {
+        display: block;
+        font-size: 22px;
+        letter-spacing: 1px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #FFFFFF;
+        text-align: center;
+        width: 300px;
+    }
+
+    .htextdiv {
+        display: flex;
+        justify-content: center;
+        margin: 20px 0;
+    }
+
+    .ptext {
+        font-size: 17px;
+        width: 300px;
+        text-align: center;
+    }
+
+    .ptextdiv {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 768px) {
+    .main {
+        margin-bottom: 50px;
+    }
+
+    .htext {
+        display: none;
+        font-size: 22px;
+        width: 304px;
+        flex-direction: column;
+    }
+
+    .htext2 {
+        display: block;
+        font-size: 23px;
+        letter-spacing: 1px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #FFFFFF;
+        text-align: center;
+        width: 300px;
+    }
+
+    .htextdiv {
+        display: flex;
+        justify-content: center;
+        margin: 20px 0;
+    }
+
+    .ptext {
+        font-size: 17px;
+        width: 300px;
+        text-align: center;
+    }
+
+    .ptextdiv {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 900px) {
+    .main {
+        margin-bottom: 50px;
+    }
+
+    .htext {
+        display: none;
+        font-size: 23px;
+        width: 304px;
+        flex-direction: column;
+    }
+
+    .htext2 {
+        display: block;
+        font-size: 24px;
+        letter-spacing: 2px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #FFFFFF;
+        text-align: center;
+        width: 330px;
+    }
+
+    .htextdiv {
+        display: flex;
+        justify-content: center;
+        margin: 20px 0;
+    }
+
+    .ptext {
+        font-size: 17px;
+        width: 300px;
+        text-align: center;
+    }
+
+    .ptextdiv {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 901px) and (max-width: 1200px) {
+    .main {
+        margin-bottom: 50px;
+    }
+
+    .htext {
+        display: none;
+        font-size: 22px;
+        width: 304px;
+        flex-direction: column;
+    }
+
+    .htext2 {
+        display: block;
+        font-size: 28px;
+        letter-spacing: 2px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #FFFFFF;
+        text-align: center;
+        width: 390px;
+    }
+
+    .htextdiv {
+        display: flex;
+        justify-content: center;
+        margin: 20px 0;
+    }
+
+    .ptext {
+        font-size: 22px;
+        width: 400px;
+        text-align: center;
+        letter-spacing: 2px;
+    }
+
+    .ptextdiv {
+        display: flex;
+        justify-content: center;
+    }
+}

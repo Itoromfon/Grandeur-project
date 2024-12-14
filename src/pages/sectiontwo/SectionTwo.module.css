@@ -1,0 +1,306 @@
+.text {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: -30px;
+}
+
+.sectionhead {
+    font-size: 36px;
+    font-weight: bolder;
+    margin-bottom: 0;
+    color: rgb(185, 124, 13);
+}
+
+.sectiontext {
+    font-size: 16px;
+    font-weight: 500;
+} 
+
+.ellipse {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.mphead {
+    background-image: linear-gradient(90deg, #5C755E, #78A67C);
+    background-clip: text;
+    -webkit-background-clip: text; /* For WebKit browsers */
+    color: #5C755E;
+    font-size: 55px;
+    font-weight: 700;
+    margin-bottom: 0px;
+    line-height: 60px;
+    margin-right: 50px;
+}
+
+.mphead2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #5C755E;
+}
+
+.mptext {
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: #5C755E;
+}
+
+.mpdiv {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.imagemp {
+    /* margin-left: 70px; */
+}
+
+.mpimagediv {
+    /* margin-right: 70px;  */
+    margin-top: -250px;
+}
+
+.imagedetection {
+    background-color: #5C755E; /* Set your desired background color */
+    padding: 10px;             /* Add padding for spacing between image and container */
+    border-radius: 50%;        /* Makes the background a circle */
+    display: inline-block;  
+}
+
+.detectiontext {
+    font-size: 16px;
+    font-weight: 500;
+    font-weight: bold;
+    color: #5C755E;
+}
+
+.detectiontext2 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #5C755E;
+}
+
+.maindetection {
+    margin-top: 250px;
+}
+
+.imagedetectdiv {
+    background-color: #FFFFFF;
+    box-shadow: 3px 3px 3px 3px #f5f3f4;
+    margin: 30px 50px 30px 50px;
+    padding: 15px 15px 15px 15px;
+    justify-content: space-between;
+    border-radius: 10px;
+    z-index: 2;
+}
+
+.bulb {
+    background: linear-gradient(to right, #FFB121, #FAAB3300); 
+    padding: 10px;           
+    border-radius: 50%;        
+    display: inline-block; 
+}
+
+.bulbdiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -250px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    .mphead {
+        font-size: 30px;
+        line-height: 30px;
+        margin-bottom: 15px;
+        margin-right: 0;
+        text-align: center;
+    }
+
+    .mphead2 {
+        font-size: 25px;
+        margin-top: 15px;
+        text-align: center;
+    }
+
+    .mpdiv {
+        flex-direction: column;
+        margin-top: 400px;
+    }
+
+    .bulbdiv {
+        visibility: hidden;
+    }
+
+    .maindetection {
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+
+    .mphead2 {
+        /* color: rgb(8, 123, 8); */
+    }
+
+    .mptext {
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 600px) {
+    .mphead {
+        font-size: 30px;
+        line-height: 30px;
+        margin-bottom: 15px;
+        margin-right: 0;
+        text-align: center;
+    }
+
+    .mphead2 {
+        font-size: 25px;
+        margin-top: 15px;
+        text-align: center;
+    }
+
+    .mpdiv {
+        flex-direction: column;
+        margin-top: 400px;
+    }
+
+    .bulbdiv {
+        visibility: hidden;
+    }
+
+    .maindetection {
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+
+    .mphead2 {
+        /* color: rgb(8, 123, 8); */
+    }
+
+    .mptext {
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+    .mphead {
+        font-size: 30px;
+        line-height: 30px;
+        margin-bottom: 15px;
+        margin-right: 0;
+        text-align: center;
+    }
+
+    .mphead2 {
+        font-size: 25px;
+        margin-top: 15px;
+        text-align: center;
+    }
+
+    .mpdiv {
+        flex-direction: column;
+        margin-top: 400px;
+    }
+
+    .bulbdiv {
+        visibility: hidden;
+    }
+
+    .maindetection {
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+
+    .mphead2 {
+        /* color: rgb(8, 123, 8); */
+    }
+
+    .mptext {
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 900px) {
+    .mphead {
+        font-size: 30px;
+        line-height: 30px;
+        margin-bottom: 15px;
+        margin-right: 0;
+        text-align: center;
+    }
+
+    .mphead2 {
+        font-size: 25px;
+        margin-top: 15px;
+        text-align: center;
+    }
+
+    .mpdiv {
+        flex-direction: column;
+        margin-top: 400px;
+    }
+
+    .bulbdiv {
+        visibility: hidden;
+    }
+
+    .maindetection {
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+
+    .mphead2 {
+        /* color: rgb(8, 123, 8); */
+    }
+
+    .mptext {
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1200px) {
+    .mphead {
+        font-size: 30px;
+        line-height: 30px;
+        margin-bottom: 15px;
+        margin-right: 0;
+        text-align: center;
+    }
+
+    .mphead2 {
+        font-size: 25px;
+        margin-top: 15px;
+        text-align: center;
+    }
+
+    .mpdiv {
+        flex-direction: column;
+        margin-top: 400px;
+    }
+
+    .bulbdiv {
+        visibility: hidden;
+    }
+
+    .maindetection {
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+
+    .mphead2 {
+        /* color: rgb(8, 123, 8); */
+    }
+
+    .mptext {
+        text-align: center;
+    }
+}
+
+
+

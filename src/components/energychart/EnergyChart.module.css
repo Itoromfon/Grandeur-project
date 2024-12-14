@@ -1,0 +1,41 @@
+/* EnergyChart.module.css */
+
+.chartContainer {
+    max-width: 620px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgb(23, 23, 23); /* Light background color */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    animation: backgroundPop 4s ease-in-out infinite;
+  }
+  
+  .chartTitle {
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(185, 124, 13);
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* .graph {
+    max-width: 100%;
+  } */
+
+  @keyframes backgroundPop {
+    0% {
+      transform: scale(1); /* Start with normal size */
+      background-position: center; /* Normal position */
+    }
+    50% {
+      transform: scale(1.05); /* Pop-up effect: enlarge */
+      background-position: center; /* Keep the image centered */
+    }
+    100% {
+      transform: scale(1); /* Return to normal size */
+      background-position: center; /* Normal position */
+    }
+}
+
+
+  

@@ -1,0 +1,126 @@
+/* Tabs.module.css */
+
+.tabsContainer {
+    display: flex;
+    cursor: pointer;
+  }
+  
+  .tabButton1 {
+    padding: 10px 20px;
+  }
+
+  .tabButton2 {
+    padding: 10px 20px;
+  }
+
+  .tabButton3 {
+    padding: 10px 20px;
+  }
+  
+  .activeTab {
+    border-bottom: 2px solid #5C755E;
+    background-color: #5C755E;
+    color: #FFFFFF;
+    border-radius: 10px;
+  }
+  
+  .tabContent {
+    margin-top: 20px;
+  }
+
+  .tab1text {
+    background-color: #F6F6F6;
+    padding: 30px 20px;
+    border-radius: 15px;
+    font-size: 15px;
+    color: #212121;
+    margin-top: -20px;
+  }
+
+  .tab2text {
+    background-color: #F6F6F6;
+    padding: 30px 20px;
+    border-radius: 15px;
+    font-size: 15px;
+    color: #212121;
+    margin-top: -20px;
+  }
+
+  .tab3text {
+    background-color: #F6F6F6;
+    padding: 30px 20px;
+    border-radius: 15px;
+    font-size: 15px;
+    color: #212121;
+    margin-top: -20px;
+  }
+
+  @media only screen and (min-width: 320px) and (max-width: 480px) {
+    .tab1text {
+        font-size: 15px;
+      }
+    
+      .tab2text {
+        font-size: 15px;
+      }
+    
+      .tab3text {
+        font-size: 15px;
+      } 
+  }
+
+  @media only screen and (min-width: 481px) and (max-width: 600px) {
+    .tab1text {
+        font-size: 16px;
+      }
+    
+      .tab2text {
+        font-size: 16px;
+      }
+    
+      .tab3text {
+        font-size: 16px;
+      } 
+  }
+
+  @media only screen and (min-width: 601px) and (max-width: 768px) {
+    .tab1text {
+        font-size: 16px;
+      }
+    
+      .tab2text {
+        font-size: 16px;
+      }
+    
+      .tab3text {
+        font-size: 16px;
+      } 
+  }
+
+  @media only screen and (min-width: 769px) and (max-width: 900px) {
+    .tab1text {
+        font-size: 17px;
+      }
+    
+      .tab2text {
+        font-size: 17px;
+      }
+    
+      .tab3text {
+        font-size: 17px;
+      } 
+  }
+
+  @media only screen and (min-width: 901px) and (max-width: 1200px) {
+    .tab1text {
+        font-size: 17px;
+      }
+    
+      .tab2text {
+        font-size: 17px;
+      }
+    
+      .tab3text {
+        font-size: 17px;
+      } 
+  }

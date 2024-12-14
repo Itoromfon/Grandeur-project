@@ -1,0 +1,474 @@
+.main {
+    margin: 100px 50px 150px 60px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.htext {
+    font-size: 25px;
+    font-weight: bold;
+    background-image: linear-gradient(to right, #78A67C, #5C755E); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 55px;
+    letter-spacing: 2px;
+    margin-top: 100px;
+    margin-bottom: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.h2text {
+    color: #212121;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 42px;
+    letter-spacing: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ptext {
+    color: #212121;
+    font-size: 16px;
+    width: 400px;
+    line-height: 22px;
+    letter-spacing: 1px
+}
+
+.ptext2 {
+    color: #212121;
+    font-size: 16px;
+    width: 400px;
+    line-height: 22px;
+    letter-spacing: 1px
+}
+
+.logo {
+    margin-top: -20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.smalldiskdiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagediv {
+    background-color: #b4bdb4;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    padding-top: 25px;
+    margin: 0 auto 0 auto;
+}
+
+.imagediv2 {
+    background-color: #c4cac4;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    padding-top: 25px;
+    margin: 0 auto 0 auto;
+}
+
+.imagediv3 {
+    background-color: #d0d4d0;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    padding-top: 25px;
+    margin: 0 auto 0 auto;
+}
+
+.imagediv4 {
+    background-color: #dfe1df;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    padding-top: 25px;
+    margin-top: -230px;
+    margin-left: 170px;
+}
+
+.imagespeaker {
+    display: flex;
+    /* animation: backgroundPop 4s ease-in-out infinite; */
+}
+
+.alexasdiv {
+    margin-left: 50px;
+}
+
+.alexasdiv2 {
+    margin-left: -80px;
+    margin-top: 150px;
+}
+
+.googlespeakerdiv {
+    margin-top: 150px;
+}
+
+.mainlogixdiv {
+    margin-left: 130px;
+    margin-top: -50px;
+    /* animation: backgroundPop 4s ease-in-out infinite; */
+}
+
+@keyframes backgroundPop {
+    0% {
+      transform: scale(1); /* Start with normal size */
+      background-position: center; /* Normal position */
+    }
+    50% {
+      transform: scale(1.03); /* Pop-up effect: enlarge */
+      background-position: center; /* Keep the image centered */
+    }
+    100% {
+      transform: scale(1); /* Return to normal size */
+      background-position: center; /* Normal position */
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 400px) {
+    .main {
+        margin: -150px 50px 50px 50px;
+        flex-direction: column;
+    }
+    
+    .imagespeaker {
+        display: none;
+    }
+
+    .imagediv4 {
+        display: none;
+    }
+
+    .mainlogixdiv {
+        display: none;
+    }
+
+    .htextdiv {
+        display: flex; /* Enables flexbox */
+        flex-direction: column; /* Stacks items vertically */
+        justify-content: center; /* Centers items vertically */
+        align-items: center; /* Centers items horizontally */
+        text-align: center; /* Centers text within the div */
+        height: 100%; /* Ensure the div takes up the full height of the container */
+        padding: 1rem; /* Optional: Add padding for spacing */
+      }
+
+      .htext {
+        font-size: 25px;
+      }
+
+      .h2text {
+        font-size: 25px;
+      }
+      
+      .textdiv {
+        display: flex; /* Enables flexbox for the parent container */
+        flex-direction: column; /* Ensures items are stacked vertically */
+        align-items: center; /* Centers child items horizontally */
+        justify-content: center; /* Centers child items vertically */
+        min-height: 100vh; /* Makes the container span the full viewport height */
+      }
+
+      .ptext {
+        text-align: center;
+        width: 300px;
+      }
+
+      .ptext2 {
+        text-align: center;
+        width: 300px;
+      }
+}
+
+@media only screen and (min-width: 401px) and (max-width: 480px) {
+    .main {
+        margin: -200px 50px 50px 50px;
+        flex-direction: column;
+    }
+    
+    .imagespeaker {
+        display: none;
+    }
+
+    .imagediv4 {
+        display: none;
+    }
+
+    .mainlogixdiv {
+        display: none;
+    }
+
+    .htextdiv {
+        display: flex; /* Enables flexbox */
+        flex-direction: column; /* Stacks items vertically */
+        justify-content: center; /* Centers items vertically */
+        align-items: center; /* Centers items horizontally */
+        text-align: center; /* Centers text within the div */
+        height: 100%; /* Ensure the div takes up the full height of the container */
+        padding: 1rem; /* Optional: Add padding for spacing */
+      }
+
+      .htext {
+        font-size: 27px;
+      }
+
+      .h2text {
+        font-size: 27px;
+      }
+      
+      .textdiv {
+        display: flex; /* Enables flexbox for the parent container */
+        flex-direction: column; /* Ensures items are stacked vertically */
+        align-items: center; /* Centers child items horizontally */
+        justify-content: center; /* Centers child items vertically */
+        min-height: 100vh; /* Makes the container span the full viewport height */
+      }
+
+      .ptext {
+        text-align: center;
+        width: 350px;
+        font-size: 17px;
+      }
+
+      .ptext2 {
+        text-align: center;
+        width: 350px;
+        font-size: 17px;
+      }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 600px) {
+    .main {
+        margin: -100px 50px 50px 50px;
+        flex-direction: column;
+    }
+    
+    .imagespeaker {
+        display: none;
+    }
+
+    .imagediv4 {
+        display: none;
+    }
+
+    .mainlogixdiv {
+        display: none;
+    }
+
+    .htextdiv {
+        display: flex; /* Enables flexbox */
+        flex-direction: column; /* Stacks items vertically */
+        justify-content: center; /* Centers items vertically */
+        align-items: center; /* Centers items horizontally */
+        text-align: center; /* Centers text within the div */
+        height: 100%; /* Ensure the div takes up the full height of the container */
+        padding: 1rem; /* Optional: Add padding for spacing */
+      }
+
+      .htext {
+        font-size: 28px;
+      }
+
+      .h2text {
+        font-size: 28px;
+      }
+      
+      .textdiv {
+        display: flex; /* Enables flexbox for the parent container */
+        flex-direction: column; /* Ensures items are stacked vertically */
+        align-items: center; /* Centers child items horizontally */
+        justify-content: center; /* Centers child items vertically */
+        min-height: 100vh; /* Makes the container span the full viewport height */
+      }
+
+      .ptext {
+        text-align: center;
+        width: 370px;
+        font-size: 18px;
+      }
+
+      .ptext2 {
+        text-align: center;
+        width: 370px;
+        font-size: 18px;
+      }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+    .main {
+        margin: -250px 50px 50px 50px;
+        flex-direction: column;
+    }
+    
+    .imagespeaker {
+        display: none;
+    }
+
+    .imagediv4 {
+        display: none;
+    }
+
+    .mainlogixdiv {
+        display: none;
+    }
+
+    .htextdiv {
+        display: flex; /* Enables flexbox */
+        flex-direction: column; /* Stacks items vertically */
+        justify-content: center; /* Centers items vertically */
+        align-items: center; /* Centers items horizontally */
+        text-align: center; /* Centers text within the div */
+        height: 100%; /* Ensure the div takes up the full height of the container */
+        padding: 1rem; /* Optional: Add padding for spacing */
+      }
+
+      .htext {
+        font-size: 29px;
+      }
+
+      .h2text {
+        font-size: 29px;
+      }
+      
+      .textdiv {
+        display: flex; /* Enables flexbox for the parent container */
+        flex-direction: column; /* Ensures items are stacked vertically */
+        align-items: center; /* Centers child items horizontally */
+        justify-content: center; /* Centers child items vertically */
+        min-height: 100vh; /* Makes the container span the full viewport height */
+      }
+
+      .ptext {
+        text-align: center;
+        width: 390px;
+        font-size: 18px;
+      }
+
+      .ptext2 {
+        text-align: center;
+        width: 390px;
+        font-size: 18px;
+      }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 900px) {
+    .main {
+        margin: -300px 50px 50px 50px;
+        flex-direction: column;
+    }
+    
+    .imagespeaker {
+        display: none;
+    }
+
+    .imagediv4 {
+        display: none;
+    }
+
+    .mainlogixdiv {
+        display: none;
+    }
+
+    .htextdiv {
+        display: flex; /* Enables flexbox */
+        flex-direction: column; /* Stacks items vertically */
+        justify-content: center; /* Centers items vertically */
+        align-items: center; /* Centers items horizontally */
+        text-align: center; /* Centers text within the div */
+        height: 100%; /* Ensure the div takes up the full height of the container */
+        padding: 1rem; /* Optional: Add padding for spacing */
+      }
+
+      .htext {
+        font-size: 30px;
+      }
+
+      .h2text {
+        font-size: 30px;
+      }
+      
+      .textdiv {
+        display: flex; /* Enables flexbox for the parent container */
+        flex-direction: column; /* Ensures items are stacked vertically */
+        align-items: center; /* Centers child items horizontally */
+        justify-content: center; /* Centers child items vertically */
+        min-height: 100vh; /* Makes the container span the full viewport height */
+      }
+
+      .ptext {
+        text-align: center;
+        width: 400px;
+        font-size: 19px;
+      }
+
+      .ptext2 {
+        text-align: center;
+        width: 400px;
+        font-size: 19px;
+      }
+}
+
+
+@media only screen and (min-width: 901px) and (max-width: 1200px) {
+    .main {
+        margin: -400px 50px 50px 50px;
+        flex-direction: column;
+    }
+    
+    .imagespeaker {
+        display: none;
+    }
+
+    .imagediv4 {
+        display: none;
+    }
+
+    .mainlogixdiv {
+        display: none;
+    }
+
+    .htextdiv {
+        display: flex; /* Enables flexbox */
+        flex-direction: column; /* Stacks items vertically */
+        justify-content: center; /* Centers items vertically */
+        align-items: center; /* Centers items horizontally */
+        text-align: center; /* Centers text within the div */
+        height: 100%; /* Ensure the div takes up the full height of the container */
+        padding: 1rem; /* Optional: Add padding for spacing */
+      }
+
+      .htext {
+        font-size: 31px;
+      }
+
+      .h2text {
+        font-size: 31px;
+      }
+      
+      .textdiv {
+        display: flex; /* Enables flexbox for the parent container */
+        flex-direction: column; /* Ensures items are stacked vertically */
+        align-items: center; /* Centers child items horizontally */
+        justify-content: center; /* Centers child items vertically */
+        min-height: 100vh; /* Makes the container span the full viewport height */
+      }
+
+      .ptext {
+        text-align: center;
+        width: 410px;
+        font-size: 20px;
+      }
+
+      .ptext2 {
+        text-align: center;
+        width: 410px;
+        font-size: 20px;
+      }
+}
+

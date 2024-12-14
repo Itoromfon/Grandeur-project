@@ -1,0 +1,92 @@
+.main {
+    margin-left: 2px;
+}
+
+.icon {
+    color: rgb(240, 44, 44);
+    font-size: 40px;
+}
+
+.tempicon {
+    color: rgb(185, 124, 13);
+    font-size: 40px;
+}
+
+.tempicon2 {
+    color: rgb(185, 124, 13);
+    font-size: 40px;
+}
+
+.humidicon {
+    color: rgb(8, 123, 8);
+    font-size: 50px;
+}
+
+.weathericon {
+    color: rgb(0, 98, 128);
+    font-size: 40px;
+}
+
+.dewicon {
+    color: rgb(8, 123, 8);
+    font-size: 40px;
+}
+
+.windicon {
+    color: rgb(0, 98, 128);
+    font-size: 40px;
+}
+
+.listenicon {
+    color: rgb(240, 44, 44);
+    font-size: 40px;
+}
+
+.text { 
+    color: #FFFFFF;
+    margin-top: 5px;
+    font-size: 12px;
+}
+
+.emblaviewport {
+    overflow: hidden;
+    max-width:60rem;
+    margin-top: -7rem;
+    margin-left: auto;
+    margin-right: auto;
+    /* border: 1px solid rgb(54, 53, 53); */
+    border-radius: 15px;
+    height: 27rem;
+  }
+  .emblacontainer {
+    display: flex;
+    height: 100%;
+  }
+  .emblaslide {
+    flex: 0 0 100%;
+    min-width: 0; 
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    animation: backgroundPop 4s ease-in-out infinite;
+  }
+  
+.adapter {
+  width: 670px;
+  height: 200px;
+}
+
+@keyframes backgroundPop {
+    0% {
+      transform: scale(1); /* Start with normal size */
+      background-position: center; /* Normal position */
+    }
+    50% {
+      transform: scale(1.05); /* Pop-up effect: enlarge */
+      background-position: center; /* Keep the image centered */
+    }
+    100% {
+      transform: scale(1); /* Return to normal size */
+      background-position: center; /* Normal position */
+    }
+}

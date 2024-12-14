@@ -1,0 +1,1220 @@
+.carouselcontainer {
+    margin: 50px;
+}
+
+.carouseDiv {
+    background: #FFFFFF;
+    box-shadow: 0px -10px 15px rgba(147, 147, 147, 0.2), 0px 10px 15px rgba(147, 147, 147, 0.2);
+    width: 90%;
+    padding: 70px 30px 50px 30px;
+    margin: 50px auto;
+    border-radius: 11px;
+}
+
+.button1 {
+    background-color: #FFFFFF;
+    border: 1px solid #5C755E;
+    padding: 10px 60px;
+    border-radius: 20px;
+    transition: all 0.3s ease
+}
+
+.button1:hover {
+    background-color: #A97D5D;
+    border: 1px solid #A97D5D;
+    color: #FFFFFF;
+}
+
+.buttondiv {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    gap: 5px;
+}
+
+.h2div {
+    /* margin-left: 50px; */
+}
+
+.h2text {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.buttontop {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 50px;
+}
+
+.custombutton {
+    background-image: linear-gradient(to right, #5C755E, #78A67C);
+    padding: 15px 0;
+    width: 200px;
+    border-radius: 25px;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 16px;
+    display: flex;
+}
+
+.custombutton:hover {
+    background-image: linear-gradient(to right, #738975, #8bc290);
+}
+
+.custompen {
+    color: #FFFFFF;
+    font-size: 20px;
+    margin: 0 10px 0 30px;
+}
+
+.htext {
+    font-size: 30px;
+    color: #5C755E;
+    font-weight: 700;
+    margin-left: 50px;
+}
+
+.line {
+    height: 1px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+}
+
+.basic {
+    background-color: #FFFFFF;
+    border:1px solid #5C755E;
+    border-radius: 25px;
+    padding: 8px 0;
+    width: 150px;
+    color: #000000;
+    transition: all 0.3s ease;
+    margin: 5px 10px;
+}
+
+.basic:hover {
+    background-color: #A97D5D;
+    color: #FFFFFF;
+    border: none;
+}
+
+.basiccontainer {
+    display: flex;
+    justify-content: center;
+    margin-left: -200px;
+    align-items: center;
+}
+
+.carouselitem {
+    margin-bottom: 50px;
+}
+
+.itemtext {
+    color: #5C755E;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 30px;
+    margin-left: 55px;
+}
+
+.labels {
+    display: flex;
+    font-size: 15px;
+    margin: 0 5px;
+}
+
+.labeldiv {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+}
+
+.facheck {
+    background-color: #5C755E;
+    padding: 4px 4px;
+    font-size: 21px;
+    border-radius: 50%;
+    color: #FFFFFF;
+}
+
+.labelsdiv {
+    display: flex;
+}
+
+.labelsdiv2 {
+    display: flex;
+    margin-left: -30px;
+}
+
+.labelsdiv3 {
+    display: flex;
+    margin-left: -30px;
+}
+
+.contentimg {
+    display: flex;
+}
+
+.contents {
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    display: flex;
+    margin-top: 20px;
+}
+
+.content2 {
+    display: flex;
+    margin-top: 20px;
+    margin-left: -150px;
+}
+
+.content3 {
+    display: flex;
+    margin-top: 20px;
+    /* margin-left: -150px; */
+}
+
+/* .labelsContainer {
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 1rem; 
+} */
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 50px;
+}
+
+.container3 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 40px;
+}
+
+.image {
+    width: 600px;
+    height: 130px;
+    margin-top: -20px;
+    margin-right: 20px;
+}
+
+.imgdiv {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Tabs.module.css */
+
+.tabsContainer {
+    display: flex;
+    cursor: pointer;
+    margin: 50px 0 50px 100px;
+  }
+  
+  .tabButton1 {
+    padding: 10px 20px;
+  }
+
+  .tabButton2 {
+    padding: 10px 20px;
+  }
+
+  .tabButton3 {
+    padding: 10px 20px;
+  }
+  
+  .activeTab {
+    border-bottom: 2px solid #5C755E;
+    background-color: #5C755E;
+    color: #FFFFFF;
+    border-radius: 10px;
+  }
+  
+  .tabContent {
+    margin-top: -50px;
+  }
+
+  .tab1text {
+    background-color: #F6F6F6;
+    padding: 30px 20px;
+    border-radius: 15px;
+    font-size: 15px;
+    color: #212121;
+    margin-top: -20px;
+  }
+
+  .tab2text {
+    background-color: #F6F6F6;
+    padding: 30px 20px;
+    border-radius: 15px;
+    font-size: 15px;
+    color: #212121;
+    margin-top: -20px;
+  }
+
+  .tab3text {
+    background-color: #F6F6F6;
+    padding: 30px 20px;
+    border-radius: 15px;
+    font-size: 15px;
+    color: #212121;
+    margin-top: -20px;
+  }
+
+.buttoncartdiv {
+    margin-top: 30px;
+}
+
+  .buttoncart {
+    background-image: linear-gradient(to right, #5C755E, #78A67C);
+    padding: 15px 0;
+    width: 200px;
+    border-radius: 25px;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.buttoncart:hover {
+    background-image: linear-gradient(to right, #738975, #8bc290);
+}
+
+
+
+
+
+
+
+
+.carouselitem {
+    background-color: whitesmoke;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.iconContainer {
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    cursor: pointer;
+    z-index: 1000; /* Ensure it appears above other content */
+}
+
+.popupIcon {
+    font-size: 90px;
+    color: #007bff;
+    cursor: pointer;
+    animation: backgroundPop 4s ease-in-out infinite;
+}
+
+.popupOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.popupContent {
+    background: transparent;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    width: 400px;
+    position: relative;
+}
+
+.closeButton {
+    position: absolute;
+    /* top: 10px; */
+    right: 10px; 
+    background: none;
+    border: none;
+    font-size: 30px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+@keyframes backgroundPop {
+    0% {
+      transform: scale(1); /* Start with normal size */
+      background-position: center; /* Normal position */
+    }
+    50% {
+      transform: scale(1.2); /* Pop-up effect: enlarge */
+      background-position: center; /* Keep the image centered */
+    }
+    100% {
+      transform: scale(1); /* Return to normal size */
+      background-position: center; /* Normal position */
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.videoCarouselContainer {
+    margin: 60px 105px -70px 105px;
+}
+
+.videoCarousel .carousel-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.videoContainer {
+    position: relative;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.videoTitle {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    font-size: 18px;
+}
+
+.video {
+    border-radius: 10px;
+    height: 300px;
+}
+
+.playPauseButtonContainer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1; /* Ensure it stays above the video */
+}
+
+.playPauseButton {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.playPauseButton:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.videoThumbnail {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    /* Aspect ratio 16:9 */
+    background-color: #000;
+    cursor: pointer;
+}
+
+.playButton {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* background: rgba(0, 0, 0, 0.7); */
+    border: none;
+    color: white;
+    font-size: 2rem;
+    padding: 0.5rem 1rem;
+    border-radius: 50%;
+    margin-left: -50px;
+    cursor: pointer;
+    transition: background 0.8s ease-in-out; 
+    animation: backgroundPop 4s ease-in-out infinite;
+}
+
+.playButton:hover {
+    background: rgba(73, 73, 73, 0.9);
+}
+
+.videoModal .modal-header closeButton {
+    /* Example styles */
+    color: white;
+    background-color: #000;
+    border: none;
+    
+}
+
+.modalbody {
+    background-color: #333;
+}
+
+.modaltitle {
+    background-color: #333;
+    margin-bottom: -15px;
+    color: #FFFFFF;
+}
+
+@keyframes backgroundPop {
+    0% {
+      transform: scale(1); /* Start with normal size */
+      background-position: center; /* Normal position */
+    }
+    50% {
+      transform: scale(1.5); /* Pop-up effect: enlarge */
+      background-position: center; /* Keep the image centered */
+    }
+    100% {
+      transform: scale(1); /* Return to normal size */
+      background-position: center; /* Normal position */
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    /* .container {
+        flex-direction: column;
+    } */
+
+    .carouselcontainer {
+        margin: 50px 5px 50px 5px;
+    }
+
+    .carouseDiv {
+        width: 100%;
+        padding: 70px 15px 50px 15px;
+    }
+
+    .h2text {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .buttontop {
+        margin: 0;
+        flex-direction: column;
+    }
+
+    .buttondiv {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .htext {
+        margin: auto;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+
+    .basiccontainer {
+        flex-direction: column;
+        margin:10px auto;
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .itemtext {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .tabsContainer {
+        display: flex;
+        justify-content: space-between;
+        cursor: pointer;
+        margin: 50px 0 50px 0;
+        overflow-x: auto; 
+        white-space: nowrap; 
+        scrollbar-width: thin; 
+    }
+
+      .tabsContainer::-webkit-scrollbar {
+        height: 8px; /* Set scrollbar height */
+      }
+      
+      .tabsContainer::-webkit-scrollbar-thumb {
+        background-color: #888; /* Customize scrollbar color */
+        border-radius: 4px;
+      }
+      
+      .tabsContainer::-webkit-scrollbar-thumb:hover {
+        background-color: #555; /* Darker color on hover */
+      }
+
+    .contents {
+        display: flex;
+        overflow-x: auto; 
+        white-space: nowrap; 
+        scrollbar-width: 50px; 
+        margin-left: -50px;
+      }
+      
+      .contents::-webkit-scrollbar {
+        height: 8px; /* Set scrollbar height */
+      }
+      
+      .contents::-webkit-scrollbar-thumb {
+        background-color: #888; /* Customize scrollbar color */
+        border-radius: 4px;
+      }
+      
+      .contents::-webkit-scrollbar-thumb:hover {
+        background-color: #555; /* Darker color on hover */
+      }
+
+    .labels {
+        font-size: 16px;
+    }
+
+    .image {
+        width: 500px;
+        height: 100px;
+    }
+
+    .buttoncartdiv {
+        text-align: center;
+    }
+
+    .popupIcon {
+        font-size: 60px;
+    }
+
+    .videoThumbnail {
+        height: 330px;
+    }
+
+    .videoCarouselContainer {
+        margin: 60px 10px -70px 10px;
+    }
+
+    .playButton {
+        margin-top: -20px;
+        font-size: 2.5rem;
+    }
+
+    .modaltitle {
+        margin-bottom: -18px;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 600px) {
+    .carouselcontainer {
+        margin: 50px 5px 50px 5px;
+    }
+
+    .carouseDiv {
+        width: 100%;
+        padding: 70px 15px 50px 15px;
+    }
+
+    .h2text {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .buttontop {
+        margin: 0;
+        flex-direction: column;
+    }
+
+    .buttondiv {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .htext {
+        margin: auto;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+
+    .basiccontainer {
+        flex-direction: column;
+        margin:10px auto;
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .itemtext {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .contents {
+        display: flex;
+        overflow-x: auto; 
+        white-space: nowrap; 
+        scrollbar-width: thin; 
+        margin-left: -50px;
+      }
+      
+      .contents::-webkit-scrollbar {
+        height: 8px; /* Set scrollbar height */
+      }
+      
+      .contents::-webkit-scrollbar-thumb {
+        background-color: #888; /* Customize scrollbar color */
+        border-radius: 4px;
+      }
+      
+      .contents::-webkit-scrollbar-thumb:hover {
+        background-color: #555; /* Darker color on hover */
+      }
+
+    .labels {
+        font-size: 16px;
+    }
+
+    .image {
+        width: 500px;
+        height: 100px;
+    }
+
+    .tabsContainer {
+        display: flex;
+        justify-content: space-between;
+        cursor: pointer;
+        margin: 50px 0 50px 0;
+        overflow-x: auto; 
+        white-space: nowrap; 
+        scrollbar-width: thin; 
+    }
+
+      .tabsContainer::-webkit-scrollbar {
+        height: 8px; /* Set scrollbar height */
+      }
+      
+      .tabsContainer::-webkit-scrollbar-thumb {
+        background-color: #888; /* Customize scrollbar color */
+        border-radius: 4px;
+      }
+      
+      .tabsContainer::-webkit-scrollbar-thumb:hover {
+        background-color: #555; /* Darker color on hover */
+      }
+
+    .buttoncartdiv {
+        text-align: center;
+    }
+
+    .popupIcon {
+        font-size: 70px;
+    }
+
+    .videoThumbnail {
+        height: 330px;
+    }
+
+    .videoCarouselContainer {
+        margin: 60px 10px -70px 10px;
+    }
+
+    .playButton {
+        margin-top: -20px;
+        font-size: 2.5rem;
+    }
+
+    .modaltitle {
+        margin-bottom: -18px;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+    .carouselcontainer {
+        margin: 50px 5px 50px 5px;
+    }
+
+    .carouseDiv {
+        width: 100%;
+        padding: 70px 15px 50px 15px;
+    }
+
+    .h2text {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .buttontop {
+        margin: 0;
+        flex-direction: column;
+    }
+
+    .buttondiv {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .htext {
+        margin: auto;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+
+    .basiccontainer {
+        flex-direction: column;
+        margin:10px auto;
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .itemtext {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .contents {
+        display: flex;
+        overflow-x: auto; 
+        white-space: nowrap; 
+        scrollbar-width: thin; 
+        /* margin-left: -50px; */
+      }
+      
+      .contents::-webkit-scrollbar {
+        height: 8px; /* Set scrollbar height */
+      }
+      
+      .contents::-webkit-scrollbar-thumb {
+        background-color: #888; /* Customize scrollbar color */
+        border-radius: 4px;
+      }
+      
+      .contents::-webkit-scrollbar-thumb:hover {
+        background-color: #555; /* Darker color on hover */
+      }
+
+    .labels {
+        font-size: 16px;
+    }
+
+    .image {
+        width: 500px;
+        height: 100px;
+    }
+
+    .tabsContainer {
+        display: flex;
+        justify-content: space-around;
+        cursor: pointer;
+        margin: 50px 0 50px 0;
+    }
+
+    .buttoncartdiv {
+        text-align: center;
+    }
+
+    .popupIcon {
+        font-size: 80px;
+    }
+
+    .videoThumbnail {
+        height: 330px;
+    }
+
+    .videoCarouselContainer {
+        margin: 60px 10px -70px 10px;
+    }
+
+    .playButton {
+        margin-top: -20px;
+        font-size: 2.5rem;
+    }
+
+    .modaltitle {
+        margin-bottom: -18px;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 900px) {
+    .carouselcontainer {
+        margin: 50px 5px 50px 5px;
+    }
+
+    .carouseDiv {
+        width: 100%;
+        padding: 70px 15px 50px 15px;
+    }
+
+    .h2text {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .buttontop {
+        margin: 0;
+        flex-direction: column;
+    }
+
+    .buttondiv {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .htext {
+        margin: auto;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+
+    .basiccontainer {
+        flex-direction: column;
+        margin:10px auto;
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .itemtext {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .contents {
+        display: flex;
+        text-align: center;
+        overflow-x: auto; 
+        white-space: nowrap; 
+        scrollbar-width: thin; 
+        /* margin-left: -50px; */
+      }
+      
+      .contents::-webkit-scrollbar {
+        height: 8px; /* Set scrollbar height */
+      }
+      
+      .contents::-webkit-scrollbar-thumb {
+        background-color: #888; /* Customize scrollbar color */
+        border-radius: 4px;
+      }
+      
+      .contents::-webkit-scrollbar-thumb:hover {
+        background-color: #555; /* Darker color on hover */
+      }
+
+    .labels {
+        font-size: 16px;
+    }
+
+    .image {
+        width: 500px;
+        height: 100px;
+    }
+
+    .tabsContainer {
+        display: flex;
+        justify-content: space-around;
+        cursor: pointer;
+        margin: 50px 0 50px 0;
+    }
+
+    .buttoncartdiv {
+        text-align: center;
+    }
+
+    .popupIcon {
+        font-size: 80px;
+    }
+
+    .videoThumbnail {
+        height: 330px;
+    }
+
+    .videoCarouselContainer {
+        margin: 60px 10px -70px 10px;
+    }
+
+    .playButton {
+        margin-top: -20px;
+        font-size: 2.5rem;
+    }
+
+    .modaltitle {
+        margin-bottom: -18px;
+    }
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1200px) {
+    .carouselcontainer {
+        margin: 50px 5px 50px 5px;
+    }
+
+    .carouseDiv {
+        width: 100%;
+        padding: 70px 15px 50px 15px;
+    }
+
+    .h2text {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .buttontop {
+        margin: 0;
+        flex-direction: column;
+    }
+
+    .buttondiv {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .htext {
+        margin: auto;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+
+    .basiccontainer {
+        flex-direction: column;
+        margin:10px auto;
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .itemtext {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .contents {
+        display: flex;
+        text-align: center;
+        overflow-x: auto; 
+        white-space: nowrap; 
+        scrollbar-width: thin; 
+        /* margin-left: -50px; */
+      }
+      
+      .contents::-webkit-scrollbar {
+        height: 8px; /* Set scrollbar height */
+      }
+      
+      .contents::-webkit-scrollbar-thumb {
+        background-color: #888; /* Customize scrollbar color */
+        border-radius: 4px;
+      }
+      
+      .contents::-webkit-scrollbar-thumb:hover {
+        background-color: #555; /* Darker color on hover */
+      }
+
+    .labels {
+        font-size: 16px;
+    }
+
+    .image {
+        width: 500px;
+        height: 100px;
+    }
+
+    .tabsContainer {
+        display: flex;
+        justify-content: space-around;
+        cursor: pointer;
+        margin: 50px 0 50px 0;
+    }
+
+    .buttoncartdiv {
+        text-align: center;
+    }
+
+    .popupIcon {
+        font-size: 90px;
+    }
+
+    .videoThumbnail {
+        height: 330px;
+    }
+
+    .videoCarouselContainer {
+        margin: 60px 10px -70px 10px;
+    }
+
+    .playButton {
+        margin-top: -20px;
+        font-size: 2.5rem;
+    }
+
+    .modaltitle {
+        margin-bottom: -18px;
+    }
+}
+
+
+

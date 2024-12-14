@@ -1,0 +1,559 @@
+.popup {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 150px;
+}
+
+.popdiv {
+    margin-top: 55px;
+    margin-right: 60px;
+    /* animation: backgroundPop 4s ease-in-out infinite; */
+}
+
+.htextdiv {
+    margin-top: -100px;
+}
+
+.h1text {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    width: 540px;
+    letter-spacing: 1px;
+}
+
+.ptextdiv {
+    margin-bottom: 30px;
+}
+
+.ptext {
+    font-size: 16px;
+    width: 570px;
+    letter-spacing: 1px;
+    line-height: 22px;
+}
+
+.popupimage { 
+    height: auto; 
+    transition: transform 1s ease; 
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.popupimage:hover {
+    transform: scale(1.5); 
+}
+
+.pop {
+    margin-left: -50px;
+}
+
+.link {
+    display: flex;
+    font-size: 20px;
+    color: #5C755E;
+    font-weight: 700;
+}
+
+.link:hover {
+    border-bottom: 3px solid rgb(21, 125, 243); /* Change thickness and color as needed */
+    /* You can also add a transition for a smoother effect */
+    transition: border-bottom 0.3s ease; /* Smooth transition for the underline */
+}
+
+.popuptext1 {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    width: 60%;
+    text-align: center;
+}
+
+.popuptext {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: rgb(185, 124, 13);
+}
+
+.arrow {
+    margin-top: 6px;
+}
+
+.line {
+    width: 5px;          /* Full width */
+    height: 120px;         /* Line thickness */
+    background-color: rgb(188, 187, 187);
+    border-radius: 5px;
+}
+
+.chat {
+    margin-left: 100px;
+    margin-top: -60px;
+}
+
+
+.videoContainer {
+    text-align: center;
+    margin-top: 0; 
+    margin-right: 50px;
+  }
+  
+  .video {
+    width: 100%;
+    max-width: 550px;
+    height: 393px; /* Increase height as needed */
+    object-fit: cover;
+    border-radius: 15px;
+  }
+
+  
+
+
+@keyframes backgroundPop {
+    0% {
+      transform: scale(1); /* Start with normal size */
+      background-position: center; /* Normal position */
+    }
+    50% {
+      transform: scale(1.1); /* Pop-up effect: enlarge */
+      background-position: center; /* Keep the image centered */
+    }
+    100% {
+      transform: scale(1); /* Return to normal size */
+      background-position: center; /* Normal position */
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 400px) {
+    .popup {
+        flex-direction: column;
+        /* margin: auto; */
+    }
+
+    .popdiv {
+        margin-right: 0;
+        margin: auto;
+        /* margin-left: 200px; */
+    }
+
+    .popupimage {
+        margin: auto;
+    }
+
+    .pop {
+        margin: 20px auto;
+    }
+
+    .line {
+        display: none;
+    }
+
+    .chat {
+        margin: 0 auto;
+    }
+
+    .videoContainer {
+        text-align: center;
+        /* margin-top: 0; 
+        margin-right: 50px; */
+        margin: auto;
+      }
+      
+    .video {
+    /* width: 100%; */
+    max-width: 345px;
+    height: 350px;
+    border-radius: 15px;
+    }
+
+    .htextdiv {
+        display: flex;
+        justify-content: center;
+    }
+
+    .ptextdiv {
+        display: flex;
+        justify-content: center;
+    }
+
+    .h1text {
+        font-weight: bold;
+        font-size: 22px;
+        width: 330px;
+        text-align: center;
+    }
+
+    .ptext {
+        font-size: 17px;
+        width: 300px;
+        margin: 20px auto;
+        text-align: center;
+    }
+}
+
+
+@media only screen and (min-width: 401px) and (max-width: 480px) {
+    .popup {
+        flex-direction: column;
+        /* margin: auto; */
+    }
+
+    .popdiv {
+        margin-right: 0;
+        margin: auto;
+        /* margin-left: 200px; */
+    }
+
+    .popupimage {
+        margin: auto;
+    }
+
+    .pop {
+        margin: 20px auto;
+    }
+
+    .line {
+        display: none;
+    }
+
+    .chat {
+        margin: 0 auto;
+    }
+
+    .videoContainer {
+        text-align: center;
+        /* margin-top: 0; 
+        margin-right: 50px; */
+        margin: auto;
+      }
+      
+    .video {
+    /* width: 100%; */
+    max-width: 375px;
+    height: 350px;
+    border-radius: 15px;
+    }
+
+    .htextdiv {
+        display: flex;
+        justify-content: center;
+    }
+
+    .ptextdiv {
+        display: flex;
+        justify-content: center;
+    }
+
+    .h1text {
+        font-weight: bold;
+        font-size: 22px;
+        width: 340px;
+        text-align: center;
+    }
+
+    .ptext {
+        font-size: 17px;
+        width: 300px;
+        margin: 20px auto;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 600px) {
+    .popup {
+        flex-direction: column;
+        /* margin: auto; */
+    }
+
+    .popdiv {
+        margin-right: 0;
+        margin: auto;
+        /* margin-left: 200px; */
+    }
+
+    .popupimage {
+        margin: auto;
+    }
+
+    .pop {
+        margin: 20px auto;
+    }
+
+    .popuptext {
+        font-size: 21px;
+    }
+
+    .link {
+        font-size: 21px;
+    }
+
+    .line {
+        display: none;
+    }
+
+    .chat {
+        margin: 0 auto;
+    }
+
+    .videoContainer {
+        text-align: center;
+        /* margin-top: 0; 
+        margin-right: 50px; */
+        margin: auto;
+      }
+      
+      .video {
+        /* width: 100%; */
+        max-width: 395px;
+        height: 355px;
+        border-radius: 15px;
+      }
+
+    .h1text {
+        font-weight: bold;
+        font-size: 23px;
+        width: 340px;
+        text-align: center;
+    }
+
+    .ptext {
+        font-size: 18px;
+        width: 300px;
+        margin: 20px auto;
+        text-align: center;
+    }
+
+    .htextdiv {
+        display: flex;
+        justify-content: center;
+    }
+
+    .ptextdiv {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+    .popup {
+        flex-direction: column;
+        /* margin: auto; */
+    }
+
+    .popdiv {
+        margin-right: 0;
+        margin: auto;
+        /* margin-left: 200px; */
+    }
+
+    .popupimage {
+        margin: auto;
+    }
+
+    .pop {
+        margin: 20px auto;
+    }
+
+    .popuptext {
+        font-size: 22px;
+    }
+
+    .link {
+        font-size: 22px;
+    }
+
+    .line {
+        display: none;
+    }
+
+    .chat {
+        margin: 0 auto;
+    }
+
+    .videoContainer {
+        text-align: center;
+        /* margin-top: 0; 
+        margin-right: 50px; */
+        margin: auto;
+      }
+      
+      .video {
+        /* width: 100%; */
+        max-width: 410px;
+        height: 375px;
+        border-radius: 15px;
+      }
+
+      .h1text {
+        font-weight: bold;
+        font-size: 24px;
+        width: 400px;
+        text-align: center;
+    }
+
+    .ptext {
+        font-size: 19px;
+        width: 350px;
+        margin: 20px auto;
+        text-align: center;
+    }
+
+    .htextdiv {
+        display: flex;
+        justify-content: center;
+    }
+
+    .ptextdiv {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 900px) {
+    .popup {
+        flex-direction: column;
+        /* margin: auto; */
+    }
+
+    .popdiv {
+        margin-right: 0;
+        margin: auto;
+        /* margin-left: 200px; */
+    }
+
+    .popupimage {
+        margin: auto;
+    }
+
+    .pop {
+        margin: 20px auto;
+    }
+
+    .popuptext {
+        font-size: 25px;
+    }
+
+    .link {
+        font-size: 25px;
+    }
+
+    .line {
+        display: none;
+    }
+
+    .chat {
+        margin: 0 auto;
+    }
+
+    .videoContainer {
+        text-align: center;
+        /* margin-top: 0; 
+        margin-right: 50px; */
+        margin: auto;
+      }
+      
+      .video {
+        /* width: 100%; */
+        max-width: 430px;
+        border-radius: 15px;
+      }
+
+      .h1text {
+        font-weight: bold;
+        font-size: 24px;
+        width: 400px;
+        text-align: center;
+    }
+
+    .ptext {
+        font-size: 20px;
+        width: 370px;
+        margin: 20px auto;
+        text-align: center;
+    }
+
+    .htextdiv {
+        display: flex;
+        justify-content: center;
+    }
+
+    .ptextdiv {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1200px) {
+    .popup {
+        flex-direction: column;
+        /* margin: auto; */
+    }
+
+    .popdiv {
+        margin-right: 0;
+        margin: auto;
+        /* margin-left: 200px; */
+    }
+
+    .popupimage {
+        margin: auto;
+    }
+
+    .pop {
+        margin: 20px auto;
+    }
+
+    .popuptext {
+        font-size: 30px;
+    }
+
+    .link {
+        font-size: 30px;
+    }
+
+    .line {
+        display: none;
+    }
+
+    .chat {
+        margin: 0 auto;
+    }
+
+    .videoContainer {
+        text-align: center;
+        /* margin-top: 0; 
+        margin-right: 50px; */
+        margin: auto;
+      }
+      
+      .video {
+        /* width: 100%; */
+        max-width: 450px;
+        border-radius: 15px;
+      }
+
+      .h1text {
+        font-weight: bold;
+        font-size: 25px;
+        width: 450px;
+        text-align: center;
+    }
+
+    .ptext {
+        font-size: 20px;
+        width: 450px;
+        margin: 20px auto;
+        text-align: center;
+    }
+
+    .htextdiv {
+        display: flex;
+        justify-content: center;
+    }
+
+    .ptextdiv {
+        display: flex;
+        justify-content: center;
+    }
+}

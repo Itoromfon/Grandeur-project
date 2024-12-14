@@ -1,0 +1,2001 @@
+.divmain {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 30vh; 
+    width: 100%;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    padding: 80px 0;
+    box-shadow: 0px 0px 10px 5px rgba(123, 123, 123, 0.2);
+}
+
+.div1 {
+    display: flex;
+    background-color: #FFFFFF;
+    height: 80px;
+    padding: 20px 20px;
+    border-radius: 20px;
+    width: 270px;
+    /* animation: backgroundPop 4s ease-in-out infinite; */
+}
+
+.staffsnakediv {
+    background-color: #5C755E;
+    border-radius: 50%;
+    /* padding: 5px 5px; */
+    width: 58px;
+    height: 58px;
+    margin-top: -8px;
+}
+
+.snakeimg {
+    margin: 15px auto 0 auto;
+}
+
+.staffsnake {
+    font-size: 25px;
+    color: #FFFFFF;
+    margin-top: 3px;
+}
+
+.ptext {
+    font-size: 16px;
+    width: 400px;
+    letter-spacing: 2px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.seenflowdiv {
+    margin-top: -80px;
+}
+
+.divmain2 {
+    display: flex;
+    margin-left: 50px;
+}
+
+.seendown {
+    display: flex;
+    flex-direction: column;
+}
+
+.htext {
+    color: #000000;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.buttontext {
+    font-size: 16px;
+    color: #5C755E;
+    font-weight: 700;
+    letter-spacing: 1px;
+    position: relative;
+    display: flex;
+    z-index: 2; 
+    /* width: 245px; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.arrow1 {
+    margin-top: -43px;
+    margin-left: 160px;
+}
+
+.arrow2 {
+    margin-left: -95px;
+    margin-top: 1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.lumovediv {
+    /* margin: auto; */
+    margin-left: 160px;
+}
+.lumove {
+    font-size: 50px;
+    margin-top: -40px;
+}
+
+.lumovediv2 {
+    /* margin: auto; */
+    margin-left: 0;
+}
+.lumove2 {
+    font-size: 50px;
+    margin-top: 3px;
+}
+
+.lumoveleftdiv {
+    margin-left: 0;
+}
+
+.lumoveleft {
+    font-size: 50px;
+}
+
+.lumoverightdiv {
+    margin-left: 0;
+}
+
+.lumoveright {
+    font-size: 50px;
+}
+
+.arrows {
+    display: flex;
+    gap: 30px;
+}
+
+
+
+.div2 {
+    display: flex;
+    background-color: #A97D5D;
+    height: 80px;
+    padding: 20px 20px;
+    border-radius: 20px;
+    width: 270px;
+    margin-left: 50px;
+    margin-top: 0;
+    /* animation: backgroundPop 4s ease-in-out infinite; */
+}
+
+.staffsnakediv2 {
+    background-color: #5C755E;
+    border-radius: 50%;
+    padding: 5px 8px;
+}
+
+.staffsnak2 {
+    font-size: 50px;
+    color: #FFFFFF;
+    margin-top: 5px;
+}
+
+.ptext2 {
+    color: #FFFFFF;
+    font-size: 14px;
+    margin-top: 3px;
+    margin-left: 10px;
+}
+
+
+
+.divmains {
+    display: flex;
+    margin-left: -200px;
+}
+
+
+
+
+
+
+
+.div3mains {
+    display: flex;
+    margin-top: -10px;
+    margin-left: -150px;
+    gap: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.div3 {
+    display: flex;
+    background-color: #FFFFFF;
+    height: 80px;
+    padding: 20px 20px;
+    border-radius: 20px;
+    width: 213px;
+    /* animation: backgroundPop 4s ease-in-out infinite; */
+}
+
+.staffsnakediv3 {
+    /* background-color: #5C755E; */
+    border-radius: 50%;
+    padding: 5px 5px;
+    margin-top: -50px;
+}
+
+/* .doorimg {
+
+} */
+
+.staffsnake3 {
+    font-size: 25px;
+    color: #FFFFFF;
+    margin-top: 3px;
+}
+
+.ptext3 {
+    color: #212121;
+    font-size: 14px;
+    margin-top: 7px;
+    margin-left: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.div4 {
+    display: flex;
+    background-color: #FFFFFF;
+    height: 80px;
+    padding: 10px 10px;
+    border-radius: 20px;
+    width: 213px;
+    margin-top: 30px;
+    /* animation: backgroundPop 4s ease-in-out infinite; */
+}
+
+.staffsnakediv4 {
+    /* background-color: #5C755E; */
+    border-radius: 50%;
+    padding: 5px 0;
+    margin-top: -60px;
+    margin-left: -30px;
+}
+
+.staffsnake4 {
+    font-size: 25px;
+    color: #FFFFFF;
+    margin-top: 3px;
+}
+
+.ptext4 {
+    color: #212121;
+    font-size: 14px;
+    margin-top: 12px;
+    margin-left: -30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.div5 {
+    display: flex;
+    background-color: #FFFFFF;
+    height: 80px;
+    padding: 10px 10px;
+    border-radius: 20px;
+    width: 213px;
+    /* animation: backgroundPop 4s ease-in-out infinite; */
+}
+
+.staffsnakediv5 {
+    /* background-color: #5C755E; */
+    border-radius: 50%;
+    padding: 5px 5px;
+    margin-top: -62px;
+    margin-left: -30px;
+}
+
+.staffsnake5 {
+    font-size: 25px;
+    color: #FFFFFF;
+    margin-top: 3px;
+}
+
+.ptext5 {
+    color: #212121;
+    font-size: 14px;
+    margin-top: 22px;
+    margin-left: 0;
+}
+
+.next {
+    margin-top: 3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.alert1 {
+    display: flex;
+    margin-left: 50px;
+  }
+  
+  .alerth1 {
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+  
+  .alertp1 {
+    font-size: 15px;
+    letter-spacing: 1px;
+    width: 259px;
+  }
+  
+  .alert2 {
+    display: flex;
+    margin-left: 10px;
+  }
+  
+  .alerth2 {
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+  
+  .alertp2 {
+    font-size: 15px;
+    letter-spacing: 1px;
+    width: 259px;
+  }
+  
+  .alertmain {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0 100px -200px;
+  }
+  
+  .alertdiv {
+    background-color: white;
+    /* padding: 5px; */
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    margin-right: 15px;
+  }
+  
+  .alertimg {
+    margin: 10px auto 0 auto;
+  }
+  
+  .alertdiv2 {
+    background-color: white;
+    /* padding: 5px; */
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    margin-right: 15px;
+  }
+  
+  .alertimg2 {
+    margin: 10px auto 0 auto;
+  }
+  
+  .alert2main {
+    margin-left: 10px;
+  }
+
+  .lumovediv3 {
+    display: none;
+}
+
+.lumovediv4 {
+    display: none;
+}
+
+
+
+@keyframes backgroundPop {
+    0% {
+      transform: scale(1); /* Start with normal size */
+      background-position: center; /* Normal position */
+    }
+    50% {
+      transform: scale(1.05); /* Pop-up effect: enlarge */
+      background-position: center; /* Keep the image centered */
+    }
+    100% {
+      transform: scale(1); /* Return to normal size */
+      background-position: center; /* Normal position */
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 1201px) and (max-width: 1800px) {
+    .main {
+        margin-top: 0;
+    }
+}
+
+@media only screen and (min-width: 1801px) and (max-width: 2700px) {
+    .main {
+        margin-top: -200px;
+        margin-bottom: 200px;
+    }
+}
+
+@media only screen and (min-width: 2701px) and (max-width: 3500px) {
+    .main {
+        margin-top: -300px;
+        margin-bottom: 200px;
+    }
+}
+
+@media only screen and (min-width: 3501px) and (max-width: 4500px) {
+    .main {
+        margin-top: -400px;
+        margin-bottom: 200px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 400px) {
+    .divmain {
+        flex-direction: column;
+        align-items: center;
+        border-radius: 20px;
+        padding: 50px 10px;
+    }
+
+    .htext {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .ptext {
+        width: 330px;
+        text-align: center;
+    }
+
+    .divmain2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .seenflowimage {
+        visibility: hidden;
+    }
+
+    .alertmain {
+        flex-direction: column;
+        margin-left: 0;
+    }
+
+    .alert2 {
+        margin: auto;
+    }
+
+    .div3mains {
+        flex-direction: column;
+        margin-left: 0;
+    }
+
+    .div1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: -50px;
+        text-align: center;
+        height: auto; 
+        width: auto; 
+    } 
+
+    .divss {
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .lumovediv {
+        margin: auto;
+        /* margin-left: 160px; */
+    }
+    .lumove {
+        font-size: 40px;
+        margin-top: -110px;
+    }
+
+    .lumovediv3 {
+        margin: auto;
+        /* margin-left: 160px; */
+        display: flex;
+    }
+
+    .lumove3 {
+        font-size: 40px;
+    }
+
+    .lumovediv4 {
+        margin: auto;
+        /* margin-left: 160px; */
+        display: flex;
+    }
+
+    .lumove4 {
+        font-size: 40px;
+        margin-top: 50px;
+    }
+
+
+
+    .lumoveleftdiv {
+        margin-left: 0;
+        display: none;
+    }
+    
+    .lumoveleft {
+        font-size: 50px;
+    }
+    
+    .lumoverightdiv {
+        margin-left: 0;
+        display: none;
+    }
+    
+    .lumoveright {
+        font-size: 50px;
+        display: none;
+    }
+
+
+    .arrows {
+        margin: auto;
+    }
+
+
+    .ptext3 {
+        margin-top: 15px;
+        font-size: 15px;
+    }
+
+    .ptext4 {
+        font-size: 15px;
+        margin-top: 20px;
+    }
+
+    .ptext5 {
+        font-size: 15px;
+    }
+
+    
+
+    .div2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: -50px auto 20px auto;
+        text-align: center;
+        height: auto; 
+        width: auto; 
+    }
+
+    .div3 {
+        margin: auto;
+        width: 270px;
+    }
+
+    .div4 {
+        display: flex;
+        margin: auto;
+        width: 270px;
+    }
+
+    .div5 {
+        display: flex;
+        margin: auto;
+        width: 270px;
+    }
+
+    .alertmain {
+        flex-direction: column;
+      }
+
+      .alertdiv {
+        margin: auto;
+    }
+  
+    .alert1 {
+        margin: 30px auto;
+        flex-direction: column;
+    }
+
+    .alerth1 {
+        text-align: center;
+        margin-top: 10px;
+    }
+  
+    .alertp1 {
+        font-size: 17px;
+        text-align: center;
+    }
+
+    .alerth2 {
+        text-align: center;
+        margin-top: 10px;
+    }
+  
+    .alertp2 {
+        font-size: 17px;
+        text-align: center;
+    }
+  
+    .alertdiv2 {
+        margin: auto;
+    }
+
+    .alert2 {
+        margin: 10px auto;
+        flex-direction: column;
+      }
+
+      .buttontext {
+        display: flex;
+        justify-content: center;
+      }
+}
+
+
+
+
+
+@media only screen and (min-width: 401px) and (max-width: 480px) {
+    .divmain {
+        flex-direction: column;
+        align-items: center;
+        border-radius: 20px;
+        padding: 50px 10px;
+    }
+
+    .htext {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .ptext {
+        width: 330px;
+        text-align: center;
+    }
+
+    .divmain2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .seenflowimage {
+        visibility: hidden;
+    }
+
+    .alertmain {
+        flex-direction: column;
+        margin-left: 0;
+    }
+
+    .alert2 {
+        margin: auto;
+    }
+
+    .div3mains {
+        flex-direction: column;
+        margin-left: 0;
+    }
+
+    .div1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: -50px;
+        text-align: center;
+        height: auto; 
+        width: auto; 
+    } 
+
+    .divss {
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .lumovediv {
+        margin: auto;
+        /* margin-left: 160px; */
+    }
+    .lumove {
+        font-size: 40px;
+        margin-top: -110px;
+    }
+
+    .lumovediv3 {
+        margin: auto;
+        /* margin-left: 160px; */
+        display: flex;
+    }
+
+    .lumove3 {
+        font-size: 40px;
+    }
+
+    .lumovediv4 {
+        margin: auto;
+        /* margin-left: 160px; */
+        display: flex;
+    }
+
+    .lumove4 {
+        font-size: 40px;
+        margin-top: 50px;
+    }
+
+
+
+    .lumoveleftdiv {
+        margin-left: 0;
+        display: none;
+    }
+    
+    .lumoveleft {
+        font-size: 50px;
+    }
+    
+    .lumoverightdiv {
+        margin-left: 0;
+        display: none;
+    }
+    
+    .lumoveright {
+        font-size: 50px;
+        display: none;
+    }
+
+
+    .arrows {
+        margin: auto;
+    }
+
+
+    .ptext3 {
+        margin-top: 15px;
+        font-size: 15px;
+    }
+
+    .ptext4 {
+        font-size: 15px;
+        margin-top: 20px;
+    }
+
+    .ptext5 {
+        font-size: 15px;
+    }
+
+    
+
+    .div2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: -50px auto 20px auto;
+        text-align: center;
+        height: auto; 
+        width: auto; 
+    }
+
+    .div3 {
+        margin: auto;
+        width: 270px;
+    }
+
+    .div4 {
+        display: flex;
+        margin: auto;
+        width: 270px;
+    }
+
+    .div5 {
+        display: flex;
+        margin: auto;
+        width: 270px;
+    }
+
+    .alertmain {
+        flex-direction: column;
+      }
+
+      .alertdiv {
+        margin: auto;
+    }
+  
+    .alert1 {
+        margin: 30px auto;
+        flex-direction: column;
+    }
+
+    .alerth1 {
+        text-align: center;
+        margin-top: 10px;
+    }
+  
+    .alertp1 {
+        font-size: 17px;
+        text-align: center;
+    }
+
+    .alerth2 {
+        text-align: center;
+        margin-top: 10px;
+    }
+  
+    .alertp2 {
+        font-size: 17px;
+        text-align: center;
+    }
+  
+    .alertdiv2 {
+        margin: auto;
+    }
+
+    .alert2 {
+        margin: 10px auto;
+        flex-direction: column;
+      }
+
+      .buttontext {
+        display: flex;
+        justify-content: center;
+      }
+}
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 481px) and (max-width: 600px) {
+    .divmain {
+        flex-direction: column;
+        align-items: center;
+        border-radius: 20px;
+        padding: 40px 10px;
+    }
+
+    .htext {
+        font-size: 21px;
+        text-align: center;
+    }
+
+    .ptext {
+        width: 360px;
+        text-align: center;
+    }
+
+    .divmain2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .seenflowimage {
+        visibility: hidden;
+    }
+
+    .alertmain {
+        flex-direction: column;
+        margin-left: 0;
+    }
+
+    .alert2 {
+        margin: auto;
+    }
+
+    .div3mains {
+        flex-direction: column;
+        margin-left: 0;
+    }
+
+    .div1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: -50px;
+        text-align: center;
+        height: auto; 
+        width: auto; 
+    } 
+
+    .divss {
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .lumovediv {
+        margin: auto;
+        /* margin-left: 160px; */
+    }
+    .lumove {
+        font-size: 40px;
+        margin-top: -110px;
+    }
+
+    .lumovediv3 {
+        margin: auto;
+        /* margin-left: 160px; */
+        display: flex;
+    }
+
+    .lumove3 {
+        font-size: 40px;
+    }
+
+    .lumovediv4 {
+        margin: auto;
+        /* margin-left: 160px; */
+        display: flex;
+    }
+
+    .lumove4 {
+        font-size: 40px;
+        margin-top: 50px;
+    }
+
+
+
+    .lumoveleftdiv {
+        margin-left: 0;
+        display: none;
+    }
+    
+    .lumoveleft {
+        font-size: 50px;
+    }
+    
+    .lumoverightdiv {
+        margin-left: 0;
+        display: none;
+    }
+    
+    .lumoveright {
+        font-size: 50px;
+        display: none;
+    }
+
+
+    .arrows {
+        margin: auto;
+    }
+
+
+    .ptext3 {
+        margin-top: 15px;
+        font-size: 15px;
+    }
+
+    .ptext4 {
+        font-size: 15px;
+        margin-top: 20px;
+    }
+
+    .ptext5 {
+        font-size: 15px;
+    }
+
+    
+
+    .div2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: -50px auto 20px auto;
+        text-align: center;
+        height: auto; 
+        width: auto; 
+    }
+
+    .div3 {
+        margin: auto;
+        width: 270px;
+    }
+
+    .div4 {
+        display: flex;
+        margin: auto;
+        width: 270px;
+    }
+
+    .div5 {
+        display: flex;
+        margin: auto;
+        width: 270px;
+    }
+
+    .alertmain {
+        flex-direction: column;
+      }
+
+      .alertdiv {
+        margin: auto;
+    }
+  
+    .alert1 {
+        margin: 30px auto;
+        flex-direction: column;
+    }
+
+    .alerth1 {
+        text-align: center;
+        margin-top: 10px;
+    }
+  
+    .alertp1 {
+        font-size: 17px;
+        text-align: center;
+    }
+
+    .alerth2 {
+        text-align: center;
+        margin-top: 10px;
+    }
+  
+    .alertp2 {
+        font-size: 17px;
+        text-align: center;
+    }
+  
+    .alertdiv2 {
+        margin: auto;
+    }
+
+    .alert2 {
+        margin: 10px auto;
+        flex-direction: column;
+      }
+
+      .buttontext {
+        display: flex;
+        justify-content: center;
+      }
+}
+
+
+
+
+
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+    .divmain {
+        flex-direction: column;
+        align-items: center;
+        border-radius: 20px;
+        padding: 40px 10px;
+    }
+
+    .htext {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .ptext {
+        width: 400px;
+        text-align: center;
+        font-size: 17px;
+    }
+
+    .divmain2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .seenflowimage {
+        visibility: hidden;
+    }
+
+    .alertmain {
+        flex-direction: column;
+        margin-left: 0;
+    }
+
+    .alert2 {
+        margin: auto;
+    }
+
+    .div3mains {
+        flex-direction: column;
+        margin-left: 0;
+    }
+
+    .div1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: -50px;
+        text-align: center;
+        height: auto; 
+        width: auto; 
+    } 
+
+    .divss {
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .lumovediv {
+        margin: auto;
+        /* margin-left: 160px; */
+    }
+    .lumove {
+        font-size: 40px;
+        margin-top: -110px;
+    }
+
+    .lumovediv3 {
+        margin: auto;
+        /* margin-left: 160px; */
+        display: flex;
+    }
+
+    .lumove3 {
+        font-size: 40px;
+    }
+
+    .lumovediv4 {
+        margin: auto;
+        /* margin-left: 160px; */
+        display: flex;
+    }
+
+    .lumove4 {
+        font-size: 40px;
+        margin-top: 50px;
+    }
+
+
+
+    .lumoveleftdiv {
+        margin-left: 0;
+        display: none;
+    }
+    
+    .lumoveleft {
+        font-size: 50px;
+    }
+    
+    .lumoverightdiv {
+        margin-left: 0;
+        display: none;
+    }
+    
+    .lumoveright {
+        font-size: 50px;
+        display: none;
+    }
+
+
+    .arrows {
+        margin: auto;
+    }
+
+
+    .ptext3 {
+        margin-top: 15px;
+        font-size: 15px;
+    }
+
+    .ptext4 {
+        font-size: 15px;
+        margin-top: 20px;
+    }
+
+    .ptext5 {
+        font-size: 15px;
+    }
+
+    
+
+    .div2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: -50px auto 20px auto;
+        text-align: center;
+        height: auto; 
+        width: auto; 
+    }
+
+    .div3 {
+        margin: auto;
+        width: 270px;
+    }
+
+    .div4 {
+        display: flex;
+        margin: auto;
+        width: 270px;
+    }
+
+    .div5 {
+        display: flex;
+        margin: auto;
+        width: 270px;
+    }
+
+    .alertmain {
+        flex-direction: column;
+      }
+
+      .alertdiv {
+        margin: auto;
+    }
+  
+    .alert1 {
+        margin: 30px auto;
+        flex-direction: column;
+    }
+
+    .alerth1 {
+        text-align: center;
+        margin-top: 10px;
+    }
+  
+    .alertp1 {
+        font-size: 17px;
+        text-align: center;
+    }
+
+    .alerth2 {
+        text-align: center;
+        margin-top: 10px;
+    }
+  
+    .alertp2 {
+        font-size: 17px;
+        text-align: center;
+    }
+  
+    .alertdiv2 {
+        margin: auto;
+    }
+
+    .alert2 {
+        margin: 10px auto;
+        flex-direction: column;
+      }
+
+      .buttontext {
+        display: flex;
+        justify-content: center;
+      }
+}
+
+
+
+
+
+
+@media only screen and (min-width: 769px) and (max-width: 900px) {
+    .divmain {
+        flex-direction: column;
+        align-items: center;
+        border-radius: 20px;
+        padding: 40px 10px;
+    }
+
+    .htext {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .ptext {
+        width: 420px;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .divmain2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .seenflowimage {
+        visibility: hidden;
+    }
+
+    .alertmain {
+        flex-direction: column;
+        margin-left: 0;
+    }
+
+    .alert2 {
+        margin: auto;
+    }
+
+    .div3mains {
+        flex-direction: column;
+        margin-left: 0;
+    }
+
+    .div1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: -50px;
+        text-align: center;
+        height: auto; 
+        width: auto; 
+    } 
+
+    .divss {
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .lumovediv {
+        margin: auto;
+        /* margin-left: 160px; */
+    }
+    .lumove {
+        font-size: 40px;
+        margin-top: -110px;
+    }
+
+    .lumovediv3 {
+        margin: auto;
+        /* margin-left: 160px; */
+        display: flex;
+    }
+
+    .lumove3 {
+        font-size: 40px;
+    }
+
+    .lumovediv4 {
+        margin: auto;
+        /* margin-left: 160px; */
+        display: flex;
+    }
+
+    .lumove4 {
+        font-size: 40px;
+        margin-top: 50px;
+    }
+
+
+
+    .lumoveleftdiv {
+        margin-left: 0;
+        display: none;
+    }
+    
+    .lumoveleft {
+        font-size: 50px;
+    }
+    
+    .lumoverightdiv {
+        margin-left: 0;
+        display: none;
+    }
+    
+    .lumoveright {
+        font-size: 50px;
+        display: none;
+    }
+
+
+    .arrows {
+        margin: auto;
+    }
+
+
+    .ptext3 {
+        margin-top: 15px;
+        font-size: 15px;
+    }
+
+    .ptext4 {
+        font-size: 15px;
+        margin-top: 20px;
+    }
+
+    .ptext5 {
+        font-size: 15px;
+    }
+
+    
+
+    .div2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: -50px auto 20px auto;
+        text-align: center;
+        height: auto; 
+        width: auto; 
+    }
+
+    .div3 {
+        margin: auto;
+        width: 270px;
+    }
+
+    .div4 {
+        display: flex;
+        margin: auto;
+        width: 270px;
+    }
+
+    .div5 {
+        display: flex;
+        margin: auto;
+        width: 270px;
+    }
+
+    .alertmain {
+        flex-direction: column;
+      }
+
+      .alertdiv {
+        margin: auto;
+    }
+  
+    .alert1 {
+        margin: 30px auto;
+        flex-direction: column;
+    }
+
+    .alerth1 {
+        text-align: center;
+        margin-top: 10px;
+    }
+  
+    .alertp1 {
+        font-size: 17px;
+        text-align: center;
+    }
+
+    .alerth2 {
+        text-align: center;
+        margin-top: 10px;
+    }
+  
+    .alertp2 {
+        font-size: 17px;
+        text-align: center;
+    }
+  
+    .alertdiv2 {
+        margin: auto;
+    }
+
+    .alert2 {
+        margin: 10px auto;
+        flex-direction: column;
+      }
+
+      .buttontext {
+        display: flex;
+        justify-content: center;
+      }
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 901px) and (max-width: 1200px) {
+    .divmain {
+        flex-direction: column;
+        align-items: center;
+        border-radius: 20px;
+        padding: 40px 10px;
+    }
+
+    .htext {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .ptext {
+        width: 450px;
+        text-align: center;
+        font-size: 19px;
+    }
+
+    .divmain2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .seenflowimage {
+        visibility: hidden;
+    }
+
+    .alertmain {
+        flex-direction: column;
+        margin-left: 0;
+    }
+
+    .alert2 {
+        margin: auto;
+    }
+
+    .div3mains {
+        flex-direction: column;
+        margin-left: 0;
+    }
+
+    .div1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: -50px;
+        text-align: center;
+        height: auto; 
+        width: auto; 
+    } 
+
+    .divss {
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .lumovediv {
+        margin: auto;
+        /* margin-left: 160px; */
+    }
+    .lumove {
+        font-size: 40px;
+        margin-top: -110px;
+    }
+
+    .lumovediv3 {
+        margin: auto;
+        /* margin-left: 160px; */
+        display: flex;
+    }
+
+    .lumove3 {
+        font-size: 40px;
+    }
+
+    .lumovediv4 {
+        margin: auto;
+        /* margin-left: 160px; */
+        display: flex;
+    }
+
+    .lumove4 {
+        font-size: 40px;
+        margin-top: 50px;
+    }
+
+
+
+    .lumoveleftdiv {
+        margin-left: 0;
+        display: none;
+    }
+    
+    .lumoveleft {
+        font-size: 50px;
+    }
+    
+    .lumoverightdiv {
+        margin-left: 0;
+        display: none;
+    }
+    
+    .lumoveright {
+        font-size: 50px;
+        display: none;
+    }
+
+
+    .arrows {
+        margin: auto;
+    }
+
+
+    .ptext3 {
+        margin-top: 15px;
+        font-size: 15px;
+    }
+
+    .ptext4 {
+        font-size: 15px;
+        margin-top: 20px;
+    }
+
+    .ptext5 {
+        font-size: 15px;
+    }
+
+    
+
+    .div2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: -50px auto 20px auto;
+        text-align: center;
+        height: auto; 
+        width: auto; 
+    }
+
+    .div3 {
+        margin: auto;
+        width: 270px;
+    }
+
+    .div4 {
+        display: flex;
+        margin: auto;
+        width: 270px;
+    }
+
+    .div5 {
+        display: flex;
+        margin: auto;
+        width: 270px;
+    }
+
+    .alertmain {
+        flex-direction: column;
+      }
+
+      .alertdiv {
+        margin: auto;
+    }
+  
+    .alert1 {
+        margin: 30px auto;
+        flex-direction: column;
+    }
+
+    .alerth1 {
+        text-align: center;
+        margin-top: 10px;
+    }
+  
+    .alertp1 {
+        font-size: 17px;
+        text-align: center;
+    }
+
+    .alerth2 {
+        text-align: center;
+        margin-top: 10px;
+    }
+  
+    .alertp2 {
+        font-size: 17px;
+        text-align: center;
+    }
+  
+    .alertdiv2 {
+        margin: auto;
+    }
+
+    .alert2 {
+        margin: 10px auto;
+        flex-direction: column;
+      }
+
+      .buttontext {
+        display: flex;
+        justify-content: center;
+      }
+}

@@ -1,0 +1,61 @@
+.emblaviewport {
+    overflow: hidden;
+    max-width:60rem;
+    margin-top: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid rgb(218, 217, 217);
+    border-radius: 15px;
+    height: 27rem;
+  }
+  .emblacontainer {
+    display: flex;
+    height: 100%;
+  }
+  .emblaslide {
+    flex: 0 0 100%;
+    min-width: 0; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+.adapter {
+  width: 670px;
+  height: 200px;
+}
+
+.alexaimg {
+  width: 270px;
+  height: 270px;
+}
+
+.bluetoothimg {
+  width: 270px;
+  height: 270px;
+}
+
+.cloudimg {
+  width: 270px;
+  height: 270px;
+}
+
+.ieee {
+  width: 270px;
+  height: 270px;
+}
+
+.matter {
+  width: 270px;
+  height: 270px;
+}
+
+.nfc {
+  width: 270px;
+  height: 270px;
+}
+
+.zigbees {
+  width: 270px;
+  height: 270px;
+}

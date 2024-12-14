@@ -1,0 +1,227 @@
+.emblaviewport {
+  overflow: hidden;
+  max-width:48rem;
+  margin-top: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid rgb(218, 217, 217);
+  border-radius: 15px;
+  height: 27rem;
+}
+.emblacontainer {
+  display: flex;
+  height: 100%;
+}
+.emblaslide {
+  flex: 0 0 100%;
+  min-width: 0; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.basic {
+width: 100%;
+height: 400px;
+}
+
+.safety {
+  width: 100%;
+  height: 400px;
+}
+
+.advance {
+  width: 100%;
+  height: 400px;
+}
+
+.premium {
+  width: 100%;
+  height: 400px;
+}
+
+.emblaprev, .emblanext {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 10px 15px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: 7px;
+}
+
+.emblaprev {
+  left: 210px;
+}
+
+.emblanext {
+  right: 210px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+.smartadapter {
+  width: 270px;
+  height: 180px;
+}
+
+.motionsensor {
+  width: 270px;
+  height: 180px;
+}
+
+.smartmotor {
+  width: 270px;
+  height: 180px;
+}
+
+.smartdoorbell {
+  width: 270px;
+  height: 180px;
+}
+
+.smartdevice {
+  width: 270px;
+  height: 180px;
+}
+
+.text {
+  font-size: 13px;
+}
+
+}
+
+
+@media only screen and (min-width: 481px) and (max-width: 600px) {
+.smartadapter {
+  width: 270px;
+  height: 185px;
+}
+
+.motionsensor {
+  width: 270px;
+  height: 185px;
+}
+
+.smartmotor {
+  width: 270px;
+  height: 185px;
+}
+
+.smartdoorbell {
+  width: 270px;
+  height: 185px;
+}
+
+.smartdevice {
+  width: 270px;
+  height: 185px;
+}
+
+.text {
+  font-size: 14px;
+}
+
+}
+
+
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+.smartadapter {
+  width: 270px;
+  height: 188px;
+}
+
+.motionsensor {
+  width: 270px;
+  height: 188px;
+}
+
+.smartmotor {
+  width: 270px;
+  height: 188px;
+}
+
+.smartdoorbell {
+  width: 270px;
+  height: 188px;
+}
+
+.smartdevice {
+  width: 270px;
+  height: 188px;
+}
+
+.text {
+  font-size: 15px;
+} 
+}
+
+@media only screen and (min-width: 769px) and (max-width: 900px) {
+.smartadapter {
+  width: 270px;
+  height: 191px;
+}
+
+.motionsensor {
+  width: 270px;
+  height: 191px;
+}
+
+.smartmotor {
+  width: 270px;
+  height: 191px;
+}
+
+.smartdoorbell {
+  width: 270px;
+  height: 191px;
+}
+
+.smartdevice {
+  width: 270px;
+  height: 191px;
+}
+
+.text {
+  font-size: 16px;
+}
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1200px) {
+.smartadapter {
+  width: 270px;
+  height: 200px;
+}
+
+.motionsensor {
+  width: 270px;
+  height: 200px;
+}
+
+.smartmotor {
+  width: 270px;
+  height: 200px;
+}
+
+.smartdoorbell {
+  width: 270px;
+  height: 200px;
+}
+
+.smartdevice {
+  width: 270px;
+  height: 200px;
+}
+
+.text {
+  font-size: 17px;
+}
+
+}
+
+
+
+
+

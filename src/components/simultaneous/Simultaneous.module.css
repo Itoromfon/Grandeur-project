@@ -1,0 +1,241 @@
+/* ProductKitCarousel.module.css */
+
+.carouselVideoContainer {
+  width: 100%;
+  height: 90vh;
+  background-color: #291608;
+  position: relative;
+  overflow: hidden;
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+}
+
+/* .navbar2 {
+  margin-bottom: 0;
+  margin-top: -30px;
+} */
+
+.carouselVideoContainer::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7); 
+  z-index: 1; 
+}
+
+.backgroundVideo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+  transform: scaleX(-1); /* Mirror the video horizontally */
+
+}
+
+.carouselContent {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -90px;
+  cursor: pointer;
+  /* padding-bottom: 50px; */
+  /* background-color: rgba(0, 0, 0, 0.7);  */
+  
+}
+
+.carouselItemContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+  margin: auto;
+}
+
+.carouselCaptionContainer {
+  width: 70%;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  animation: zoomInBottom 1.5s ease-in-out forwards;
+  margin: auto;
+  /* opacity: 0; */
+}
+
+.carouselCaption {
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.carouselCaptioH2 {
+  color: #A97D5D;
+  font-size: 2.5em;
+  font-weight: bold;
+  margin: 0;
+}
+
+.carouselButtons {
+  width: 36%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* align-items: flex-start; 
+  justify-content: center;  */
+  animation: fadeInRight 1.5s ease-in-out forwards;
+  opacity: 0;
+  text-align: center;
+  margin: auto;
+  /* margin-left: 360px; */
+  margin-top: 240px;
+  margin-bottom: 50px;
+  gap: 20px;
+}
+
+.carouselButton {
+  padding: 10px 20px;
+  font-size: 1.2em; 
+}
+
+.customizeButton {
+  background-color: rgba(92, 117, 94, 0.3);
+  border: 1px solid #5C755E;
+  border-radius: 10px;
+  transition: background-color 1s ease;
+}
+
+.customizeButton:hover {
+  background-color: #5C755E;
+  /* border: 2px solid #5C755E; */
+}
+
+.h2text {
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 40px;
+  margin-top: -230px;
+}
+
+@keyframes zoomInBottom {
+  0% {
+      transform: translateY(100%) scale(0.5);
+      opacity: 0;
+  }
+  100% {
+      transform: translateY(0) scale(1);
+      opacity: 1;
+  }
+}
+
+@keyframes fadeInRight {
+  0% {
+      transform: translateX(100%);
+      opacity: 0;
+  }
+  100% {
+      transform: translateX(0);
+      opacity: 1;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .carouselCaptionContainer {
+    width: 100%;
+  }
+
+  .carouselButtons {
+    justify-content: center;
+    margin-bottom: 10px;
+    gap: 10px;
+  }
+
+  .h2text {
+    font-size: 30px;
+    margin-top: -200px;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 600px) {
+  .carouselCaptionContainer {
+    width: 100%;
+  }
+
+  .carouselButtons {
+    justify-content: center;
+    /* margin-left: 150px; */
+    /* margin-top: 200px; */
+    gap: 10px;
+  }
+
+  .h2text {
+    font-size: 30px;
+    margin-top: -250px;
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+  .carouselCaptionContainer {
+    width: 100%;
+  }
+
+  .carouselButtons {
+    justify-content: center;
+    /* margin-left: 175px; */
+    /* margin-top: 200px; */
+    gap: 10px;
+  }
+
+  .h2text {
+    font-size: 32px;
+    margin-top: -245px;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 900px) {
+  .carouselCaptionContainer {
+    width: 100%;
+  }
+
+  .carouselButtons {
+    justify-content: center;
+    /* margin-left: 220px; */
+    /* margin-top: 200px; */
+    gap: 10px;
+  }
+
+  .h2text {
+    font-size: 34px;
+    margin-top: -245px;
+  }
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1200px) {
+  .carouselCaptionContainer {
+    width: 100%;
+  }
+
+  .carouselButtons {
+    justify-content: center;
+    /* margin-left: 250px; */
+    /* margin-top: 200px; */
+    gap: 10px;
+  }
+
+  .h2text {
+    font-size: 36px;
+    margin-top: -200px;
+  }
+}
+
+
+

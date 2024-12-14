@@ -1,0 +1,39 @@
+/* Modal styles */
+.modaloverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background: rgba(181, 180, 180, 0.5);
+    display: flex;
+    align-items: center; /* Centers content vertically */
+    justify-content: center; /* Centers content horizontally */
+    height: 100vh;
+    z-index: 1000;
+    padding-top: 20px;
+  }
+
+  .modalcontent {
+    display: flex;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    position: relative;
+    /* margin-top: -350px; */
+    max-height: 80vh;
+    overflow-y: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 60%;
+  }
+
+  .textcontent {
+   margin: auto;
+  }
+  
+  .closebutton {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+  }

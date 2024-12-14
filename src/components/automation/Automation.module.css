@@ -1,0 +1,97 @@
+.main {
+    margin: 70px 50px 50px 50px;
+}
+
+.automateh1 {
+    font-size: 66px;
+    font-weight: 900;
+    color: rgb(185, 124, 13);
+    width: 80%;
+    letter-spacing: 1px;
+    line-height: 80px;
+    animation: backgroundPop 4s ease-in-out infinite;
+}
+
+.maindiv {
+    margin-bottom: 50px;
+}
+
+@keyframes backgroundPop {
+    0% {
+      transform: scale(1); /* Start with normal size */
+      background-position: center; /* Normal position */
+    }
+    50% {
+      transform: scale(1.1); /* Pop-up effect: enlarge */
+      background-position: center; /* Keep the image centered */
+    }
+    100% {
+      transform: scale(1); /* Return to normal size */
+      background-position: center; /* Normal position */
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .main {
+    margin-left: 40px;
+  }
+
+  .automateh1 {
+    font-size: 30px;
+    margin: auto;
+    line-height: 50px;
+    text-align: center;
+  }
+
+  .maindiv {
+    margin-bottom: 0;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 600px) {
+  .main {
+    margin-left: 100px;
+  }
+
+  .automateh1 {
+    font-size: 30px;
+    margin: auto;
+    line-height: 50px;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+  .main {
+    margin-left: 25px;
+  }
+
+  .automateh1 {
+    font-size: 32px;
+    margin: auto;
+    line-height: 50px;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 900px) {
+  .main {
+    margin-left: 25px;
+  }
+
+  .automateh1 {
+    font-size: 34px;
+    margin: auto;
+    line-height: 50px;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1200px) {
+  .automateh1 {
+    font-size: 36px;
+    margin: auto;
+    line-height: 50px;
+    text-align: center;
+  }
+}

@@ -1,0 +1,986 @@
+.navbar {
+    background-color: #FFFFFF;
+    padding: 10px 20px 10px 50px;
+    margin: 20px 30px 0 30px;
+    border-radius: 10px;
+    position: relative;
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .navdiv {
+    display: flex;
+    /* margin-right: 170px; */
+  }
+  
+  .navList {
+    display: flex;
+    /* justify-content: center; */
+    list-style: none;
+    margin: 0;
+    /* margin-left: 150px;  */
+    padding: 0;
+  }
+  
+  .navItem {
+    position: relative;
+    /* margin-right: 2rem; */
+  }
+  
+  .navLink {
+    color: #000000;
+    text-decoration: none;
+    padding: 0.5rem 0.5rem;
+    position: relative;
+    display: inline-block;
+    transition: color 0.3s ease;
+  }
+
+  .navLink:hover {
+    color: #00bcd4;
+  }
+  
+  .navLink:hover .dropdownArrow {
+    color: #00bcd4; /* Change text color on hover */
+  }
+  
+  .navLink::after {
+    content: "";
+    position: absolute;
+    left: 50%; 
+    bottom: 0;
+    width: 0; 
+    height: 2px;
+    background-color: #00bcd4; 
+    transform: translateX(-50%); 
+    transition: width 0.3s ease;
+  }
+  
+  .navLink:hover::after {
+    width: 50%; /* Adjust to desired line width (e.g., 50% of the text width) */
+  }
+  
+  .dropdownArrow {
+    margin-left: 3px;
+    font-size: 0.8rem;
+    color: #000000;
+    transition: transform 0.3s ease;
+    display: inline-block;
+  }
+  
+  .navItem:hover .dropdownArrow {
+    transform: rotate(180deg); /* Rotate arrow on hover */
+  }
+
+  .navItem:hover > .navLink .dropdownArrow {
+    transform: rotate(180deg); /* Rotate arrow downward */
+  }
+  
+  /* Dropdown Menu */
+  .dropdownMenu {
+    width: 600px;
+    /* margin: auto; */
+    margin-left: -90px;
+    display: block;
+    position: absolute;
+    border-radius: 10px;
+    top: 100%;
+    left: 0;
+    background-color: #FFFFFF;
+    list-style: none;
+    /* margin: 0; */
+    padding: 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    z-index: 2;
+    visibility: hidden;
+    transform: translateY(-10px); /* Start position for animation */
+    transition: opacity 0.3s ease, transform 0.3s ease;
+  }
+  
+  .navItem:hover .dropdownMenu {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0); /* Move dropdown to its original position */
+  }
+  
+  .dropdownItem {
+    margin: 0;
+  }
+  
+  .dropdownLink {
+    color: #000000;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    display: block;
+  }
+  
+  .dropdownLink:hover {
+    background-color: #666;
+  }
+
+  /* .div {
+    width: 900px;
+  } */
+
+  .imageContainer {
+    display: flex;
+    margin: 20px 20px;
+  }
+
+  .imageContainer2 {
+    display: flex;
+    margin: 20px 20px;
+  }
+
+  .imageWrapper {
+    margin: 10px;
+    display: inline-block;
+    width: auto;
+  }
+
+  .imageText {
+    color: #000000;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    position: relative;
+    display: inline-block;
+    transition: color 0.3s ease;
+    margin-bottom: 10px;
+  }
+  
+  .imageText:hover {
+    color: #00bcd4; /* Change text color on hover */
+  }
+  
+  .imageText::after {
+    content: "";
+    position: absolute;
+    left: 50%; /* Center the line */
+    bottom: 0;
+    width: 0; /* Initial width */
+    height: 2px;
+    background-color: #00bcd4; /* Line color */
+    transform: translateX(-50%); /* Adjust for centering */
+    transition: width 0.3s ease;
+  }
+  
+.imageText:hover::after {
+    width: 50%; /* Adjust to desired line width (e.g., 50% of the text width) */
+}
+
+.dropdownImage {
+    width: 500px;
+    height: 110px;
+    border-radius: 15px;
+}
+
+.searchContainer {
+    position: relative;
+    display: flex;
+}
+
+.searchIcon {
+    font-size: 20px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.searchForm {
+    display: flex;
+    align-items: center;
+}
+
+.searchBar {
+    padding: 10px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.searchButton {
+    padding: 10px;
+    background-color: #00bcd4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.searchButton:hover {
+    background-color: #008c9e;
+}
+
+.icons {
+    display: flex;
+    margin-left: 150px;
+}
+  
+  .signin {
+    margin: 5px 10px 0 20px;
+  }
+  
+  .cart {
+    margin: 2px 0 0 0;
+  }
+  
+  .usa {
+    margin: 2px 10px 0 10px;
+  }
+
+  .menutoggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .toggle {
+    color: black;
+    width: 30px;
+    height: 30px;
+    display: none;
+  }
+  
+  .toggle2 {
+    color: black;
+    width: 30px;
+    height: 30px;
+    display: none;
+  }
+
+@media only screen and (min-width: 320px) and (max-width: 480px) { 
+    .navbar {
+        justify-content: space-between;
+        padding: 15px 20px 15px 20px;
+    }
+
+    .menutoggle {
+        display: flex; /* Show toggle button on mobile */
+        color: black;
+    }
+    
+      .toggle {
+        display: flex;
+      }
+    
+      .toggle2 {
+        display: flex;
+        z-index: 2;
+      }
+
+      .navbarlogo {
+        z-index: 2;
+      }
+
+    .navdiv {
+        flex-direction: column;
+        background-color: #FFFFFF;
+        position: absolute;
+        top: 50px;
+        right: 0;
+        width: 280px;
+        height: 100vh;
+        padding: 1rem;
+        position: relative;
+        z-index: 10;
+        margin-top: -30px;
+        margin-left: 75px;
+    }
+
+    .navItem {
+        margin: 10px 50px 10px 0;
+        /* font-weight: bold; */
+        font-size: 21px;
+    }
+
+    .navLink {
+        display: flex;
+    }
+
+    .navLink::after {
+      visibility: hidden;
+    }
+
+    .dropdownArrow {
+      margin-top: 5px;
+    }
+
+    .navList {
+      /* display: none; */
+      flex-direction: column;
+      position: absolute;
+      top: 100%;
+      right: 0;
+      background-color: white;
+      overflow: hidden; /* Ensures smooth height transition */
+      max-height: 0; /* Collapsed by default */
+      width: 100%; 
+      transition: max-height 0.3s ease, opacity 0.3s ease;
+      opacity: 0; /* Hidden by default */
+    }
+
+    .navList.show {
+      display: flex; 
+      max-height: 600px; 
+      opacity: 1; 
+      border-radius: 10px;
+      margin-top: -20px;
+    }
+
+    .icons {
+        margin-left: 0;
+        margin-top: 50px;
+        display: flex;
+        /* justify-content: space-around; */
+    }
+
+    .signin {
+      width: 22px;
+      height: 25px;
+      /* margin: 0 30px; */
+    }
+
+    .usa {
+      width: 30px;
+      height: 30px;
+    }
+
+    .cart {
+        margin-top: 3px;
+        width: 30px;
+        height: 30px;
+    }
+
+    .dropdownMenu {
+        width: 360px;
+        /* margin: auto; */
+        margin-left: -115px;
+        display: block;
+        position: absolute;
+        border-radius: 10px;
+        top: 100%;
+        left: 0;
+        background-color: #FFFFFF;
+        list-style: none;
+        /* margin: 0; */
+        padding: 0;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        opacity: 0;
+        z-index: 2;
+        visibility: hidden;
+        transform: translateY(-10px); /* Start position for animation */
+        transition: opacity 0.3s ease, transform 0.3s ease;
+      }
+
+      .dropdownImage {
+        height: 70px;
+      }
+
+      .imageContainer {
+        margin-top: 0;
+      }
+
+      .imageContainer2 {
+        margin-top: -20px;
+      }
+
+      .imageText {
+        padding: 0 1rem;
+        transition: color 0.3s ease;
+        /* margin-bottom: 10px; */
+        font-size: 13px;
+      }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 600px) { 
+  .navbar {
+    justify-content: space-between;
+    padding: 10px 20px 10px 20px;
+}
+
+.menutoggle {
+    display: flex; /* Show toggle button on mobile */
+    color: black;
+}
+
+  .toggle {
+    display: flex;
+  }
+
+  .toggle2 {
+    display: flex;
+    z-index: 2;
+  }
+
+  .navbarlogo {
+    z-index: 2;
+  }
+
+.navdiv {
+    flex-direction: column;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 50px;
+    right: 0;
+    width: 280px;
+    height: 100vh;
+    padding: 1rem;
+    position: relative;
+    z-index: 10;
+    margin-top: -30px auto 0 auto;
+    
+}
+
+.navItem {
+    margin: 13px 50px 13px 0;
+    /* font-weight: bold; */
+    font-size: 23px;
+}
+
+.navLink {
+    display: flex;
+}
+
+.navLink::after {
+  visibility: hidden;
+}
+
+.dropdownArrow {
+  margin-top: 5px;
+}
+
+.navList {
+  /* display: none; */
+  flex-direction: column;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: white;
+  overflow: hidden; /* Ensures smooth height transition */
+  max-height: 0; /* Collapsed by default */
+  width: 100%; 
+  transition: max-height 0.3s ease, opacity 0.3s ease;
+  opacity: 0; /* Hidden by default */
+}
+
+.navList.show {
+  display: flex; 
+  max-height: 650px; 
+  opacity: 1; 
+  border-radius: 10px;
+  margin-top: -20px;
+}
+
+.icons {
+    margin-left: 0;
+    margin-top: 30px;
+    display: flex;
+    /* justify-content: space-around; */
+}
+
+.signin {
+  width: 22px;
+  height: 25px;
+  /* margin: 0 30px; */
+}
+
+.usa {
+  width: 30px;
+  height: 30px;
+}
+
+.cart {
+    margin-top: 3px;
+    width: 30px;
+    height: 30px;
+}
+
+.dropdownMenu {
+    width: 360px;
+    /* margin: auto; */
+    margin-left: -100px;
+    display: block;
+    position: absolute;
+    border-radius: 10px;
+    top: 100%;
+    left: 0;
+    background-color: #FFFFFF;
+    list-style: none;
+    /* margin: 0; */
+    padding: 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    z-index: 2;
+    visibility: hidden;
+    transform: translateY(-10px); /* Start position for animation */
+    transition: opacity 0.3s ease, transform 0.3s ease;
+  }
+
+  .dropdownImage {
+    height: 70px;
+  }
+
+  .imageContainer {
+    margin-top: 0;
+  }
+
+  .imageContainer2 {
+    margin-top: -20px;
+  }
+
+  .imageText {
+    padding: 0 1rem;
+    transition: color 0.3s ease;
+    /* margin-bottom: 10px; */
+    font-size: 13px;
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 768px) { 
+.navbar {
+    justify-content: space-between;
+    padding: 10px 20px 10px 20px;
+}
+
+.menutoggle {
+    display: flex; /* Show toggle button on mobile */
+    color: black;
+}
+
+  .toggle {
+    display: flex;
+  }
+
+  .toggle2 {
+    display: flex;
+    z-index: 2;
+  }
+
+  .navbarlogo {
+    z-index: 2;
+  }
+
+.navdiv {
+    flex-direction: column;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 50px;
+    right: 0;
+    width: 280px;
+    height: 100vh;
+    padding: 1rem;
+    position: relative;
+    z-index: 10;
+    margin-top: -30px auto 0 auto;
+    
+}
+
+.navItem {
+    margin: 13px 50px 13px 0;
+    /* font-weight: bold; */
+    font-size: 24px;
+}
+
+.navLink {
+    display: flex;
+}
+
+.navLink::after {
+  visibility: hidden;
+}
+
+.dropdownArrow {
+  margin-top: 5px;
+}
+
+.navList {
+  /* display: none; */
+  flex-direction: column;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: white;
+  overflow: hidden; /* Ensures smooth height transition */
+  max-height: 0; /* Collapsed by default */
+  width: 100%; 
+  transition: max-height 0.3s ease, opacity 0.3s ease;
+  opacity: 0; /* Hidden by default */
+}
+
+.navList.show {
+  display: flex; 
+  max-height: 650px; 
+  opacity: 1; 
+  border-radius: 10px;
+  margin-top: -20px;
+}
+
+.icons {
+    margin-left: 0;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.signin {
+  width: 22px;
+  height: 25px;
+  /* margin: 0 30px; */
+}
+
+.usa {
+  width: 30px;
+  height: 30px;
+}
+
+.cart {
+    margin-top: 3px;
+    width: 30px;
+    height: 30px;
+}
+
+.dropdownMenu {
+    width: 360px;
+    /* margin: auto; */
+    margin-left: -100px;
+    display: block;
+    position: absolute;
+    border-radius: 10px;
+    top: 100%;
+    left: 0;
+    background-color: #FFFFFF;
+    list-style: none;
+    /* margin: 0; */
+    padding: 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    z-index: 2;
+    visibility: hidden;
+    transform: translateY(-10px); /* Start position for animation */
+    transition: opacity 0.3s ease, transform 0.3s ease;
+  }
+
+  .dropdownImage {
+    height: 70px;
+  }
+
+  .imageContainer {
+    margin-top: 0;
+  }
+
+  .imageContainer2 {
+    margin-top: -20px;
+  }
+
+  .imageText {
+    padding: 0 1rem;
+    transition: color 0.3s ease;
+    /* margin-bottom: 10px; */
+    font-size: 13px;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 900px) { 
+.navbar {
+    justify-content: space-between;
+    padding: 10px 20px 10px 20px;
+}
+
+.menutoggle {
+    display: flex; /* Show toggle button on mobile */
+    color: black;
+}
+
+  .toggle {
+    display: flex;
+  }
+
+  .toggle2 {
+    display: flex;
+    z-index: 2;
+  }
+
+  .navbarlogo {
+    z-index: 2;
+  }
+
+.navdiv {
+    flex-direction: column;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 50px;
+    right: 0;
+    width: 280px;
+    height: 100vh;
+    padding: 1rem;
+    position: relative;
+    z-index: 10;
+    margin-top: -30px auto 0 auto;
+    
+}
+
+.navItem {
+    margin: 13px 50px 13px 0;
+    /* font-weight: bold; */
+    font-size: 26px;
+}
+
+.navLink {
+    display: flex;
+}
+
+.navLink::after {
+  visibility: hidden;
+}
+
+.dropdownArrow {
+  margin-top: 7px;
+}
+
+.navList {
+  /* display: none; */
+  flex-direction: column;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: white;
+  overflow: hidden; /* Ensures smooth height transition */
+  max-height: 0; /* Collapsed by default */
+  width: 100%; 
+  transition: max-height 0.3s ease, opacity 0.3s ease;
+  opacity: 0; /* Hidden by default */
+}
+
+.navList.show {
+  display: flex; 
+  max-height: 750px; 
+  opacity: 1; 
+  border-radius: 10px;
+  margin-top: -20px;
+}
+
+.icons {
+    margin-left: 0;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.signin {
+  width: 22px;
+  height: 25px;
+  /* margin: 0 30px; */
+}
+
+.usa {
+  width: 30px;
+  height: 30px;
+}
+
+.cart {
+    margin-top: 3px;
+    width: 30px;
+    height: 30px;
+}
+
+.dropdownMenu {
+    width: 360px;
+    /* margin: auto; */
+    margin-left: -100px;
+    display: block;
+    position: absolute;
+    border-radius: 10px;
+    top: 100%;
+    left: 0;
+    background-color: #FFFFFF;
+    list-style: none;
+    /* margin: 0; */
+    padding: 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    z-index: 2;
+    visibility: hidden;
+    transform: translateY(-10px); /* Start position for animation */
+    transition: opacity 0.3s ease, transform 0.3s ease;
+  }
+
+  .dropdownImage {
+    height: 70px;
+  }
+
+  .imageContainer {
+    margin-top: 0;
+  }
+
+  .imageContainer2 {
+    margin-top: -20px;
+  }
+
+  .imageText {
+    padding: 0 1rem;
+    transition: color 0.3s ease;
+    /* margin-bottom: 10px; */
+    font-size: 13px;
+  }
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1200px) { 
+  .navbar {
+    justify-content: space-between;
+    padding: 10px 20px 10px 20px;
+}
+
+.menutoggle {
+    display: flex; /* Show toggle button on mobile */
+    color: black;
+}
+
+  .toggle {
+    display: flex;
+  }
+
+  .toggle2 {
+    display: flex;
+    z-index: 2;
+  }
+
+  .navbarlogo {
+    z-index: 2;
+  }
+
+.navdiv {
+    flex-direction: column;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 50px;
+    right: 0;
+    width: 300px;
+    height: 100vh;
+    padding: 1rem;
+    position: relative;
+    z-index: 10;
+    margin-top: -30px auto 0 auto;
+    
+}
+
+.navItem {
+    margin: 13px 50px 13px 0;
+    /* font-weight: bold; */
+    font-size: 28px;
+}
+
+.navLink {
+    display: flex;
+}
+
+.navLink::after {
+  visibility: hidden;
+}
+
+.dropdownArrow {
+  margin-top: 7px;
+}
+
+.navList {
+  /* display: none; */
+  flex-direction: column;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: white;
+  overflow: hidden; /* Ensures smooth height transition */
+  max-height: 0; /* Collapsed by default */
+  width: 100%; 
+  transition: max-height 0.3s ease, opacity 0.3s ease;
+  opacity: 0; /* Hidden by default */
+}
+
+.navList.show {
+  display: flex; 
+  max-height: 750px; 
+  opacity: 1; 
+  border-radius: 10px;
+  margin-top: -20px;
+}
+
+.icons {
+    margin-left: 0;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.signin {
+  width: 22px;
+  height: 25px;
+  /* margin: 0 30px; */
+}
+
+.usa {
+  width: 30px;
+  height: 30px;
+}
+
+.cart {
+    margin-top: 3px;
+    width: 30px;
+    height: 30px;
+}
+
+.dropdownMenu {
+    width: 360px;
+    /* margin: auto; */
+    margin-left: -100px;
+    display: block;
+    position: absolute;
+    border-radius: 10px;
+    top: 100%;
+    left: 0;
+    background-color: #FFFFFF;
+    list-style: none;
+    /* margin: 0; */
+    padding: 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    z-index: 2;
+    visibility: hidden;
+    transform: translateY(-10px); /* Start position for animation */
+    transition: opacity 0.3s ease, transform 0.3s ease;
+  }
+
+  .dropdownImage {
+    height: 70px;
+  }
+
+  .imageContainer {
+    margin-top: 0;
+  }
+
+  .imageContainer2 {
+    margin-top: -20px;
+  }
+
+  .imageText {
+    padding: 0 1rem;
+    transition: color 0.3s ease;
+    /* margin-bottom: 10px; */
+    font-size: 13px;
+  }
+
+}
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+  

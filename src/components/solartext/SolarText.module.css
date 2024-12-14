@@ -1,0 +1,429 @@
+.solarh1 {
+    font-size: 46px;
+    font-weight: bolder;
+    width:80%;
+    line-height: 50px;
+    margin-bottom: 25px;
+    color: rgb(185, 124, 13);
+}
+
+.solar {
+    margin-left: 200px;
+}
+
+.solarp {
+    font-size: 16px;
+    color: rgb(185, 124, 13);
+    width: 80%;
+}
+
+.remotediv {
+    display: flex;
+    margin-top: 50px;
+    animation: backgroundPop 4s ease-in-out infinite;
+}
+
+@keyframes backgroundPop {
+    0% {
+      transform: scale(1); /* Start with normal size */
+      background-position: center; /* Normal position */
+    }
+    50% {
+      transform: scale(1.06); /* Pop-up effect: enlarge */
+      background-position: center; /* Keep the image centered */
+    }
+    100% {
+      transform: scale(1); /* Return to normal size */
+      background-position: center; /* Normal position */
+    }
+}
+
+.remote1div {
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    width: 37%;
+    height: 20%;
+    border-radius: 15px;
+    padding: 20px 10px;
+    text-align: center;
+}
+
+.remoteh1 {
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(185, 124, 13);
+}
+
+.remotep1 {
+    font-size: 15px;
+    font-weight: 400;
+    width: 90%;
+    color: #5C755E
+}
+
+.remote2div {
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    width: 35%;
+    height: 20%;
+    border-radius: 15px;
+    padding: 20px 10px;
+    text-align: center;
+    margin-left: 50px;
+}
+
+.remoteh2 {
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(185, 124, 13);
+}
+
+.remotep2 {
+    font-size: 15px;
+    font-weight: 400;
+    width: 90%;
+    color: #5C755E;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    .solar {
+        margin-left: 0;
+        margin-right: 30px;
+    }
+
+    .solardiv {
+        margin-top: 30px;
+    }
+
+    .solarh1 {
+        text-align: center;
+        margin: auto;
+        margin: 10px auto;
+    }
+    
+    .solarp {
+        font-size: 16px;
+        color: rgb(185, 124, 13);
+        text-align: center;
+        margin: auto;
+    }
+
+    .remotediv {
+        flex-direction: column;
+        margin-top: 50px;
+        margin-right: 60px;
+    }
+
+    .remote1div {
+        width: 70%;
+        padding: 20px 10px;
+        margin: 20px auto;
+    }
+    
+    .remoteh1 {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+    
+    .remotep1 {
+        width: 90%;
+        margin: auto;
+    }
+    
+    .remote2div {
+        width: 70%;
+        padding: 20px 10px;
+        margin-left: 0;
+        margin: auto;
+    }
+    
+    .remoteh2 {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+    
+    .remotep2 {
+        width: 90%;
+        margin: auto;
+    }
+}
+
+
+@media only screen and (min-width: 481px) and (max-width: 600px) {
+    .solar {
+        margin-left: 0;
+    }
+
+    .solardiv {
+        margin-top: 30px;
+    }
+
+    .solarh1 {
+        font-size: 31px;
+        font-weight: bolder;
+        line-height: 35px;
+        margin-bottom: 25px;
+        color: rgb(185, 124, 13);
+        margin-top: 30px;
+        text-align: center;
+        margin: 10px auto;
+    }
+    
+    .solarp {
+        font-size: 17px;
+        color: rgb(185, 124, 13);
+        text-align: center;
+        margin: auto;
+    }
+
+    .remotediv {
+        flex-direction: column;
+        margin-top: 50px;
+        margin-right: 60px;
+    }
+
+    .remote1div {
+        width: 71%;
+        padding: 20px 10px;
+        margin: 20px auto;
+    }
+    
+    .remoteh1 {
+        font-size: 17px;
+        margin-top: 10px;
+    }
+    
+    .remotep1 {
+        width: 91%;
+        margin: auto;
+    }
+    
+    .remote2div {
+        width: 71%;
+        padding: 20px 10px;
+        margin-left: 0;
+        margin: auto;
+    }
+    
+    .remoteh2 {
+        font-size: 17px;
+        margin-top: 10px;
+    }
+    
+    .remotep2 {
+        width: 91%;
+        margin: auto;
+    }
+}
+
+
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+    .solar {
+        margin-left: 0;
+    }
+
+    .solardiv {
+        margin-top: 30px;
+    }
+
+    .solarh1 {
+        font-size: 32px;
+        font-weight: bolder;
+        line-height: 35px;
+        margin-bottom: 25px;
+        color: rgb(185, 124, 13);
+        margin-top: 30px;
+        text-align: center;
+        margin: 10px auto;
+    }
+    
+    .solarp {
+        font-size: 18px;
+        color: rgb(185, 124, 13);
+        text-align: center;
+        margin: auto;
+    }
+
+    .remotediv {
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+    .remote1div {
+        width: 72%;
+        padding: 20px 10px;
+        margin: 20px auto;
+    }
+    
+    .remoteh1 {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    
+    .remotep1 {
+        width: 91%;
+        margin: auto;
+    }
+    
+    .remote2div {
+        width: 71%;
+        padding: 20px 10px;
+        margin-left: 0;
+        margin: auto;
+    }
+    
+    .remoteh2 {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    
+    .remotep2 {
+        width: 91%;
+        margin: auto;
+    }
+}
+
+
+@media only screen and (min-width: 769px) and (max-width: 900px) {
+    .solar {
+        margin-left: 0;
+    }
+
+    .solardiv {
+        margin-top: 30px;
+    }
+
+    /* .solardiv {
+        margin: auto;
+    } */
+
+    .solarh1 {
+        font-size: 33px;
+        font-weight: bolder;
+        line-height: 35px;
+        margin-bottom: 25px;
+        color: rgb(185, 124, 13);
+        margin-top: 30px;
+        margin: 10px auto;
+    }
+    
+    .solarp {
+        font-size: 19px;
+        color: rgb(185, 124, 13);
+        margin: auto;
+    }
+
+    .remotediv {
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+    .remote1div {
+        width: 73%;
+        padding: 20px 10px;
+        margin: 20px auto;
+    }
+    
+    .remoteh1 {
+        font-size: 19px;
+        margin-top: 10px;
+    }
+    
+    .remotep1 {
+        width: 92%;
+        margin: auto;
+    }
+    
+    .remote2div {
+        width: 72%;
+        padding: 20px 10px;
+        margin-left: 0;
+        margin: auto;
+    }
+    
+    .remoteh2 {
+        font-size: 19px;
+        margin-top: 10px;
+    }
+    
+    .remotep2 {
+        width: 92%;
+        margin: auto;
+    }
+}
+
+
+@media only screen and (min-width: 901px) and (max-width: 1200px) {
+    .solar {
+        margin-left: 0;
+    }
+
+    .solardiv {
+        margin-top: 30px;
+    }
+
+    .solarh1 {
+        font-size: 34px;
+        font-weight: bolder;
+        line-height: 35px;
+        margin-bottom: 25px;
+        color: rgb(185, 124, 13);
+        margin-top: 30px;
+        text-align: center;
+        margin: 10px auto;
+    }
+    
+    .solarp {
+        font-size: 20px;
+        color: rgb(185, 124, 13);
+        text-align: center;
+        margin: auto;
+    }
+
+    .remotediv {
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+    .remote1div {
+        width: 74%;
+        padding: 20px 10px;
+        margin: 20px auto;
+    }
+    
+    .remoteh1 {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    
+    .remotep1 {
+        width: 93%;
+        margin: auto;
+    }
+    
+    .remote2div {
+        width: 73%;
+        padding: 20px 10px;
+        margin-left: 0;
+        margin: auto;
+    }
+    
+    .remoteh2 {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    
+    .remotep2 {
+        width: 93%;
+        margin: auto;
+    }
+}
+
+
+
+
+
+
+
+
+

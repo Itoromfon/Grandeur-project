@@ -1,0 +1,19 @@
+.sectionhead {
+    font-size: 36px;
+    font-weight: bolder;
+    margin-bottom: 0;
+    color: rgb(185, 124, 13);
+    text-align: center;
+}
+
+.text {
+    margin-top: 50px;
+}
+
+.sectiontext {
+    text-align: center;
+    font-size: 16px;
+    color: #5C755E;
+    width: 40%;
+    margin: auto;
+}

@@ -1,0 +1,643 @@
+.main {
+    background-color: #FFFFFF;
+    box-shadow: 0px -10px 15px rgba(147, 147, 147, 0.2), 0px 10px 15px rgba(147, 147, 147, 0.2);
+    width: 90%;
+    padding: 30px 30px;
+    margin: 50px auto;
+    border-radius: 11px;
+}
+
+.main1 {
+    display: flex;
+}
+
+.main2 {
+    display: flex;
+}
+
+.homeh1 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.custombuttondiv {
+    margin-left: auto;
+}
+
+.custombutton {
+    background-image: linear-gradient(to right, #5C755E, #78A67C);
+    padding: 15px 0;
+    width: 200px;
+    border-radius: 25px;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.custombutton:hover {
+    background-image: linear-gradient(to right, #738975, #8bc290);
+}
+
+.buttoncart {
+    background-image: linear-gradient(to right, #5C755E, #78A67C);
+    padding: 15px 0;
+    width: 200px;
+    border-radius: 25px;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.buttoncart:hover {
+    background-image: linear-gradient(to right, #738975, #8bc290);
+}
+
+.buttoncartdiv {
+    margin-top: 30px;
+}
+
+.homeh2 {
+    color: #5C755E;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    background-color: #CCCCCC;
+    margin-top: 20px;
+}
+
+.button2div {
+    display: flex;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.basic {
+    background-color: #FFFFFF;
+    border:1px solid #5C755E;
+    border-radius: 25px;
+    padding: 8px 0;
+    width: 150px;
+    color: #000000;
+    transition: all 0.3s ease;
+}
+
+.basic:hover {
+    background-color: #A97D5D;
+    color: #FFFFFF;
+    border: none;
+}
+
+.advance {
+    background-color: #FFFFFF;
+    border:1px solid #5C755E;
+    border-radius: 25px;
+    padding: 8px 0;
+    width: 150px;
+    color: #000000;
+    transition: all 0.3s ease;
+}
+
+.advance:hover {
+    background-color: #A97D5D;
+    color: #FFFFFF;
+    border: none;
+}
+
+.premium {
+    background-color: #FFFFFF;
+    border:1px solid #5C755E;
+    border-radius: 25px;
+    padding: 8px 0;
+    width: 150px;
+    color: #000000;
+    transition: all 0.3s ease;
+}
+
+.premium:hover {
+    background-color: #A97D5D;
+    color: #FFFFFF;
+    border: none;
+}
+
+.ultimate {
+    background-color: #FFFFFF;
+    border:1px solid #5C755E;
+    border-radius: 25px;
+    padding: 8px 0;
+    width: 150px;
+    color: #000000;
+    transition: all 0.3s ease;
+}
+
+.ultimate:hover {
+    background-color: #A97D5D;
+    color: #FFFFFF;
+    border: none;
+}
+
+.itemtext {
+    color: #5C755E;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+.set1 {
+    display: flex;
+}
+
+.gatewaydiv {
+    display: flex;
+}
+
+.checkdiv {
+    background-color: #5C755E;
+    width: 20px;
+    height: 20px;
+    padding: 3px;
+    border-radius: 50%;
+}
+
+.check {
+    color: #FFFFFF;
+    font-size: 14px;
+}
+
+.gatewaytext {
+    font-size: 15px;
+    color: #000000;
+    margin-left: 5px;
+}
+
+.lightsensordiv {
+    display: flex;
+    margin-left: 25px;
+}
+
+.lightsensortext {
+    font-size: 15px;
+    color: #000000;
+    margin-left: 5px;
+}
+
+.motionsensordiv {
+    display: flex;
+    margin-left: 25px;
+}
+
+.motionsensortext {
+    font-size: 15px;
+    color: #000000;
+    margin-left: 5px;
+}
+
+.smartsocketdiv {
+    display: flex;
+    margin-left: 25px;
+}
+
+/* .smartsocket2div {
+    display: flex;
+    margin-left: 100px;
+} */
+
+.smartsockettext {
+    font-size: 15px;
+    color: #000000;
+    margin-left: 5px;
+}
+
+.set2 {
+    display: flex;
+}
+
+.set3 {
+    display: flex;
+}
+
+.smartswitchdiv {
+    display: flex;
+}
+
+.smartswitchtext {
+    font-size: 15px;
+    color: #000000;
+    margin-left: 5px;
+}
+
+.irsensordiv {
+    display: flex;
+    margin-left: 25px;
+}
+
+.irsensortext {
+    font-size: 15px;
+    color: #000000;
+    margin-left: 5px; 
+}
+
+.smartvoicediv {
+    display: flex;
+    margin-left: 25px;
+}
+
+.smartvoicetext {
+    font-size: 15px;
+    color: #000000;
+    margin-left: 5px; 
+}
+
+.comfortkitdiv {
+    margin-top: -50px;
+}
+
+.comfortkitimg {
+    width: 562px;
+    height: 126px;
+}
+
+.securitytabdiv {
+    margin-top: 30px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    .main2 {
+        flex-direction: column;
+    }
+
+    .custombutton {
+        padding: 15px 0;
+        width: 160px;
+        font-size: 15px;
+    }
+
+    .buttoncart {
+        padding: 15px 0;
+        width: 160px;
+        font-size: 15px;
+    }
+
+    .homeh1 {
+        font-size: 16px;
+        width: 90%;
+        line-height: 25px;
+    }
+
+    .homeh2 {
+        font-size: 20px;
+    }
+
+    .button2div {
+        flex-direction: column;
+    }
+
+    .button2main {
+        display: flex;
+        justify-content: center;
+    }
+
+    .comfortkitdiv {
+        margin-top: 0;
+    }
+
+    .comfortkitimg {
+        width: 462px;
+        height: 100px;
+    }
+
+    .gatewaytext {
+        font-size: 14px;
+    }
+
+    .lightsensortext {
+        font-size: 14px;
+    }
+
+    .motionsensortext {
+        font-size: 14px;
+    }
+
+    .smartsockettext {
+        font-size: 14px;
+    }
+
+    .smartswitchtext {
+        font-size: 14px;
+    }
+
+    .irsensortext {
+        font-size: 14px;
+    }
+
+    .smartvoicetext {
+        font-size: 14px;
+    }
+
+    .set3 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .irsensordiv {
+        margin-left: 0;
+    }
+
+    .smartvoicediv {
+        margin-left: 0;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 600px) {
+    .main2 {
+        flex-direction: column;
+    }
+
+    .custombutton {
+        padding: 15px 0;
+        width: 160px;
+        font-size: 15px;
+    }
+
+    .buttoncart {
+        padding: 15px 0;
+        width: 160px;
+        font-size: 15px;
+    }
+
+    .homeh1 {
+        font-size: 16px;
+        width: 90%;
+        line-height: 25px;
+    }
+
+    .homeh2 {
+        font-size: 20px;
+    }
+
+    .button2div {
+        flex-direction: column;
+    }
+
+    .button2main {
+        display: flex;
+        justify-content: center;
+    }
+
+    .comfortkitdiv {
+        margin-top: 0;
+    }
+
+    .comfortkitimg {
+        width: 462px;
+        height: 100px;
+    }
+
+    .gatewaytext {
+        font-size: 14px;
+    }
+
+    .lightsensortext {
+        font-size: 14px;
+    }
+
+    .motionsensortext {
+        font-size: 14px;
+    }
+
+    .smartsockettext {
+        font-size: 14px;
+    }
+
+    .smartswitchtext {
+        font-size: 14px;
+    }
+
+    .irsensortext {
+        font-size: 14px;
+    }
+
+    .smartvoicetext {
+        font-size: 14px;
+    }
+
+    .set3 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .irsensordiv {
+        margin-left: 0;
+    }
+
+    .smartvoicediv {
+        margin-left: 0;
+    }
+}
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+    .main2 {
+        flex-direction: column;
+    }
+
+    .custombutton {
+        padding: 15px 0;
+        width: 160px;
+        font-size: 15px;
+    }
+
+    .buttoncart {
+        padding: 15px 0;
+        width: 160px;
+        font-size: 15px;
+    }
+
+    .homeh1 {
+        font-size: 16px;
+        width: 90%;
+        line-height: 25px;
+    }
+
+    .homeh2 {
+        font-size: 20px;
+    }
+
+    .button2div {
+        flex-direction: column;
+    }
+
+    .button2main {
+        display: flex;
+        justify-content: center;
+    }
+
+    .comfortkitdiv {
+        margin-top: 0;
+    }
+
+    .comfortkitimg {
+        width: 462px;
+        height: 100px;
+    }
+
+    .gatewaytext {
+        font-size: 14px;
+    }
+
+    .lightsensortext {
+        font-size: 14px;
+    }
+
+    .motionsensortext {
+        font-size: 14px;
+    }
+
+    .smartsockettext {
+        font-size: 14px;
+    }
+
+    .smartswitchtext {
+        font-size: 14px;
+    }
+
+    .irsensortext {
+        font-size: 14px;
+    }
+
+    .smartvoicetext {
+        font-size: 14px;
+    }
+
+    .set1 {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .set2 {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .set3 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .irsensordiv {
+        margin-left: 0;
+    }
+
+    .smartvoicediv {
+        margin-left: 0;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 900px) {
+    .main2 {
+        flex-direction: column;
+    }
+
+    .custombutton {
+        padding: 15px 0;
+        width: 160px;
+        font-size: 15px;
+    }
+
+    .buttoncart {
+        padding: 15px 0;
+        width: 160px;
+        font-size: 15px;
+    }
+
+    .homeh1 {
+        font-size: 16px;
+        width: 90%;
+        line-height: 25px;
+    }
+
+    .homeh2 {
+        font-size: 20px;
+    }
+
+    .button2div {
+        flex-direction: column;
+    }
+
+    .button2main {
+        display: flex;
+        justify-content: center;
+    }
+
+    .set1set2div {
+        margin: auto;
+    }
+
+    .comfortkitdiv {
+        margin-top: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .comfortkitimg {
+        width: 462px;
+        height: 100px;
+    }
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1200px) {
+    .main2 {
+        flex-direction: column;
+    }
+
+    .custombutton {
+        padding: 15px 0;
+        width: 160px;
+        font-size: 16px;
+    }
+
+    .buttoncart {
+        padding: 15px 0;
+        width: 160px;
+        font-size: 16px;
+    }
+
+    .homeh1 {
+        font-size: 17px;
+        width: 90%;
+        line-height: 25px;
+    }
+
+    .homeh2 {
+        font-size: 21px;
+    }
+
+    .button2div {
+        flex-direction: column;
+    }
+
+    .button2main {
+        display: flex;
+        justify-content: center;
+    }
+
+    .set1set2div {
+        margin: auto;
+    }
+
+    .comfortkitdiv {
+        margin-top: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .comfortkitimg {
+        width: 470px;
+        height: 110px;
+    }
+}

@@ -1,0 +1,56 @@
+.embla {
+  max-width: 81rem;
+  margin: auto;
+  overflow: hidden;
+}
+
+.emblaviewport {
+  overflow: hidden;
+}
+
+.emblacontainer {
+  display: flex;
+  gap: 0;
+}
+
+.emblaslide {
+  flex: 0 0 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.emblaimage {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.button {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.previcon, .nexticon {
+  color: #FFFFFF;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.previcon {
+  margin-right: 15px;
+}
+
+.nexticon {
+  margin-left: 15px;
+}
+
+.icon {
+    color: #FFFFFF;
+    font-size: 26px;
+}
+
+.icon2 {
+    color: #FFFFFF;
+    font-size: 26px;
+}

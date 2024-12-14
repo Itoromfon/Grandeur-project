@@ -1,0 +1,22 @@
+/* Carousel.module.css */
+
+.carousel {
+    width: 80%;         /* Width of the entire carousel */
+    margin: auto;       /* Center carousel horizontally */
+  }
+  
+  .slide {
+    transition: transform 0.3s ease-in-out;  /* Smooth scaling */
+  }
+  
+  /* Scale up the centered slide */
+  .slick-center .image {
+    transform: scale(1.2);        /* Increase size of centered image */
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .image {
+    width: 100%;       /* Full width for each image */
+    border-radius: 10px; /* Optional: rounded corners */
+  }
+  

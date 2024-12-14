@@ -1,0 +1,1803 @@
+.main {
+    background: linear-gradient(to right, #5C755E, #78A67C);
+    padding: 100px 70px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.h1text {
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+}
+
+.ptext {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 1px;
+    width: 500px;
+    color: #FFFFFF;
+}
+
+.dataprotectiondiv {
+    background-color: #FFFFFF;
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    padding-top: 5px;
+}
+
+.dataprotectionimg {
+    display: flex;
+    margin: 3px auto;
+}
+
+.h2text {
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    line-height: 22px;
+}
+
+.p2text {
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    line-height: 22px;
+    width: 400px;
+}
+
+.div1 {
+    display: flex;
+    margin-top: 50px;
+}
+
+.privacyfirstdiv {
+    margin-left: 15px;
+}
+
+
+
+.diskimg {
+    margin-top: -50px;
+    animation: backgroundPop 4s ease-in-out infinite;
+}
+
+.zigbeediv {
+    margin-top: -20px;
+}
+
+.lorawandiv {
+    margin-top: -20px;
+}
+
+.bluetoothdiv {
+    margin-top: 60px;
+    margin-left: 0;
+}
+
+
+
+
+
+
+
+
+.dataprotectiondiv2 {
+    background-color: #FFFFFF;
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    padding-top: 8px;
+}
+
+.dataprotectionimg2 {
+    display: flex;
+    margin: 0 auto;
+}
+
+.h3text {
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    line-height: 22px;
+}
+
+.p3text {
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    line-height: 22px;
+    width: 450px;
+}
+
+.div2 {
+    display: flex;
+    margin-top: 20px;
+}
+
+.privacyfirstdiv2 {
+    margin-left: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.dataprotectiondiv3 {
+    background-color: #FFFFFF;
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    padding-top: 10px;
+}
+
+.dataprotectionimg3 {
+    display: flex;
+    margin: 0 auto;
+}
+
+.h4text {
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    line-height: 22px;
+}
+
+.p4text {
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    line-height: 22px;
+    width: 450px;
+}
+
+.div3 {
+    display: flex;
+    margin-top: 20px;
+}
+
+.privacyfirstdiv3 {
+    margin-left: 15px;
+}
+
+
+
+
+
+
+
+
+
+.dataprotectiondiv4 {
+    background-color: #FFFFFF;
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    padding-top: 8px;
+}
+
+.dataprotectionimg4 {
+    display: flex;
+    margin: 0 auto;
+}
+
+.h5text {
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    line-height: 22px;
+}
+
+.p5text {
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    line-height: 22px;
+    width: 500px;
+}
+
+.div4 {
+    display: flex;
+    margin-top: 20px;
+}
+
+.privacyfirstdiv4 {
+    margin-left: 15px;
+}
+
+
+
+.privacyimages {
+    display: flex;
+    gap: 50px;
+}
+
+.wavediv {
+    margin-top: 80px;
+}
+
+.parliadiv {
+    margin-top: 80px;
+}
+
+.privacyimages2 {
+    display: flex;
+}
+
+
+
+
+.wifidiv {
+    margin-left: -20px;
+    margin-top: 30px;
+    z-index: 2;
+}
+
+.batterydiv {
+    margin-top: 30px;
+}
+
+
+
+
+
+
+.privacyimages3 {
+    display: flex;
+    gap: 60px;
+    margin-left: 50px;
+}
+
+.matterdiv {
+    margin-top: 90px;
+}
+
+.imagedivs {
+    display: flex;
+    margin-left: 100px;
+    margin-top: -150px;
+}
+
+
+
+.bludiv {
+    margin-top: -120px;
+    margin-left: -50px;
+    animation: backgroundPop 4s ease-in-out infinite;
+}
+
+
+.madiv {
+    margin-left: 30px;
+    margin-top: -30px;
+    animation: backgroundPop 4s ease-in-out infinite;
+    
+}
+
+.simdiv {
+    margin-top: -120px;
+    margin-left: 30px;
+    animation: backgroundPop 4s ease-in-out infinite;
+}
+
+
+
+
+.imagediv {
+    background-color: transparent;
+    width: 400px;
+    height: 370px;
+    border-radius: 50%;
+    margin: 15px auto 0 auto;
+    animation: backgroundPop 4s ease-in-out infinite;
+
+}
+
+.imagediv2 {
+    background-color: #6e9171;
+    width: 450px;
+    height: 420px;
+    border-radius: 50%;
+    padding-top: 10px;
+    margin: 20px auto 0 auto;
+    animation: backgroundPop 4s ease-in-out infinite;
+}
+
+.imagediv3 {
+    background-color: #7fa482;
+    width: 500px;
+    height: 470px;
+    border-radius: 50%;
+    padding-top: 3px;
+    margin: 20px auto 0 auto;
+    animation: backgroundPop 4s ease-in-out infinite;
+}
+
+.imagediv4 {
+    background-color: #8eb892;
+    width: 550px;
+    height: 520px;
+    padding-top: 2px;
+    border-radius: 50%;
+    animation: backgroundPop 4s ease-in-out infinite;
+}
+
+
+
+.imagediv {
+    display: flex;
+}
+
+
+@keyframes backgroundPop {
+    0% {
+      transform: scale(1); /* Start with normal size */
+      background-position: center; /* Normal position */
+    }
+    50% {
+      transform: scale(1.0); /* Pop-up effect: enlarge */
+      background-position: center; /* Keep the image centered */
+    }
+    100% {
+      transform: scale(1); /* Return to normal size */
+      background-position: center; /* Normal position */
+    }
+}
+
+.waveimg {
+    width: 130px;
+    height: 80px;
+}
+
+
+
+
+
+
+.diskimagediv2 {
+    background-color: #9ebaa1;
+    border-radius: 50%;
+    height: 350px;
+    width: 350px;
+    padding: 80px;
+    margin: auto;
+}
+
+.diskimagediv3 {
+    background-color: #aac4ac;
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
+    padding-top: 20px;  
+    margin: auto;  
+}
+
+.diskimagediv4 {
+    background-color: #bcd3be;
+    border-radius: 50%;
+    height: 450px;
+    width: 450px;
+    padding-top: 20px;
+    margin: auto;
+}
+
+.diskimagediv5 {
+    background-color: #c5dbc7;
+    border-radius: 50%;
+    height: 500px;
+    width: 500px;
+    padding: 25px;
+    margin-top: -330px;
+}
+
+.diskimg {
+    margin: 5px auto;
+}
+
+
+
+
+.zigdiv {
+    margin-top: 70px;
+    animation: backgroundPop 4s ease-in-out infinite;
+}
+
+.loradiv {
+    margin-top: 70px;
+    animation: backgroundPop 4s ease-in-out infinite;
+}
+
+.wadiv {
+    margin-top: 140px;
+    margin-left: -15px;
+    animation: backgroundPop 4s ease-in-out infinite;
+}
+
+.parldiv {
+    margin-top: 140px;
+    animation: backgroundPop 4s ease-in-out infinite;
+}
+
+.mybackground6 {
+    background-color: rgba(255, 255, 255, 0.1); 
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+    padding-top: 21px;
+    animation: backgroundPop 4s ease-in-out infinite;
+    margin-top: 30px;
+}
+
+.mybackground5 {
+    background-color: rgba(255, 255, 255, 0.1); 
+    border-radius: 50%;
+    width: 450px;
+    height: 450px;
+    margin: auto;
+    padding-top: 21px;
+}
+
+.mybackground4 {
+    background-color: rgba(255, 255, 255, 0.1); 
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    padding-top: 21px;
+}
+
+.mybackground3 {
+    background-color: rgba(255, 255, 255, 0.1); 
+    border-radius: 50%;
+    width: 350px;
+    height: 350px;
+    margin: auto;
+    padding-top: 21px;
+}
+
+.mybackground2 {
+    background-color: rgba(255, 255, 255, 0.1); 
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    padding-top: 21px;
+}
+
+.mybackground1 {
+    background-color: rgba(255, 255, 255, 0.1); 
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    margin: auto;
+    padding-top: 21px;
+}
+
+.mybackground {
+    background-color: rgba(255, 255, 255, 0.1); 
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}
+
+.myimagesdiv {
+    display: flex;
+}
+
+.mydiskdiv {
+    position: absolute;
+    margin-left: -100px;
+}
+
+.mywifidiv {
+    position: absolute;
+    z-index: 1;
+    margin-left: -210px;
+    margin-top: 80px;
+}
+
+.mywavediv {
+    position: absolute;
+    z-index: 1;
+    margin-left: -170px;
+    margin-top: -90px;
+}
+
+.myzigbeediv {
+    position: absolute;
+    z-index: 1;
+    margin-left: -60px;
+    margin-top: -180px;
+}
+
+.mylorawandiv {
+    position: absolute;
+    z-index: 1;
+    margin-left: 80px;
+    margin-top: -180px;
+}
+
+.myparliadiv {
+    position: absolute;
+    z-index: 1;
+    margin-left: 220px;
+    margin-top: -92px;
+}
+
+.mybatterydiv {
+    position: absolute;
+    z-index: 1;
+    right: -70px;  
+    top: 180px; 
+}
+
+.myimagesdiv2 {
+    display: flex;
+}
+
+.mybluetoothdiv {
+    position: absolute;
+    z-index: 1;
+    margin-top: 230px;
+    margin-left: -140px;
+}
+
+.mymatterdiv {
+    position: absolute;
+    z-index: 1;
+    margin-top: 290px;
+    margin-left: 30px;
+}
+
+.mysimdiv {
+    position: absolute;
+    z-index: 1;
+    margin-top: 240px;
+    margin-left: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 400px) {
+    .main {
+        flex-direction: column;
+        padding: 80px 50px;
+        margin-top: 160px;
+    }
+
+    .main2 {
+        display: none;
+    }
+
+    .h1 {
+        display: flex;
+        flex-direction: column; /* Stack elements vertically */
+        justify-content: center; /* Center vertically */
+        align-items: center; /* Center horizontally */
+        text-align: center; /* Center text inside the div */
+        height: 100%; /* Ensure the div takes up full height for vertical centering */
+        padding: 10px; /* Optional: Adjust spacing */
+    }
+
+    .h1text {
+        font-size: 26px;
+    }
+
+    .p1 {
+        display: flex;
+        flex-direction: column; /* Stack elements vertically */
+        justify-content: center; /* Center vertically */
+        align-items: center; /* Center horizontally */
+        text-align: center; /* Center text inside the div */
+        height: 100%; /* Ensure the div takes up full height for vertical centering */
+        padding: 10px; /* Optional: Adjust spacing */
+    }
+
+    .ptext {
+        width: 300px;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .div1 {
+        flex-direction: column;
+    }
+
+    .dataprotectiondiv {
+        margin: auto;
+    }
+
+    .div2 {
+        flex-direction: column;
+    }
+
+    .div3 {
+        flex-direction: column;
+    }
+
+    .div4 {
+        flex-direction: column;
+    }
+
+    .h2text {
+        text-align: center;
+        font-size: 16px;
+        margin-top: 20px;
+    }
+
+    .privacyfirstdiv {
+        display: flex;
+        flex-direction: column; /* Stack elements vertically */
+        justify-content: center; /* Center vertically */
+        align-items: center; /* Center horizontally */
+        text-align: center; /* Center text inside the div */
+        height: 100%; /* Ensure the div takes up full height for vertical centering */
+        padding: 10px; /* Optional: Adjust spacing */
+    }
+
+    .p2text {
+        width: 300px;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .dataprotectiondiv2 {
+        margin: auto;
+    }
+
+    .h3text {
+        text-align: center;
+        font-size: 16px;
+        margin-top: 20px;
+    }
+
+    .privacyfirstdiv2 {
+        display: flex;
+        flex-direction: column; /* Stack elements vertically */
+        justify-content: center; /* Center vertically */
+        align-items: center; /* Center horizontally */
+        text-align: center; /* Center text inside the div */
+        height: 100%; /* Ensure the div takes up full height for vertical centering */
+        padding: 10px; /* Optional: Adjust spacing */
+      }
+
+    .p3text {
+        width: 300px;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .dataprotectiondiv3 {
+        margin: auto;
+    }
+
+    .h4text {
+        text-align: center;
+        font-size: 16px;
+        margin-top: 20px;
+    }
+
+    .privacyfirstdiv3 {
+        display: flex;
+        flex-direction: column; /* Stack elements vertically */
+        justify-content: center; /* Center vertically */
+        align-items: center; /* Center horizontally */
+        text-align: center; /* Center text inside the div */
+        height: 100%; /* Ensure the div takes up full height for vertical centering */
+        padding: 10px; /* Optional: Adjust spacing */
+      }
+
+    .p4text {
+        width: 300px;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .dataprotectiondiv4 {
+        margin: auto;
+    }
+
+    .privacyfirstdiv4 {
+        display: flex;
+        flex-direction: column; /* Stack elements vertically */
+        justify-content: center; /* Center vertically */
+        align-items: center; /* Center horizontally */
+        text-align: center; /* Center text inside the div */
+        height: 100%; /* Ensure the div takes up full height for vertical centering */
+        padding: 10px; /* Optional: Adjust spacing */
+      }
+
+    .h5text {
+        text-align: center;
+        font-size: 16px;
+        margin-top: 20px;
+    }
+
+    .p5text {
+        width: 300px;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .imagediv4 {
+        display: none;
+    }
+
+    .diskimagediv5 {
+        display: none;
+    }
+
+    .imagediv {
+        display: none;
+    }
+
+    .imagedivs {
+        display: none;
+    }
+}
+
+
+
+
+@media only screen and (min-width: 401px) and (max-width: 480px) {
+    .main {
+        flex-direction: column;
+        padding: 80px 50px;
+        margin-top: 220px;
+    }
+
+    .main2 {
+        display: none;
+    }
+
+    .h1 {
+        display: flex;
+        flex-direction: column; /* Stack elements vertically */
+        justify-content: center; /* Center vertically */
+        align-items: center; /* Center horizontally */
+        text-align: center; /* Center text inside the div */
+        height: 100%; /* Ensure the div takes up full height for vertical centering */
+        padding: 10px; /* Optional: Adjust spacing */
+    }
+
+    .h1text {
+        font-size: 26px;
+    }
+
+    .p1 {
+        display: flex;
+        flex-direction: column; /* Stack elements vertically */
+        justify-content: center; /* Center vertically */
+        align-items: center; /* Center horizontally */
+        text-align: center; /* Center text inside the div */
+        height: 100%; /* Ensure the div takes up full height for vertical centering */
+        padding: 10px; /* Optional: Adjust spacing */
+    }
+
+    .ptext {
+        width: 300px;
+        text-align: center;
+        font-size: 17px;
+    }
+
+    .div1 {
+        flex-direction: column;
+    }
+
+    .dataprotectiondiv {
+        margin: auto;
+    }
+
+    .div2 {
+        flex-direction: column;
+    }
+
+    .div3 {
+        flex-direction: column;
+    }
+
+    .div4 {
+        flex-direction: column;
+    }
+
+    .h2text {
+        text-align: center;
+        font-size: 17px;
+        margin-top: 20px;
+    }
+
+    .privacyfirstdiv {
+        display: flex;
+        flex-direction: column; /* Stack elements vertically */
+        justify-content: center; /* Center vertically */
+        align-items: center; /* Center horizontally */
+        text-align: center; /* Center text inside the div */
+        height: 100%; /* Ensure the div takes up full height for vertical centering */
+        padding: 10px; /* Optional: Adjust spacing */
+    }
+
+    .p2text {
+        width: 300px;
+        text-align: center;
+        font-size: 17px;
+    }
+
+    .dataprotectiondiv2 {
+        margin: auto;
+    }
+
+    .h3text {
+        text-align: center;
+        font-size: 17px;
+        margin-top: 20px;
+    }
+
+    .privacyfirstdiv2 {
+        display: flex;
+        flex-direction: column; /* Stack elements vertically */
+        justify-content: center; /* Center vertically */
+        align-items: center; /* Center horizontally */
+        text-align: center; /* Center text inside the div */
+        height: 100%; /* Ensure the div takes up full height for vertical centering */
+        padding: 10px; /* Optional: Adjust spacing */
+      }
+
+    .p3text {
+        width: 300px;
+        text-align: center;
+        font-size: 17px;
+    }
+
+    .dataprotectiondiv3 {
+        margin: auto;
+    }
+
+    .h4text {
+        text-align: center;
+        font-size: 17px;
+        margin-top: 20px;
+    }
+
+    .privacyfirstdiv3 {
+        display: flex;
+        flex-direction: column; /* Stack elements vertically */
+        justify-content: center; /* Center vertically */
+        align-items: center; /* Center horizontally */
+        text-align: center; /* Center text inside the div */
+        height: 100%; /* Ensure the div takes up full height for vertical centering */
+        padding: 10px; /* Optional: Adjust spacing */
+      }
+
+    .p4text {
+        width: 300px;
+        text-align: center;
+        font-size: 17px;
+    }
+
+    .dataprotectiondiv4 {
+        margin: auto;
+    }
+
+    .privacyfirstdiv4 {
+        display: flex;
+        flex-direction: column; /* Stack elements vertically */
+        justify-content: center; /* Center vertically */
+        align-items: center; /* Center horizontally */
+        text-align: center; /* Center text inside the div */
+        height: 100%; /* Ensure the div takes up full height for vertical centering */
+        padding: 10px; /* Optional: Adjust spacing */
+      }
+
+    .h5text {
+        text-align: center;
+        font-size: 17px;
+        margin-top: 20px;
+    }
+
+    .p5text {
+        width: 300px;
+        text-align: center;
+        font-size: 17px;
+    }
+
+    .imagediv4 {
+        display: none;
+    }
+
+    .diskimagediv5 {
+        display: none;
+    }
+
+    .imagediv {
+        display: none;
+    }
+
+    .imagedivs {
+        display: none;
+    }
+}
+
+
+
+
+@media only screen and (min-width: 481px) and (max-width: 600px) {
+    .main {
+        flex-direction: column;
+        padding: 80px 50px;
+        margin-top: 220px;
+    }
+
+    .main2 {
+        display: none;
+    }
+
+    .h1 {
+        display: flex;
+        flex-direction: column; /* Stack elements vertically */
+        justify-content: center; /* Center vertically */
+        align-items: center; /* Center horizontally */
+        text-align: center; /* Center text inside the div */
+        height: 100%; /* Ensure the div takes up full height for vertical centering */
+        padding: 10px; /* Optional: Adjust spacing */
+    }
+
+    .h1text {
+        font-size: 27px;
+    }
+
+    .p1 {
+        display: flex;
+        flex-direction: column; /* Stack elements vertically */
+        justify-content: center; /* Center vertically */
+        align-items: center; /* Center horizontally */
+        text-align: center; /* Center text inside the div */
+        height: 100%; /* Ensure the div takes up full height for vertical centering */
+        padding: 10px; /* Optional: Adjust spacing */
+    }
+
+    .ptext {
+        width: 300px;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .div1 {
+        flex-direction: column;
+    }
+
+    .dataprotectiondiv {
+        margin: auto;
+    }
+
+    .div2 {
+        flex-direction: column;
+    }
+
+    .div3 {
+        flex-direction: column;
+    }
+
+    .div4 {
+        flex-direction: column;
+    }
+
+    .h2text {
+        text-align: center;
+        font-size: 18px;
+        margin-top: 20px;
+    }
+
+    .privacyfirstdiv {
+        display: flex;
+        flex-direction: column; /* Stack elements vertically */
+        justify-content: center; /* Center vertically */
+        align-items: center; /* Center horizontally */
+        text-align: center; /* Center text inside the div */
+        height: 100%; /* Ensure the div takes up full height for vertical centering */
+        padding: 10px; /* Optional: Adjust spacing */
+    }
+
+    .p2text {
+        width: 300px;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .dataprotectiondiv2 {
+        margin: auto;
+    }
+
+    .h3text {
+        text-align: center;
+        font-size: 18px;
+        margin-top: 20px;
+    }
+
+    .privacyfirstdiv2 {
+        display: flex;
+        flex-direction: column; /* Stack elements vertically */
+        justify-content: center; /* Center vertically */
+        align-items: center; /* Center horizontally */
+        text-align: center; /* Center text inside the div */
+        height: 100%; /* Ensure the div takes up full height for vertical centering */
+        padding: 10px; /* Optional: Adjust spacing */
+      }
+
+    .p3text {
+        width: 300px;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .dataprotectiondiv3 {
+        margin: auto;
+    }
+
+    .h4text {
+        text-align: center;
+        font-size: 18px;
+        margin-top: 20px;
+    }
+
+    .privacyfirstdiv3 {
+        display: flex;
+        flex-direction: column; /* Stack elements vertically */
+        justify-content: center; /* Center vertically */
+        align-items: center; /* Center horizontally */
+        text-align: center; /* Center text inside the div */
+        height: 100%; /* Ensure the div takes up full height for vertical centering */
+        padding: 10px; /* Optional: Adjust spacing */
+      }
+
+    .p4text {
+        width: 300px;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .dataprotectiondiv4 {
+        margin: auto;
+    }
+
+    .privacyfirstdiv4 {
+        display: flex;
+        flex-direction: column; /* Stack elements vertically */
+        justify-content: center; /* Center vertically */
+        align-items: center; /* Center horizontally */
+        text-align: center; /* Center text inside the div */
+        height: 100%; /* Ensure the div takes up full height for vertical centering */
+        padding: 10px; /* Optional: Adjust spacing */
+      }
+
+    .h5text {
+        text-align: center;
+        font-size: 18px;
+        margin-top: 20px;
+    }
+
+    .p5text {
+        width: 300px;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .imagediv4 {
+        display: none;
+    }
+
+    .diskimagediv5 {
+        display: none;
+    }
+
+    .imagediv {
+        display: none;
+    }
+
+    .imagedivs {
+        display: none;
+    }
+}
+
+
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+    .main {
+        flex-direction: column;
+        padding: 80px 50px;
+        margin-top: 220px;
+    }
+
+    .main2 {
+        display: none;
+    }
+
+    .h1 {
+        display: flex;
+        flex-direction: column; /* Stack elements vertically */
+        justify-content: center; /* Center vertically */
+        align-items: center; /* Center horizontally */
+        text-align: center; /* Center text inside the div */
+        height: 100%; /* Ensure the div takes up full height for vertical centering */
+        padding: 10px; /* Optional: Adjust spacing */
+    }
+
+    .h1text {
+        font-size: 27px;
+    }
+
+    .p1 {
+        display: flex;
+        flex-direction: column; /* Stack elements vertically */
+        justify-content: center; /* Center vertically */
+        align-items: center; /* Center horizontally */
+        text-align: center; /* Center text inside the div */
+        height: 100%; /* Ensure the div takes up full height for vertical centering */
+        padding: 10px; /* Optional: Adjust spacing */
+    }
+
+    .ptext {
+        width: 300px;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .div1 {
+        flex-direction: column;
+    }
+
+    .dataprotectiondiv {
+        margin: auto;
+    }
+
+    .div2 {
+        flex-direction: column;
+    }
+
+    .div3 {
+        flex-direction: column;
+    }
+
+    .div4 {
+        flex-direction: column;
+    }
+
+    .h2text {
+        text-align: center;
+        font-size: 18px;
+        margin-top: 20px;
+    }
+
+    .privacyfirstdiv {
+        display: flex;
+        flex-direction: column; /* Stack elements vertically */
+        justify-content: center; /* Center vertically */
+        align-items: center; /* Center horizontally */
+        text-align: center; /* Center text inside the div */
+        height: 100%; /* Ensure the div takes up full height for vertical centering */
+        padding: 10px; /* Optional: Adjust spacing */
+    }
+
+    .p2text {
+        width: 300px;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .dataprotectiondiv2 {
+        margin: auto;
+    }
+
+    .h3text {
+        text-align: center;
+        font-size: 18px;
+        margin-top: 20px;
+    }
+
+    .privacyfirstdiv2 {
+        display: flex;
+        flex-direction: column; /* Stack elements vertically */
+        justify-content: center; /* Center vertically */
+        align-items: center; /* Center horizontally */
+        text-align: center; /* Center text inside the div */
+        height: 100%; /* Ensure the div takes up full height for vertical centering */
+        padding: 10px; /* Optional: Adjust spacing */
+      }
+
+    .p3text {
+        width: 300px;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .dataprotectiondiv3 {
+        margin: auto;
+    }
+
+    .h4text {
+        text-align: center;
+        font-size: 18px;
+        margin-top: 20px;
+    }
+
+    .privacyfirstdiv3 {
+        display: flex;
+        flex-direction: column; /* Stack elements vertically */
+        justify-content: center; /* Center vertically */
+        align-items: center; /* Center horizontally */
+        text-align: center; /* Center text inside the div */
+        height: 100%; /* Ensure the div takes up full height for vertical centering */
+        padding: 10px; /* Optional: Adjust spacing */
+      }
+
+    .p4text {
+        width: 300px;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .dataprotectiondiv4 {
+        margin: auto;
+    }
+
+    .privacyfirstdiv4 {
+        display: flex;
+        flex-direction: column; /* Stack elements vertically */
+        justify-content: center; /* Center vertically */
+        align-items: center; /* Center horizontally */
+        text-align: center; /* Center text inside the div */
+        height: 100%; /* Ensure the div takes up full height for vertical centering */
+        padding: 10px; /* Optional: Adjust spacing */
+      }
+
+    .h5text {
+        text-align: center;
+        font-size: 18px;
+        margin-top: 20px;
+    }
+
+    .p5text {
+        width: 300px;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .imagediv4 {
+        display: none;
+    }
+
+    .diskimagediv5 {
+        display: none;
+    }
+
+    .imagediv {
+        display: none;
+    }
+
+    .imagedivs {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 900px) {
+    .main {
+        flex-direction: column;
+        padding: 80px 50px;
+        margin-top: 220px;
+    }
+
+    .main2 {
+        display: none;
+    }
+
+    .h1 {
+        display: flex;
+        flex-direction: column; /* Stack elements vertically */
+        justify-content: center; /* Center vertically */
+        align-items: center; /* Center horizontally */
+        text-align: center; /* Center text inside the div */
+        height: 100%; /* Ensure the div takes up full height for vertical centering */
+        padding: 10px; /* Optional: Adjust spacing */
+    }
+
+    .h1text {
+        font-size: 28px;
+    }
+
+    .p1 {
+        display: flex;
+        flex-direction: column; /* Stack elements vertically */
+        justify-content: center; /* Center vertically */
+        align-items: center; /* Center horizontally */
+        text-align: center; /* Center text inside the div */
+        height: 100%; /* Ensure the div takes up full height for vertical centering */
+        padding: 10px; /* Optional: Adjust spacing */
+    }
+
+    .ptext {
+        width: 350px;
+        text-align: center;
+        font-size: 19px;
+    }
+
+    .div1 {
+        flex-direction: column;
+    }
+
+    .dataprotectiondiv {
+        margin: auto;
+    }
+
+    .div2 {
+        flex-direction: column;
+    }
+
+    .div3 {
+        flex-direction: column;
+    }
+
+    .div4 {
+        flex-direction: column;
+    }
+
+    .h2text {
+        text-align: center;
+        font-size: 19px;
+        margin-top: 20px;
+    }
+
+    .privacyfirstdiv {
+        display: flex;
+        flex-direction: column; /* Stack elements vertically */
+        justify-content: center; /* Center vertically */
+        align-items: center; /* Center horizontally */
+        text-align: center; /* Center text inside the div */
+        height: 100%; /* Ensure the div takes up full height for vertical centering */
+        padding: 10px; /* Optional: Adjust spacing */
+    }
+
+    .p2text {
+        width: 350px;
+        text-align: center;
+        font-size: 19px;
+    }
+
+    .dataprotectiondiv2 {
+        margin: auto;
+    }
+
+    .h3text {
+        text-align: center;
+        font-size: 19px;
+        margin-top: 20px;
+    }
+
+    .privacyfirstdiv2 {
+        display: flex;
+        flex-direction: column; /* Stack elements vertically */
+        justify-content: center; /* Center vertically */
+        align-items: center; /* Center horizontally */
+        text-align: center; /* Center text inside the div */
+        height: 100%; /* Ensure the div takes up full height for vertical centering */
+        padding: 10px; /* Optional: Adjust spacing */
+      }
+
+    .p3text {
+        width: 350px;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .dataprotectiondiv3 {
+        margin: auto;
+    }
+
+    .h4text {
+        text-align: center;
+        font-size: 19px;
+        margin-top: 20px;
+    }
+
+    .privacyfirstdiv3 {
+        display: flex;
+        flex-direction: column; /* Stack elements vertically */
+        justify-content: center; /* Center vertically */
+        align-items: center; /* Center horizontally */
+        text-align: center; /* Center text inside the div */
+        height: 100%; /* Ensure the div takes up full height for vertical centering */
+        padding: 10px; /* Optional: Adjust spacing */
+      }
+
+    .p4text {
+        width: 350px;
+        text-align: center;
+        font-size: 19px;
+    }
+
+    .dataprotectiondiv4 {
+        margin: auto;
+    }
+
+    .privacyfirstdiv4 {
+        display: flex;
+        flex-direction: column; /* Stack elements vertically */
+        justify-content: center; /* Center vertically */
+        align-items: center; /* Center horizontally */
+        text-align: center; /* Center text inside the div */
+        height: 100%; /* Ensure the div takes up full height for vertical centering */
+        padding: 10px; /* Optional: Adjust spacing */
+      }
+
+    .h5text {
+        text-align: center;
+        font-size: 19px;
+        margin-top: 20px;
+    }
+
+    .p5text {
+        width: 350px;
+        text-align: center;
+        font-size: 19px;
+    }
+
+    .imagediv4 {
+        display: none;
+    }
+
+    .diskimagediv5 {
+        display: none;
+    }
+
+    .imagediv {
+        display: none;
+    }
+
+    .imagedivs {
+        display: none;
+    }
+}
+
+
+
+@media only screen and (min-width: 901px) and (max-width: 1200px) {
+    .main {
+        flex-direction: column;
+        padding: 80px 50px;
+    }
+
+    .main2 {
+        display: none;
+    }
+
+    .h1 {
+        display: flex;
+        flex-direction: column; /* Stack elements vertically */
+        justify-content: center; /* Center vertically */
+        align-items: center; /* Center horizontally */
+        text-align: center; /* Center text inside the div */
+        height: 100%; /* Ensure the div takes up full height for vertical centering */
+        padding: 10px; /* Optional: Adjust spacing */
+    }
+
+    .h1text {
+        font-size: 29px;
+    }
+
+    .p1 {
+        display: flex;
+        flex-direction: column; /* Stack elements vertically */
+        justify-content: center; /* Center vertically */
+        align-items: center; /* Center horizontally */
+        text-align: center; /* Center text inside the div */
+        height: 100%; /* Ensure the div takes up full height for vertical centering */
+        padding: 10px; /* Optional: Adjust spacing */
+    }
+
+    .ptext {
+        width: 400px;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .div1 {
+        flex-direction: column;
+    }
+
+    .dataprotectiondiv {
+        margin: auto;
+    }
+
+    .div2 {
+        flex-direction: column;
+    }
+
+    .div3 {
+        flex-direction: column;
+    }
+
+    .div4 {
+        flex-direction: column;
+    }
+
+    .h2text {
+        text-align: center;
+        font-size: 20px;
+        margin-top: 20px;
+    }
+
+    .privacyfirstdiv {
+        display: flex;
+        flex-direction: column; /* Stack elements vertically */
+        justify-content: center; /* Center vertically */
+        align-items: center; /* Center horizontally */
+        text-align: center; /* Center text inside the div */
+        height: 100%; /* Ensure the div takes up full height for vertical centering */
+        padding: 10px; /* Optional: Adjust spacing */
+    }
+
+    .p2text {
+        width: 400px;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .dataprotectiondiv2 {
+        margin: auto;
+    }
+
+    .h3text {
+        text-align: center;
+        font-size: 20px;
+        margin-top: 20px;
+    }
+
+    .privacyfirstdiv2 {
+        display: flex;
+        flex-direction: column; /* Stack elements vertically */
+        justify-content: center; /* Center vertically */
+        align-items: center; /* Center horizontally */
+        text-align: center; /* Center text inside the div */
+        height: 100%; /* Ensure the div takes up full height for vertical centering */
+        padding: 10px; /* Optional: Adjust spacing */
+      }
+
+    .p3text {
+        width: 400px;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .dataprotectiondiv3 {
+        margin: auto;
+    }
+
+    .h4text {
+        text-align: center;
+        font-size: 20px;
+        margin-top: 20px;
+    }
+
+    .privacyfirstdiv3 {
+        display: flex;
+        flex-direction: column; /* Stack elements vertically */
+        justify-content: center; /* Center vertically */
+        align-items: center; /* Center horizontally */
+        text-align: center; /* Center text inside the div */
+        height: 100%; /* Ensure the div takes up full height for vertical centering */
+        padding: 10px; /* Optional: Adjust spacing */
+      }
+
+    .p4text {
+        width: 400px;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .dataprotectiondiv4 {
+        margin: auto;
+    }
+
+    .privacyfirstdiv4 {
+        display: flex;
+        flex-direction: column; /* Stack elements vertically */
+        justify-content: center; /* Center vertically */
+        align-items: center; /* Center horizontally */
+        text-align: center; /* Center text inside the div */
+        height: 100%; /* Ensure the div takes up full height for vertical centering */
+        padding: 10px; /* Optional: Adjust spacing */
+      }
+
+    .h5text {
+        text-align: center;
+        font-size: 20px;
+        margin-top: 20px;
+    }
+
+    .p5text {
+        width: 400px;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .imagediv4 {
+        display: none;
+    }
+
+    .diskimagediv5 {
+        display: none;
+    }
+
+    .imagediv {
+        display: none;
+    }
+
+    .imagedivs {
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
