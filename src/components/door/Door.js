@@ -1,13 +1,14 @@
-import { useState } from 'react';
-import styles from './Door.module.css';
+import styles from "./Door.module.css";
 
-const DoorAnimation = () => {
-
-
+const DoorAnimation = ({ className = '' }) => {
   return (
-    <div className={styles.backdoor}>
-        <div className={styles.door}>  
-        </div>
+    <div className={`${styles.backDoor} ${className}`}>
+      <div className={`${styles.door} ${className.includes('doorOpen') ? styles.doorOpen : ''}`}>
+        {/* Optional Door Handle */}
+        <div className={styles.doorHandle}></div>
+        {/* Optional Inner details */}
+        <div className={styles.doorDetails}></div>
+      </div>
     </div>
   );
 };

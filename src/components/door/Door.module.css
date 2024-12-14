@@ -1,30 +1,56 @@
-.backDoor
-{
-  background-color: #333;
-  position:relative;
-  width:200px;
-  height:300px;
-  
+/* Backdoor Container */
+.backDoor {
+  position: relative;
   margin: 0 auto;
-  margin-top:50px;
+  margin-top: 100px;
+  border-radius: 10px; /* Smooth edges */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); /* Adding subtle shadow for depth */
 }
 
-.door
-{
-  background-color: brown;
-  position:absolute;
-  top:0px;
-  left:0px;
-  width:200px;
-  height:300px;
- 
+/* Door Styles */
+.door {
+  background: linear-gradient(
+    135deg,
+    #8b4513,
+    #5a2a1f
+  ); /* Using a gradient for depth */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 120px;
+  height: 200px;
+  z-index: 1;
+  margin-left: -75px;
+  margin-top: -100px;
+  border-radius: 10px; /* Rounded corners for a soft look */
+  box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5); /* Inner shadow for realism */
   transform-origin: left;
-  /*Speed of the Door animation*/
-  transition: all 0.5s ease-in-out;
+  transition: all 0.8s ease-in-out;
+  border: 3px solid #4c2a14; /* Adding a border for more definition */
 }
 
-.doorOpen
-{
-  /*prespectiv creates the door open effect*/
-  transform: perspective(1200px) translateZ(0px) translateX(0px) translateY(0px) rotateY(-105deg);
+/* Door Opening Animation */
+.doorOpen {
+  transform: perspective(1200px) rotateY(-110deg);
+  box-shadow:
+    inset 0 0 10px rgba(0, 0, 0, 0.8),
+    8px 0 20px rgba(0, 0, 0, 0.2); /* Shadow effect on opening */
+}
+
+/* Optional Door Handle */
+.doorHandle {
+  position: absolute;
+  bottom: 40%;
+  right: 15px;
+
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: gold;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2); /* Adding handle shadow for a 3D effect */
+}
+
+/* Outer and Inner details for the door */
+.doorDetails {
+  position: absolute;
 }
