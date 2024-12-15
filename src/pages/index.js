@@ -4,8 +4,8 @@
 // import styles from "../styles/Home.module.css"
 // import HomePage from "@/components/navbar/Navbar";
 import Navbar from "@/components/navbar/Navbar";
-import React from 'react'
-import styles from "../styles/Main.module.css"
+import React from "react";
+import styles from "../styles/Main.module.css";
 // import Link from 'next/link'
 // import Image from 'next/image'
 // import SectionTwo from './sectiontwo/SectionTwo'
@@ -49,46 +49,46 @@ import Customize from "@/components/ui/Customize";
 import Emblacarol from "@/components/ui/Emblacarol";
 import EnergyManagement from "@/components/energymanagement/EnergyManagement";
 import SmartRoutines from "@/components/smartroutines/SmartRoutines";
-import DoorAnimation from "@/components/door/Door";
+import DoorAnimation from "@/components/animations/door/Door";
 // import ParticleBackground from "@/components/particlesbackground/ParticlesBackground";
 
 export default function Home() {
-  const slides = [0, 1, 2, 3, 4, 5]
+  const slides = [0, 1, 2, 3, 4, 5];
 
   return (
     <>
       <div className={styles.main}>
-      {/* <ParticleBackground className={styles.particles} /> */}
-      <div className={styles.mainsection}>
-        <Carousel />
-      </div>
-      <Popup />
-      <SmartHome />
-      <MultipleAI />
-      <Heading />
-      <ReactFlowProvider>
-      {/* <FlowDiagram /> */}
-      <Carousel3 />
-      </ReactFlowProvider>
-      {/* <EmblaCarousel2 slides={slides} /> */}
-      <Customize />
-      <FlowCreation />
-      <Recommendation />
-      <AdvanceFlow />
-      
+        {/* <ParticleBackground className={styles.particles} /> */}
+        <div className={styles.mainsection}>
+          <Carousel />
+        </div>
+        <Popup />
+        <SmartHome />
+        <MultipleAI />
+        <Heading />
+        <ReactFlowProvider>
+          {/* <FlowDiagram /> */}
+          <Carousel3 />
+        </ReactFlowProvider>
+        {/* <EmblaCarousel2 slides={slides} /> */}
+        <Customize />
+        <FlowCreation />
+        <Recommendation />
+        <AdvanceFlow />
+
         <EnergyManagementKit />
         <EnergyManagementKit2 />
         <EnergyManagementKit3 />
         {/* <EnergyManagementKit2 />
         <EnergyManagementKit3 /> */}
-      
-      <Gateway />
-      <Permission />
-      <VoiceAssistant />
-      <Innovative />
-      <SmartRoutines />
-      {/* <DoorAnimation /> */}
-      {/* <Automation />
+
+        <Gateway />
+        <Permission />
+        <VoiceAssistant />
+        <Innovative />
+        <SmartRoutines />
+        {/* <DoorAnimation /> */}
+        {/* <Automation />
       <AutomateHome />
       <Energy />
       <Chart />
@@ -100,12 +100,12 @@ export default function Home() {
       <SectionSeven />
       <SectionNine />
       <SectionTen /> */}
-      {/* <SectionEleven /> */}
-      {/* <SectionTwelve /> */}
-      <Footer />
+        {/* <SectionEleven /> */}
+        {/* <SectionTwelve /> */}
+        <Footer />
       </div>
       {/* </motion.div>
       </AnimatePresence> */}
     </>
-  )
+  );
 }

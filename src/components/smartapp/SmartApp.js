@@ -8,8 +8,10 @@ import { GoDotFill } from "react-icons/go";
 import { IoIosClose, IoIosHome } from "react-icons/io";
 import { MdDoorbell } from "react-icons/md";
 import { SiPhilipshue, SiSonos, SiWemo } from "react-icons/si";
-import DoorAnimation from "../door/Door";
+import DoorAnimation from "../animations/door/Door";
 import styles from "./SmartApp.module.css";
+import SmartAppliance from "../animations/smart-appliances/smart-appliance";
+import SmartLightSwitches from "../animations/smart-light-switch/smart-light-switch";
 
 export default function SmartApp() {
   const [activeDevice, setActiveDevice] = useState(null);
@@ -108,7 +110,7 @@ export default function SmartApp() {
       texts: "Smart Appliances",
       lineClass: styles.line1,
       animation: (
-        <DoorAnimation
+        <SmartAppliance
           className={`${styles.deviceImageVisible} ${isDoorOpening ? "doorOpen" : ""}`}
         />
       ),
@@ -126,6 +128,7 @@ export default function SmartApp() {
           className={`${styles.deviceImageVisible} ${isDoorOpening ? "doorOpen" : ""}`}
         />
       ),
+      deviceName: styles.deviceName,
     },
     {
       id: 3,
@@ -135,11 +138,7 @@ export default function SmartApp() {
       text: "Insteon",
       texts: "Smart Light Switches",
       lineClass: styles.line3,
-      animation: (
-        <DoorAnimation
-          className={`${styles.deviceImageVisible} ${isDoorOpening ? "doorOpen" : ""}`}
-        />
-      ),
+      animation: <SmartLightSwitches />,
     },
   ];
 
@@ -257,6 +256,12 @@ export default function SmartApp() {
         if (currentDeviceIndex >= currentArray.devices.length) {
           currentDeviceIndex = 0;
           currentArrayIndex = (currentArrayIndex + 1) % allDeviceArrays.length;
+        }
+
+        if (currentArrayIndex === 2 && currentDeviceIndex === 3) {
+          setSmartApp(true);
+          setShowLargePhone(false);
+          setShowCloseIcon(false);
         }
       };
 
@@ -425,7 +430,7 @@ export default function SmartApp() {
             {activeDevice && showCloseIcon ? (
               <IoIosClose
                 onClick={handleOutsideClick}
-                size={50} 
+                size={50}
                 className="cursor-pointer"
               />
             ) : (
@@ -460,18 +465,20 @@ export default function SmartApp() {
 
                     return (
                       <>
-                        <div className={styles.image}>
+                        <div className={`${styles.image} z-[5]`}>
                           {/* <img
                   src={selectedDevice.image || selectedDevice.image2}
                   alt={selectedDevice.name || selectedDevice.name2}
                   className={`${styles.deviceImage} ${activeDevice === selectedDevice.id ? styles.deviceImageVisible : ''}`}
                 /> */}
                           {selectedDevice?.animation}
-                          <h2 className={styles.deviceName}>
+                          <h2
+                            className={`${styles.deviceName} ${(selectedDevice.name !== "Smart Appliances" && selectedDevice.name !== 'Smart Light Switches') ? "mt-[200px]" : ''} `}
+                          >
                             {selectedDevice.name || selectedDevice.name2}
                           </h2>
                         </div>
-                        <div className={styles.largefeatures}>
+                        <div className={`${styles.largefeatures} -z-[3]`}>
                           <div>
                             <div className={styles.largeicon}>
                               <div>
