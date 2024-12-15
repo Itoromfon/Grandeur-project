@@ -12,6 +12,11 @@ import DoorAnimation from "../animations/door/Door";
 import styles from "./SmartApp.module.css";
 import SmartAppliance from "../animations/smart-appliances/smart-appliance";
 import SmartLightSwitches from "../animations/smart-light-switch/smart-light-switch";
+import SmartMusicAnimation from "../animations/music/music";
+import SmartSensorAnimation from "../animations/smart-sensor/smart-sensor";
+import DoorbellAnimation from "../animations/door-bell/door-bell";
+import SmartPlugAnimation from "../animations/smart-plug/smart-plug";
+import LiveVideoAnimation from "../animations/live/live";
 
 export default function SmartApp() {
   const [activeDevice, setActiveDevice] = useState(null);
@@ -151,11 +156,7 @@ export default function SmartApp() {
       text: "Hue",
       texts: "Music",
       lineClass: styles.line4,
-      animation: (
-        <DoorAnimation
-          className={`${styles.deviceImageVisible} ${isDoorOpening ? "doorOpen" : ""}`}
-        />
-      ),
+      animation: <SmartLightSwitches />,
     },
     {
       id: 2,
@@ -166,11 +167,7 @@ export default function SmartApp() {
       texts: "Sensors,",
       lineClass: styles.line5,
 
-      animation: (
-        <DoorAnimation
-          className={`${styles.deviceImageVisible} ${isDoorOpening ? "doorOpen" : ""}`}
-        />
-      ),
+      animation: <SmartMusicAnimation />,
     },
     {
       id: 3,
@@ -180,11 +177,7 @@ export default function SmartApp() {
       text: "Wemo",
       texts: "Doorbell",
       lineClass: styles.line6,
-      animation: (
-        <DoorAnimation
-          className={`${styles.deviceImageVisible} ${isDoorOpening ? "doorOpen" : ""}`}
-        />
-      ),
+      animation: <SmartSensorAnimation />,
     },
   ];
 
@@ -197,11 +190,7 @@ export default function SmartApp() {
       text: "SmartThi",
       texts: "Climate Control/Cameras",
       lineClass: styles.line7,
-      animation: (
-        <DoorAnimation
-          className={`${styles.deviceImageVisible} ${isDoorOpening ? "doorOpen" : ""}`}
-        />
-      ),
+      animation: <SmartPlugAnimation />,
     },
     {
       id: 2,
@@ -211,11 +200,7 @@ export default function SmartApp() {
       text: "Nest",
       texts: "Smart Plug",
       lineClass: styles.line8,
-      animation: (
-        <DoorAnimation
-          className={`${styles.deviceImageVisible} ${isDoorOpening ? "doorOpen" : ""}`}
-        />
-      ),
+      animation: <LiveVideoAnimation />,
     },
     {
       id: 3,
@@ -225,11 +210,7 @@ export default function SmartApp() {
       text: "Ring",
       texts: "Smart Plug",
       lineClass: styles.line9,
-      animation: (
-        <DoorAnimation
-          className={`${styles.deviceImageVisible} ${isDoorOpening ? "doorOpen" : ""}`}
-        />
-      ),
+      animation: <DoorbellAnimation />,
     },
   ];
 
@@ -473,7 +454,7 @@ export default function SmartApp() {
                 /> */}
                           {selectedDevice?.animation}
                           <h2
-                            className={`${styles.deviceName} ${(selectedDevice.name !== "Smart Appliances" && selectedDevice.name !== 'Smart Light Switches') ? "mt-[200px]" : ''} `}
+                            className={`${styles.deviceName} ${selectedDevice.name === "Door Locks" ? "mt-[200px]" : ""} `}
                           >
                             {selectedDevice.name || selectedDevice.name2}
                           </h2>
