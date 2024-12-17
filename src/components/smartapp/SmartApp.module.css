@@ -197,7 +197,7 @@
     font-weight: bold;
     color: #333;
     /* margin-top: 220px; */
-    margin-left: -60px;
+    margin-left: -50px;
     letter-spacing: 1px;
     width: 100px;
     text-align: center;
@@ -206,7 +206,7 @@
   .largefeatures {
     margin-top: 65px;
     margin-left: -42px;
-    opacity: 0.2;
+    opacity: 0.09;
   }
 
 

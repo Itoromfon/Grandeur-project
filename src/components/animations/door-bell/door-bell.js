@@ -22,7 +22,7 @@ const DoorbellAnimation = ({ className }) => {
   }, [ringCount]);
 
   return (
-    <div className={`${className} -ml-[60px] relative w-full h-full flex justify-center items-center`}>
+    <div className={`${className} ml-[-95px] mb-[-30px] relative max-w-[250px] h-full flex justify-center items-center`}>
       <div className="relative w-48 h-48 flex items-center justify-center">
         <svg 
           viewBox="0 0 100 100" 

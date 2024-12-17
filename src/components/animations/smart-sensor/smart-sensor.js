@@ -32,7 +32,7 @@ const SmartSensorAnimation = () => {
   };
 
   return (
-    <div className="w-auto bg-gray-100 rounded-xl shadow-lg p-4 flex flex-col items-center overflow-hidden -mt-[50px] -ml-[75px] justify-center space-y-4">
+    <div className="w-auto bg-gray-100 rounded-xl shadow-lg p-4 flex flex-col items-center overflow-hidden -mt-[10px] -ml-[75px] justify-center space-y-4">
       <motion.div
         className={`w-28 h-28 rounded-full flex items-center justify-center ${isActive ? "bg-green-500" : "bg-gray-300"}`}
         whileTap={{ scale: 0.95 }}

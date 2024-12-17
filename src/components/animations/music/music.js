@@ -34,7 +34,7 @@ const SmartMusicAnimation = () => {
   };
 
   return (
-    <div className="relative w-auto h-full flex items-center justify-center p-3 px-4 -mt-[40px] -ml-[54px]">
+    <div className="relative w-[165px] h-full flex items-center justify-center p-3 px-4 mt-[10px] ml-[-79px]">
       <div className="absolute inset-0 bg-[#2c3e50] rounded-lg opacity-"></div>
       
       <div className="relative z-10 flex flex-col-reverse items-center justify-center space-x-4">

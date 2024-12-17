@@ -8,15 +8,23 @@ import { GoDotFill } from "react-icons/go";
 import { IoIosClose, IoIosHome } from "react-icons/io";
 import { MdDoorbell } from "react-icons/md";
 import { SiPhilipshue, SiSonos, SiWemo } from "react-icons/si";
-import DoorAnimation from "../animations/door/Door";
-import styles from "./SmartApp.module.css";
-import SmartAppliance from "../animations/smart-appliances/smart-appliance";
-import SmartLightSwitches from "../animations/smart-light-switch/smart-light-switch";
-import SmartMusicAnimation from "../animations/music/music";
-import SmartSensorAnimation from "../animations/smart-sensor/smart-sensor";
-import DoorbellAnimation from "../animations/door-bell/door-bell";
-import SmartPlugAnimation from "../animations/smart-plug/smart-plug";
-import LiveVideoAnimation from "../animations/live/live";
+// import DoorAnimation from "../animations/door/Door";
+import DoorAnimation from "@/components/animations/door/Door";
+// import styles from "./SmartApp.module.css";
+import styles from './gettingstarted.module.css'
+// import SmartAppliance from "../animations/smart-appliances/smart-appliance";
+import SmartAppliance from "@/components/animations/smart-appliances/smart-appliance";
+// import SmartLightSwitches from "../animations/smart-light-switch/smart-light-switch";
+import SmartLightSwitches from "@/components/animations/smart-light-switch/smart-light-switch";
+// import SmartMusicAnimation from "../animations/music/music";
+import SmartMusicAnimation from "@/components/animations/music/music";
+// import SmartSensorAnimation from "../animations/smart-sensor/smart-sensor";
+import SmartSensorAnimation from "@/components/animations/smart-sensor/smart-sensor";
+// import DoorbellAnimation from "../animations/door-bell/door-bell";
+import DoorbellAnimation from "@/components/animations/door-bell/door-bell";
+// import SmartPlugAnimation from "../animations/smart-plug/smart-plug";
+import SmartPlugAnimation from "@/components/animations/smart-plug/smart-plug";
+import ClimateControlAnimation from "@/components/animations/live/live";
 
 export default function SmartApp() {
   const [activeDevice, setActiveDevice] = useState(null);
@@ -111,7 +119,7 @@ export default function SmartApp() {
       name: "Smart Appliances",
       icon: <FaWifi className={styles.wifi} />,
       image: "/smartappliances.gif",
-      text: "HomeCo",
+      text: "Smart Appliances",
       texts: "Smart Appliances",
       lineClass: styles.line1,
       animation: (
@@ -125,7 +133,7 @@ export default function SmartApp() {
       name: "Door Locks",
       icon: <GiLockedDoor className={styles.door} />,
       image: "/dooropening.gif",
-      text: "August",
+      text: "Door Lock",
       texts: "Door Locks",
       lineClass: styles.line2,
       animation: (
@@ -140,87 +148,87 @@ export default function SmartApp() {
       name: "Smart Light Switches",
       icon: <FaHome className={styles.home} />,
       image: "/onoffswitch.gif",
-      text: "Insteon",
-      texts: "Smart Light Switches",
+      text: "Smart Light",
+      texts: "Smart Light",
       lineClass: styles.line3,
       animation: <SmartLightSwitches />,
     },
   ];
 
-  const devices2 = [
-    {
-      id: 1,
-      name2: "Smart Light",
-      icon2: <SiPhilipshue className={styles.hue} />,
-      image: "/smartlight.gif",
-      text: "Hue",
-      texts: "Music",
-      lineClass: styles.line4,
-      animation: <SmartLightSwitches />,
-    },
-    {
-      id: 2,
-      name2: "Music",
-      icon2: <SiSonos className={styles.sonos} />,
-      image: "/smartmusic.gif",
-      text: "Sonos",
-      texts: "Sensors,",
-      lineClass: styles.line5,
-      animation: <SmartMusicAnimation />,
-    },
-    {
-      id: 3,
-      name2: "Sensors",
-      icon2: <SiWemo className={styles.wemo} />,
-      image: "/smartsensor.gif",
-      text: "Wemo",
-      texts: "Doorbell",
-      lineClass: styles.line6,
-      animation: <SmartSensorAnimation />,
-    },
-  ];
+//   const devices2 = [
+//     {
+//       id: 1,
+//       name2: "Smart Light",
+//       icon2: <SiPhilipshue className={styles.hue} />,
+//       image: "/smartlight.gif",
+//       text: "Hue",
+//       texts: "Music",
+//       lineClass: styles.line4,
+//       animation: <SmartLightSwitches />,
+//     },
+//     {
+//       id: 2,
+//       name2: "Music",
+//       icon2: <SiSonos className={styles.sonos} />,
+//       image: "/smartmusic.gif",
+//       text: "Sonos",
+//       texts: "Sensors,",
+//       lineClass: styles.line5,
+//       animation: <SmartMusicAnimation />,
+//     },
+//     {
+//       id: 3,
+//       name2: "Sensors",
+//       icon2: <SiWemo className={styles.wemo} />,
+//       image: "/smartsensor.gif",
+//       text: "Wemo",
+//       texts: "Doorbell",
+//       lineClass: styles.line6,
+//       animation: <SmartSensorAnimation />,
+//     },
+//   ];
      
-  const devices3 = [
-    {
-      id: 1,
-      name: "Smart Plug",
-      icon3: <FaAtom className={styles.atom} />,
-      image: "/smartplug.gif",
-      text: "SmartThi",
-      texts: "Climate Control/Cameras",
-      lineClass: styles.line7,
-      animation: <SmartPlugAnimation />,
-    },
-    {
-      id: 2,
-      name: "Climate Control/Cameras",
-      icon3: <IoIosHome className={styles.iohome} />,
-      image: "/livevideo.gif",
-      text: "Nest",
-      texts: "Smart Plug",
-      lineClass: styles.line8,
-      animation: <LiveVideoAnimation />,
-    },
-    {
-      id: 3,
-      name: "Doorbell",
-      icon3: <MdDoorbell className={styles.doorbell} />,
-      image: "/smartdoorbell.gif",
-      text: "Ring",
-      texts: "Smart Plug",
-      lineClass: styles.line9,
-      animation: <DoorbellAnimation />,
-    },
-  ];
+//   const devices3 = [
+//     {
+//       id: 1,
+//       name: "Smart Plug",
+//       icon3: <FaAtom className={styles.atom} />,
+//       image: "/smartplug.gif",
+//       text: "SmartThi",
+//       texts: "Climate Control/Cameras",
+//       lineClass: styles.line7,
+//       animation: <SmartPlugAnimation />,
+//     },
+//     {
+//       id: 2,
+//       name: "Climate Control/Cameras",
+//       icon3: <IoIosHome className={styles.iohome} />,
+//       image: "/livevideo.gif",
+//       text: "Nest",
+//       texts: "Smart Plug",
+//       lineClass: styles.line8,
+//       animation: <ClimateControlAnimation />,
+//     },
+//     {
+//       id: 3,
+//       name: "Doorbell",
+//       icon3: <MdDoorbell className={styles.doorbell} />,
+//       image: "/smartdoorbell.gif",
+//       text: "Ring",
+//       texts: "Smart Plug",
+//       lineClass: styles.line9,
+//       animation: <DoorbellAnimation />,
+//     },
+//   ];
 
   const allDeviceArrays = [
     { name: "devices", devices: devices },
-    { name: "devices2", devices: devices2 },
-    { name: "devices3", devices: devices3 },
+    // { name: "devices2", devices: devices2 },
+    // { name: "devices3", devices: devices3 },
   ];
 
   useEffect(() => {
-    if (smartApp === false) {
+    if (smartApp === false) {    
       let currentArrayIndex = 0;
       let currentDeviceIndex = 0;
 
@@ -265,25 +273,26 @@ export default function SmartApp() {
           className={styles.smartappimg}
         />
         {smartApp === true ? (
-          <div
-            onClick={handleSmartClick}
-            className="
+        <div
+        onClick={handleSmartClick}
+        className="
         absolute 
         bg-[#5C755E] 
         cursor-pointer 
-        ml-[43px] 
-        mt-[170px]
-        w-[80px] 
-        h-[80px] 
+        ml-[81px] 
+        mt-[230px]
+        w-[100px] 
+        h-[100px] 
         rounded-full
         animate-popup
       "
-          >
-            <p
-              className="
+    >
+    <p
+        className="
           text-[white] 
-          text-[12px] 
-          mt-[32px] 
+          text-[16px] 
+          font-bold
+          mt-[40px] 
           flex 
           justify-center
           tracking-widest
@@ -305,17 +314,17 @@ export default function SmartApp() {
                   }}
                 >
                   {device.icon}
-                  <div className="mt-[1px]">
-                    <p className="flex text-[7px] text-[#FFFFFF]">
+                  <div className="mt-[1px] mx-auto w-[50px]">
+                    <p className="flex text-[9px] text-[#FFFFFF]">
                       <GoDotFill className={styles.dotfill} />
                       {device.text}
                     </p>
                   </div>
-                  <div className={device.lineClass}></div>
+                  {/* <div className={device.lineClass}></div> */}
                 </div>
               ))}
             </div>
-            <div className={styles.smallPhone2}>
+            {/* <div className={styles.smallPhone2}>
               {devices2.map((device) => (
                 <div
                   key={device.id}
@@ -332,7 +341,7 @@ export default function SmartApp() {
                   <div className={device.lineClass}></div>
                 </div>
               ))}
-            </div>
+            </div> */}
             {/* <div className={styles.smallPhone2}>
       <>
       {devices2.map((device) => (
@@ -356,7 +365,7 @@ export default function SmartApp() {
     ))}
     </>
     </div> */}
-            <div className={styles.smallPhone3}>
+            {/* <div className={styles.smallPhone3}>
               {devices3.map((device) => (
                 <div
                   key={device.id}
@@ -373,9 +382,9 @@ export default function SmartApp() {
                   <div className={device.lineClass}></div>
                 </div>
               ))}
-            </div>
+            </div> */}
           </div>
-        )}
+        )}       
         <div className="flex">
           <div className="mt-[120px]">
             <div>
@@ -446,11 +455,6 @@ export default function SmartApp() {
                     return (
                       <>
                         <div className={`${styles.image} z-[5]`}>
-                          {/* <img
-                  src={selectedDevice.image || selectedDevice.image2}
-                  alt={selectedDevice.name || selectedDevice.name2}
-                  className={`${styles.deviceImage} ${activeDevice === selectedDevice.id ? styles.deviceImageVisible : ''}`}
-                /> */}
                           {selectedDevice?.animation}
                           <h2
                             className={`${styles.deviceName} ${selectedDevice.name === "Door Locks" ? "mt-[200px]" : ""} `}

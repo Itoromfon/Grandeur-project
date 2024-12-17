@@ -23,12 +23,12 @@ const SmartPlugAnimation = ({ className }) => {
     <svg 
       xmlns="http://www.w3.org/2000/svg" 
       viewBox="0 0 300 300" 
-      className={`${className} w-[250px] -ml-[130px] -mt-[60px]`}
+      className={`${className} w-[350px] mb-[-60px] ml-[-170px] -mt-[60px]`}
     >
       {/* Wall Outlet */}
       <rect 
         x="125" 
-        y="50" 
+        y="60" 
         width="50" 
         height="80" 
         fill="#e0e0e0" 

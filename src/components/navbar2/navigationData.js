@@ -4,7 +4,7 @@
 // navigationData.js
 const navigationLinks = [
   { name: "Home", href: "/" },
-  { name: "Getting-started", href: "/" },
+  { name: "Getting-started", href: "/gettingstarted/gettingstarted" },
   // {
   //   name: "kits",
   //   href: "#",
