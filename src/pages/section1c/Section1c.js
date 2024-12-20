@@ -3,6 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import styles from './Section1c.module.css'
 import { FaHouse } from "react-icons/fa6";
+import SmartAppWithHandAnimation from '../gettingstarted/gettingstarted';
 
 function Section1c() {
   return (

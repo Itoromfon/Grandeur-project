@@ -1,0 +1,159 @@
+.container {
+    display: flex;
+    justify-content: center;
+    /* gap: 20px;  */
+    margin-top: 100px;
+}
+
+.Apps {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 100px; */
+    margin-top: 40px;
+}
+
+.lightbulb {
+    display: inline-block;
+    transition: transform 0.7s ease;
+    margin-bottom: -20px;
+}
+
+.lightbulb:hover .lightlink  {
+    transform: scale(1.09);
+  }
+
+.lightlink {
+    letter-spacing: 1px;
+    font-size: 12px;
+    border-radius: 5px; 
+    padding: 10px 200px;
+}
+
+.name {
+    margin-top: 2px;
+}
+
+.smartappimg {
+    width: 260px;
+    height: 410px;
+}
+
+.smartphone {
+    position: absolute;
+}
+
+
+.line1 {
+    height: 0.5px;
+    width: 385px;
+    background-color: #5C755E;
+    margin-top: 15px;
+    margin-left: 18px;
+    z-index: 150;
+    position: absolute;
+    transform: rotate(25deg); 
+}
+
+.line2 {
+    height: 0.5px;
+    width: 230px;
+    background-color: #5C755E;
+    margin-top: -23px;
+    margin-left: 30px;
+    z-index: 150;
+    position: absolute;
+    transform: rotate(23deg); 
+}
+
+.line3 {
+    height: 0.5px;
+    width: 0px;
+    background-color: #5C755E;
+    margin-top: -68px;
+    margin-left: 35px;
+    z-index: 100;
+    position: absolute;
+    transform: rotate(291deg);
+  }
+  
+  .line3::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 100%;
+    width: 233px;
+    height: 0.5px;
+    background-color: #5C755E; 
+    transform: rotate(45deg); 
+    transform-origin: left center;
+  }
+
+  .line4 {
+    height: 0.5px;
+    width: 385px;
+    background-color: #5C755E;
+    margin-top: -145px;
+    margin-left: 18px;
+    z-index: 150;
+    position: absolute;
+    transform: rotate(-26deg); 
+}
+
+.overlayImage {
+    position: absolute;
+    margin-top: -290px; /* Adjust based on the placement */
+    margin-left: 29px; /* Adjust to center on the smartphone */
+    z-index: 200;
+    width: 210px;
+    height: 385px;
+    border-radius: 25px;
+}
+
+@keyframes handIconAnimation {
+    0% {
+      opacity: 0;
+      transform: scale(0.5);
+    }
+    50% {
+      opacity: 1;
+      transform: scale(1.2);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+
+.handIcon {
+    margin-left: 10px;
+    color: #f39c12; /* Customize as needed */
+    font-size: 20px;
+    animation: handIconAnimation 1s ease-in-out;
+}
+
+.controller {
+    background-color: black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    height: 120px;
+    width: 120px;
+    margin-top: 80px;
+}
+
+.controllertext {
+    color: #FFFFFF;
+    width: 100px;
+    text-align: center;
+    letter-spacing: 1.5px;
+    margin-top: 45px;
+}
+
+
+
+
+  
+  
+  

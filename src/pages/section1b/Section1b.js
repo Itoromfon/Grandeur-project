@@ -4,6 +4,7 @@ import Link from 'next/link'
 import styles from './Section1b.module.css'
 import { motion } from 'framer-motion'
 import { FaHouse } from "react-icons/fa6";
+import SmartAppWithHandAnimation from '../gettingstarted/gettingstarted'
 
 const variants = {
   hidden: { opacity: 0},
@@ -106,7 +107,7 @@ function Section1() {
           </motion.a>
         </motion.div>
       </motion.div>
-      <div className='ml-5 hidden xl:block'>
+      <div className='ml-5 hidden xl:block'> 
         <Image 
           src="/smallbannerside.svg"
           alt="Grandeur-smart phone"

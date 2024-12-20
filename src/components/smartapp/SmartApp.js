@@ -59,7 +59,7 @@ export default function SmartApp() {
     }, 5000);
 
     return () => {
-      clearInterval(doorInterval);
+      clearInterval(doorInterval); 
     };
   }, []);
 
@@ -103,7 +103,7 @@ export default function SmartApp() {
     }, 5000);
 
     return () => {};
-  }, [smartApp]);
+  }, [smartApp]); 
 
   const devices = [
     {
@@ -229,7 +229,7 @@ export default function SmartApp() {
         const currentDevice = currentArray.devices[currentDeviceIndex];
 
         setActiveDevice(currentDevice.id);
-        setActiveArray(currentArray.name);
+        setActiveArray(currentArray.name); 
 
         currentDeviceIndex++;
 
@@ -292,7 +292,7 @@ export default function SmartApp() {
               Smart App
             </p>
           </div>
-        ) : (
+        ) : ( 
           <div className={styles.smallphonediv}>
             <div className={styles.smallPhone}>
               {devices.map((device) => (
@@ -333,29 +333,14 @@ export default function SmartApp() {
                 </div>
               ))}
             </div>
-            {/* <div className={styles.smallPhone2}>
-      <>
-      {devices2.map((device) => (
-      <div
-      key={device.id}
-      className={`${styles.icon2} ${activeDevice === device.id && activeArray === 'devices2' ? styles.active : ''}`}
-      onClick={() => handleDeviceClick(device.id, 'devices2')}
-    >
-      {device.icon2}
-    <div className='mt-[1px]'>
-      <p className='flex text-[7px] text-[#FFFFFF]'><GoDotFill className={styles.dotfill} />{device.text}</p>
-    </div>
-    </div>
-    ))}
-    </>
-    <>
-    {devices2.map((item, index) => (
-      <div key={index}>
-        <div className={item.lineClass2}></div>
-      </div>
-    ))}
-    </>
-    </div> */}
+           
+
+
+
+
+
+
+           
             <div className={styles.smallPhone3}>
               {devices3.map((device) => (
                 <div

@@ -3,6 +3,7 @@ import styles from './Section1d.module.css'
 import Image from 'next/image'
 import Link from 'next/link'
 import { FaHouse } from "react-icons/fa6";
+import SmartAppWithHandAnimation from '../gettingstarted/gettingstarted';
 
 function Section1d() {
   return (
@@ -65,7 +66,7 @@ function Section1d() {
         <Image 
           src="/smallbannerside.svg"
           alt="Grandeur-smart phone"
-          className='w-[434px] h-[400px] ml-10 mt-[-50px]'
+          className='w-[434px] h-[419px] ml-10 mt-[-50px]'
           width={500}
           height={288}
         />

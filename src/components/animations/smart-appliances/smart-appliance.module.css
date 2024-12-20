@@ -1,7 +1,8 @@
 .smartAppliance {
-  width: 180px;
-  height: 200px;
+  width: 280px;
+  height: 350px;
 
-  margin-left: -87px;
+  margin-left: -350px;
+  margin-top: -150px;
   z-index: 1;
 }

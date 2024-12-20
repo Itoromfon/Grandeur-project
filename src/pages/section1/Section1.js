@@ -4,6 +4,7 @@ import Link from 'next/link'
 import styles from './Section1.module.css'
 import { motion } from 'framer-motion'
 import { FaHouse } from "react-icons/fa6";
+import SmartAppWithHandAnimation from '../gettingstarted/gettingstarted'
 
 const variants = {
   hidden: { opacity: 0},

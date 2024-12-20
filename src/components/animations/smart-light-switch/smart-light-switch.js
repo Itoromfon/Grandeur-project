@@ -32,7 +32,7 @@ const SmartLightSwitch = () => {
 
   return (
     <motion.div 
-      className="w-[100px] h-[200px] bg-gray-300 rounded-lg flex items-center justify-center mb-2 -ml-[50px]"
+      className="w-[180px] h-[350px] mt-[-60px] -ml-[300px] bg-gray-300 rounded-lg flex items-center justify-center mb-2"
       animate={isOn ? "on" : "off"}
       variants={switchAnimation}
     >

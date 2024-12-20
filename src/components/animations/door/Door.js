@@ -25,4 +25,4 @@ const DoorAnimation = ({ className = "" }) => {
   );
 };
 
-export default DoorAnimation;
+export default DoorAnimation; 
