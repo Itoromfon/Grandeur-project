@@ -18,7 +18,7 @@ const apps = [
     icon: (
       <FaLightbulb className="bg-black text-white w-10 h-10 p-2.5 rounded-sm" />
     ),
-    images: "/stocklightbulb.gif",
+    images: "/storyblocklightbulb.gif",
     lineClass: styles.line1,
   },
   {
@@ -27,7 +27,7 @@ const apps = [
     icon: (
       <FaCamera className="bg-black text-white w-10 h-10 p-2.5 rounded-sm" />
     ),
-    images: "/pixabaycamera.gif",
+    images: "/storyblockcamera.gif",
     lineClass: styles.line2,
   },
   {
@@ -36,7 +36,7 @@ const apps = [
     icon: (
       <FaDoorOpen className="bg-black text-white w-10 h-10 p-2.5 rounded-sm" />
     ),
-    images: "/fotoropeningdoor.gif",
+    images: "/storyblockdooropen.gif",
     lineClass: styles.line3,
   },
   {
@@ -45,7 +45,7 @@ const apps = [
     icon: (
       <MdEdgesensorHigh className="bg-black text-white w-10 h-10 p-2.5 rounded-sm" />
     ),
-    images: "/fotorsensor.gif",
+    images: "/storyblocksensor.gif",
     lineClass: styles.line4,
   },
 ];
@@ -181,7 +181,7 @@ const SmartAppAnimation = () => {
         setSelectedImage(apps[currentIndex].images);
         animateIconActive(apps[currentIndex].id);
       }
-    }, 4000);
+    }, 5000);
 
     return () => {
       clearInterval(autoCycle);
@@ -262,7 +262,7 @@ const SmartAppAnimation = () => {
               <CheckCircle2
                 ref={checkmarkRef}
                 size={70}
-                className="absolute text-green-500 top-1/2 left-[85%] transform -translate-x-1/2"
+                className="absolute ml-[40px] text-green-500 top-1/2 left-[85%] transform -translate-x-1/2"
               />
             )}
           </div>
