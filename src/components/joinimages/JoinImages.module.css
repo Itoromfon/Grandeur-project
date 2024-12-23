@@ -1,0 +1,364 @@
+.container {
+    position: relative;
+    width: 100%; /* Adjust width */
+    height: 250vh; /* Adjust height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1f1f1; 
+    overflow: hidden;
+    /* margin-top: 400px; */
+    padding-bottom: 100px;
+  }
+  
+  .image1 {
+    position: absolute;
+    width: 110px; 
+    height: 150px; 
+    transform: translateY(-50%);
+    transition: transform 1s ease-in-out;
+    margin-top: -1100px;
+    right: 680px;
+  }
+
+  .image2 {
+    position: absolute;
+    width: 100px; 
+    height: 150px; 
+    transform: translateY(-50%);
+    /* transition: transform 3s ease-in-out;  */
+    margin-top: -1050px;
+  }
+  
+  .imageLeft {
+    animation: joinSeparateLeft 6s infinite;
+  }
+  
+  .imageRight {
+    animation: joinSeparateRight 6s infinite;
+  }
+  
+  /* @keyframes joinSeparateLeft {
+    0%, 100% {
+      transform: translateX(-150%); 
+    }
+    50% {
+      transform: translateX(0); 
+    }
+  } */
+
+
+  @keyframes collideAndReturn {
+    0% {
+      transform: translateY(-50%) translateX(0);
+    }
+    50% {
+      transform: translateY(-50%) translateX(85px); /* Adjust based on collision distance */
+    }
+    100% {
+      transform: translateY(-50%) translateX(0);
+    }
+  }
+
+
+.homeysensor1 {
+    position: relative;
+    transition: transform 8s ease;
+} 
+
+.colliding {
+    animation: collideAndReturn 2s ease-in-out forwards;
+}
+
+.reset {
+    transform: translateX(50);
+  }
+
+.homeysensor2 {
+    max-width: 400px;
+    height: 200px;
+}
+
+.sensorsets {
+    margin-left: 450px;
+    margin-top: -250px;
+}
+
+.when {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+/* .ludoor {
+    font-size: 25px;
+    margin: auto;
+    color: #FFFFFF;
+} */
+
+.ludoordiv {
+    background-color: #4e6690;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    padding-top: 6px;
+}
+
+.doorsensor {
+    filter: brightness(0) invert(1);
+    margin: 2px auto 0 auto;
+}
+
+.ludoormaindiv {
+    margin-left: 100px;
+    margin-top: -520px;
+}
+
+.ludoormain {
+    display: flex;
+    background-color: #ffffff;
+    max-width: 100%;
+    width: 320px;
+    height: 70px;
+    padding: 10px;
+    box-shadow: 10 10px 44px 0 rgba(0,0,0,0.07),0 2px 12px 0 rgba(0,0,0,0.1),0 2px 4px 0 rgba(0,0,0,0.04);
+    border-radius: 15px;
+}
+
+.ludoortextdiv {
+    margin-left: 10px;
+    margin-top: 2px;
+}
+
+.ludoortext1 {
+    font-size: 12px;
+    color: #93939a;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 0;
+}
+
+.ludoortext2 {
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.homeyarrow {
+    display: block;
+    width: 100%;
+    height: 62px;
+    margin-top: 16px;
+    margin-left: 50px;
+    mask-size: 15px 41px;
+    mask-repeat: no-repeat;
+    mask-position: center;
+}
+
+.ludatediv {
+    background-color: #DA2724;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    padding-top: 6px;
+}
+
+.datesensor {
+    filter: brightness(0) invert(1);
+    margin: 2px auto 0 auto;
+}
+
+.ludatemaindiv {
+    margin-left: 100px;
+    margin-top: 0;
+}
+
+.ludatemain {
+    display: flex;
+    background-color: #ffffff;
+    max-width: 100%;
+    width: 320px;
+    height: 70px;
+    padding: 10px;
+    box-shadow: 10 10px 44px 0 rgba(0,0,0,0.07),0 2px 12px 0 rgba(0,0,0,0.1),0 2px 4px 0 rgba(0,0,0,0.04);
+    border-radius: 15px;
+}
+
+.ludatetextdiv {
+    margin-left: 10px;
+    margin-top: 2px;
+}
+
+.ludatetext1 {
+    font-size: 12px;
+    color: #93939a;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 0;
+}
+
+.ludatetext2 {
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.and {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.ludatecheckdiv {
+    background-color: #3fc700;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-top: 15px;
+    margin-right: 12px;
+}
+
+.facheck {
+    color: #FFFFFF;
+    font-size: 11px;
+    margin: 4px auto ;
+    display: flex;
+}
+
+.homeyarrow2 {
+    display: block;
+    width: 100%;
+    height: 62px;
+    margin-top: 16px;
+    margin-left: 50px;
+    mask-size: 15px 41px;
+    mask-repeat: no-repeat;
+    mask-position: center;
+}
+
+
+
+
+
+
+
+.lulightdiv {
+    background-color: #F4AF2E;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    padding-top: 6px;
+}
+
+.lightsensor {
+    filter: brightness(0) invert(1);
+    margin: 2px auto 0 auto;
+}
+
+.lulightmaindiv {
+    margin-left: 100px;
+    margin-top: 0;
+    display: flex;
+}
+
+.lulightmain {
+    display: flex;
+    background-color: #ffffff;
+    max-width: 100%;
+    width: 320px;
+    height: 70px;
+    padding: 10px;
+    box-shadow: 10 10px 44px 0 rgba(0,0,0,0.07),0 2px 12px 0 rgba(0,0,0,0.1),0 2px 4px 0 rgba(0,0,0,0.04);
+    border-radius: 15px;
+}
+
+.lulightindex {
+    z-index: 16;
+}
+
+.lulighttextdiv {
+    margin-left: 10px;
+    margin-top: 2px;
+}
+
+.lulighttext1 {
+    font-size: 12px;
+    color: #93939a;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 0;
+}
+
+.lulighttext2 {
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.then {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.lulightcheckdiv {
+    background-color: #3fc700;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-top: 15px;
+    margin-right: 12px;
+}
+
+.replay {
+    color: #93939a;
+    cursor: pointer;
+}
+
+.replaytext {
+    color: #93939a;
+    cursor: pointer;
+}
+
+.homeybulbdiv {
+    position: absolute;
+    margin-left: -200px;
+    margin-top: -80px;
+}
+
+.homeylighton {
+    height: 500px;
+
+}
+
+.homeylightoff {
+    height: 500px;
+
+}
+
+@keyframes fadeOut {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+    }
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .lightOff {
+    animation: fadeOut 2.5s ease-in-out forwards;
+  }
+  
+  .lightOn {
+    animation: fadeIn 2.5s ease-in-out forwards;
+  }
+  
+
+
+
+  

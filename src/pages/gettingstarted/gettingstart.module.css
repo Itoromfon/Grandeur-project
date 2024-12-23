@@ -5,6 +5,10 @@
     margin-top: 100px;
 }
 
+.main {
+    padding-bottom: 500px;
+}
+
 .Apps {
     display: flex;
     flex-direction: column;

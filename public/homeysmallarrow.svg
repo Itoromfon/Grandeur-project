@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="15px" height="41px" viewBox="0 0 15 41" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>arrow</title>
+    <defs>
+        <linearGradient x1="49.9685866%" y1="100%" x2="50.0314134%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#52DEFF" offset="0%"></stop>
+            <stop stop-color="#367CFF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="---↳-Homepage-(mobile)" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="mobile" transform="translate(-173.000000, -3775.000000)" fill="url(#linearGradient-1)" fill-rule="nonzero">
+            <g id="Flow" transform="translate(-271.000000, 3123.000000)">
+                <g id="Example-Flow" transform="translate(271.500000, 208.000000)">
+                    <g id="Story" transform="translate(19.500000, 248.000000)">
+                        <path id="arrow" d="M161.5,196.487035 L161.5,222.382 L167.5,222.382879 L160.5,236.382879 L153.5,222.382879 L159.5,222.382 L159.5,196.487035 L161.5,196.487035 Z"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
