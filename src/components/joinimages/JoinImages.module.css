@@ -11,6 +11,49 @@
   }
 
 
+  @keyframes popupEffect {
+    0% {
+      transform: scale(1);
+      box-shadow: 0 0 0 rgba(76, 175, 80, 0);
+    }
+    50% {
+      transform: scale(1.05);
+      box-shadow: 0 0 10px rgba(76, 175, 80, 0.3);
+    }
+    100% {
+      transform: scale(1.1);
+      box-shadow: 0 0 15px rgba(76, 175, 80, 0.6);
+    }
+  }
+  
+  .activeApp {
+    border: 2px solid #4caf50;
+    animation: popupEffect 1s ease-out forwards; /* Slightly slower for smoothness */
+  }
+
+  /* .activeApp {
+    border: 2px solid #4caf50;
+    box-shadow: 0 0 10px rgba(76, 175, 80, 0.6);
+    transform: scale(1.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+  } */
+
+  .finger {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    font-size: 24px;
+    color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease, top 0.3s ease, left 0.3s ease;
+    pointer-events: none; 
+    z-index: 150;
+    margin-top: 50px;
+  }
+
+
 
 
 

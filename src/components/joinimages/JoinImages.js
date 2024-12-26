@@ -219,21 +219,15 @@ import {
   VideoIcon,
   HousePlug,
 } from "lucide-react";
+import { FaHandPointUp } from "react-icons/fa";
 import styles from "./JoinImages.module.css";
 
 const JoinImages = () => {
   const [selectedApp, setSelectedApp] = useState(null);
-  const [lineCoords, setLineCoords] = useState(null);
+  const [lineCoords, setLineCoords] = useState(null); // Track line coordinates
+  const [fingerPosition, setFingerPosition] = useState(null); // Finger position
   const appRefs = useRef([]);
   const deviceRefs = useRef([]);
-  const apps = [
-    { icon: Power, name: "BulbControl", color: "#FFD700", deviceName: "SmartBulb" },
-    { icon: Gauge, name: "TempControl", color: "#FF6B6B", deviceName: "ThermoStat" },
-    { icon: VideoIcon, name: "CamControl", color: "#4ECDC4", deviceName: "SecureCam" },
-    { icon: KeyIcon, name: "DoorControl", color: "#FFD700", deviceName: "DoorLock" },
-    { icon: HousePlug, name: "PlugControl", color: "#FF6B6B", deviceName: "SmartPlug" },
-    { icon: AlarmClock, name: "AlarmControl", color: "#4ECDC4", deviceName: "SmartAlarm" },
-  ];
 
   const devices = [
     { icon: Lightbulb, name: "SmartBulb", color: "#FFD700" },
@@ -242,6 +236,15 @@ const JoinImages = () => {
     { icon: DoorClosed, name: "DoorLock", color: "#FFD700" },
     { icon: Plug, name: "SmartPlug", color: "#FF6B6B" },
     { icon: AlarmClock, name: "SmartAlarm", color: "#4ECDC4" },
+  ];
+
+  const apps = [
+    { icon: Power, name: "BulbControl", color: "#FFD700", deviceName: "SmartBulb" },
+    { icon: Gauge, name: "TempControl", color: "#FF6B6B", deviceName: "ThermoStat" },
+    { icon: VideoIcon, name: "CamControl", color: "#4ECDC4", deviceName: "SecureCam" },
+    { icon: KeyIcon, name: "DoorControl", color: "#FFD700", deviceName: "DoorLock" },
+    { icon: HousePlug, name: "PlugControl", color: "#FF6B6B", deviceName: "SmartPlug" },
+    { icon: AlarmClock, name: "AlarmControl", color: "#4ECDC4", deviceName: "SmartAlarm" },
   ];
 
   const handleAppClick = (app, appIndex) => {
@@ -256,44 +259,54 @@ const JoinImages = () => {
         x2: deviceRect.x + deviceRect.width / 2,
         y2: deviceRect.y + deviceRect.height / 2,
       });
-      setSelectedApp(app); // Set the selected app for styling
+
+      setFingerPosition({
+        top: appRect.y - 40, // Position the finger above the app
+        left: appRect.x + appRect.width / 2 - 15, // Center the finger horizontally
+      });
+
+      setSelectedApp(app); // Highlight the selected app
+
+      // Add active class
+      appRefs.current[appIndex].classList.add(styles.activeApp);
+
+      // Remove active class from previous apps
+      appRefs.current.forEach((ref, i) => {
+        if (i !== appIndex) ref.classList.remove(styles.activeApp);
+      });
     }
   };
 
   useEffect(() => {
-    if (lineCoords) {
-      const lineElement = document.querySelector(`.${styles.lineanimation}`);
-      if (lineElement) {
-        lineElement.style.animation = "none";
-        lineElement.offsetHeight; 
-        lineElement.style.animation = null;
-      }
-    }
-  }, [lineCoords]);
+    const interval = 2000; // Interval between activations
+    let currentIndex = 0;
 
-  // Sequential App Clicks
-  useEffect(() => {
-    const clickAppsSequentially = () => {
-      let index = 0;
-      const interval = setInterval(() => {
-        if (index < apps.length) {
-          handleAppClick(apps[index], index);
-          index++;
-        } else {
-          clearInterval(interval); // Stop when all apps are clicked
-        }
-      }, 2000); // 2 seconds delay between clicks
+    const autoActivateApp = () => {
+      handleAppClick(apps[currentIndex], currentIndex); // Activate app
+      currentIndex = (currentIndex + 1) % apps.length; // Loop back after last app
     };
 
-    const timer = setTimeout(clickAppsSequentially, 2000); // 2-second delay before starting
+    const autoClickInterval = setInterval(autoActivateApp, interval);
 
-    return () => {
-      clearTimeout(timer); // Cleanup timeout
-    };
-  }, [apps]); // Re-run if apps array changes
+    return () => clearInterval(autoClickInterval); // Clean up interval
+  }, []);
 
   return (
     <div className="w-full h-screen flex items-center justify-center bg-red-100 relative">
+      {/* Finger Icon */}
+      {fingerPosition && (
+        <div
+          className={styles.finger}
+          style={{
+            top: `${fingerPosition.top}px`,
+            left: `${fingerPosition.left}px`,
+          }}
+        >
+          <FaHandPointUp />
+        </div>
+      )}
+
+      {/* Animated SVG Line */}
       <svg
         style={{ zIndex: 120 }}
         className="absolute w-full h-full pointer-events-none"
@@ -313,6 +326,7 @@ const JoinImages = () => {
         )}
       </svg>
 
+      {/* Apps Section */}
       <div className="relative mr-2 w-56 h-[370px] bg-white rounded-[3rem] shadow-xl border-8 border-gray-800 overflow-hidden">
         <div className="absolute top-0 left-1/2 transform -translate-x-1/2 w-32 h-6 bg-gray-800 rounded-b-2xl" />
         <div className="p-4 pt-12 mt-[5px] h-full bg-gray-50">
@@ -335,6 +349,7 @@ const JoinImages = () => {
         </div>
       </div>
 
+      {/* Devices Section */}
       <div className="relative w-72 h-[600px] bg-white rounded-[3rem] shadow-xl border-8 border-gray-800 overflow-hidden">
         <div className="absolute top-0 left-1/2 transform -translate-x-1/2 w-32 h-6 bg-gray-800 rounded-b-2xl" />
         <div className="p-8 pt-12 h-full bg-gray-50">
@@ -360,6 +375,8 @@ const JoinImages = () => {
 };
 
 export default JoinImages;
+
+
 
 
 
