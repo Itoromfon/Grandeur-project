@@ -114,6 +114,97 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 import React, { useState, useRef, useEffect } from "react";
 import {
   Lightbulb,
@@ -132,9 +223,17 @@ import styles from "./JoinImages.module.css";
 
 const JoinImages = () => {
   const [selectedApp, setSelectedApp] = useState(null);
-  const [lineCoords, setLineCoords] = useState(null); // Track line coordinates
+  const [lineCoords, setLineCoords] = useState(null);
   const appRefs = useRef([]);
   const deviceRefs = useRef([]);
+  const apps = [
+    { icon: Power, name: "BulbControl", color: "#FFD700", deviceName: "SmartBulb" },
+    { icon: Gauge, name: "TempControl", color: "#FF6B6B", deviceName: "ThermoStat" },
+    { icon: VideoIcon, name: "CamControl", color: "#4ECDC4", deviceName: "SecureCam" },
+    { icon: KeyIcon, name: "DoorControl", color: "#FFD700", deviceName: "DoorLock" },
+    { icon: HousePlug, name: "PlugControl", color: "#FF6B6B", deviceName: "SmartPlug" },
+    { icon: AlarmClock, name: "AlarmControl", color: "#4ECDC4", deviceName: "SmartAlarm" },
+  ];
 
   const devices = [
     { icon: Lightbulb, name: "SmartBulb", color: "#FFD700" },
@@ -143,15 +242,6 @@ const JoinImages = () => {
     { icon: DoorClosed, name: "DoorLock", color: "#FFD700" },
     { icon: Plug, name: "SmartPlug", color: "#FF6B6B" },
     { icon: AlarmClock, name: "SmartAlarm", color: "#4ECDC4" },
-  ];
-
-  const apps = [
-    { icon: Power, name: "BulbControl", color: "#FFD700", deviceName: "SmartBulb" },
-    { icon: Gauge, name: "TempControl", color: "#FF6B6B", deviceName: "ThermoStat" },
-    { icon: VideoIcon, name: "CamControl", color: "#4ECDC4", deviceName: "SecureCam" },
-    { icon: KeyIcon, name: "DoorControl", color: "#FFD700", deviceName: "DoorLock" },
-    { icon: HousePlug, name: "PlugControl", color: "#FF6B6B", deviceName: "SmartPlug" },
-    { icon: AlarmClock, name: "AlarmControl", color: "#4ECDC4", deviceName: "SmartAlarm" },
   ];
 
   const handleAppClick = (app, appIndex) => {
@@ -171,20 +261,39 @@ const JoinImages = () => {
   };
 
   useEffect(() => {
-    // Reset the line animation when coordinates change
     if (lineCoords) {
       const lineElement = document.querySelector(`.${styles.lineanimation}`);
       if (lineElement) {
         lineElement.style.animation = "none";
-        lineElement.offsetHeight; // Trigger reflow
+        lineElement.offsetHeight; 
         lineElement.style.animation = null;
       }
     }
   }, [lineCoords]);
 
+  // Sequential App Clicks
+  useEffect(() => {
+    const clickAppsSequentially = () => {
+      let index = 0;
+      const interval = setInterval(() => {
+        if (index < apps.length) {
+          handleAppClick(apps[index], index);
+          index++;
+        } else {
+          clearInterval(interval); // Stop when all apps are clicked
+        }
+      }, 2000); // 2 seconds delay between clicks
+    };
+
+    const timer = setTimeout(clickAppsSequentially, 2000); // 2-second delay before starting
+
+    return () => {
+      clearTimeout(timer); // Cleanup timeout
+    };
+  }, [apps]); // Re-run if apps array changes
+
   return (
     <div className="w-full h-screen flex items-center justify-center bg-red-100 relative">
-      {/* Animated SVG Line */}
       <svg
         style={{ zIndex: 120 }}
         className="absolute w-full h-full pointer-events-none"
@@ -198,13 +307,12 @@ const JoinImages = () => {
             stroke={selectedApp.color}
             strokeWidth="2"
             strokeDashoffset="100"
-            strokeDasharray="10" 
+            strokeDasharray="10"
             className={styles.lineanimation}
           />
         )}
       </svg>
 
-      {/* Apps Section */}
       <div className="relative mr-2 w-56 h-[370px] bg-white rounded-[3rem] shadow-xl border-8 border-gray-800 overflow-hidden">
         <div className="absolute top-0 left-1/2 transform -translate-x-1/2 w-32 h-6 bg-gray-800 rounded-b-2xl" />
         <div className="p-4 pt-12 mt-[5px] h-full bg-gray-50">
@@ -227,7 +335,6 @@ const JoinImages = () => {
         </div>
       </div>
 
-      {/* Devices Section */}
       <div className="relative w-72 h-[600px] bg-white rounded-[3rem] shadow-xl border-8 border-gray-800 overflow-hidden">
         <div className="absolute top-0 left-1/2 transform -translate-x-1/2 w-32 h-6 bg-gray-800 rounded-b-2xl" />
         <div className="p-8 pt-12 h-full bg-gray-50">
@@ -253,6 +360,8 @@ const JoinImages = () => {
 };
 
 export default JoinImages;
+
+
 
 
 

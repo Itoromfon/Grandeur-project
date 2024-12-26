@@ -1,5 +1,5 @@
 .lineanimation {
-    animation: draw-line 2s ease-out forwards;
+    animation: draw-line 3s ease-out infinite;
 }
   @keyframes draw-line {
     from {
