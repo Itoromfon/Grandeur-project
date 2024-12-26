@@ -50,7 +50,7 @@
     transition: transform 0.3s ease, top 0.3s ease, left 0.3s ease;
     pointer-events: none; 
     z-index: 150;
-    margin-top: 50px;
+    margin-top: 30px;
   }
 
 

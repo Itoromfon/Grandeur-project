@@ -224,8 +224,10 @@ import styles from "./JoinImages.module.css";
 
 const JoinImages = () => {
   const [selectedApp, setSelectedApp] = useState(null);
-  const [lineCoords, setLineCoords] = useState(null); // Track line coordinates
-  const [fingerPosition, setFingerPosition] = useState(null); // Finger position
+  const [lineCoords, setLineCoords] = useState(null);
+  const [fingerPosition, setFingerPosition] = useState(null);
+  const [isLinked, setIsLinked] = useState(false);
+  const [areDevicesVisible, setAreDevicesVisible] = useState(true);
   const appRefs = useRef([]);
   const deviceRefs = useRef([]);
 
@@ -261,39 +263,70 @@ const JoinImages = () => {
       });
 
       setFingerPosition({
-        top: appRect.y - 40, // Position the finger above the app
-        left: appRect.x + appRect.width / 2 - 15, // Center the finger horizontally
+        top: appRect.y - 40,
+        left: appRect.x + appRect.width / 2 - 15,
       });
 
-      setSelectedApp(app); // Highlight the selected app
+      setSelectedApp(app);
 
-      // Add active class
       appRefs.current[appIndex].classList.add(styles.activeApp);
-
-      // Remove active class from previous apps
       appRefs.current.forEach((ref, i) => {
         if (i !== appIndex) ref.classList.remove(styles.activeApp);
       });
+
+      setAreDevicesVisible(false);
+      setIsLinked(false);
+      setTimeout(() => {
+        setIsLinked(true);
+        setAreDevicesVisible(true);
+      }, 3000);
     }
   };
 
   useEffect(() => {
-    const interval = 2000; // Interval between activations
+    const interval = 5000;
     let currentIndex = 0;
 
     const autoActivateApp = () => {
-      handleAppClick(apps[currentIndex], currentIndex); // Activate app
-      currentIndex = (currentIndex + 1) % apps.length; // Loop back after last app
+      handleAppClick(apps[currentIndex], currentIndex);
+      currentIndex = (currentIndex + 1) % apps.length;
     };
 
     const autoClickInterval = setInterval(autoActivateApp, interval);
-
-    return () => clearInterval(autoClickInterval); // Clean up interval
+    return () => clearInterval(autoClickInterval);
   }, []);
 
+  const renderAppInterface = () => {
+    if (!selectedApp) return <div className="p-4 bg-gray-100 rounded-xl">Select an app to view details</div>;
+
+    if (!isLinked) {
+      return (
+        <div className="p-4 bg-gray-200 rounded-xl">
+          Preparing the interface for {selectedApp.name}...
+        </div>
+      );
+    }
+
+    switch (selectedApp.name) {
+      case "BulbControl":
+        return <div className="p-4 bg-yellow-100 rounded-xl">Bulb Control Interface</div>;
+      case "TempControl":
+        return <div className="p-4 bg-red-100 rounded-xl">Temperature Control Interface</div>;
+      case "CamControl":
+        return <div className="p-4 bg-green-100 rounded-xl">Camera Control Interface</div>;
+      case "DoorControl":
+        return <div className="p-4 bg-yellow-200 rounded-xl">Door Lock Interface</div>;
+      case "PlugControl":
+        return <div className="p-4 bg-red-200 rounded-xl">Plug Control Interface</div>;
+      case "AlarmControl":
+        return <div className="p-4 bg-blue-100 rounded-xl">Alarm Control Interface</div>;
+      default:
+        return <div className="p-4 bg-gray-200 rounded-xl">Unknown App</div>;
+    }
+  };
+
   return (
-    <div className="w-full h-screen flex items-center justify-center bg-red-100 relative">
-      {/* Finger Icon */}
+    <div className="w-full h-screen flex items-center justify-center bg-white relative">
       {fingerPosition && (
         <div
           className={styles.finger}
@@ -306,11 +339,7 @@ const JoinImages = () => {
         </div>
       )}
 
-      {/* Animated SVG Line */}
-      <svg
-        style={{ zIndex: 120 }}
-        className="absolute w-full h-full pointer-events-none"
-      >
+      <svg style={{ zIndex: 120 }} className="absolute w-full h-full pointer-events-none">
         {lineCoords && (
           <line
             x1={lineCoords.x1}
@@ -326,8 +355,7 @@ const JoinImages = () => {
         )}
       </svg>
 
-      {/* Apps Section */}
-      <div className="relative mr-2 w-56 h-[370px] bg-white rounded-[3rem] shadow-xl border-8 border-gray-800 overflow-hidden">
+      <div className="relative mr-5 w-56 h-[370px] bg-white rounded-[3rem] shadow-xl border-8 border-gray-800 overflow-hidden">
         <div className="absolute top-0 left-1/2 transform -translate-x-1/2 w-32 h-6 bg-gray-800 rounded-b-2xl" />
         <div className="p-4 pt-12 mt-[5px] h-full bg-gray-50">
           <h3 className="text-[16px] font-semibold mb-[24px] mt-[10px] text-center text-gray-800">
@@ -349,25 +377,26 @@ const JoinImages = () => {
         </div>
       </div>
 
-      {/* Devices Section */}
       <div className="relative w-72 h-[600px] bg-white rounded-[3rem] shadow-xl border-8 border-gray-800 overflow-hidden">
         <div className="absolute top-0 left-1/2 transform -translate-x-1/2 w-32 h-6 bg-gray-800 rounded-b-2xl" />
-        <div className="p-8 pt-12 h-full bg-gray-50">
+        <div className="p-8 pt-12 h-full bg-gray-50 flex flex-col">
           <h3 className="text-lg font-semibold mb-6 text-center text-gray-800">
             GrandeurSmart Devices
           </h3>
-          <div className="grid grid-cols-2 gap-4">
-            {devices.map((device, index) => (
-              <div
-                key={index}
-                ref={(el) => (deviceRefs.current[index] = el)}
-                className="p-4 bg-white rounded-xl shadow-md flex flex-col items-center"
-              >
-                <device.icon size={32} color={device.color} />
-                <span className="mt-2 text-sm text-gray-600">{device.name}</span>
-              </div>
-            ))}
+          <div className="grid grid-cols-2 gap-4 flex-grow">
+            {areDevicesVisible &&
+              devices.map((device, index) => (
+                <div
+                  key={index}
+                  ref={(el) => (deviceRefs.current[index] = el)}
+                  className="p-4 bg-white rounded-xl shadow-md flex flex-col items-center"
+                >
+                  <device.icon size={32} color={device.color} />
+                  <span className="mt-2 text-sm text-gray-600">{device.name}</span>
+                </div>
+              ))}
           </div>
+          {renderAppInterface()}
         </div>
       </div>
     </div>
@@ -375,6 +404,10 @@ const JoinImages = () => {
 };
 
 export default JoinImages;
+
+
+
+
 
 
 
