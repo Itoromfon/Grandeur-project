@@ -221,6 +221,10 @@ import {
 } from "lucide-react";
 import { FaHandPointUp } from "react-icons/fa";
 import styles from "./JoinImages.module.css";
+import BulbControl from "../bulbcontrol/BulbControl";
+import TempControl from "../tempcontrol/TempControl";
+import CamControl from "../camcontrol/CamControl";
+import DoorControl from "../doorcontrol/DoorControl";
 
 const JoinImages = () => {
   const [selectedApp, setSelectedApp] = useState(null);
@@ -241,20 +245,21 @@ const JoinImages = () => {
   ];
 
   const apps = [
-    { icon: Power, name: "BulbControl", color: "#FFD700", deviceName: "SmartBulb" },
-    { icon: Gauge, name: "TempControl", color: "#FF6B6B", deviceName: "ThermoStat" },
-    { icon: VideoIcon, name: "CamControl", color: "#4ECDC4", deviceName: "SecureCam" },
-    { icon: KeyIcon, name: "DoorControl", color: "#FFD700", deviceName: "DoorLock" },
-    { icon: HousePlug, name: "PlugControl", color: "#FF6B6B", deviceName: "SmartPlug" },
-    { icon: AlarmClock, name: "AlarmControl", color: "#4ECDC4", deviceName: "SmartAlarm" },
+    { icon: Power, name: "BulbControl", interface: <BulbControl />, color: "#FFD700", deviceName: "SmartBulb" },
+    { icon: Gauge, name: "TempControl", interface: <TempControl />, color: "#FF6B6B", deviceName: "ThermoStat" },
+    { icon: VideoIcon, name: "CamControl", interface: <CamControl />, color: "#4ECDC4", deviceName: "SecureCam" },
+    { icon: KeyIcon, name: "DoorControl", interface: <DoorControl />, color: "#FFD700", deviceName: "DoorLock" },
+    { icon: HousePlug, name: "PlugControl", interface: <BulbControl />, color: "#FF6B6B", deviceName: "SmartPlug" },
+    { icon: AlarmClock, name: "AlarmControl", interface: <BulbControl />, color: "#4ECDC4", deviceName: "SmartAlarm" },
   ];
 
   const handleAppClick = (app, appIndex) => {
     const deviceIndex = devices.findIndex((d) => d.name === app.deviceName);
     if (deviceIndex !== -1) {
-      const appRect = appRefs.current[appIndex].getBoundingClientRect();
-      const deviceRect = deviceRefs.current[deviceIndex].getBoundingClientRect();
-
+      const appRect = appRefs.current[appIndex]?.getBoundingClientRect();
+      const deviceRect = deviceRefs.current[deviceIndex]?.getBoundingClientRect();
+    
+    if (appRect && deviceRect) {
       setLineCoords({
         x1: appRect.x + appRect.width / 2,
         y1: appRect.y + appRect.height / 2,
@@ -279,7 +284,8 @@ const JoinImages = () => {
       setTimeout(() => {
         setIsLinked(true);
         setAreDevicesVisible(true);
-      }, 3000);
+      }, 4000);
+    }
     }
   };
 
@@ -297,32 +303,32 @@ const JoinImages = () => {
   }, []);
 
   const renderAppInterface = () => {
-    if (!selectedApp) return <div className="p-4 bg-gray-100 rounded-xl">Select an app to view details</div>;
+    if (!selectedApp) return <div></div>;
 
     if (!isLinked) {
       return (
-        <div className="p-4 bg-gray-200 rounded-xl">
-          Preparing the interface for {selectedApp.name}...
+        <div>
+          {selectedApp.interface}
         </div>
       );
     }
 
-    switch (selectedApp.name) {
-      case "BulbControl":
-        return <div className="p-4 bg-yellow-100 rounded-xl">Bulb Control Interface</div>;
-      case "TempControl":
-        return <div className="p-4 bg-red-100 rounded-xl">Temperature Control Interface</div>;
-      case "CamControl":
-        return <div className="p-4 bg-green-100 rounded-xl">Camera Control Interface</div>;
-      case "DoorControl":
-        return <div className="p-4 bg-yellow-200 rounded-xl">Door Lock Interface</div>;
-      case "PlugControl":
-        return <div className="p-4 bg-red-200 rounded-xl">Plug Control Interface</div>;
-      case "AlarmControl":
-        return <div className="p-4 bg-blue-100 rounded-xl">Alarm Control Interface</div>;
-      default:
-        return <div className="p-4 bg-gray-200 rounded-xl">Unknown App</div>;
-    }
+    // switch (selectedApp.name) {
+    //   case "BulbControl":
+    //     return <div className="p-4 bg-yellow-100 rounded-xl">Bulb Control Interface</div>;
+    //   case "TempControl":
+    //     return <div className="p-4 bg-red-100 rounded-xl">Temperature Control Interface</div>;
+    //   case "CamControl":
+    //     return <div className="p-4 bg-green-100 rounded-xl">Camera Control Interface</div>;
+    //   case "DoorControl":
+    //     return <div className="p-4 bg-yellow-200 rounded-xl">Door Lock Interface</div>;
+    //   case "PlugControl":
+    //     return <div className="p-4 bg-red-200 rounded-xl">Plug Control Interface</div>;
+    //   case "AlarmControl":
+    //     return <div className="p-4 bg-blue-100 rounded-xl">Alarm Control Interface</div>;
+    //   default:
+    //     return <div className="p-4 bg-gray-200 rounded-xl">Unknown App</div>;
+    // }
   };
 
   return (
