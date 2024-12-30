@@ -88,7 +88,6 @@ export default function Home() {
         <VoiceAssistant />
         <Innovative />
         <SmartRoutines />
-        <BulbControl />
         {/* <DoorAnimation /> */}
         {/* <Automation />
       <AutomateHome />

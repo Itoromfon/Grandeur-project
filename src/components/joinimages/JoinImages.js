@@ -225,6 +225,8 @@ import BulbControl from "../bulbcontrol/BulbControl";
 import TempControl from "../tempcontrol/TempControl";
 import CamControl from "../camcontrol/CamControl";
 import DoorControl from "../doorcontrol/DoorControl";
+import PlugControl from "../plugcontrol/PlugControl";
+import AlarmControl from "../alarmcontrol/AlarmControl";
 
 const JoinImages = () => {
   const [selectedApp, setSelectedApp] = useState(null);
@@ -249,8 +251,8 @@ const JoinImages = () => {
     { icon: Gauge, name: "TempControl", interface: <TempControl />, color: "#FF6B6B", deviceName: "ThermoStat" },
     { icon: VideoIcon, name: "CamControl", interface: <CamControl />, color: "#4ECDC4", deviceName: "SecureCam" },
     { icon: KeyIcon, name: "DoorControl", interface: <DoorControl />, color: "#FFD700", deviceName: "DoorLock" },
-    { icon: HousePlug, name: "PlugControl", interface: <BulbControl />, color: "#FF6B6B", deviceName: "SmartPlug" },
-    { icon: AlarmClock, name: "AlarmControl", interface: <BulbControl />, color: "#4ECDC4", deviceName: "SmartAlarm" },
+    { icon: HousePlug, name: "PlugControl", interface: <PlugControl />, color: "#FF6B6B", deviceName: "SmartPlug" },
+    { icon: AlarmClock, name: "AlarmControl", interface: <AlarmControl />, color: "#4ECDC4", deviceName: "SmartAlarm" },
   ];
 
   const handleAppClick = (app, appIndex) => {
