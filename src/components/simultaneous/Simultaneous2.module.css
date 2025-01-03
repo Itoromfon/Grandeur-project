@@ -789,7 +789,7 @@
     }
 
     .navButton {
-        margin-top: 0;
+        margin-top: -1300px;
     }
 }
 
@@ -921,7 +921,7 @@
     }
 
     .navButton {
-        margin-top: -360px;
+        margin-top: -970px;
     }
 }
 
