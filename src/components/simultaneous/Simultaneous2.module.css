@@ -303,6 +303,29 @@
 }
 
 
+.navButton {
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    margin-top: -250px;
+}
+
+.navButton:hover {
+    background: rgba(0, 0, 0, 0.9);
+}
+
+.navIcon {
+    color: white;
+    font-size: 20px;
+}
+
+
 
 
 
@@ -638,7 +661,7 @@
 
 
 
-@media only screen and (min-width: 320px) and (max-width: 480px) {
+@media only screen and (min-width: 320px) and (max-width: 400px) {
     /* .container {
         flex-direction: column;
     } */
@@ -763,6 +786,142 @@
 
     .modaltitle {
         margin-bottom: -18px;
+    }
+
+    .navButton {
+        margin-top: 0;
+    }
+}
+
+@media only screen and (min-width: 401px) and (max-width: 480px) {
+    /* .container {
+        flex-direction: column;
+    } */
+
+    .carouselcontainer {
+        margin: 50px 5px 50px 5px;
+    }
+
+    .carouseDiv {
+        width: 100%;
+        padding: 70px 15px 50px 15px;
+    }
+
+    .h2text {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .buttontop {
+        margin: 0;
+        flex-direction: column;
+    }
+
+    .buttondiv {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .htext {
+        margin: auto;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+
+    .basiccontainer {
+        flex-direction: column;
+        margin:10px auto;
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .itemtext {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .tabsContainer {
+        display: flex;
+        justify-content: space-between;
+        cursor: pointer;
+        margin: 50px 0 50px 0;
+        overflow-x: auto; 
+        white-space: nowrap; 
+        scrollbar-width: thin; 
+    }
+
+      .tabsContainer::-webkit-scrollbar {
+        height: 8px; /* Set scrollbar height */
+      }
+      
+      .tabsContainer::-webkit-scrollbar-thumb {
+        background-color: #888; /* Customize scrollbar color */
+        border-radius: 4px;
+      }
+      
+      .tabsContainer::-webkit-scrollbar-thumb:hover {
+        background-color: #555; /* Darker color on hover */
+      }
+
+    .contents {
+        display: flex;
+        overflow-x: auto; 
+        white-space: nowrap; 
+        scrollbar-width: 50px; 
+        margin-left: -50px;
+      }
+      
+      .contents::-webkit-scrollbar {
+        height: 8px; /* Set scrollbar height */
+      }
+      
+      .contents::-webkit-scrollbar-thumb {
+        background-color: #888; /* Customize scrollbar color */
+        border-radius: 4px;
+      }
+      
+      .contents::-webkit-scrollbar-thumb:hover {
+        background-color: #555; /* Darker color on hover */
+      }
+
+    .labels {
+        font-size: 16px;
+    }
+
+    .image {
+        width: 500px;
+        height: 100px;
+    }
+
+    .buttoncartdiv {
+        text-align: center;
+    }
+
+    .popupIcon {
+        font-size: 60px;
+    }
+
+    .videoThumbnail {
+        height: 330px;
+    }
+
+    .videoCarouselContainer {
+        margin: 60px 10px -70px 10px;
+    }
+
+    .playButton {
+        margin-top: -20px;
+        font-size: 2.5rem;
+    }
+
+    .modaltitle {
+        margin-bottom: -18px;
+    }
+
+    .navButton {
+        margin-top: -360px;
     }
 }
 

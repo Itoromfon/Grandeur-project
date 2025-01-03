@@ -13,6 +13,7 @@ import { FaTimes } from "react-icons/fa";
 import Image from 'next/image';
 import Chat from '../chat/Chat';
 import { BsFillPatchQuestionFill } from "react-icons/bs";
+import { FaChevronLeft, FaChevronRight } from 'react-icons/fa6';
 
 const AnotherComponent = () => {
     const dispatch = useDispatch();
@@ -234,6 +235,16 @@ const AnotherComponent = () => {
                 // onSelector={(selectedIndex) => dispatch(setActiveIndex(selectedIndex))}
                 onMouseEnter={handleMouseEnter}
                 onMouseLeave={handleMouseLeave}
+                prevIcon={
+                    <div className={styles.navButton}>
+                        <FaChevronLeft className={styles.navIcon} />
+                    </div>
+                }
+                nextIcon={
+                    <div className={styles.navButton}>
+                        <FaChevronRight className={styles.navIcon} />
+                    </div>
+                }
             >
                 {ProductsData.map((product) => (
 
