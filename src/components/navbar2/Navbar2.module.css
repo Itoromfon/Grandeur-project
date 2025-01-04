@@ -552,7 +552,7 @@
 @media only screen and (min-width: 481px) and (max-width: 600px) { 
   .navbar {
     justify-content: space-between;
-    padding: 10px 20px 10px 20px;
+    padding: 15px 20px 15px 20px;
 }
 
 .menutoggle {
@@ -580,18 +580,18 @@
     top: 50px;
     right: 0;
     width: 280px;
-    height: 100vh;
+    height: 72vh;
     padding: 1rem;
     position: relative;
     z-index: 10;
-    margin-top: -30px auto 0 auto;
-    
+    margin-top: -30px;
+    margin-left: 90px;
 }
 
 .navItem {
-    margin: 13px 50px 13px 0;
+    margin: 10px 50px 5px 0;
     /* font-weight: bold; */
-    font-size: 23px;
+    font-size: 16px;
 }
 
 .navLink {
@@ -603,7 +603,7 @@
 }
 
 .dropdownArrow {
-  margin-top: 5px;
+  margin-top: 1px;
 }
 
 .navList {
@@ -622,7 +622,7 @@
 
 .navList.show {
   display: flex; 
-  max-height: 650px; 
+  max-height: 600px; 
   opacity: 1; 
   border-radius: 10px;
   margin-top: -20px;
@@ -630,32 +630,37 @@
 
 .icons {
     margin-left: 0;
-    margin-top: 30px;
+    margin-top: 50px;
     display: flex;
     /* justify-content: space-around; */
 }
 
+.searchbar {
+  width: 17px;
+  /* height: 20px; */
+}
+
 .signin {
-  width: 22px;
-  height: 25px;
+  width: 19px;
+  height: 19px;
   /* margin: 0 30px; */
 }
 
 .usa {
-  width: 30px;
-  height: 30px;
+  width: 24px;
+  height: 24px;
 }
 
 .cart {
     margin-top: 3px;
-    width: 30px;
-    height: 30px;
+    width: 24px;
+    height: 24px;
 }
 
 .dropdownMenu {
     width: 360px;
     /* margin: auto; */
-    margin-left: -100px;
+    margin-left: -115px;
     display: block;
     position: absolute;
     border-radius: 10px;
@@ -694,9 +699,9 @@
 }
 
 @media only screen and (min-width: 601px) and (max-width: 768px) { 
-.navbar {
+  .navbar {
     justify-content: space-between;
-    padding: 10px 20px 10px 20px;
+    padding: 15px 20px 15px 20px;
 }
 
 .menutoggle {
@@ -724,18 +729,18 @@
     top: 50px;
     right: 0;
     width: 280px;
-    height: 100vh;
+    height: 70vh;
     padding: 1rem;
     position: relative;
     z-index: 10;
-    margin-top: -30px auto 0 auto;
-    
+    margin-top: -30px;
+    margin-left: 90px;
 }
 
 .navItem {
-    margin: 13px 50px 13px 0;
+    margin: 10px 50px 5px 0;
     /* font-weight: bold; */
-    font-size: 24px;
+    font-size: 16px;
 }
 
 .navLink {
@@ -747,7 +752,7 @@
 }
 
 .dropdownArrow {
-  margin-top: 5px;
+  margin-top: 1px;
 }
 
 .navList {
@@ -766,7 +771,7 @@
 
 .navList.show {
   display: flex; 
-  max-height: 650px; 
+  max-height: 600px; 
   opacity: 1; 
   border-radius: 10px;
   margin-top: -20px;
@@ -774,32 +779,37 @@
 
 .icons {
     margin-left: 0;
-    margin-top: 30px;
+    margin-top: 50px;
     display: flex;
-    justify-content: space-around;
+    /* justify-content: space-around; */
+}
+
+.searchbar {
+  width: 17px;
+  /* height: 20px; */
 }
 
 .signin {
-  width: 22px;
-  height: 25px;
+  width: 19px;
+  height: 19px;
   /* margin: 0 30px; */
 }
 
 .usa {
-  width: 30px;
-  height: 30px;
+  width: 24px;
+  height: 24px;
 }
 
 .cart {
     margin-top: 3px;
-    width: 30px;
-    height: 30px;
+    width: 24px;
+    height: 24px;
 }
 
 .dropdownMenu {
     width: 360px;
     /* margin: auto; */
-    margin-left: -100px;
+    margin-left: -115px;
     display: block;
     position: absolute;
     border-radius: 10px;
@@ -838,9 +848,9 @@
 }
 
 @media only screen and (min-width: 769px) and (max-width: 900px) { 
-.navbar {
+  .navbar {
     justify-content: space-between;
-    padding: 10px 20px 10px 20px;
+    padding: 15px 20px 15px 20px;
 }
 
 .menutoggle {
@@ -868,18 +878,18 @@
     top: 50px;
     right: 0;
     width: 280px;
-    height: 100vh;
+    height: 70vh;
     padding: 1rem;
     position: relative;
     z-index: 10;
-    margin-top: -30px auto 0 auto;
-    
+    margin-top: -30px;
+    margin-left: 200px;
 }
 
 .navItem {
-    margin: 13px 50px 13px 0;
+    margin: 10px 50px 5px 0;
     /* font-weight: bold; */
-    font-size: 26px;
+    font-size: 16px;
 }
 
 .navLink {
@@ -891,7 +901,7 @@
 }
 
 .dropdownArrow {
-  margin-top: 7px;
+  margin-top: 1px;
 }
 
 .navList {
@@ -910,7 +920,7 @@
 
 .navList.show {
   display: flex; 
-  max-height: 750px; 
+  max-height: 600px; 
   opacity: 1; 
   border-radius: 10px;
   margin-top: -20px;
@@ -918,32 +928,37 @@
 
 .icons {
     margin-left: 0;
-    margin-top: 30px;
+    margin-top: 50px;
     display: flex;
-    justify-content: space-around;
+    /* justify-content: space-around; */
+}
+
+.searchbar {
+  width: 20px;
+  /* height: 20px; */
 }
 
 .signin {
-  width: 22px;
-  height: 25px;
+  width: 19px;
+  height: 19px;
   /* margin: 0 30px; */
 }
 
 .usa {
-  width: 30px;
-  height: 30px;
+  width: 24px;
+  height: 24px;
 }
 
 .cart {
     margin-top: 3px;
-    width: 30px;
-    height: 30px;
+    width: 24px;
+    height: 24px;
 }
 
 .dropdownMenu {
     width: 360px;
     /* margin: auto; */
-    margin-left: -100px;
+    margin-left: -115px;
     display: block;
     position: absolute;
     border-radius: 10px;
@@ -984,7 +999,7 @@
 @media only screen and (min-width: 901px) and (max-width: 1200px) { 
   .navbar {
     justify-content: space-between;
-    padding: 10px 20px 10px 20px;
+    padding: 15px 20px 15px 20px;
 }
 
 .menutoggle {
@@ -1011,19 +1026,19 @@
     position: absolute;
     top: 50px;
     right: 0;
-    width: 300px;
-    height: 100vh;
+    width: 280px;
+    height: 70vh;
     padding: 1rem;
     position: relative;
     z-index: 10;
-    margin-top: -30px auto 0 auto;
-    
+    margin-top: -30px;
+    margin-left: 200px;
 }
 
 .navItem {
-    margin: 13px 50px 13px 0;
+    margin: 10px 50px 5px 0;
     /* font-weight: bold; */
-    font-size: 28px;
+    font-size: 16px;
 }
 
 .navLink {
@@ -1035,7 +1050,7 @@
 }
 
 .dropdownArrow {
-  margin-top: 7px;
+  margin-top: 1px;
 }
 
 .navList {
@@ -1054,7 +1069,7 @@
 
 .navList.show {
   display: flex; 
-  max-height: 750px; 
+  max-height: 600px; 
   opacity: 1; 
   border-radius: 10px;
   margin-top: -20px;
@@ -1062,32 +1077,37 @@
 
 .icons {
     margin-left: 0;
-    margin-top: 30px;
+    margin-top: 50px;
     display: flex;
-    justify-content: space-around;
+    /* justify-content: space-around; */
+}
+
+.searchbar {
+  width: 20px;
+  /* height: 20px; */
 }
 
 .signin {
-  width: 22px;
-  height: 25px;
+  width: 19px;
+  height: 19px;
   /* margin: 0 30px; */
 }
 
 .usa {
-  width: 30px;
-  height: 30px;
+  width: 24px;
+  height: 24px;
 }
 
 .cart {
     margin-top: 3px;
-    width: 30px;
-    height: 30px;
+    width: 24px;
+    height: 24px;
 }
 
 .dropdownMenu {
     width: 360px;
     /* margin: auto; */
-    margin-left: -100px;
+    margin-left: -115px;
     display: block;
     position: absolute;
     border-radius: 10px;
