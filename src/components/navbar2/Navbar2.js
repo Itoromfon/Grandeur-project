@@ -97,7 +97,7 @@ const Navbar2 = () => {
                 ))}
                 
             <div className={styles.icons}>
-            <div>
+            <div className={styles.searchbar}>
               <SearchBar />
             </div>
             <Link href="#">

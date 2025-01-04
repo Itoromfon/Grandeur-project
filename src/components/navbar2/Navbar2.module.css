@@ -250,7 +250,7 @@
     display: none;
   }
 
-@media only screen and (min-width: 320px) and (max-width: 480px) { 
+@media only screen and (min-width: 320px) and (max-width: 400px) { 
     .navbar {
         justify-content: space-between;
         padding: 15px 20px 15px 20px;
@@ -281,7 +281,7 @@
         top: 50px;
         right: 0;
         width: 280px;
-        height: 100vh;
+        height: 70vh;
         padding: 1rem;
         position: relative;
         z-index: 10;
@@ -290,9 +290,9 @@
     }
 
     .navItem {
-        margin: 10px 50px 10px 0;
+        margin: 10px 50px 3px 0;
         /* font-weight: bold; */
-        font-size: 21px;
+        font-size: 15px;
     }
 
     .navLink {
@@ -304,7 +304,7 @@
     }
 
     .dropdownArrow {
-      margin-top: 5px;
+      margin-top: 1px;
     }
 
     .navList {
@@ -336,21 +336,26 @@
         /* justify-content: space-around; */
     }
 
+    .searchbar {
+      width: 17px;
+      /* height: 20px; */
+    }
+    
     .signin {
-      width: 22px;
-      height: 25px;
+      width: 19px;
+      height: 19px;
       /* margin: 0 30px; */
     }
 
     .usa {
-      width: 30px;
-      height: 30px;
+      width: 24px;
+      height: 24px;
     }
 
     .cart {
         margin-top: 3px;
-        width: 30px;
-        height: 30px;
+        width: 24px;
+        height: 24px;
     }
 
     .dropdownMenu {
@@ -392,6 +397,156 @@
         /* margin-bottom: 10px; */
         font-size: 13px;
       }
+}
+
+
+@media only screen and (min-width: 401px) and (max-width: 480px) { 
+  .navbar {
+      justify-content: space-between;
+      padding: 15px 20px 15px 20px;
+  }
+
+  .menutoggle {
+      display: flex; /* Show toggle button on mobile */
+      color: black;
+  }
+  
+    .toggle {
+      display: flex;
+    }
+  
+    .toggle2 {
+      display: flex;
+      z-index: 2;
+    }
+
+    .navbarlogo {
+      z-index: 2;
+    }
+
+  .navdiv {
+      flex-direction: column;
+      background-color: #FFFFFF;
+      position: absolute;
+      top: 50px;
+      right: 0;
+      width: 280px;
+      height: 70vh;
+      padding: 1rem;
+      position: relative;
+      z-index: 10;
+      margin-top: -30px;
+      margin-left: 75px;
+  }
+
+  .navItem {
+      margin: 10px 50px 5px 0;
+      /* font-weight: bold; */
+      font-size: 16px;
+  }
+
+  .navLink {
+      display: flex;
+  }
+
+  .navLink::after {
+    visibility: hidden;
+  }
+
+  .dropdownArrow {
+    margin-top: 1px;
+  }
+
+  .navList {
+    /* display: none; */
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: white;
+    overflow: hidden; /* Ensures smooth height transition */
+    max-height: 0; /* Collapsed by default */
+    width: 100%; 
+    transition: max-height 0.3s ease, opacity 0.3s ease;
+    opacity: 0; /* Hidden by default */
+  }
+
+  .navList.show {
+    display: flex; 
+    max-height: 600px; 
+    opacity: 1; 
+    border-radius: 10px;
+    margin-top: -20px;
+  }
+
+  .icons {
+      margin-left: 0;
+      margin-top: 50px;
+      display: flex;
+      /* justify-content: space-around; */
+  }
+
+  .searchbar {
+    width: 17px;
+    /* height: 20px; */
+  }
+  
+  .signin {
+    width: 19px;
+    height: 19px;
+    /* margin: 0 30px; */
+  }
+
+  .usa {
+    width: 24px;
+    height: 24px;
+  }
+
+  .cart {
+      margin-top: 3px;
+      width: 24px;
+      height: 24px;
+  }
+
+  .dropdownMenu {
+      width: 360px;
+      /* margin: auto; */
+      margin-left: -115px;
+      display: block;
+      position: absolute;
+      border-radius: 10px;
+      top: 100%;
+      left: 0;
+      background-color: #FFFFFF;
+      list-style: none;
+      /* margin: 0; */
+      padding: 0;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      opacity: 0;
+      z-index: 2;
+      visibility: hidden;
+      transform: translateY(-10px); /* Start position for animation */
+      transition: opacity 0.3s ease, transform 0.3s ease;
+    }
+
+    .dropdownImage {
+      height: 70px;
+    }
+
+    .imageContainer {
+      margin-top: 0;
+    }
+
+    .imageContainer2 {
+      margin-top: -20px;
+    }
+
+    .imageText {
+      padding: 0 1rem;
+      transition: color 0.3s ease;
+      /* margin-bottom: 10px; */
+      font-size: 13px;
+    }
 }
 
 @media only screen and (min-width: 481px) and (max-width: 600px) { 
