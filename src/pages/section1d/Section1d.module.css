@@ -814,22 +814,23 @@
     }
 
     .h1main {
-        font-size: 25px;
+        font-size: 16px;
         text-align: center;
-        margin: -140px auto 0 auto;
-        width: 100%;
+        margin: -150px auto 0 auto;
+        width: 250px;
         max-width: 90%;
-        margin-bottom: 30px;
+        margin-bottom: 20px;
     }
 
     .p1main {
-        font-size: 16px;
+        font-size: 15px;
         text-align: center;
         margin: 0 auto;
         width: 100%;
         max-width: 90%;
         margin-bottom: 30px;
         letter-spacing: 1px;
+        line-height: 22px;
     }
 
     .p1adiv {
@@ -854,23 +855,26 @@
     }
     
     .p1amain {
-        font-size: 16px;
+        font-size: 15px;
         margin-bottom: 10px;
         letter-spacing: 1px;
+        width: 280px;
         /* animation: backgroundPop 4s ease-in-out infinite; */
     }
     
     .p1bmain {
-        font-size: 16px;
+        font-size: 15px;
         margin-bottom: 10px;
         letter-spacing: 1px;
+        width: 280px;
         /* animation: backgroundPop 4s ease-in-out infinite; */
     }
     
     .p1cmain {
-        font-size: 16px;
+        font-size: 15px;
+        margin-bottom: 25px;
         letter-spacing: 1px;
-        margin-bottom: 20px;
+        width: 280px;
         /* animation: backgroundPop 4s ease-in-out infinite; */
     }
 
@@ -903,30 +907,34 @@
 @media only screen and (min-width: 401px) and (max-width: 480px) {
     .section1 {
         flex-direction: column;
-        margin-top: 30px;
+        /* align-items: center; */
     }
 
     .section1x {
-        margin: 30px 12px 0px 12px;
+        /* margin: 30px 12px 0px 12px; */
+        justify-content: center;
+        align-items: center;
     }
 
     .h1main {
-        font-size: 25px;
+        font-size: 17px;
         text-align: center;
-        margin: -140px auto 0 auto;
-        width: 400px;
+        margin: -150px auto 0 auto;
+        width: 300px;
         max-width: 90%;
-        margin-bottom: 50px;
+        margin-bottom: 20px;
+        line-height: 26px;
     }
 
     .p1main {
-        font-size: 16px;
+        font-size: 15px;
         text-align: center;
         margin: 0 auto;
         width: 100%;
         max-width: 90%;
-        margin-bottom: 50px;
+        margin-bottom: 30px;
         letter-spacing: 1px;
+        line-height: 22px;
     }
 
     .p1adiv {
@@ -951,23 +959,29 @@
     }
     
     .p1amain {
-        font-size: 16px;
-        margin-bottom: 20px;
+        font-size: 15px;
+        margin-bottom: 10px;
         letter-spacing: 1px;
+        width: 300px;
+        line-height: 21px;
         /* animation: backgroundPop 4s ease-in-out infinite; */
     }
     
     .p1bmain {
-        font-size: 16px;
-        margin-bottom: 20px;
+        font-size: 15px;
+        margin-bottom: 10px;
         letter-spacing: 1px;
+        width: 300px;
+        line-height: 21px;
         /* animation: backgroundPop 4s ease-in-out infinite; */
     }
     
     .p1cmain {
-        font-size: 16px;
+        font-size: 15px;
+        margin-bottom: 25px;
         letter-spacing: 1px;
-        margin-bottom: 40px;
+        width: 300px;
+        line-height: 21px;
         /* animation: backgroundPop 4s ease-in-out infinite; */
     }
 
@@ -994,8 +1008,7 @@
         letter-spacing: 2px;
         position: relative;
         z-index: 2; /* Make sure text is above the overlay */
-    }
-}
+    }}
 
 
 
@@ -1010,22 +1023,23 @@
     }
 
     .h1main {
-        font-size: 30px;
+        font-size: 17px;
         text-align: center;
         margin: -260px auto 0 auto;
-        width: 500px;
+        width: 450px;
         max-width: 90%;
-        margin-bottom: 50px;
+        margin-bottom: 20px;
     }
 
     .p1main {
-        font-size: 19px;
+        font-size: 16px;
         text-align: center;
         margin: 0 auto;
-        width: 100%;
+        width: 400px;
         max-width: 90%;
         letter-spacing: 1px;
         margin-bottom: 20px;
+        line-height: 25px;
     }
 
     .p1adiv {
@@ -1051,26 +1065,29 @@
     }
     
     .p1amain {
-        font-size: 16px;
+        font-size: 15px;
         margin-bottom: 10px;
         display: flex;
         letter-spacing: 1px;
+        width: 360px;
         /* animation: backgroundPop 4s ease-in-out infinite; */
     }
     
     .p1bmain {
-        font-size: 16px;
+        font-size: 15px;
         margin-bottom: 10px;
         display: flex;
         letter-spacing: 1px;
+        width: 360px;
         /* animation: backgroundPop 4s ease-in-out infinite; */
     }
     
     .p1cmain {
-        font-size: 16px;
+        font-size: 15px;
+        margin-bottom: 20px;
         display: flex;
         letter-spacing: 1px;
-        margin-bottom: 20px;
+        width: 360px;
         /* animation: backgroundPop 4s ease-in-out infinite; */
     }
 
@@ -1103,131 +1120,31 @@
 @media only screen and (min-width: 601px) and (max-width: 768px) {
     .section1 {
         flex-direction: column;
-        margin-top: 50px;
+        margin-top: 30px;
     }
 
     .section1x {
-        margin: 30px 12px 0px 12px;
+        margin: 15px 12px 0px 12px;
     }
 
     .h1main {
-        font-size: 32px;
+        font-size: 18px;
         text-align: center;
         margin: -260px auto 0 auto;
-        width: 500px;
+        width: 480px;
         max-width: 90%;
         margin-bottom: 50px;
     }
 
     .p1main {
-        font-size: 20px;
+        font-size: 16px;
         text-align: center;
         margin: 0 auto;
-        width: 100%;
+        width: 450px;
         max-width: 90%;
-        letter-spacing: 1px;
-        margin-bottom: 30px;
-    }
-
-    .p1adiv {
-        display: flex;
-        justify-content: center;
-    }
-
-    .p1bdiv {
-        display: flex;
-        justify-content: center;
-    }
-
-    .p1cdiv {
-        display: flex;
-        justify-content: center;
-    }
-
-    .fahouse {
-        margin-right: 10px;
-        font-size: 28px;
-        margin-top: -2px;
-        /* animation: backgroundPop 4s ease-in-out infinite; */
-    }
-    
-    .p1amain {
-        font-size: 16px;
-        margin-bottom: 10px;
-        display: flex;
-        letter-spacing: 1px;
-        /* animation: backgroundPop 4s ease-in-out infinite; */
-    }
-    
-    .p1bmain {
-        font-size: 16px;
-        margin-bottom: 10px;
-        display: flex;
-        letter-spacing: 1px;
-        /* animation: backgroundPop 4s ease-in-out infinite; */
-    }
-    
-    .p1cmain {
-        font-size: 16px;
-        display: flex;
         letter-spacing: 1px;
         margin-bottom: 20px;
-        /* animation: backgroundPop 4s ease-in-out infinite; */
-    }
-
-    .gadget {
-        visibility: hidden;
-    }
-
-    .buttoncontainer {
-        display: flex;
-        justify-content: center; /* Centers horizontally */
-        align-items: center;
-    }
-
-    .button {
-        padding: 12px 20px;
-        display: flex;
-        justify-content: center;
-    }
-
-    .buttontext {
-        font-size: 17px;
-        color: #FFFFFF;
-        font-weight: 700;
-        letter-spacing: 2px;
-        position: relative;
-        z-index: 2; /* Make sure text is above the overlay */
-    }
-}
-
-@media only screen and (min-width: 769px) and (max-width: 900px) {
-    .section1 {
-        flex-direction: column;
-        margin-top: 50px;
-    }
-
-    .section1x {
-        margin: 30px 12px 0px 12px;
-    }
-
-    .h1main {
-        font-size: 34px;
-        text-align: center;
-        margin: -260px auto 0 auto;
-        width: 500px;
-        max-width: 90%;
-        margin-bottom: 50px;
-    }
-
-    .p1main {
-        font-size: 21px;
-        text-align: center;
-        margin: 0 auto;
-        width: 100%;
-        max-width: 90%;
-        letter-spacing: 1px;
-        margin-bottom: 30px;
+        line-height: 25px;
     }
 
     .p1adiv {
@@ -1253,26 +1170,29 @@
     }
     
     .p1amain {
-        font-size: 17px;
+        font-size: 15px;
         margin-bottom: 10px;
         display: flex;
         letter-spacing: 1px;
+        width: 400px;
         /* animation: backgroundPop 4s ease-in-out infinite; */
     }
     
     .p1bmain {
-        font-size: 17px;
+        font-size: 15px;
         margin-bottom: 10px;
         display: flex;
         letter-spacing: 1px;
+        width: 400px;
         /* animation: backgroundPop 4s ease-in-out infinite; */
     }
     
     .p1cmain {
-        font-size: 17px;
+        font-size: 15px;
+        margin-bottom: 20px;
         display: flex;
         letter-spacing: 1px;
-        margin-bottom: 30px;
+        width: 400px;
         /* animation: backgroundPop 4s ease-in-out infinite; */
     }
 
@@ -1293,7 +1213,112 @@
     }
 
     .buttontext {
-        font-size: 17px;
+        font-size: 16px;
+        color: #FFFFFF;
+        font-weight: 700;
+        letter-spacing: 2px;
+        position: relative;
+        z-index: 2; /* Make sure text is above the overlay */
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 900px) {
+    .section1 {
+        flex-direction: column;
+        margin-top: 30px;
+    }
+
+    .section1x {
+        margin: 15px 12px 0px 12px;
+    }
+
+    .h1main {
+        font-size: 18px;
+        text-align: center;
+        margin: -260px auto 0 auto;
+        width: 480px;
+        max-width: 90%;
+        margin-bottom: 30px;
+    }
+
+    .p1main {
+        font-size: 16px;
+        text-align: center;
+        margin: 0 auto;
+        width: 520px;
+        max-width: 90%;
+        letter-spacing: 1px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+
+    .p1adiv {
+        display: flex;
+        justify-content: center;
+    }
+
+    .p1bdiv {
+        display: flex;
+        justify-content: center;
+    }
+
+    .p1cdiv {
+        display: flex;
+        justify-content: center;
+    }
+
+    .fahouse {
+        margin-right: 10px;
+        font-size: 28px;
+        margin-top: -3px;
+        /* animation: backgroundPop 4s ease-in-out infinite; */
+    }
+    
+    .p1amain {
+        font-size: 16px;
+        margin-bottom: 10px;
+        display: flex;
+        letter-spacing: 1px;
+        width: 450px;
+        /* animation: backgroundPop 4s ease-in-out infinite; */
+    }
+    
+    .p1bmain {
+        font-size: 16px;
+        margin-bottom: 10px;
+        display: flex;
+        letter-spacing: 1px;
+        width: 450px;
+        /* animation: backgroundPop 4s ease-in-out infinite; */
+    }
+    
+    .p1cmain {
+        font-size: 16px;
+        margin-bottom: 20px;
+        display: flex;
+        letter-spacing: 1px;
+        width: 450px;
+        /* animation: backgroundPop 4s ease-in-out infinite; */
+    }
+
+    .gadget {
+        visibility: hidden;
+    }
+
+    .buttoncontainer {
+        display: flex;
+        justify-content: center; /* Centers horizontally */
+        align-items: center;
+    }
+
+    .button {
+        padding: 12px 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .buttontext {
+        font-size: 16px;
         color: #FFFFFF;
         font-weight: 700;
         letter-spacing: 2px;
@@ -1307,30 +1332,31 @@
 @media only screen and (min-width: 901px) and (max-width: 1279px) {
     .section1 {
         flex-direction: column;
-        margin-top: 50px;
+        margin-top: 30px;
     }
 
     .section1x {
-        margin: 30px 12px 0px 12px;
+        margin: 15px 12px 0px 12px;
     }
 
     .h1main {
-        font-size: 36px;
+        font-size: 18px;
         text-align: center;
         margin: -260px auto 0 auto;
-        width: 500px;
+        width: 480px;
         max-width: 90%;
         margin-bottom: 50px;
     }
 
     .p1main {
-        font-size: 23px;
+        font-size: 16px;
         text-align: center;
         margin: 0 auto;
-        width: 100%;
+        width: 580px;
         max-width: 90%;
         letter-spacing: 1px;
-        margin-bottom: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
     }
 
     .p1adiv {
@@ -1350,35 +1376,35 @@
 
     .fahouse {
         margin-right: 10px;
-        font-size: 29px;
+        font-size: 28px;
         margin-top: -3px;
         /* animation: backgroundPop 4s ease-in-out infinite; */
     }
     
     .p1amain {
-        font-size: 18px;
+        font-size: 15px;
         margin-bottom: 10px;
         display: flex;
         letter-spacing: 1px;
-        text-align: center;
+        width: 450px;
         /* animation: backgroundPop 4s ease-in-out infinite; */
     }
     
     .p1bmain {
-        font-size: 18px;
+        font-size: 15px;
         margin-bottom: 10px;
         display: flex;
         letter-spacing: 1px;
-        text-align: center;
+        width: 450px;
         /* animation: backgroundPop 4s ease-in-out infinite; */
     }
     
     .p1cmain {
-        font-size: 18px;
+        font-size: 15px;
+        margin-bottom: 20px;
         display: flex;
         letter-spacing: 1px;
-        margin-bottom: 35px;
-        text-align: center;
+        width: 450px;
         /* animation: backgroundPop 4s ease-in-out infinite; */
     }
 
@@ -1399,7 +1425,7 @@
     }
 
     .buttontext {
-        font-size: 18px;
+        font-size: 16px;
         color: #FFFFFF;
         font-weight: 700;
         letter-spacing: 2px;

@@ -17,7 +17,7 @@ function Section1c() {
             and real time energy consumption tracking, helping reduce utility bills and enviromental impact.
           </p>
           <div className={styles.p1adiv}>
-          <div className='mr-2'>
+          <div className='mr-2 mt-[3px]'>
               <Image 
                 src='/smallhouse.svg'
                 width={22}
@@ -28,7 +28,7 @@ function Section1c() {
             <p className={styles.p1amain}>Reduce heating during peak hours to save 20% on energy costs.</p>
           </div>
           <div className={styles.p1bdiv}>
-          <div className='mr-2'>
+          <div className='mr-2 mt-[3px]'>
               <Image 
                 src='/smallhouse.svg'
                 width={22}
@@ -39,7 +39,7 @@ function Section1c() {
             <p className={styles.p1bmain}>Run appliances after 9PM for reduced rates & energy efficiency.</p>
           </div>
           <div className={styles.p1cdiv}>
-          <div className='mr-2'>
+          <div className='mr-2 mt-[3px]'>
               <Image 
                 src='/smallhouse.svg'
                 width={22}
