@@ -47,7 +47,7 @@ function NightMode() {
                 </div>
             </div>
             <div className={styles.healthdiv2}>
-                <div className={styles.secureimg}>
+                <div className={styles.secureimg2}>
                     {/* <CiLock className={styles.safetyicon2} /> */}
                     <Image 
                         src='/smalllock.svg'

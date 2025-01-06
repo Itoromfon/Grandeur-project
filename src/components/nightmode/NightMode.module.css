@@ -143,7 +143,7 @@
     }
 
     .text {
-        font-size: 20px;
+        font-size: 16px;
         letter-spacing: 1px;
         padding-top: 60px;
     }
@@ -153,7 +153,7 @@
     }
 
     .bulbtext {
-        font-size: 17px;
+        font-size: 16px;
         letter-spacing: 1px;
         margin-top: 15px;
     }
@@ -167,6 +167,10 @@
         width: 231px;
     }
 
+    .secureimg {
+        margin-top: 12px;
+    }
+
     .safetytext {
         color: #FFFFFF;
         font-size: 16px;
@@ -174,6 +178,9 @@
         margin-left: 3px;
     }
 
+    .secureimg2 {
+        margin-top: 5px;
+    }
     .safetytext2 {
         color: #FFFFFF;
         font-size: 16px;
@@ -202,22 +209,23 @@
     }
     
     .NightMode {
-        width: 295px;
+        width: 275px;
         height: 507px;
+        margin-top: -30px;
     }
 
     .text {
-        font-size: 20px;
+        font-size: 16px;
         letter-spacing: 1px;
         padding-top: 60px;
     }
 
     .bulbdiv {
-        width: 230px;
+        width: 218px;
     }
 
     .bulbtext {
-        font-size: 18px;
+        font-size: 16px;
         letter-spacing: 1px;
         margin-top: 15px;
     }
@@ -231,6 +239,10 @@
         width: 231px;
     }
 
+    .secureimg {
+        margin-top: 12px;
+    }
+
     .safetytext {
         color: #FFFFFF;
         font-size: 16px;
@@ -238,6 +250,9 @@
         margin-left: 3px;
     }
 
+    .secureimg2 {
+        margin-top: 5px;
+    }
     .safetytext2 {
         color: #FFFFFF;
         font-size: 16px;
@@ -256,6 +271,7 @@
         color: #FFFFFF;
         margin-top: 3px;
     }
+
 }
 
 
@@ -272,7 +288,7 @@
     }
 
     .text {
-        font-size: 22px;
+        font-size: 16px;
         letter-spacing: 1px;
         padding-top: 80px;
     }
@@ -282,7 +298,7 @@
     }
 
     .bulbtext {
-        font-size: 17px;
+        font-size: 16px;
         letter-spacing: 1px;
         margin-top: 15px;
     }
@@ -296,16 +312,24 @@
         width: 251px;
     }
 
+    .secureimg {
+        margin-top: 10px;
+    }
+
     .safetytext {
         color: #FFFFFF;
-        font-size: 17px;
+        font-size: 16px;
         margin-top: 15px;
         margin-left: 3px;
     }
 
+    .secureimg2 {
+        margin-top: 5px;
+    }
+
     .safetytext2 {
         color: #FFFFFF;
-        font-size: 17px;
+        font-size: 16px;
         margin-top: 10px;
         margin-left: 3px;
     }
@@ -336,7 +360,7 @@
     }
 
     .text {
-        font-size: 24px;
+        font-size: 16px;
         letter-spacing: 1px;
         padding-top: 80px;
     }
@@ -346,7 +370,7 @@
     }
 
     .bulbtext {
-        font-size: 17px;
+        font-size: 16px;
         letter-spacing: 1px;
         margin-top: 15px;
     }
@@ -360,16 +384,24 @@
         width: 251px;
     }
 
+    .secureimg {
+        margin-top: 12px;
+    }
+
     .safetytext {
         color: #FFFFFF;
-        font-size: 17px;
+        font-size: 16px;
         margin-top: 15px;
         margin-left: 3px;
     }
 
+    .secureimg2 {
+        margin-top: 5px;
+    }
+
     .safetytext2 {
         color: #FFFFFF;
-        font-size: 17px;
+        font-size: 16px;
         margin-top: 10px;
         margin-left: 3px;
     }
@@ -400,7 +432,7 @@
     }
 
     .text {
-        font-size: 24px;
+        font-size: 17px;
         letter-spacing: 1px;
         padding-top: 80px;
     }
@@ -424,16 +456,24 @@
         width: 251px;
     }
 
+    .secureimg {
+        margin-top: 12px;
+    }
+
     .safetytext {
         color: #FFFFFF;
-        font-size: 18px;
+        font-size: 17px;
         margin-top: 15px;
         margin-left: 3px;
     }
 
+    .secureimg2 {
+        margin-top: 8px;
+    }
+
     .safetytext2 {
         color: #FFFFFF;
-        font-size: 18px;
+        font-size: 17px;
         margin-top: 12px;
         margin-left: 3px;
     }
@@ -464,7 +504,7 @@
     }
 
     .text {
-        font-size: 24px;
+        font-size: 17px;
         letter-spacing: 1px;
         padding-top: 80px;
     }
@@ -488,11 +528,19 @@
         width: 251px;
     }
 
+    .secureimg {
+        margin-top: 10px;
+    }
+
     .safetytext {
         color: #FFFFFF;
-        font-size: 18px;
+        font-size: 17px;
         margin-top: 15px;
         margin-left: 3px;
+    }
+
+    .secureimg2 {
+        margin-top: 7px;
     }
 
     .safetytext2 {
