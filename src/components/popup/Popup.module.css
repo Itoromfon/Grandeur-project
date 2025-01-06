@@ -179,13 +179,13 @@
 
     .h1text {
         font-weight: bold;
-        font-size: 22px;
-        width: 330px;
+        font-size: 17px;
+        width: 300px;
         text-align: center;
     }
 
     .ptext {
-        font-size: 17px;
+        font-size: 16px;
         width: 300px;
         margin: 20px auto;
         text-align: center;
@@ -247,14 +247,14 @@
 
     .h1text {
         font-weight: bold;
-        font-size: 22px;
-        width: 340px;
+        font-size: 17px;
+        width: 320px;
         text-align: center;
     }
 
     .ptext {
-        font-size: 17px;
-        width: 300px;
+        font-size: 16px;
+        width: 340px;
         margin: 20px auto;
         text-align: center;
     }
@@ -312,14 +312,14 @@
 
     .h1text {
         font-weight: bold;
-        font-size: 23px;
-        width: 340px;
+        font-size: 17px;
+        width: 310px;
         text-align: center;
     }
 
     .ptext {
-        font-size: 18px;
-        width: 300px;
+        font-size: 16px;
+        width: 350px;
         margin: 20px auto;
         text-align: center;
     }
@@ -387,13 +387,13 @@
 
       .h1text {
         font-weight: bold;
-        font-size: 24px;
+        font-size: 17px;
         width: 400px;
         text-align: center;
     }
 
     .ptext {
-        font-size: 19px;
+        font-size: 16px;
         width: 350px;
         margin: 20px auto;
         text-align: center;
@@ -461,13 +461,13 @@
 
       .h1text {
         font-weight: bold;
-        font-size: 24px;
+        font-size: 18px;
         width: 400px;
         text-align: center;
     }
 
     .ptext {
-        font-size: 20px;
+        font-size: 17px;
         width: 370px;
         margin: 20px auto;
         text-align: center;
@@ -535,13 +535,13 @@
 
       .h1text {
         font-weight: bold;
-        font-size: 25px;
+        font-size: 18px;
         width: 450px;
         text-align: center;
     }
 
     .ptext {
-        font-size: 20px;
+        font-size: 17px;
         width: 450px;
         margin: 20px auto;
         text-align: center;

@@ -580,7 +580,7 @@
     top: 50px;
     right: 0;
     width: 280px;
-    height: 72vh;
+    height: 73vh;
     padding: 1rem;
     position: relative;
     z-index: 10;
@@ -729,7 +729,7 @@
     top: 50px;
     right: 0;
     width: 280px;
-    height: 70vh;
+    height: 75vh;
     padding: 1rem;
     position: relative;
     z-index: 10;
@@ -761,7 +761,7 @@
   position: absolute;
   top: 100%;
   right: 0;
-  background-color: white;
+  background-color: #FFFFFF;
   overflow: hidden; /* Ensures smooth height transition */
   max-height: 0; /* Collapsed by default */
   width: 100%; 
@@ -771,7 +771,7 @@
 
 .navList.show {
   display: flex; 
-  max-height: 600px; 
+  max-height: 640px; 
   opacity: 1; 
   border-radius: 10px;
   margin-top: -20px;
@@ -878,7 +878,7 @@
     top: 50px;
     right: 0;
     width: 280px;
-    height: 70vh;
+    height: 74vh;
     padding: 1rem;
     position: relative;
     z-index: 10;
@@ -920,7 +920,7 @@
 
 .navList.show {
   display: flex; 
-  max-height: 600px; 
+  max-height: 650px; 
   opacity: 1; 
   border-radius: 10px;
   margin-top: -20px;
@@ -1027,7 +1027,7 @@
     top: 50px;
     right: 0;
     width: 280px;
-    height: 70vh;
+    height: 80vh;
     padding: 1rem;
     position: relative;
     z-index: 10;
@@ -1069,7 +1069,7 @@
 
 .navList.show {
   display: flex; 
-  max-height: 600px; 
+  max-height: 660px; 
   opacity: 1; 
   border-radius: 10px;
   margin-top: -20px;

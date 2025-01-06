@@ -146,10 +146,10 @@
     }
     
     .htext {
-        font-size: 30px;
+        font-size: 17px;
         width: 300px;
         letter-spacing: 1.1px;
-        line-height: 40px;
+        line-height: 22px;
     }
 
     .ptext {
@@ -171,14 +171,14 @@
     }
     
     .htext {
-        font-size: 31px;
+        font-size: 17px;
         width: 400px;
         letter-spacing: 1.1px;
         line-height: 40px;
     }
 
     .ptext {
-        font-size: 17px;
+        font-size: 16px;
         width: 846px;
         letter-spacing: 1px;
         line-height: 23px;
@@ -196,14 +196,14 @@
     }
     
     .htext {
-        font-size: 32px;
+        font-size: 17px;
         width: 500px;
         letter-spacing: 1.1px;
         line-height: 40px;
     }
 
     .ptext {
-        font-size: 18px;
+        font-size: 16px;
         width: 846px;
         letter-spacing: 1px;
         line-height: 23px;
@@ -221,14 +221,14 @@
     }
     
     .htext {
-        font-size: 33px;
+        font-size: 18px;
         width: 500px;
         letter-spacing: 1.1px;
         line-height: 40px;
     }
 
     .ptext {
-        font-size: 19px;
+        font-size: 17px;
         width: 846px;
         letter-spacing: 1px;
         line-height: 24px;
@@ -246,14 +246,14 @@
     }
     
     .htext {
-        font-size: 34px;
+        font-size: 18px;
         width: 700px;
         letter-spacing: 1.1px;
         line-height: 40px;
     }
 
     .ptext {
-        font-size: 20px;
+        font-size: 17px;
         width: 900px;
         letter-spacing: 1px;
         line-height: 26px;
