@@ -51,6 +51,7 @@ import EnergyManagement from "@/components/energymanagement/EnergyManagement";
 import SmartRoutines from "@/components/smartroutines/SmartRoutines";
 import BulbControl from "@/components/bulbcontrol/BulbControl";
 import DoorAnimation from "@/components/animations/door/Door";
+import ScrollToTop from "@/components/scrolltotop/ScrollToTop";
 // import ParticleBackground from "@/components/particlesbackground/ParticlesBackground";
 
 export default function Home() {
@@ -88,6 +89,7 @@ export default function Home() {
         <VoiceAssistant />
         <Innovative />
         <SmartRoutines />
+        <ScrollToTop />
         {/* <DoorAnimation /> */}
         {/* <Automation />
       <AutomateHome />
