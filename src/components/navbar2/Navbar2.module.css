@@ -26,15 +26,19 @@
   .navItem {
     position: relative;
     /* margin-right: 2rem; */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   }
   
   .navLink {
     color: #000000;
     text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
     padding: 0.5rem 0.5rem;
     position: relative;
     display: inline-block;
     transition: color 0.3s ease;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   }
 
   .navLink:hover {
@@ -63,7 +67,7 @@
   
   .dropdownArrow {
     margin-left: 3px;
-    font-size: 0.8rem;
+    font-size: 0.6rem;
     color: #000000;
     transition: transform 0.3s ease;
     display: inline-block;
@@ -297,6 +301,7 @@
 
     .navLink {
         display: flex;
+        font-size: 15px;
     }
 
     .navLink::after {
@@ -305,6 +310,7 @@
 
     .dropdownArrow {
       margin-top: 1px;
+      margin-top: 3px;
     }
 
     .navList {
@@ -402,152 +408,153 @@
 
 @media only screen and (min-width: 401px) and (max-width: 480px) { 
   .navbar {
-      justify-content: space-between;
-      padding: 15px 20px 15px 20px;
+    justify-content: space-between;
+    padding: 15px 20px 15px 20px;
+}
+
+.menutoggle {
+    display: flex; /* Show toggle button on mobile */
+    color: black;
+}
+
+  .toggle {
+    display: flex;
   }
 
-  .menutoggle {
-      display: flex; /* Show toggle button on mobile */
-      color: black;
-  }
-  
-    .toggle {
-      display: flex;
-    }
-  
-    .toggle2 {
-      display: flex;
-      z-index: 2;
-    }
-
-    .navbarlogo {
-      z-index: 2;
-    }
-
-  .navdiv {
-      flex-direction: column;
-      background-color: #FFFFFF;
-      position: absolute;
-      top: 50px;
-      right: 0;
-      width: 280px;
-      height: 70vh;
-      padding: 1rem;
-      position: relative;
-      z-index: 10;
-      margin-top: -30px;
-      margin-left: 75px;
+  .toggle2 {
+    display: flex;
+    z-index: 2;
   }
 
-  .navItem {
-      margin: 10px 50px 5px 0;
-      /* font-weight: bold; */
-      font-size: 16px;
+  .navbarlogo {
+    z-index: 2;
   }
 
-  .navLink {
-      display: flex;
-  }
-
-  .navLink::after {
-    visibility: hidden;
-  }
-
-  .dropdownArrow {
-    margin-top: 1px;
-  }
-
-  .navList {
-    /* display: none; */
+.navdiv {
     flex-direction: column;
+    background-color: #FFFFFF;
     position: absolute;
-    top: 100%;
+    top: 50px;
     right: 0;
-    background-color: white;
-    overflow: hidden; /* Ensures smooth height transition */
-    max-height: 0; /* Collapsed by default */
-    width: 100%; 
-    transition: max-height 0.3s ease, opacity 0.3s ease;
-    opacity: 0; /* Hidden by default */
+    width: 280px;
+    height: 70vh;
+    padding: 1rem;
+    position: relative;
+    z-index: 10;
+    margin-top: -30px;
+    margin-left: 75px;
+}
+
+.navItem {
+    margin: 10px 50px 3px 0;
+    /* font-weight: bold; */
+    font-size: 15px;
+}
+
+.navLink {
+    display: flex;
+    font-size: 15px;
+}
+
+.navLink::after {
+  visibility: hidden;
+}
+
+.dropdownArrow {
+  margin-top: 1px;
+  margin-top: 3px;
+}
+
+.navList {
+  /* display: none; */
+  flex-direction: column;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: white;
+  overflow: hidden; /* Ensures smooth height transition */
+  max-height: 0; /* Collapsed by default */
+  width: 100%; 
+  transition: max-height 0.3s ease, opacity 0.3s ease;
+  opacity: 0; /* Hidden by default */
+}
+
+.navList.show {
+  display: flex; 
+  max-height: 600px; 
+  opacity: 1; 
+  border-radius: 10px;
+  margin-top: -20px;
+}
+
+.icons {
+    margin-left: 0;
+    margin-top: 50px;
+    display: flex;
+    /* justify-content: space-around; */
+}
+
+.searchbar {
+  width: 17px;
+  /* height: 20px; */
+}
+
+.signin {
+  width: 19px;
+  height: 19px;
+  /* margin: 0 30px; */
+}
+
+.usa {
+  width: 24px;
+  height: 24px;
+}
+
+.cart {
+    margin-top: 3px;
+    width: 24px;
+    height: 24px;
+}
+
+.dropdownMenu {
+    width: 360px;
+    /* margin: auto; */
+    margin-left: -115px;
+    display: block;
+    position: absolute;
+    border-radius: 10px;
+    top: 100%;
+    left: 0;
+    background-color: #FFFFFF;
+    list-style: none;
+    /* margin: 0; */
+    padding: 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    z-index: 2;
+    visibility: hidden;
+    transform: translateY(-10px); /* Start position for animation */
+    transition: opacity 0.3s ease, transform 0.3s ease;
   }
 
-  .navList.show {
-    display: flex; 
-    max-height: 600px; 
-    opacity: 1; 
-    border-radius: 10px;
+  .dropdownImage {
+    height: 70px;
+  }
+
+  .imageContainer {
+    margin-top: 0;
+  }
+
+  .imageContainer2 {
     margin-top: -20px;
   }
 
-  .icons {
-      margin-left: 0;
-      margin-top: 50px;
-      display: flex;
-      /* justify-content: space-around; */
-  }
-
-  .searchbar {
-    width: 17px;
-    /* height: 20px; */
-  }
-  
-  .signin {
-    width: 19px;
-    height: 19px;
-    /* margin: 0 30px; */
-  }
-
-  .usa {
-    width: 24px;
-    height: 24px;
-  }
-
-  .cart {
-      margin-top: 3px;
-      width: 24px;
-      height: 24px;
-  }
-
-  .dropdownMenu {
-      width: 360px;
-      /* margin: auto; */
-      margin-left: -115px;
-      display: block;
-      position: absolute;
-      border-radius: 10px;
-      top: 100%;
-      left: 0;
-      background-color: #FFFFFF;
-      list-style: none;
-      /* margin: 0; */
-      padding: 0;
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-      opacity: 0;
-      z-index: 2;
-      visibility: hidden;
-      transform: translateY(-10px); /* Start position for animation */
-      transition: opacity 0.3s ease, transform 0.3s ease;
-    }
-
-    .dropdownImage {
-      height: 70px;
-    }
-
-    .imageContainer {
-      margin-top: 0;
-    }
-
-    .imageContainer2 {
-      margin-top: -20px;
-    }
-
-    .imageText {
-      padding: 0 1rem;
-      transition: color 0.3s ease;
-      /* margin-bottom: 10px; */
-      font-size: 13px;
-    }
-}
+  .imageText {
+    padding: 0 1rem;
+    transition: color 0.3s ease;
+    /* margin-bottom: 10px; */
+    font-size: 13px;
+  }}
 
 @media only screen and (min-width: 481px) and (max-width: 600px) { 
   .navbar {
@@ -580,22 +587,23 @@
     top: 50px;
     right: 0;
     width: 280px;
-    height: 73vh;
+    height: 70vh;
     padding: 1rem;
     position: relative;
     z-index: 10;
     margin-top: -30px;
-    margin-left: 90px;
+    margin-left: 75px;
 }
 
 .navItem {
-    margin: 10px 50px 5px 0;
+    margin: 10px 50px 3px 0;
     /* font-weight: bold; */
-    font-size: 16px;
+    font-size: 15px;
 }
 
 .navLink {
     display: flex;
+    font-size: 15px;
 }
 
 .navLink::after {
@@ -604,6 +612,7 @@
 
 .dropdownArrow {
   margin-top: 1px;
+  margin-top: 3px;
 }
 
 .navList {
@@ -729,22 +738,23 @@
     top: 50px;
     right: 0;
     width: 280px;
-    height: 75vh;
+    height: 70vh;
     padding: 1rem;
     position: relative;
     z-index: 10;
     margin-top: -30px;
-    margin-left: 90px;
+    margin-left: 75px;
 }
 
 .navItem {
-    margin: 10px 50px 5px 0;
+    margin: 10px 50px 3px 0;
     /* font-weight: bold; */
-    font-size: 16px;
+    font-size: 15px;
 }
 
 .navLink {
     display: flex;
+    font-size: 15px;
 }
 
 .navLink::after {
@@ -753,6 +763,7 @@
 
 .dropdownArrow {
   margin-top: 1px;
+  margin-top: 3px;
 }
 
 .navList {
@@ -761,7 +772,7 @@
   position: absolute;
   top: 100%;
   right: 0;
-  background-color: #FFFFFF;
+  background-color: white;
   overflow: hidden; /* Ensures smooth height transition */
   max-height: 0; /* Collapsed by default */
   width: 100%; 
@@ -771,7 +782,7 @@
 
 .navList.show {
   display: flex; 
-  max-height: 640px; 
+  max-height: 600px; 
   opacity: 1; 
   border-radius: 10px;
   margin-top: -20px;
@@ -878,22 +889,23 @@
     top: 50px;
     right: 0;
     width: 280px;
-    height: 74vh;
+    height: 70vh;
     padding: 1rem;
     position: relative;
     z-index: 10;
     margin-top: -30px;
-    margin-left: 200px;
+    margin-left: 75px;
 }
 
 .navItem {
-    margin: 10px 50px 5px 0;
+    margin: 10px 50px 3px 0;
     /* font-weight: bold; */
-    font-size: 16px;
+    font-size: 15px;
 }
 
 .navLink {
     display: flex;
+    font-size: 15px;
 }
 
 .navLink::after {
@@ -902,6 +914,7 @@
 
 .dropdownArrow {
   margin-top: 1px;
+  margin-top: 3px;
 }
 
 .navList {
@@ -920,7 +933,7 @@
 
 .navList.show {
   display: flex; 
-  max-height: 650px; 
+  max-height: 600px; 
   opacity: 1; 
   border-radius: 10px;
   margin-top: -20px;
@@ -934,7 +947,7 @@
 }
 
 .searchbar {
-  width: 20px;
+  width: 17px;
   /* height: 20px; */
 }
 
