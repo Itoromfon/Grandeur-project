@@ -46,6 +46,7 @@
 .p1main {
     font-size: 17px;
     font-weight: 400;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin-bottom: 15px;
     width: 520px;
     color: #FFFFFF;
@@ -64,6 +65,7 @@
 
 .p1amain {
     font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin-bottom: 20px;
     display: flex;
     letter-spacing: 1px;
@@ -74,6 +76,7 @@
 .p1bmain {
     font-size: 15px;
     margin-bottom: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     display: flex;
     letter-spacing: 1px;
     color: #FFFFFF;
@@ -84,6 +87,7 @@
     font-size: 15px;
     display: flex;
     letter-spacing: 1px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin-bottom: 30px;
     color: #FFFFFF;
     /* animation: backgroundPop 4s ease-in-out infinite; */
@@ -113,6 +117,7 @@
     color: #FFFFFF;
     font-weight: 700;
     letter-spacing: 2px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     position: relative;
     z-index: 2; /* Make sure text is above the overlay */
 }
